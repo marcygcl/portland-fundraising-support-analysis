@@ -1,0 +1,77 @@
+[
+  {
+    "file": "config.py",
+    "syntax_ok": true,
+    "error": ""
+  },
+  {
+    "file": "helpers/__init__.py",
+    "syntax_ok": true,
+    "error": ""
+  },
+  {
+    "file": "helpers/candidate_filings_parser.py",
+    "syntax_ok": true,
+    "error": ""
+  },
+  {
+    "file": "helpers/linkage.py",
+    "syntax_ok": true,
+    "error": ""
+  },
+  {
+    "file": "helpers/master_sources.py",
+    "syntax_ok": true,
+    "error": ""
+  },
+  {
+    "file": "helpers/paths.py",
+    "syntax_ok": true,
+    "error": ""
+  },
+  {
+    "file": "run_pipeline.py",
+    "syntax_ok": true,
+    "error": ""
+  },
+  {
+    "file": "scripts/01_download_portland_contributions.py",
+    "syntax_ok": true,
+    "error": ""
+  },
+  {
+    "file": "scripts/02_clean_portland_contributions.py",
+    "syntax_ok": true,
+    "error": ""
+  },
+  {
+    "file": "scripts/03_build_boost_matrices.py",
+    "syntax_ok": true,
+    "error": ""
+  },
+  {
+    "file": "scripts/04_clean_orestar.py",
+    "syntax_ok": true,
+    "error": ""
+  },
+  {
+    "file": "scripts/05_scrape_candidate_filings.py",
+    "syntax_ok": true,
+    "error": ""
+  },
+  {
+    "file": "scripts/06_extract_candidate_filings.py",
+    "syntax_ok": true,
+    "error": ""
+  },
+  {
+    "file": "scripts/07_build_candidate_master.py",
+    "syntax_ok": true,
+    "error": ""
+  },
+  {
+    "file": "scripts/08_initialize_candidate_profiles.py",
+    "syntax_ok": true,
+    "error": ""
+  }
+]

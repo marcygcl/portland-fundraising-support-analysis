@@ -1,0 +1,2639 @@
+year,district,receiving_candidate,conditioning_candidate,boost
+2024,1,Candace Avalos,Steph Routh,0.18339325421766595
+2024,1,Candace Avalos,Jamie Dunphy,0.1710756386205745
+2024,1,Candace Avalos,Loretta Smith,-0.004048420399824004
+2024,1,Candace Avalos,Timur Ender,0.20014428893403402
+2024,1,Candace Avalos,Terrence Hayes,-0.047234062739997584
+2024,1,Candace Avalos,Noah Ernst,-0.1767278097572738
+2024,1,Candace Avalos,David Linn,0.06243643634303986
+2024,1,Candace Avalos,Cayle Tern,0.23581926073016835
+2024,1,Candace Avalos,Doug Clove,-0.2687698193001972
+2024,1,Candace Avalos,Deian Salazar,-0.0653855133147137
+2024,1,Candace Avalos,Michael (Mike) Sands,-0.11716290896069342
+2024,1,Candace Avalos,Joe Allen,-0.19790195452007353
+2024,1,Candace Avalos,Joe Furi,-0.2238179999113964
+2024,1,Candace Avalos,Peggy Sue Owens,-0.024176992800758912
+2024,1,Candace Avalos,Thomas Shervey,-0.15726251838585503
+2024,1,Candace Avalos,Uncertified Write In,-0.27833785272051825
+2024,1,Steph Routh,Candace Avalos,0.16834589824444657
+2024,1,Steph Routh,Jamie Dunphy,0.22462851340943168
+2024,1,Steph Routh,Loretta Smith,0.01960650142308079
+2024,1,Steph Routh,Timur Ender,0.15686657209292976
+2024,1,Steph Routh,Terrence Hayes,-0.021527718605238277
+2024,1,Steph Routh,Noah Ernst,-0.13936749112157798
+2024,1,Steph Routh,David Linn,0.08188663393230577
+2024,1,Steph Routh,Cayle Tern,0.08132699456348425
+2024,1,Steph Routh,Doug Clove,-0.20073545025042633
+2024,1,Steph Routh,Deian Salazar,-0.10410718689617865
+2024,1,Steph Routh,Michael (Mike) Sands,-0.08339965202372607
+2024,1,Steph Routh,Joe Allen,-0.177081899254189
+2024,1,Steph Routh,Joe Furi,-0.21387991183423993
+2024,1,Steph Routh,Peggy Sue Owens,-0.19014180073505366
+2024,1,Steph Routh,Thomas Shervey,-0.07016383398642556
+2024,1,Steph Routh,Uncertified Write In,-0.2652706210787594
+2024,1,Jamie Dunphy,Candace Avalos,0.14190358132312447
+2024,1,Jamie Dunphy,Steph Routh,0.20297889641253436
+2024,1,Jamie Dunphy,Loretta Smith,-0.004503967241872908
+2024,1,Jamie Dunphy,Timur Ender,0.11615329618185194
+2024,1,Jamie Dunphy,Terrence Hayes,-0.04371644955358922
+2024,1,Jamie Dunphy,Noah Ernst,-0.11288836874790459
+2024,1,Jamie Dunphy,David Linn,0.09276765777663826
+2024,1,Jamie Dunphy,Cayle Tern,0.06260603005403487
+2024,1,Jamie Dunphy,Doug Clove,-0.17559228087172396
+2024,1,Jamie Dunphy,Deian Salazar,-0.09749403248505206
+2024,1,Jamie Dunphy,Michael (Mike) Sands,-0.05245939045271947
+2024,1,Jamie Dunphy,Joe Allen,-0.130121008603451
+2024,1,Jamie Dunphy,Joe Furi,-0.16891090390192348
+2024,1,Jamie Dunphy,Peggy Sue Owens,-0.091721653748083
+2024,1,Jamie Dunphy,Thomas Shervey,-0.03732864896637511
+2024,1,Jamie Dunphy,Uncertified Write In,-0.22242923207032939
+2024,1,Loretta Smith,Candace Avalos,-0.0032697171810497916
+2024,1,Loretta Smith,Steph Routh,0.017250651741325063
+2024,1,Loretta Smith,Jamie Dunphy,-0.004385454622514551
+2024,1,Loretta Smith,Timur Ender,-0.04234071684244095
+2024,1,Loretta Smith,Terrence Hayes,0.1528143486126976
+2024,1,Loretta Smith,Noah Ernst,0.01140678024358771
+2024,1,Loretta Smith,David Linn,-0.017839379581582937
+2024,1,Loretta Smith,Cayle Tern,-0.0700814737892439
+2024,1,Loretta Smith,Doug Clove,-0.018332069031206433
+2024,1,Loretta Smith,Deian Salazar,0.05428319909743812
+2024,1,Loretta Smith,Michael (Mike) Sands,-0.009175403827537898
+2024,1,Loretta Smith,Joe Allen,-0.05884521892243744
+2024,1,Loretta Smith,Joe Furi,0.02571781397561057
+2024,1,Loretta Smith,Peggy Sue Owens,0.10906932027878402
+2024,1,Loretta Smith,Thomas Shervey,-0.09442687383374787
+2024,1,Loretta Smith,Uncertified Write In,-0.0960073609377447
+2024,1,Timur Ender,Candace Avalos,0.15152613386850255
+2024,1,Timur Ender,Steph Routh,0.12937654952752498
+2024,1,Timur Ender,Jamie Dunphy,0.10601582387837893
+2024,1,Timur Ender,Loretta Smith,-0.03968971333017507
+2024,1,Timur Ender,Terrence Hayes,-0.04006028552010327
+2024,1,Timur Ender,Noah Ernst,-0.14344159602307596
+2024,1,Timur Ender,David Linn,0.06709127011895782
+2024,1,Timur Ender,Cayle Tern,0.2156470026058238
+2024,1,Timur Ender,Doug Clove,-0.15419023603018955
+2024,1,Timur Ender,Deian Salazar,-0.09200992261963514
+2024,1,Timur Ender,Michael (Mike) Sands,-0.04603604393214372
+2024,1,Timur Ender,Joe Allen,-0.08908895508245807
+2024,1,Timur Ender,Joe Furi,-0.14900014597245825
+2024,1,Timur Ender,Peggy Sue Owens,-0.17947586711760302
+2024,1,Timur Ender,Thomas Shervey,-0.10466046450702826
+2024,1,Timur Ender,Uncertified Write In,-0.23770519486413233
+2024,1,Terrence Hayes,Candace Avalos,-0.033870134269077146
+2024,1,Terrence Hayes,Steph Routh,-0.0168166870337495
+2024,1,Terrence Hayes,Jamie Dunphy,-0.03779212506887708
+2024,1,Terrence Hayes,Loretta Smith,0.13567541727640925
+2024,1,Terrence Hayes,Timur Ender,-0.03794296944474368
+2024,1,Terrence Hayes,Noah Ernst,0.09895119637091365
+2024,1,Terrence Hayes,David Linn,-0.05187233955515541
+2024,1,Terrence Hayes,Cayle Tern,-0.07302783452700623
+2024,1,Terrence Hayes,Doug Clove,0.07981574916572665
+2024,1,Terrence Hayes,Deian Salazar,0.10855290895447162
+2024,1,Terrence Hayes,Michael (Mike) Sands,-0.003505265783924627
+2024,1,Terrence Hayes,Joe Allen,-0.03621687581694699
+2024,1,Terrence Hayes,Joe Furi,0.06318362550080964
+2024,1,Terrence Hayes,Peggy Sue Owens,-0.08399628309031631
+2024,1,Terrence Hayes,Thomas Shervey,0.013071774790156532
+2024,1,Terrence Hayes,Uncertified Write In,-0.08628427871048494
+2024,1,Noah Ernst,Candace Avalos,-0.0921140234446903
+2024,1,Noah Ernst,Steph Routh,-0.07913400694506034
+2024,1,Noah Ernst,Jamie Dunphy,-0.0709357015532312
+2024,1,Noah Ernst,Loretta Smith,0.007361381867608985
+2024,1,Noah Ernst,Timur Ender,-0.09875330190080789
+2024,1,Noah Ernst,Terrence Hayes,0.07192506952344363
+2024,1,Noah Ernst,David Linn,0.03601617258868084
+2024,1,Noah Ernst,Cayle Tern,-0.11621080173298504
+2024,1,Noah Ernst,Doug Clove,0.20155796317985902
+2024,1,Noah Ernst,Deian Salazar,0.047600896260063585
+2024,1,Noah Ernst,Michael (Mike) Sands,-0.010711435917218681
+2024,1,Noah Ernst,Joe Allen,0.11757551772017533
+2024,1,Noah Ernst,Joe Furi,0.18849462506713333
+2024,1,Noah Ernst,Peggy Sue Owens,0.03504462909969097
+2024,1,Noah Ernst,Thomas Shervey,0.031533503435352994
+2024,1,Noah Ernst,Uncertified Write In,-0.028106381425008486
+2024,1,David Linn,Candace Avalos,0.026144398996834045
+2024,1,David Linn,Steph Routh,0.037353765889668294
+2024,1,David Linn,Jamie Dunphy,0.046830841424438246
+2024,1,David Linn,Loretta Smith,-0.009249019974348266
+2024,1,David Linn,Timur Ender,0.037107545532635094
+2024,1,David Linn,Terrence Hayes,-0.030291081230805372
+2024,1,David Linn,Noah Ernst,0.028934584974742356
+2024,1,David Linn,Cayle Tern,0.08931972459832074
+2024,1,David Linn,Doug Clove,0.00587394605354874
+2024,1,David Linn,Deian Salazar,-0.010344106311491907
+2024,1,David Linn,Michael (Mike) Sands,0.08139407839861315
+2024,1,David Linn,Joe Allen,0.06323686051230923
+2024,1,David Linn,Joe Furi,0.016416955569296315
+2024,1,David Linn,Peggy Sue Owens,0.06733844262415115
+2024,1,David Linn,Thomas Shervey,0.07506806332220048
+2024,1,David Linn,Uncertified Write In,-0.1288427109967466
+2024,1,Cayle Tern,Candace Avalos,0.09596076352791377
+2024,1,Cayle Tern,Steph Routh,0.03605204979157198
+2024,1,Cayle Tern,Jamie Dunphy,0.03071322351486791
+2024,1,Cayle Tern,Loretta Smith,-0.035309621552732345
+2024,1,Cayle Tern,Timur Ender,0.11590802530616734
+2024,1,Cayle Tern,Terrence Hayes,-0.04144204976822216
+2024,1,Cayle Tern,Noah Ernst,-0.09072773345705475
+2024,1,Cayle Tern,David Linn,0.0868003029370854
+2024,1,Cayle Tern,Doug Clove,-0.08887376250387062
+2024,1,Cayle Tern,Deian Salazar,0.03113835331846529
+2024,1,Cayle Tern,Michael (Mike) Sands,0.016705050971163676
+2024,1,Cayle Tern,Joe Allen,-0.023867608739908036
+2024,1,Cayle Tern,Joe Furi,-0.021920105783323346
+2024,1,Cayle Tern,Peggy Sue Owens,0.017386281597501885
+2024,1,Cayle Tern,Thomas Shervey,-0.020878804742022306
+2024,1,Cayle Tern,Uncertified Write In,-0.10871113829752847
+2024,1,Doug Clove,Candace Avalos,-0.0916499410763191
+2024,1,Doug Clove,Steph Routh,-0.07456870223833108
+2024,1,Doug Clove,Jamie Dunphy,-0.07218582504921496
+2024,1,Doug Clove,Loretta Smith,-0.0077399577487739235
+2024,1,Doug Clove,Timur Ender,-0.06944871646560859
+2024,1,Doug Clove,Terrence Hayes,0.03795584539458646
+2024,1,Doug Clove,Noah Ernst,0.13186538121873767
+2024,1,Doug Clove,David Linn,0.004783448346696223
+2024,1,Doug Clove,Cayle Tern,-0.07447505558899566
+2024,1,Doug Clove,Deian Salazar,0.11308110909589633
+2024,1,Doug Clove,Michael (Mike) Sands,0.08693653511872065
+2024,1,Doug Clove,Joe Allen,0.17969856816595328
+2024,1,Doug Clove,Joe Furi,0.2631821067453546
+2024,1,Doug Clove,Peggy Sue Owens,0.03043443626183509
+2024,1,Doug Clove,Thomas Shervey,0.15450973579753455
+2024,1,Doug Clove,Uncertified Write In,0.02661977033853921
+2024,1,Deian Salazar,Candace Avalos,-0.015451500923430339
+2024,1,Deian Salazar,Steph Routh,-0.02680097932718649
+2024,1,Deian Salazar,Jamie Dunphy,-0.027775506168724637
+2024,1,Deian Salazar,Loretta Smith,0.015882906675418126
+2024,1,Deian Salazar,Timur Ender,-0.028719670946999648
+2024,1,Deian Salazar,Terrence Hayes,0.03577412205914886
+2024,1,Deian Salazar,Noah Ernst,0.021581588499091378
+2024,1,Deian Salazar,David Linn,-0.005837697062534369
+2024,1,Deian Salazar,Cayle Tern,0.01808299472042428
+2024,1,Deian Salazar,Doug Clove,0.07836596813678472
+2024,1,Deian Salazar,Michael (Mike) Sands,0.023718500507520016
+2024,1,Deian Salazar,Joe Allen,0.05465625515694762
+2024,1,Deian Salazar,Joe Furi,0.090527499302662
+2024,1,Deian Salazar,Peggy Sue Owens,0.07240054930701208
+2024,1,Deian Salazar,Thomas Shervey,0.05633011660228528
+2024,1,Deian Salazar,Uncertified Write In,-0.0372037665312477
+2024,1,Michael (Mike) Sands,Candace Avalos,-0.0273399413912859
+2024,1,Michael (Mike) Sands,Steph Routh,-0.021200811737538197
+2024,1,Michael (Mike) Sands,Jamie Dunphy,-0.014757931391030349
+2024,1,Michael (Mike) Sands,Loretta Smith,-0.0026509896734812632
+2024,1,Michael (Mike) Sands,Timur Ender,-0.014189303848108847
+2024,1,Michael (Mike) Sands,Terrence Hayes,-0.0011406877317763214
+2024,1,Michael (Mike) Sands,Noah Ernst,-0.004795504138020712
+2024,1,Michael (Mike) Sands,David Linn,0.045358604821878354
+2024,1,Michael (Mike) Sands,Cayle Tern,0.009579455341150692
+2024,1,Michael (Mike) Sands,Doug Clove,0.05949193157867409
+2024,1,Michael (Mike) Sands,Deian Salazar,0.023421005062157732
+2024,1,Michael (Mike) Sands,Joe Allen,0.127436927919374
+2024,1,Michael (Mike) Sands,Joe Furi,0.06184587130914483
+2024,1,Michael (Mike) Sands,Peggy Sue Owens,0.09797727045424261
+2024,1,Michael (Mike) Sands,Thomas Shervey,0.1240230263006711
+2024,1,Michael (Mike) Sands,Uncertified Write In,-0.051216363837071635
+2024,1,Joe Allen,Candace Avalos,-0.04403845083068955
+2024,1,Joe Allen,Steph Routh,-0.042927632622529674
+2024,1,Joe Allen,Jamie Dunphy,-0.03490793706714129
+2024,1,Joe Allen,Loretta Smith,-0.016213192824770767
+2024,1,Joe Allen,Timur Ender,-0.026185536388277364
+2024,1,Joe Allen,Terrence Hayes,-0.011239094361681745
+2024,1,Joe Allen,Noah Ernst,0.05019702656414515
+2024,1,Joe Allen,David Linn,0.03360560315728145
+2024,1,Joe Allen,Cayle Tern,-0.0130519811617089
+2024,1,Joe Allen,Doug Clove,0.11726674637986284
+2024,1,Joe Allen,Deian Salazar,0.05146745425744498
+2024,1,Joe Allen,Michael (Mike) Sands,0.1215261697152614
+2024,1,Joe Allen,Joe Furi,0.14240596195764027
+2024,1,Joe Allen,Peggy Sue Owens,0.17054114853169994
+2024,1,Joe Allen,Thomas Shervey,0.15188577383266172
+2024,1,Joe Allen,Uncertified Write In,-0.02693232868702676
+2024,1,Joe Furi,Candace Avalos,-0.04090983336953265
+2024,1,Joe Furi,Steph Routh,-0.042587634107894165
+2024,1,Joe Furi,Jamie Dunphy,-0.03722075684249208
+2024,1,Joe Furi,Loretta Smith,0.00582025705520102
+2024,1,Joe Furi,Timur Ender,-0.035972867131801235
+2024,1,Joe Furi,Terrence Hayes,0.016105552438673204
+2024,1,Joe Furi,Noah Ernst,0.06610142374833985
+2024,1,Joe Furi,David Linn,0.007166131399296005
+2024,1,Joe Furi,Cayle Tern,-0.00984602478072244
+2024,1,Joe Furi,Doug Clove,0.14107087771020588
+2024,1,Joe Furi,Deian Salazar,0.07002031968107836
+2024,1,Joe Furi,Michael (Mike) Sands,0.04844355200697065
+2024,1,Joe Furi,Joe Allen,0.1169711937775168
+2024,1,Joe Furi,Peggy Sue Owens,0.0572997491214379
+2024,1,Joe Furi,Thomas Shervey,0.09867680374829171
+2024,1,Joe Furi,Uncertified Write In,0.010818306124565594
+2024,1,Peggy Sue Owens,Candace Avalos,-0.004200870577362736
+2024,1,Peggy Sue Owens,Steph Routh,-0.035991126567706574
+2024,1,Peggy Sue Owens,Jamie Dunphy,-0.019213377279444124
+2024,1,Peggy Sue Owens,Loretta Smith,0.02346470196611518
+2024,1,Peggy Sue Owens,Timur Ender,-0.04119065902704983
+2024,1,Peggy Sue Owens,Terrence Hayes,-0.020353329947794443
+2024,1,Peggy Sue Owens,Noah Ernst,0.011682549542194068
+2024,1,Peggy Sue Owens,David Linn,0.02794213154363373
+2024,1,Peggy Sue Owens,Cayle Tern,0.007423852058352803
+2024,1,Peggy Sue Owens,Doug Clove,0.015507814289087318
+2024,1,Peggy Sue Owens,Deian Salazar,0.05323407929852332
+2024,1,Peggy Sue Owens,Michael (Mike) Sands,0.07295497678742587
+2024,1,Peggy Sue Owens,Joe Allen,0.13316320962041311
+2024,1,Peggy Sue Owens,Joe Furi,0.05446995807146025
+2024,1,Peggy Sue Owens,Thomas Shervey,0.03264957637083904
+2024,1,Peggy Sue Owens,Uncertified Write In,-0.020263038745517895
+2024,1,Thomas Shervey,Candace Avalos,-0.02476847586020539
+2024,1,Thomas Shervey,Steph Routh,-0.012038383844931236
+2024,1,Thomas Shervey,Jamie Dunphy,-0.007087794906609504
+2024,1,Thomas Shervey,Loretta Smith,-0.018413870470137553
+2024,1,Thomas Shervey,Timur Ender,-0.021772704296247967
+2024,1,Thomas Shervey,Terrence Hayes,0.002871091262546435
+2024,1,Thomas Shervey,Noah Ernst,0.00952851943372246
+2024,1,Thomas Shervey,David Linn,0.02823505985317
+2024,1,Thomas Shervey,Cayle Tern,-0.008081003005217108
+2024,1,Thomas Shervey,Doug Clove,0.0713638408326029
+2024,1,Thomas Shervey,Deian Salazar,0.03754270599091876
+2024,1,Thomas Shervey,Michael (Mike) Sands,0.08370838207014118
+2024,1,Thomas Shervey,Joe Allen,0.10750018341698177
+2024,1,Thomas Shervey,Joe Furi,0.08502691664502678
+2024,1,Thomas Shervey,Peggy Sue Owens,0.029594743947410823
+2024,1,Thomas Shervey,Uncertified Write In,-0.01959515205169198
+2024,1,Uncertified Write In,Candace Avalos,-0.008037510185444524
+2024,1,Uncertified Write In,Steph Routh,-0.008344863471313226
+2024,1,Uncertified Write In,Jamie Dunphy,-0.007743475702285966
+2024,1,Uncertified Write In,Loretta Smith,-0.00343264752463133
+2024,1,Uncertified Write In,Timur Ender,-0.009066582055856986
+2024,1,Uncertified Write In,Terrence Hayes,-0.0034747160525359696
+2024,1,Uncertified Write In,Noah Ernst,-0.0015571603701775346
+2024,1,Uncertified Write In,David Linn,-0.0088852277103076
+2024,1,Uncertified Write In,Cayle Tern,-0.007714519581206358
+2024,1,Uncertified Write In,Doug Clove,0.0022542489566285684
+2024,1,Uncertified Write In,Deian Salazar,-0.004546184317672418
+2024,1,Uncertified Write In,Michael (Mike) Sands,-0.006337975740422837
+2024,1,Uncertified Write In,Joe Allen,-0.003494952037489042
+2024,1,Uncertified Write In,Joe Furi,0.0017091328840529926
+2024,1,Uncertified Write In,Peggy Sue Owens,-0.0033675714431036473
+2024,1,Uncertified Write In,Thomas Shervey,-0.003592723914809793
+2024,2,Elana Pirtle-Guiney,Dan Ryan,0.08195407593156068
+2024,2,Elana Pirtle-Guiney,Michelle DePass,0.1317282556599545
+2024,2,Elana Pirtle-Guiney,Sameer Kanal,-0.0016603410786013573
+2024,2,Elana Pirtle-Guiney,Nat West,0.007278596857197894
+2024,2,Elana Pirtle-Guiney,Tiffani Penson,-0.02115342485639954
+2024,2,Elana Pirtle-Guiney,Jonathan Tasini,0.01250617603574844
+2024,2,Elana Pirtle-Guiney,Marnie Glickman,0.04177258512034321
+2024,2,Elana Pirtle-Guiney,Mariah Hudson,0.07633940401442996
+2024,2,Elana Pirtle-Guiney,Michael (Mike) Marshall,0.09724635970384377
+2024,2,Elana Pirtle-Guiney,James Armstrong,0.12162490347894706
+2024,2,Elana Pirtle-Guiney,Jennifer Park,-0.11008089125887272
+2024,2,Elana Pirtle-Guiney,Bob Simril,-0.1808898539288904
+2024,2,Elana Pirtle-Guiney,Debbie Kitchin,0.001839320907690123
+2024,2,Elana Pirtle-Guiney,Chris Olson,-0.1394323649237722
+2024,2,Elana Pirtle-Guiney,Nabil Zaghloul,-0.05952987292702444
+2024,2,Elana Pirtle-Guiney,Laura Streib,-0.0984238194028198
+2024,2,Elana Pirtle-Guiney,Liz Taylor,-0.15955364184899556
+2024,2,Elana Pirtle-Guiney,Will Mespelt,-0.31514265915497214
+2024,2,Elana Pirtle-Guiney,Reuben Berlin,-0.2247887814804229
+2024,2,Elana Pirtle-Guiney,Sam Sachs,-0.2196291410681308
+2024,2,Elana Pirtle-Guiney,Antonio Jamal PettyJohnBlue,-0.17129464112631648
+2024,2,Elana Pirtle-Guiney,Uncertified Write In,-0.25023751962382934
+2024,2,Dan Ryan,Elana Pirtle-Guiney,0.08159055837752777
+2024,2,Dan Ryan,Michelle DePass,-0.016461185647043908
+2024,2,Dan Ryan,Sameer Kanal,-0.2314344283858249
+2024,2,Dan Ryan,Nat West,-0.1124496917298678
+2024,2,Dan Ryan,Tiffani Penson,0.03763627387726104
+2024,2,Dan Ryan,Jonathan Tasini,-0.19853194484353567
+2024,2,Dan Ryan,Marnie Glickman,-0.19315285890671627
+2024,2,Dan Ryan,Mariah Hudson,0.193515637344919
+2024,2,Dan Ryan,Michael (Mike) Marshall,0.15589833779134882
+2024,2,Dan Ryan,James Armstrong,0.22156588424494478
+2024,2,Dan Ryan,Jennifer Park,-0.28169951923772624
+2024,2,Dan Ryan,Bob Simril,0.1320546625954912
+2024,2,Dan Ryan,Debbie Kitchin,-0.11359824031282839
+2024,2,Dan Ryan,Chris Olson,-0.3002004033978775
+2024,2,Dan Ryan,Nabil Zaghloul,0.021428102951943806
+2024,2,Dan Ryan,Laura Streib,-0.10944885970575363
+2024,2,Dan Ryan,Liz Taylor,-0.10419735424415516
+2024,2,Dan Ryan,Will Mespelt,0.05654928619534527
+2024,2,Dan Ryan,Reuben Berlin,-0.03280820145388191
+2024,2,Dan Ryan,Sam Sachs,-0.023608140364697716
+2024,2,Dan Ryan,Antonio Jamal PettyJohnBlue,-0.1987544295944408
+2024,2,Dan Ryan,Uncertified Write In,-0.12977558941642664
+2024,2,Michelle DePass,Elana Pirtle-Guiney,0.12536249193365345
+2024,2,Michelle DePass,Dan Ryan,-0.015735496140268423
+2024,2,Michelle DePass,Sameer Kanal,0.13395793490174002
+2024,2,Michelle DePass,Nat West,0.01165400070430428
+2024,2,Michelle DePass,Tiffani Penson,-0.05959516429894529
+2024,2,Michelle DePass,Jonathan Tasini,0.03229772448974538
+2024,2,Michelle DePass,Marnie Glickman,0.008355502298916462
+2024,2,Michelle DePass,Mariah Hudson,-0.060743572596541895
+2024,2,Michelle DePass,Michael (Mike) Marshall,-0.04362194646416895
+2024,2,Michelle DePass,James Armstrong,0.05007815663845866
+2024,2,Michelle DePass,Jennifer Park,-0.05032258229584674
+2024,2,Michelle DePass,Bob Simril,-0.2557026599738112
+2024,2,Michelle DePass,Debbie Kitchin,-0.05988456697812239
+2024,2,Michelle DePass,Chris Olson,-0.18255879276633144
+2024,2,Michelle DePass,Nabil Zaghloul,-0.16981660113772362
+2024,2,Michelle DePass,Laura Streib,-0.13347923938550393
+2024,2,Michelle DePass,Liz Taylor,-0.1731670185538907
+2024,2,Michelle DePass,Will Mespelt,-0.3127324504944624
+2024,2,Michelle DePass,Reuben Berlin,-0.2672795380200186
+2024,2,Michelle DePass,Sam Sachs,-0.19356300980220567
+2024,2,Michelle DePass,Antonio Jamal PettyJohnBlue,-0.0008435585887301977
+2024,2,Michelle DePass,Uncertified Write In,-0.19466347719887236
+2024,2,Sameer Kanal,Elana Pirtle-Guiney,-0.0015101409693547008
+2024,2,Sameer Kanal,Dan Ryan,-0.2114359322291415
+2024,2,Sameer Kanal,Michelle DePass,0.12802652137303544
+2024,2,Sameer Kanal,Nat West,0.1618502072782269
+2024,2,Sameer Kanal,Tiffani Penson,-0.032653992230722295
+2024,2,Sameer Kanal,Jonathan Tasini,0.2521871569856878
+2024,2,Sameer Kanal,Marnie Glickman,0.22076689244999875
+2024,2,Sameer Kanal,Mariah Hudson,-0.21059863130475873
+2024,2,Sameer Kanal,Michael (Mike) Marshall,-0.14617694320721414
+2024,2,Sameer Kanal,James Armstrong,-0.2368199076011508
+2024,2,Sameer Kanal,Jennifer Park,0.22441551842787827
+2024,2,Sameer Kanal,Bob Simril,-0.2246932315674896
+2024,2,Sameer Kanal,Debbie Kitchin,0.05478122466638807
+2024,2,Sameer Kanal,Chris Olson,0.24886104894767308
+2024,2,Sameer Kanal,Nabil Zaghloul,-0.044652886751579746
+2024,2,Sameer Kanal,Laura Streib,-0.10218164371552052
+2024,2,Sameer Kanal,Liz Taylor,-0.15665797569683249
+2024,2,Sameer Kanal,Will Mespelt,-0.24999058655625156
+2024,2,Sameer Kanal,Reuben Berlin,-0.15686254785244585
+2024,2,Sameer Kanal,Sam Sachs,-0.17272327649069608
+2024,2,Sameer Kanal,Antonio Jamal PettyJohnBlue,-0.010945148054918308
+2024,2,Sameer Kanal,Uncertified Write In,-0.17594838977971403
+2024,2,Nat West,Elana Pirtle-Guiney,0.006513524314895269
+2024,2,Nat West,Dan Ryan,-0.10107815237976686
+2024,2,Nat West,Michelle DePass,0.010958591487740588
+2024,2,Nat West,Sameer Kanal,0.15924340530011893
+2024,2,Nat West,Tiffani Penson,0.022246809076260643
+2024,2,Nat West,Jonathan Tasini,0.11876563897642556
+2024,2,Nat West,Marnie Glickman,0.17186235311761844
+2024,2,Nat West,Mariah Hudson,-0.12748775858157213
+2024,2,Nat West,Michael (Mike) Marshall,-0.11971408489247853
+2024,2,Nat West,James Armstrong,-0.12738122854477735
+2024,2,Nat West,Jennifer Park,0.11684406312636286
+2024,2,Nat West,Bob Simril,-0.1351098157366583
+2024,2,Nat West,Debbie Kitchin,0.030587615324123296
+2024,2,Nat West,Chris Olson,0.13258127340391113
+2024,2,Nat West,Nabil Zaghloul,-0.07301245431618075
+2024,2,Nat West,Laura Streib,-0.06989160073128509
+2024,2,Nat West,Liz Taylor,-0.13912153828493456
+2024,2,Nat West,Will Mespelt,-0.1513113544471304
+2024,2,Nat West,Reuben Berlin,-0.10754449392758147
+2024,2,Nat West,Sam Sachs,-0.1382425576400071
+2024,2,Nat West,Antonio Jamal PettyJohnBlue,-0.13564678139956649
+2024,2,Nat West,Uncertified Write In,-0.16585151090542638
+2024,2,Tiffani Penson,Elana Pirtle-Guiney,-0.018610174290029535
+2024,2,Tiffani Penson,Dan Ryan,0.033258834120402925
+2024,2,Tiffani Penson,Michelle DePass,-0.055092451039022494
+2024,2,Tiffani Penson,Sameer Kanal,-0.03158536183816146
+2024,2,Tiffani Penson,Nat West,0.02187102328412921
+2024,2,Tiffani Penson,Jonathan Tasini,-0.10184688362689065
+2024,2,Tiffani Penson,Marnie Glickman,-0.04881087629027514
+2024,2,Tiffani Penson,Mariah Hudson,0.0964219752274752
+2024,2,Tiffani Penson,Michael (Mike) Marshall,-0.006650080090377819
+2024,2,Tiffani Penson,James Armstrong,-0.07564394787122974
+2024,2,Tiffani Penson,Jennifer Park,-0.10369873547874248
+2024,2,Tiffani Penson,Bob Simril,0.07319480061746947
+2024,2,Tiffani Penson,Debbie Kitchin,-0.012324680966483759
+2024,2,Tiffani Penson,Chris Olson,-0.12838392806245685
+2024,2,Tiffani Penson,Nabil Zaghloul,0.07270143822164721
+2024,2,Tiffani Penson,Laura Streib,0.035831884249897084
+2024,2,Tiffani Penson,Liz Taylor,0.14864212291770829
+2024,2,Tiffani Penson,Will Mespelt,-0.05937634924080526
+2024,2,Tiffani Penson,Reuben Berlin,-0.05722625877370763
+2024,2,Tiffani Penson,Sam Sachs,-0.021755602544108132
+2024,2,Tiffani Penson,Antonio Jamal PettyJohnBlue,-0.042483166752444124
+2024,2,Tiffani Penson,Uncertified Write In,-0.0927106378658693
+2024,2,Jonathan Tasini,Elana Pirtle-Guiney,0.00808003786131295
+2024,2,Jonathan Tasini,Dan Ryan,-0.12883976019568177
+2024,2,Jonathan Tasini,Michelle DePass,0.02192664111992404
+2024,2,Jonathan Tasini,Sameer Kanal,0.17913961934237455
+2024,2,Jonathan Tasini,Nat West,0.0857454916499727
+2024,2,Jonathan Tasini,Tiffani Penson,-0.07479401630288438
+2024,2,Jonathan Tasini,Marnie Glickman,0.15151191776632633
+2024,2,Jonathan Tasini,Mariah Hudson,-0.1119935253404297
+2024,2,Jonathan Tasini,Michael (Mike) Marshall,-0.0740552736206472
+2024,2,Jonathan Tasini,James Armstrong,-0.17646161098743268
+2024,2,Jonathan Tasini,Jennifer Park,0.199748040319421
+2024,2,Jonathan Tasini,Bob Simril,-0.13706491241386073
+2024,2,Jonathan Tasini,Debbie Kitchin,-0.10197820283710896
+2024,2,Jonathan Tasini,Chris Olson,0.1979374119228317
+2024,2,Jonathan Tasini,Nabil Zaghloul,-0.06247963611278895
+2024,2,Jonathan Tasini,Laura Streib,-0.05448039627828405
+2024,2,Jonathan Tasini,Liz Taylor,-0.13296548254336324
+2024,2,Jonathan Tasini,Will Mespelt,-0.15486706342079645
+2024,2,Jonathan Tasini,Reuben Berlin,-0.1476767798701316
+2024,2,Jonathan Tasini,Sam Sachs,-0.09254229382781237
+2024,2,Jonathan Tasini,Antonio Jamal PettyJohnBlue,-0.0938143457676536
+2024,2,Jonathan Tasini,Uncertified Write In,-0.1343441613801084
+2024,2,Marnie Glickman,Elana Pirtle-Guiney,0.02525517738190941
+2024,2,Marnie Glickman,Dan Ryan,-0.11729806925868647
+2024,2,Marnie Glickman,Michelle DePass,0.005308147204371116
+2024,2,Marnie Glickman,Sameer Kanal,0.146748218614575
+2024,2,Marnie Glickman,Nat West,0.11611048822444464
+2024,2,Marnie Glickman,Tiffani Penson,-0.03354331083262305
+2024,2,Marnie Glickman,Jonathan Tasini,0.1417806645114159
+2024,2,Marnie Glickman,Mariah Hudson,-0.08817730580790126
+2024,2,Marnie Glickman,Michael (Mike) Marshall,-0.07908872130562511
+2024,2,Marnie Glickman,James Armstrong,-0.15529172756913995
+2024,2,Marnie Glickman,Jennifer Park,0.21314383445379492
+2024,2,Marnie Glickman,Bob Simril,-0.12722291668331848
+2024,2,Marnie Glickman,Debbie Kitchin,0.12529858265714666
+2024,2,Marnie Glickman,Chris Olson,0.16043448588782383
+2024,2,Marnie Glickman,Nabil Zaghloul,-0.03710737984573237
+2024,2,Marnie Glickman,Laura Streib,0.003140977371970277
+2024,2,Marnie Glickman,Liz Taylor,-0.03533852825562758
+2024,2,Marnie Glickman,Will Mespelt,-0.15085523455612265
+2024,2,Marnie Glickman,Reuben Berlin,-0.07797832641887395
+2024,2,Marnie Glickman,Sam Sachs,-0.09925398237896235
+2024,2,Marnie Glickman,Antonio Jamal PettyJohnBlue,-0.04840707672835087
+2024,2,Marnie Glickman,Uncertified Write In,-0.13386752823622072
+2024,2,Mariah Hudson,Elana Pirtle-Guiney,0.044667952313917736
+2024,2,Mariah Hudson,Dan Ryan,0.11373496436871178
+2024,2,Mariah Hudson,Michelle DePass,-0.03734727628275669
+2024,2,Mariah Hudson,Sameer Kanal,-0.13548232662640264
+2024,2,Mariah Hudson,Nat West,-0.08335802019562719
+2024,2,Mariah Hudson,Tiffani Penson,0.06412886510833571
+2024,2,Mariah Hudson,Jonathan Tasini,-0.1014264759079023
+2024,2,Mariah Hudson,Marnie Glickman,-0.08533850558713335
+2024,2,Mariah Hudson,Michael (Mike) Marshall,0.1773881757938302
+2024,2,Mariah Hudson,James Armstrong,0.20073153836576335
+2024,2,Mariah Hudson,Jennifer Park,-0.12089394242722767
+2024,2,Mariah Hudson,Bob Simril,0.14050695114046452
+2024,2,Mariah Hudson,Debbie Kitchin,-0.014054065065249255
+2024,2,Mariah Hudson,Chris Olson,-0.1581281538582282
+2024,2,Mariah Hudson,Nabil Zaghloul,0.07706031831929122
+2024,2,Mariah Hudson,Laura Streib,0.003328593094932941
+2024,2,Mariah Hudson,Liz Taylor,0.02558943929867974
+2024,2,Mariah Hudson,Will Mespelt,0.09646094958495888
+2024,2,Mariah Hudson,Reuben Berlin,0.038224524548543415
+2024,2,Mariah Hudson,Sam Sachs,0.008540870696630787
+2024,2,Mariah Hudson,Antonio Jamal PettyJohnBlue,-0.044667331574174074
+2024,2,Mariah Hudson,Uncertified Write In,-0.10008816689345368
+2024,2,Michael (Mike) Marshall,Elana Pirtle-Guiney,0.044508343223855634
+2024,2,Michael (Mike) Marshall,Dan Ryan,0.0716704634165645
+2024,2,Michael (Mike) Marshall,Michelle DePass,-0.020978983452226985
+2024,2,Michael (Mike) Marshall,Sameer Kanal,-0.07355746846964664
+2024,2,Michael (Mike) Marshall,Nat West,-0.06122727800996655
+2024,2,Michael (Mike) Marshall,Tiffani Penson,-0.0034595945381944437
+2024,2,Michael (Mike) Marshall,Jonathan Tasini,-0.05246083610958588
+2024,2,Michael (Mike) Marshall,Marnie Glickman,-0.059871971472025526
+2024,2,Michael (Mike) Marshall,Mariah Hudson,0.1387539847962911
+2024,2,Michael (Mike) Marshall,James Armstrong,0.19349748277455084
+2024,2,Michael (Mike) Marshall,Jennifer Park,-0.049731952833698106
+2024,2,Michael (Mike) Marshall,Bob Simril,0.03456741412229267
+2024,2,Michael (Mike) Marshall,Debbie Kitchin,-0.012582823112906621
+2024,2,Michael (Mike) Marshall,Chris Olson,-0.033610773258178295
+2024,2,Michael (Mike) Marshall,Nabil Zaghloul,0.04695756581895669
+2024,2,Michael (Mike) Marshall,Laura Streib,-0.024024669322175424
+2024,2,Michael (Mike) Marshall,Liz Taylor,-0.05877792542210708
+2024,2,Michael (Mike) Marshall,Will Mespelt,0.03153563052861294
+2024,2,Michael (Mike) Marshall,Reuben Berlin,0.01792065893158018
+2024,2,Michael (Mike) Marshall,Sam Sachs,0.06691029173766991
+2024,2,Michael (Mike) Marshall,Antonio Jamal PettyJohnBlue,-0.03405250763635634
+2024,2,Michael (Mike) Marshall,Uncertified Write In,-0.10453057673517885
+2024,2,James Armstrong,Elana Pirtle-Guiney,0.04792875850880418
+2024,2,James Armstrong,Dan Ryan,0.08770153889212493
+2024,2,James Armstrong,Michelle DePass,0.020736398480490192
+2024,2,James Armstrong,Sameer Kanal,-0.10260575052123781
+2024,2,James Armstrong,Nat West,-0.056093266492815264
+2024,2,James Armstrong,Tiffani Penson,-0.03388270771039825
+2024,2,James Armstrong,Jonathan Tasini,-0.10763042433488217
+2024,2,James Armstrong,Marnie Glickman,-0.10121920499535023
+2024,2,James Armstrong,Mariah Hudson,0.13518920223885436
+2024,2,James Armstrong,Michael (Mike) Marshall,0.16660227030014887
+2024,2,James Armstrong,Jennifer Park,-0.09402372030667684
+2024,2,James Armstrong,Bob Simril,0.043566385891521786
+2024,2,James Armstrong,Debbie Kitchin,-0.012607793063968531
+2024,2,James Armstrong,Chris Olson,-0.08193147084781101
+2024,2,James Armstrong,Nabil Zaghloul,-0.04805277939665145
+2024,2,James Armstrong,Laura Streib,0.010004987580293084
+2024,2,James Armstrong,Liz Taylor,-0.03758318867611482
+2024,2,James Armstrong,Will Mespelt,0.19521710431204867
+2024,2,James Armstrong,Reuben Berlin,0.12862716956593354
+2024,2,James Armstrong,Sam Sachs,0.04275643907105123
+2024,2,James Armstrong,Antonio Jamal PettyJohnBlue,-0.02235268948109792
+2024,2,James Armstrong,Uncertified Write In,-0.0672998367082399
+2024,2,Jennifer Park,Elana Pirtle-Guiney,-0.03573420784299347
+2024,2,Jennifer Park,Dan Ryan,-0.09185207679682456
+2024,2,Jennifer Park,Michelle DePass,-0.017165105036765577
+2024,2,Jennifer Park,Sameer Kanal,0.08009491231364599
+2024,2,Jennifer Park,Nat West,0.04238483526438597
+2024,2,Jennifer Park,Tiffani Penson,-0.03826272832246025
+2024,2,Jennifer Park,Jonathan Tasini,0.10036121050195299
+2024,2,Jennifer Park,Marnie Glickman,0.11444212831663358
+2024,2,Jennifer Park,Mariah Hudson,-0.06707018181439732
+2024,2,Jennifer Park,Michael (Mike) Marshall,-0.03527277756452803
+2024,2,Jennifer Park,James Armstrong,-0.07745259661518611
+2024,2,Jennifer Park,Bob Simril,-0.07094991965268008
+2024,2,Jennifer Park,Debbie Kitchin,0.017358121961677908
+2024,2,Jennifer Park,Chris Olson,0.3436410542738892
+2024,2,Jennifer Park,Nabil Zaghloul,-0.033713833529367715
+2024,2,Jennifer Park,Laura Streib,0.116965045682219
+2024,2,Jennifer Park,Liz Taylor,0.11172760102445078
+2024,2,Jennifer Park,Will Mespelt,-0.05637748167041329
+2024,2,Jennifer Park,Reuben Berlin,-0.021552003697137556
+2024,2,Jennifer Park,Sam Sachs,-0.00111407809418132
+2024,2,Jennifer Park,Antonio Jamal PettyJohnBlue,0.026274009993732916
+2024,2,Jennifer Park,Uncertified Write In,-0.07954161126713843
+2024,2,Bob Simril,Elana Pirtle-Guiney,-0.05839277355437682
+2024,2,Bob Simril,Dan Ryan,0.04281828695132264
+2024,2,Bob Simril,Michelle DePass,-0.08673441753435235
+2024,2,Bob Simril,Sameer Kanal,-0.07974706518222438
+2024,2,Bob Simril,Nat West,-0.04873751978343814
+2024,2,Bob Simril,Tiffani Penson,0.026856868927638555
+2024,2,Bob Simril,Jonathan Tasini,-0.06848292958997865
+2024,2,Bob Simril,Marnie Glickman,-0.06792836684771063
+2024,2,Bob Simril,Mariah Hudson,0.07751672702188511
+2024,2,Bob Simril,Michael (Mike) Marshall,0.024380562039071796
+2024,2,Bob Simril,James Armstrong,0.03568804507790388
+2024,2,Bob Simril,Jennifer Park,-0.07055447781355151
+2024,2,Bob Simril,Debbie Kitchin,-0.002084800526528402
+2024,2,Bob Simril,Chris Olson,-0.06453128493303402
+2024,2,Bob Simril,Nabil Zaghloul,0.061042206656961306
+2024,2,Bob Simril,Laura Streib,0.004732298436889076
+2024,2,Bob Simril,Liz Taylor,0.009067667446986644
+2024,2,Bob Simril,Will Mespelt,0.26085243928722535
+2024,2,Bob Simril,Reuben Berlin,0.1481204744637941
+2024,2,Bob Simril,Sam Sachs,0.1278764471293787
+2024,2,Bob Simril,Antonio Jamal PettyJohnBlue,0.0025527349869818583
+2024,2,Bob Simril,Uncertified Write In,-0.03385475147097425
+2024,2,Debbie Kitchin,Elana Pirtle-Guiney,0.00048779468918781765
+2024,2,Debbie Kitchin,Dan Ryan,-0.030260898345731757
+2024,2,Debbie Kitchin,Michelle DePass,-0.016688057914178087
+2024,2,Debbie Kitchin,Sameer Kanal,0.01597317023126718
+2024,2,Debbie Kitchin,Nat West,0.009064770366713382
+2024,2,Debbie Kitchin,Tiffani Penson,-0.0037152282281877475
+2024,2,Debbie Kitchin,Jonathan Tasini,-0.04185988741570218
+2024,2,Debbie Kitchin,Marnie Glickman,0.05496252143972144
+2024,2,Debbie Kitchin,Mariah Hudson,-0.006369923859806753
+2024,2,Debbie Kitchin,Michael (Mike) Marshall,-0.007291041599725531
+2024,2,Debbie Kitchin,James Armstrong,-0.008484865474329528
+2024,2,Debbie Kitchin,Jennifer Park,0.01418110503305725
+2024,2,Debbie Kitchin,Bob Simril,-0.0017127704922337839
+2024,2,Debbie Kitchin,Chris Olson,0.009528076657040169
+2024,2,Debbie Kitchin,Nabil Zaghloul,0.01041535913600225
+2024,2,Debbie Kitchin,Laura Streib,0.08002771801150721
+2024,2,Debbie Kitchin,Liz Taylor,0.07061039226172508
+2024,2,Debbie Kitchin,Will Mespelt,0.015839315391636577
+2024,2,Debbie Kitchin,Reuben Berlin,0.08068141710234653
+2024,2,Debbie Kitchin,Sam Sachs,0.022440815553556037
+2024,2,Debbie Kitchin,Antonio Jamal PettyJohnBlue,0.03917310756579065
+2024,2,Debbie Kitchin,Uncertified Write In,-0.04776786002026365
+2024,2,Chris Olson,Elana Pirtle-Guiney,-0.030553216651470927
+2024,2,Chris Olson,Dan Ryan,-0.0660747106669792
+2024,2,Chris Olson,Michelle DePass,-0.04203464905195581
+2024,2,Chris Olson,Sameer Kanal,0.05995564734818008
+2024,2,Chris Olson,Nat West,0.03246438342105161
+2024,2,Chris Olson,Tiffani Penson,-0.03197674525079569
+2024,2,Chris Olson,Jonathan Tasini,0.06713243117111757
+2024,2,Chris Olson,Marnie Glickman,0.05814762788549423
+2024,2,Chris Olson,Mariah Hudson,-0.05921820893329188
+2024,2,Chris Olson,Michael (Mike) Marshall,-0.016091768451648863
+2024,2,Chris Olson,James Armstrong,-0.045558605938700605
+2024,2,Chris Olson,Jennifer Park,0.2319669791929732
+2024,2,Chris Olson,Bob Simril,-0.04380450357640142
+2024,2,Chris Olson,Debbie Kitchin,0.007872615274836542
+2024,2,Chris Olson,Nabil Zaghloul,-0.03376041726163499
+2024,2,Chris Olson,Laura Streib,0.03056674208188344
+2024,2,Chris Olson,Liz Taylor,0.060852348405586634
+2024,2,Chris Olson,Will Mespelt,-0.01879375524488322
+2024,2,Chris Olson,Reuben Berlin,0.017636670004908303
+2024,2,Chris Olson,Sam Sachs,0.03405289098005938
+2024,2,Chris Olson,Antonio Jamal PettyJohnBlue,0.06270347813439735
+2024,2,Chris Olson,Uncertified Write In,-0.029098425512075227
+2024,2,Nabil Zaghloul,Elana Pirtle-Guiney,-0.011260436451294861
+2024,2,Nabil Zaghloul,Dan Ryan,0.0040713144370529974
+2024,2,Nabil Zaghloul,Michelle DePass,-0.03375295009734834
+2024,2,Nabil Zaghloul,Sameer Kanal,-0.00928644802116721
+2024,2,Nabil Zaghloul,Nat West,-0.015432946223096697
+2024,2,Nabil Zaghloul,Tiffani Penson,0.015631243284885146
+2024,2,Nabil Zaghloul,Jonathan Tasini,-0.018292366814954747
+2024,2,Nabil Zaghloul,Marnie Glickman,-0.011609713107444602
+2024,2,Nabil Zaghloul,Mariah Hudson,0.0249117242703928
+2024,2,Nabil Zaghloul,Michael (Mike) Marshall,0.01940697154032628
+2024,2,Nabil Zaghloul,James Armstrong,-0.023065618783256414
+2024,2,Nabil Zaghloul,Jennifer Park,-0.019645187786530155
+2024,2,Nabil Zaghloul,Bob Simril,0.035768901062233155
+2024,2,Nabil Zaghloul,Debbie Kitchin,0.007428736566853722
+2024,2,Nabil Zaghloul,Chris Olson,-0.029143031654004253
+2024,2,Nabil Zaghloul,Laura Streib,0.024487825838456934
+2024,2,Nabil Zaghloul,Liz Taylor,0.0324686288823616
+2024,2,Nabil Zaghloul,Will Mespelt,0.010737158804709282
+2024,2,Nabil Zaghloul,Reuben Berlin,0.034911251901993526
+2024,2,Nabil Zaghloul,Sam Sachs,0.07250505674001734
+2024,2,Nabil Zaghloul,Antonio Jamal PettyJohnBlue,0.11096188556815767
+2024,2,Nabil Zaghloul,Uncertified Write In,0.0021654185528450776
+2024,2,Laura Streib,Elana Pirtle-Guiney,-0.013924322296745367
+2024,2,Laura Streib,Dan Ryan,-0.015553056391531643
+2024,2,Laura Streib,Michelle DePass,-0.019842614759626002
+2024,2,Laura Streib,Sameer Kanal,-0.015893756697023982
+2024,2,Laura Streib,Nat West,-0.011049190645838064
+2024,2,Laura Streib,Tiffani Penson,0.005762006595578503
+2024,2,Laura Streib,Jonathan Tasini,-0.011929582708090386
+2024,2,Laura Streib,Marnie Glickman,0.0007349868857665642
+2024,2,Laura Streib,Mariah Hudson,0.0008047987294516473
+2024,2,Laura Streib,Michael (Mike) Marshall,-0.0074261410911697565
+2024,2,Laura Streib,James Armstrong,0.003591837958327959
+2024,2,Laura Streib,Jennifer Park,0.050975057665174184
+2024,2,Laura Streib,Bob Simril,0.002073963372088067
+2024,2,Laura Streib,Debbie Kitchin,0.04269084253078641
+2024,2,Laura Streib,Chris Olson,0.01973466048914249
+2024,2,Laura Streib,Nabil Zaghloul,0.01831486881592706
+2024,2,Laura Streib,Liz Taylor,0.11365063989316496
+2024,2,Laura Streib,Will Mespelt,0.03989622013627517
+2024,2,Laura Streib,Reuben Berlin,0.025433459703165295
+2024,2,Laura Streib,Sam Sachs,0.05650135254554921
+2024,2,Laura Streib,Antonio Jamal PettyJohnBlue,0.05856499031448431
+2024,2,Laura Streib,Uncertified Write In,-0.00717762884504488
+2024,2,Liz Taylor,Elana Pirtle-Guiney,-0.02110589058309493
+2024,2,Liz Taylor,Dan Ryan,-0.013844724082212316
+2024,2,Liz Taylor,Michelle DePass,-0.02406985450462365
+2024,2,Liz Taylor,Sameer Kanal,-0.02278396444538442
+2024,2,Liz Taylor,Nat West,-0.020564727484693415
+2024,2,Liz Taylor,Tiffani Penson,0.022349566909445784
+2024,2,Liz Taylor,Jonathan Tasini,-0.027223691615585625
+2024,2,Liz Taylor,Marnie Glickman,-0.007731902142231871
+2024,2,Liz Taylor,Mariah Hudson,0.005785094426258797
+2024,2,Liz Taylor,Michael (Mike) Marshall,-0.01698803468110248
+2024,2,Liz Taylor,James Armstrong,-0.012615861542419171
+2024,2,Liz Taylor,Jennifer Park,0.04552869610246631
+2024,2,Liz Taylor,Bob Simril,0.003715759947314261
+2024,2,Liz Taylor,Debbie Kitchin,0.03521973020713026
+2024,2,Liz Taylor,Chris Olson,0.03673507728359625
+2024,2,Liz Taylor,Nabil Zaghloul,0.022706000420201336
+2024,2,Liz Taylor,Laura Streib,0.10626616143476006
+2024,2,Liz Taylor,Will Mespelt,0.009993223121361264
+2024,2,Liz Taylor,Reuben Berlin,0.03427291559854853
+2024,2,Liz Taylor,Sam Sachs,0.08183039632850439
+2024,2,Liz Taylor,Antonio Jamal PettyJohnBlue,0.14174015641243073
+2024,2,Liz Taylor,Uncertified Write In,0.03999292728908338
+2024,2,Will Mespelt,Elana Pirtle-Guiney,-0.03571886565185922
+2024,2,Will Mespelt,Dan Ryan,0.006437959537540186
+2024,2,Will Mespelt,Michelle DePass,-0.037245579471375315
+2024,2,Will Mespelt,Sameer Kanal,-0.031152574377068816
+2024,2,Will Mespelt,Nat West,-0.01916432859429513
+2024,2,Will Mespelt,Tiffani Penson,-0.007649520381162518
+2024,2,Will Mespelt,Jonathan Tasini,-0.027168187638950923
+2024,2,Will Mespelt,Marnie Glickman,-0.028280805628727694
+2024,2,Will Mespelt,Mariah Hudson,0.01868506948221936
+2024,2,Will Mespelt,Michael (Mike) Marshall,0.0078095121763027756
+2024,2,Will Mespelt,James Armstrong,0.05614804747837655
+2024,2,Will Mespelt,Jennifer Park,-0.01968447849765239
+2024,2,Will Mespelt,Bob Simril,0.09158839940260202
+2024,2,Will Mespelt,Debbie Kitchin,0.0067693553016193245
+2024,2,Will Mespelt,Chris Olson,-0.009720994189789105
+2024,2,Will Mespelt,Nabil Zaghloul,0.006433681702790933
+2024,2,Will Mespelt,Laura Streib,0.03196306085175181
+2024,2,Will Mespelt,Liz Taylor,0.008562470461806124
+2024,2,Will Mespelt,Reuben Berlin,0.14337144006176583
+2024,2,Will Mespelt,Sam Sachs,0.12104918263673484
+2024,2,Will Mespelt,Antonio Jamal PettyJohnBlue,0.02568805796826297
+2024,2,Will Mespelt,Uncertified Write In,0.025065030384432183
+2024,2,Reuben Berlin,Elana Pirtle-Guiney,-0.024822013222887834
+2024,2,Reuben Berlin,Dan Ryan,-0.0036389446096110126
+2024,2,Reuben Berlin,Michelle DePass,-0.03101268771825556
+2024,2,Reuben Berlin,Sameer Kanal,-0.019044144028287188
+2024,2,Reuben Berlin,Nat West,-0.013270343866887378
+2024,2,Reuben Berlin,Tiffani Penson,-0.0071827040997648195
+2024,2,Reuben Berlin,Jonathan Tasini,-0.025239789296683746
+2024,2,Reuben Berlin,Marnie Glickman,-0.01424220422671199
+2024,2,Reuben Berlin,Mariah Hudson,0.007213685147458397
+2024,2,Reuben Berlin,Michael (Mike) Marshall,0.004323627480049691
+2024,2,Reuben Berlin,James Armstrong,0.03604303981320293
+2024,2,Reuben Berlin,Jennifer Park,-0.007331246133582214
+2024,2,Reuben Berlin,Bob Simril,0.05066786072780661
+2024,2,Reuben Berlin,Debbie Kitchin,0.03359358300124111
+2024,2,Reuben Berlin,Chris Olson,0.008887622759165402
+2024,2,Reuben Berlin,Nabil Zaghloul,0.02038015692643374
+2024,2,Reuben Berlin,Laura Streib,0.019851528778213175
+2024,2,Reuben Berlin,Liz Taylor,0.02860990792519471
+2024,2,Reuben Berlin,Will Mespelt,0.1396801053536874
+2024,2,Reuben Berlin,Sam Sachs,0.0851639382061248
+2024,2,Reuben Berlin,Antonio Jamal PettyJohnBlue,0.058866397463119675
+2024,2,Reuben Berlin,Uncertified Write In,0.01738442838774324
+2024,2,Sam Sachs,Elana Pirtle-Guiney,-0.018099471646328975
+2024,2,Sam Sachs,Dan Ryan,-0.00195419710370226
+2024,2,Sam Sachs,Michelle DePass,-0.016761374330964942
+2024,2,Sam Sachs,Sameer Kanal,-0.0156497219202299
+2024,2,Sam Sachs,Nat West,-0.012730613147309073
+2024,2,Sam Sachs,Tiffani Penson,-0.0020378738750352066
+2024,2,Sam Sachs,Jonathan Tasini,-0.011803949312093144
+2024,2,Sam Sachs,Marnie Glickman,-0.013528972209585367
+2024,2,Sam Sachs,Mariah Hudson,0.0012029035383415015
+2024,2,Sam Sachs,Michael (Mike) Marshall,0.012047606724507776
+2024,2,Sam Sachs,James Armstrong,0.008941364331801586
+2024,2,Sam Sachs,Jennifer Park,-0.0002828260102452351
+2024,2,Sam Sachs,Bob Simril,0.032645370339302614
+2024,2,Sam Sachs,Debbie Kitchin,0.006973246382399011
+2024,2,Sam Sachs,Chris Olson,0.012806680533717897
+2024,2,Sam Sachs,Nabil Zaghloul,0.031588133328264274
+2024,2,Sam Sachs,Laura Streib,0.0329125040405592
+2024,2,Sam Sachs,Liz Taylor,0.050979271835803315
+2024,2,Sam Sachs,Will Mespelt,0.08801310292640041
+2024,2,Sam Sachs,Reuben Berlin,0.06355786508829186
+2024,2,Sam Sachs,Antonio Jamal PettyJohnBlue,0.06885607770509916
+2024,2,Sam Sachs,Uncertified Write In,0.010077938268003482
+2024,2,Antonio Jamal PettyJohnBlue,Elana Pirtle-Guiney,-0.008152841125161146
+2024,2,Antonio Jamal PettyJohnBlue,Dan Ryan,-0.009501948489522013
+2024,2,Antonio Jamal PettyJohnBlue,Michelle DePass,-4.2188276040074774e-05
+2024,2,Antonio Jamal PettyJohnBlue,Sameer Kanal,-0.0005727520687105921
+2024,2,Antonio Jamal PettyJohnBlue,Nat West,-0.007214501417292537
+2024,2,Antonio Jamal PettyJohnBlue,Tiffani Penson,-0.0022983297390618412
+2024,2,Antonio Jamal PettyJohnBlue,Jonathan Tasini,-0.006911074884690291
+2024,2,Antonio Jamal PettyJohnBlue,Marnie Glickman,-0.0038107897549927716
+2024,2,Antonio Jamal PettyJohnBlue,Mariah Hudson,-0.003633355832501014
+2024,2,Antonio Jamal PettyJohnBlue,Michael (Mike) Marshall,-0.003541165516124531
+2024,2,Antonio Jamal PettyJohnBlue,James Armstrong,-0.002699736118459025
+2024,2,Antonio Jamal PettyJohnBlue,Jennifer Park,0.0038522932667905754
+2024,2,Antonio Jamal PettyJohnBlue,Bob Simril,0.00037637956642265144
+2024,2,Antonio Jamal PettyJohnBlue,Debbie Kitchin,0.007030296923393988
+2024,2,Antonio Jamal PettyJohnBlue,Chris Olson,0.013619572890824619
+2024,2,Antonio Jamal PettyJohnBlue,Nabil Zaghloul,0.027920215267149828
+2024,2,Antonio Jamal PettyJohnBlue,Laura Streib,0.01970286699730279
+2024,2,Antonio Jamal PettyJohnBlue,Liz Taylor,0.050998940019562
+2024,2,Antonio Jamal PettyJohnBlue,Will Mespelt,0.010787132478433804
+2024,2,Antonio Jamal PettyJohnBlue,Reuben Berlin,0.02537291074586369
+2024,2,Antonio Jamal PettyJohnBlue,Sam Sachs,0.03976779841962349
+2024,2,Antonio Jamal PettyJohnBlue,Uncertified Write In,0.009381929158456065
+2024,2,Uncertified Write In,Elana Pirtle-Guiney,-0.004067418537132979
+2024,2,Uncertified Write In,Dan Ryan,-0.0021188006596596807
+2024,2,Uncertified Write In,Michelle DePass,-0.003324774831343429
+2024,2,Uncertified Write In,Sameer Kanal,-0.0031443548866562088
+2024,2,Uncertified Write In,Nat West,-0.0030124336911994554
+2024,2,Uncertified Write In,Tiffani Penson,-0.0017128773149558572
+2024,2,Uncertified Write In,Jonathan Tasini,-0.0033798418197254023
+2024,2,Uncertified Write In,Marnie Glickman,-0.0035990063339885582
+2024,2,Uncertified Write In,Mariah Hudson,-0.0027803655159170963
+2024,2,Uncertified Write In,Michael (Mike) Marshall,-0.003712288398463059
+2024,2,Uncertified Write In,James Armstrong,-0.002775918916357348
+2024,2,Uncertified Write In,Jennifer Park,-0.003982800923750099
+2024,2,Uncertified Write In,Bob Simril,-0.0017046733474356049
+2024,2,Uncertified Write In,Debbie Kitchin,-0.002927673639006036
+2024,2,Uncertified Write In,Chris Olson,-0.002158452924520696
+2024,2,Uncertified Write In,Nabil Zaghloul,0.00018607499752155282
+2024,2,Uncertified Write In,Laura Streib,-0.0008246574394987615
+2024,2,Uncertified Write In,Liz Taylor,0.004914198213108193
+2024,2,Uncertified Write In,Will Mespelt,0.0035945473543070863
+2024,2,Uncertified Write In,Reuben Berlin,0.002558965806546773
+2024,2,Uncertified Write In,Sam Sachs,0.0019877519884128675
+2024,2,Uncertified Write In,Antonio Jamal PettyJohnBlue,0.0032040064630656203
+2024,3,Steve Novick,Angelita Morillo,0.03452526552801782
+2024,3,Steve Novick,Tiffany Koyama Lane,-0.008722450622704714
+2024,3,Steve Novick,Jesse Cornett,0.1097575888428084
+2024,3,Steve Novick,Rex Burkholder,0.1099503285780229
+2024,3,Steve Novick,Chris Flanary,-0.07465862380970834
+2024,3,Steve Novick,Cristal Azul Otero,0.09564442793497019
+2024,3,Steve Novick,Philippe Knab,0.15383105655098306
+2024,3,Steve Novick,Kezia Wanner,0.00034060170593686045
+2024,3,Steve Novick,Ahlam K Osman,-0.20108043773788625
+2024,3,Steve Novick,Daniel DeMelo,-0.09132459955191419
+2024,3,Steve Novick,Harrison Kass,-0.16352398432063547
+2024,3,Steve Novick,Jonathan (Jon) Walker,-0.06447067397490402
+2024,3,Steve Novick,Luke Zak,-0.1764754097123049
+2024,3,Steve Novick,Sandeep Bali,-0.27905877552852276
+2024,3,Steve Novick,Brian Conley,-0.3200565641761788
+2024,3,Steve Novick,Melodie Beirwagen,-0.31695278229642837
+2024,3,Steve Novick,Matthew (Matt) Anderson,-0.2772285109005172
+2024,3,Steve Novick,Heart Free Pham,-0.2759092888074258
+2024,3,Steve Novick,Theo Hathaway Saner,-0.3679489687297945
+2024,3,Steve Novick,Dan Gilk,-0.2692577399440786
+2024,3,Steve Novick,Terry Parker,-0.33129575671638545
+2024,3,Steve Novick,Kelly Janes (KJ),-0.2819089733804165
+2024,3,Steve Novick,Christopher Brummer,-0.24413296570616122
+2024,3,Steve Novick,Kenneth (Kent) R Landgraver III,-0.32278844316223837
+2024,3,Steve Novick,John Sweeney,-0.15668702185875816
+2024,3,Steve Novick,Patrick Hilton,-0.29035798775551463
+2024,3,Steve Novick,Jaclyn Smith-Moore,-0.3375736156015225
+2024,3,Steve Novick,David O'Connor,-0.2640707263554926
+2024,3,Steve Novick,Clifford Higgins,-0.2690061184903084
+2024,3,Steve Novick,Uncertified Write In,-0.2523860520100425
+2024,3,Angelita Morillo,Steve Novick,0.03202164589020495
+2024,3,Angelita Morillo,Tiffany Koyama Lane,0.1926885017895883
+2024,3,Angelita Morillo,Jesse Cornett,0.07639795038163122
+2024,3,Angelita Morillo,Rex Burkholder,0.07331928464867576
+2024,3,Angelita Morillo,Chris Flanary,0.2625373709863986
+2024,3,Angelita Morillo,Cristal Azul Otero,0.05285790022097492
+2024,3,Angelita Morillo,Philippe Knab,-0.028861846688929216
+2024,3,Angelita Morillo,Kezia Wanner,-0.26996511108701915
+2024,3,Angelita Morillo,Ahlam K Osman,0.25691806949889373
+2024,3,Angelita Morillo,Daniel DeMelo,-0.16399495612900117
+2024,3,Angelita Morillo,Harrison Kass,-0.4218905457637695
+2024,3,Angelita Morillo,Jonathan (Jon) Walker,-0.20118134468619592
+2024,3,Angelita Morillo,Luke Zak,0.16449741339292345
+2024,3,Angelita Morillo,Sandeep Bali,-0.31499964707346384
+2024,3,Angelita Morillo,Brian Conley,0.08721022735922224
+2024,3,Angelita Morillo,Melodie Beirwagen,-0.22777611042329743
+2024,3,Angelita Morillo,Matthew (Matt) Anderson,-0.2630454404217963
+2024,3,Angelita Morillo,Heart Free Pham,-0.12001588401111474
+2024,3,Angelita Morillo,Theo Hathaway Saner,0.1029225833007108
+2024,3,Angelita Morillo,Dan Gilk,-0.3068061910858027
+2024,3,Angelita Morillo,Terry Parker,-0.46779613843121476
+2024,3,Angelita Morillo,Kelly Janes (KJ),-0.08001460159322332
+2024,3,Angelita Morillo,Christopher Brummer,-0.20177916640470728
+2024,3,Angelita Morillo,Kenneth (Kent) R Landgraver III,-0.3771168222521083
+2024,3,Angelita Morillo,John Sweeney,-0.36024693275052455
+2024,3,Angelita Morillo,Patrick Hilton,-0.28200450579321473
+2024,3,Angelita Morillo,Jaclyn Smith-Moore,-0.05061620648178189
+2024,3,Angelita Morillo,David O'Connor,-0.32342658951088465
+2024,3,Angelita Morillo,Clifford Higgins,-0.1930207928132192
+2024,3,Angelita Morillo,Uncertified Write In,-0.2922971899188076
+2024,3,Tiffany Koyama Lane,Steve Novick,-0.007817131508081832
+2024,3,Tiffany Koyama Lane,Angelita Morillo,0.18619073884405402
+2024,3,Tiffany Koyama Lane,Jesse Cornett,-0.010322530191607782
+2024,3,Tiffany Koyama Lane,Rex Burkholder,-0.015253950893830193
+2024,3,Tiffany Koyama Lane,Chris Flanary,0.25634567083830406
+2024,3,Tiffany Koyama Lane,Cristal Azul Otero,-0.13619056991299866
+2024,3,Tiffany Koyama Lane,Philippe Knab,-0.18533190914957898
+2024,3,Tiffany Koyama Lane,Kezia Wanner,-0.18984344165922235
+2024,3,Tiffany Koyama Lane,Ahlam K Osman,0.2572345669763505
+2024,3,Tiffany Koyama Lane,Daniel DeMelo,-0.15540042991581182
+2024,3,Tiffany Koyama Lane,Harrison Kass,-0.3279173461698778
+2024,3,Tiffany Koyama Lane,Jonathan (Jon) Walker,-0.15327733914412317
+2024,3,Tiffany Koyama Lane,Luke Zak,0.15943427017845802
+2024,3,Tiffany Koyama Lane,Sandeep Bali,-0.24447005734546207
+2024,3,Tiffany Koyama Lane,Brian Conley,0.08152543171633997
+2024,3,Tiffany Koyama Lane,Melodie Beirwagen,-0.13064943481001445
+2024,3,Tiffany Koyama Lane,Matthew (Matt) Anderson,-0.1755268245677098
+2024,3,Tiffany Koyama Lane,Heart Free Pham,-0.07274540337100621
+2024,3,Tiffany Koyama Lane,Theo Hathaway Saner,0.12441915762152256
+2024,3,Tiffany Koyama Lane,Dan Gilk,-0.2463292619284741
+2024,3,Tiffany Koyama Lane,Terry Parker,-0.39490491708600983
+2024,3,Tiffany Koyama Lane,Kelly Janes (KJ),-0.051384184484575046
+2024,3,Tiffany Koyama Lane,Christopher Brummer,-0.13633630603929697
+2024,3,Tiffany Koyama Lane,Kenneth (Kent) R Landgraver III,-0.30396677651834314
+2024,3,Tiffany Koyama Lane,John Sweeney,-0.30289045168229867
+2024,3,Tiffany Koyama Lane,Patrick Hilton,-0.2268094129754446
+2024,3,Tiffany Koyama Lane,Jaclyn Smith-Moore,-0.0066031857673235494
+2024,3,Tiffany Koyama Lane,David O'Connor,-0.2667473576228308
+2024,3,Tiffany Koyama Lane,Clifford Higgins,-0.1289872296210477
+2024,3,Tiffany Koyama Lane,Uncertified Write In,-0.22245560349454319
+2024,3,Jesse Cornett,Steve Novick,0.06730958270240561
+2024,3,Jesse Cornett,Angelita Morillo,0.05051465885334305
+2024,3,Jesse Cornett,Tiffany Koyama Lane,-0.007063494371238821
+2024,3,Jesse Cornett,Rex Burkholder,0.17323657507735135
+2024,3,Jesse Cornett,Chris Flanary,-0.012212785267622206
+2024,3,Jesse Cornett,Cristal Azul Otero,0.05531240717885599
+2024,3,Jesse Cornett,Philippe Knab,0.08670644122267601
+2024,3,Jesse Cornett,Kezia Wanner,0.05917784706608681
+2024,3,Jesse Cornett,Ahlam K Osman,-0.15277716972099334
+2024,3,Jesse Cornett,Daniel DeMelo,0.06429991572777927
+2024,3,Jesse Cornett,Harrison Kass,-0.12336155949854097
+2024,3,Jesse Cornett,Jonathan (Jon) Walker,-0.022078048654691873
+2024,3,Jesse Cornett,Luke Zak,-0.03487951223403679
+2024,3,Jesse Cornett,Sandeep Bali,-0.1628852988757352
+2024,3,Jesse Cornett,Brian Conley,-0.08309542697976247
+2024,3,Jesse Cornett,Melodie Beirwagen,-0.17322128903150888
+2024,3,Jesse Cornett,Matthew (Matt) Anderson,-0.14662566038605856
+2024,3,Jesse Cornett,Heart Free Pham,-0.13386353290142677
+2024,3,Jesse Cornett,Theo Hathaway Saner,-0.14959305138246054
+2024,3,Jesse Cornett,Dan Gilk,-0.1375712083171806
+2024,3,Jesse Cornett,Terry Parker,-0.23424516878001134
+2024,3,Jesse Cornett,Kelly Janes (KJ),-0.12218217949652763
+2024,3,Jesse Cornett,Christopher Brummer,-0.17185499584543215
+2024,3,Jesse Cornett,Kenneth (Kent) R Landgraver III,-0.16759738439141889
+2024,3,Jesse Cornett,John Sweeney,-0.17748236306404405
+2024,3,Jesse Cornett,Patrick Hilton,-0.14503483423117647
+2024,3,Jesse Cornett,Jaclyn Smith-Moore,-0.20360972496352694
+2024,3,Jesse Cornett,David O'Connor,-0.20460484823710215
+2024,3,Jesse Cornett,Clifford Higgins,-0.12594604104973836
+2024,3,Jesse Cornett,Uncertified Write In,-0.19479031642683986
+2024,3,Rex Burkholder,Steve Novick,0.06300949205564282
+2024,3,Rex Burkholder,Angelita Morillo,0.04530238252562091
+2024,3,Rex Burkholder,Tiffany Koyama Lane,-0.009754003170950154
+2024,3,Rex Burkholder,Jesse Cornett,0.16188503217042877
+2024,3,Rex Burkholder,Chris Flanary,-0.00750918646689136
+2024,3,Rex Burkholder,Cristal Azul Otero,0.11902861572076279
+2024,3,Rex Burkholder,Philippe Knab,0.15610189270281855
+2024,3,Rex Burkholder,Kezia Wanner,-0.04352212561813795
+2024,3,Rex Burkholder,Ahlam K Osman,-0.09538793643869975
+2024,3,Rex Burkholder,Daniel DeMelo,-0.016685863163397596
+2024,3,Rex Burkholder,Harrison Kass,-0.12851417341221077
+2024,3,Rex Burkholder,Jonathan (Jon) Walker,0.05239818873863128
+2024,3,Rex Burkholder,Luke Zak,-0.08360904442365374
+2024,3,Rex Burkholder,Sandeep Bali,-0.1512360792921885
+2024,3,Rex Burkholder,Brian Conley,-0.06291455638180615
+2024,3,Rex Burkholder,Melodie Beirwagen,-0.14223196820904394
+2024,3,Rex Burkholder,Matthew (Matt) Anderson,-0.09321443764962761
+2024,3,Rex Burkholder,Heart Free Pham,-0.14506714879217927
+2024,3,Rex Burkholder,Theo Hathaway Saner,-0.12723999222933693
+2024,3,Rex Burkholder,Dan Gilk,-0.058280256883903814
+2024,3,Rex Burkholder,Terry Parker,-0.2245543826271234
+2024,3,Rex Burkholder,Kelly Janes (KJ),-0.12280604691642408
+2024,3,Rex Burkholder,Christopher Brummer,-0.16319010228069425
+2024,3,Rex Burkholder,Kenneth (Kent) R Landgraver III,-0.15850413357673454
+2024,3,Rex Burkholder,John Sweeney,-0.11221149838365033
+2024,3,Rex Burkholder,Patrick Hilton,-0.048876534030619534
+2024,3,Rex Burkholder,Jaclyn Smith-Moore,-0.20085859394015698
+2024,3,Rex Burkholder,David O'Connor,-0.12366219989623603
+2024,3,Rex Burkholder,Clifford Higgins,-0.04749894986091213
+2024,3,Rex Burkholder,Uncertified Write In,-0.2168586272996219
+2024,3,Chris Flanary,Steve Novick,-0.030231572297322346
+2024,3,Chris Flanary,Angelita Morillo,0.11462128242740843
+2024,3,Chris Flanary,Tiffany Koyama Lane,0.1158238090752543
+2024,3,Chris Flanary,Jesse Cornett,-0.00806404858012466
+2024,3,Chris Flanary,Rex Burkholder,-0.0053059627436756185
+2024,3,Chris Flanary,Cristal Azul Otero,-0.05705204061698266
+2024,3,Chris Flanary,Philippe Knab,-0.1147989683039167
+2024,3,Chris Flanary,Kezia Wanner,-0.1710622001069344
+2024,3,Chris Flanary,Ahlam K Osman,0.3383566962936508
+2024,3,Chris Flanary,Daniel DeMelo,-0.08276449757165477
+2024,3,Chris Flanary,Harrison Kass,-0.19809354122930214
+2024,3,Chris Flanary,Jonathan (Jon) Walker,-0.07733241400674698
+2024,3,Chris Flanary,Luke Zak,0.2355715019409576
+2024,3,Chris Flanary,Sandeep Bali,-0.13532720369981252
+2024,3,Chris Flanary,Brian Conley,0.2118023727241936
+2024,3,Chris Flanary,Melodie Beirwagen,-0.112411522854104
+2024,3,Chris Flanary,Matthew (Matt) Anderson,-0.10078420356206516
+2024,3,Chris Flanary,Heart Free Pham,-0.014632904136606423
+2024,3,Chris Flanary,Theo Hathaway Saner,0.2676495632358686
+2024,3,Chris Flanary,Dan Gilk,-0.12225504329439223
+2024,3,Chris Flanary,Terry Parker,-0.1841649905941467
+2024,3,Chris Flanary,Kelly Janes (KJ),-0.010533946081229872
+2024,3,Chris Flanary,Christopher Brummer,-0.04985593933199642
+2024,3,Chris Flanary,Kenneth (Kent) R Landgraver III,-0.1272458158223227
+2024,3,Chris Flanary,John Sweeney,-0.13316755808181546
+2024,3,Chris Flanary,Patrick Hilton,-0.07220762258749591
+2024,3,Chris Flanary,Jaclyn Smith-Moore,-0.09971506269510597
+2024,3,Chris Flanary,David O'Connor,-0.06750252815277968
+2024,3,Chris Flanary,Clifford Higgins,-0.041851424555316624
+2024,3,Chris Flanary,Uncertified Write In,-0.13148578309275077
+2024,3,Cristal Azul Otero,Steve Novick,0.03852944477225617
+2024,3,Cristal Azul Otero,Angelita Morillo,0.022958122047659346
+2024,3,Cristal Azul Otero,Tiffany Koyama Lane,-0.06121688338512393
+2024,3,Cristal Azul Otero,Jesse Cornett,0.036334007022018
+2024,3,Cristal Azul Otero,Rex Burkholder,0.08367101021911877
+2024,3,Cristal Azul Otero,Chris Flanary,-0.05675753230233499
+2024,3,Cristal Azul Otero,Philippe Knab,0.3454297538655185
+2024,3,Cristal Azul Otero,Kezia Wanner,-0.08114166333635003
+2024,3,Cristal Azul Otero,Ahlam K Osman,-0.05244846700669856
+2024,3,Cristal Azul Otero,Daniel DeMelo,-0.10261345596655252
+2024,3,Cristal Azul Otero,Harrison Kass,-0.15063861814510895
+2024,3,Cristal Azul Otero,Jonathan (Jon) Walker,-0.018374058867240556
+2024,3,Cristal Azul Otero,Luke Zak,-0.11405395509850028
+2024,3,Cristal Azul Otero,Sandeep Bali,-0.07240598383882071
+2024,3,Cristal Azul Otero,Brian Conley,-0.05656215715149268
+2024,3,Cristal Azul Otero,Melodie Beirwagen,-0.032313358618584115
+2024,3,Cristal Azul Otero,Matthew (Matt) Anderson,-0.08797798745086288
+2024,3,Cristal Azul Otero,Heart Free Pham,0.006408664422297261
+2024,3,Cristal Azul Otero,Theo Hathaway Saner,-0.0831411269055852
+2024,3,Cristal Azul Otero,Dan Gilk,-0.12066950702930214
+2024,3,Cristal Azul Otero,Terry Parker,-0.15789001138560466
+2024,3,Cristal Azul Otero,Kelly Janes (KJ),0.016440000024687207
+2024,3,Cristal Azul Otero,Christopher Brummer,-0.060084144758360936
+2024,3,Cristal Azul Otero,Kenneth (Kent) R Landgraver III,-0.09492386775400596
+2024,3,Cristal Azul Otero,John Sweeney,-0.11112065421144296
+2024,3,Cristal Azul Otero,Patrick Hilton,-0.10377331248639843
+2024,3,Cristal Azul Otero,Jaclyn Smith-Moore,0.11742842207799803
+2024,3,Cristal Azul Otero,David O'Connor,-0.1585900060283218
+2024,3,Cristal Azul Otero,Clifford Higgins,-0.06763948532455077
+2024,3,Cristal Azul Otero,Uncertified Write In,-0.16614787935812692
+2024,3,Philippe Knab,Steve Novick,0.05869374993645607
+2024,3,Philippe Knab,Angelita Morillo,-0.011873132836562467
+2024,3,Philippe Knab,Tiffany Koyama Lane,-0.07890220415032753
+2024,3,Philippe Knab,Jesse Cornett,0.053945702838942594
+2024,3,Philippe Knab,Rex Burkholder,0.10393134707273735
+2024,3,Philippe Knab,Chris Flanary,-0.10816956049516581
+2024,3,Philippe Knab,Cristal Azul Otero,0.3271707736165774
+2024,3,Philippe Knab,Kezia Wanner,-0.06196720977628048
+2024,3,Philippe Knab,Ahlam K Osman,-0.14101017943863117
+2024,3,Philippe Knab,Daniel DeMelo,-0.08896521042187627
+2024,3,Philippe Knab,Harrison Kass,-0.07463838750471474
+2024,3,Philippe Knab,Jonathan (Jon) Walker,0.052902180866521514
+2024,3,Philippe Knab,Luke Zak,-0.13576818690229048
+2024,3,Philippe Knab,Sandeep Bali,-0.09661231326004158
+2024,3,Philippe Knab,Brian Conley,-0.057098590191941856
+2024,3,Philippe Knab,Melodie Beirwagen,-0.08608290643060956
+2024,3,Philippe Knab,Matthew (Matt) Anderson,-0.07330545803252883
+2024,3,Philippe Knab,Heart Free Pham,-0.08571826803252172
+2024,3,Philippe Knab,Theo Hathaway Saner,-0.11194613571051845
+2024,3,Philippe Knab,Dan Gilk,-0.07805992811076318
+2024,3,Philippe Knab,Terry Parker,-0.14320654026229607
+2024,3,Philippe Knab,Kelly Janes (KJ),-0.11745870824436759
+2024,3,Philippe Knab,Christopher Brummer,-0.021586189958056196
+2024,3,Philippe Knab,Kenneth (Kent) R Landgraver III,-0.11025938582765386
+2024,3,Philippe Knab,John Sweeney,-0.14293386281272114
+2024,3,Philippe Knab,Patrick Hilton,-0.05872845081369976
+2024,3,Philippe Knab,Jaclyn Smith-Moore,-0.15588615823170615
+2024,3,Philippe Knab,David O'Connor,-0.09107521090754353
+2024,3,Philippe Knab,Clifford Higgins,-0.0397123063496691
+2024,3,Philippe Knab,Uncertified Write In,-0.1472627365513899
+2024,3,Kezia Wanner,Steve Novick,0.00012931673122903997
+2024,3,Kezia Wanner,Angelita Morillo,-0.11051186751429572
+2024,3,Kezia Wanner,Tiffany Koyama Lane,-0.08042565368922719
+2024,3,Kezia Wanner,Jesse Cornett,0.03663740627323514
+2024,3,Kezia Wanner,Rex Burkholder,-0.028834242760815115
+2024,3,Kezia Wanner,Chris Flanary,-0.16039144437853484
+2024,3,Kezia Wanner,Cristal Azul Otero,-0.07647486673497711
+2024,3,Kezia Wanner,Philippe Knab,-0.06166262464809849
+2024,3,Kezia Wanner,Ahlam K Osman,-0.12396725598896871
+2024,3,Kezia Wanner,Daniel DeMelo,0.19242439651905235
+2024,3,Kezia Wanner,Harrison Kass,0.36691819294392936
+2024,3,Kezia Wanner,Jonathan (Jon) Walker,0.07819100430619097
+2024,3,Kezia Wanner,Luke Zak,-0.10328396616481728
+2024,3,Kezia Wanner,Sandeep Bali,0.2311442694318699
+2024,3,Kezia Wanner,Brian Conley,-0.1380033176573618
+2024,3,Kezia Wanner,Melodie Beirwagen,0.11245769058017652
+2024,3,Kezia Wanner,Matthew (Matt) Anderson,0.05543806926963407
+2024,3,Kezia Wanner,Heart Free Pham,-0.05224672561042726
+2024,3,Kezia Wanner,Theo Hathaway Saner,-0.12357620012058794
+2024,3,Kezia Wanner,Dan Gilk,0.13202165182693432
+2024,3,Kezia Wanner,Terry Parker,0.24485325416779774
+2024,3,Kezia Wanner,Kelly Janes (KJ),0.07406466616345936
+2024,3,Kezia Wanner,Christopher Brummer,-0.0653823763361552
+2024,3,Kezia Wanner,Kenneth (Kent) R Landgraver III,0.13593579574663456
+2024,3,Kezia Wanner,John Sweeney,0.028227219140894433
+2024,3,Kezia Wanner,Patrick Hilton,-0.02612880948694704
+2024,3,Kezia Wanner,Jaclyn Smith-Moore,0.006809623384420066
+2024,3,Kezia Wanner,David O'Connor,-0.08398102591449866
+2024,3,Kezia Wanner,Clifford Higgins,-0.1237467539942928
+2024,3,Kezia Wanner,Uncertified Write In,-0.07876157405357304
+2024,3,Ahlam K Osman,Steve Novick,-0.04766080507675036
+2024,3,Ahlam K Osman,Angelita Morillo,0.06565677985614249
+2024,3,Ahlam K Osman,Tiffany Koyama Lane,0.06803180314596
+2024,3,Ahlam K Osman,Jesse Cornett,-0.059048337163124756
+2024,3,Ahlam K Osman,Rex Burkholder,-0.03945259358482167
+2024,3,Ahlam K Osman,Chris Flanary,0.1980548917469541
+2024,3,Ahlam K Osman,Cristal Azul Otero,-0.030859669763458303
+2024,3,Ahlam K Osman,Philippe Knab,-0.08759799841938007
+2024,3,Ahlam K Osman,Kezia Wanner,-0.077391032514235
+2024,3,Ahlam K Osman,Daniel DeMelo,-0.05693036981965287
+2024,3,Ahlam K Osman,Harrison Kass,-0.09878095877909768
+2024,3,Ahlam K Osman,Jonathan (Jon) Walker,-0.07167386785058205
+2024,3,Ahlam K Osman,Luke Zak,0.1959106093976873
+2024,3,Ahlam K Osman,Sandeep Bali,-0.03321548715082204
+2024,3,Ahlam K Osman,Brian Conley,0.15949421908673564
+2024,3,Ahlam K Osman,Melodie Beirwagen,-0.019959341501019204
+2024,3,Ahlam K Osman,Matthew (Matt) Anderson,0.007571509497325268
+2024,3,Ahlam K Osman,Heart Free Pham,0.039764110703911754
+2024,3,Ahlam K Osman,Theo Hathaway Saner,0.245375855475737
+2024,3,Ahlam K Osman,Dan Gilk,-0.06752197607888197
+2024,3,Ahlam K Osman,Terry Parker,-0.09675788529794355
+2024,3,Ahlam K Osman,Kelly Janes (KJ),0.05576904442839581
+2024,3,Ahlam K Osman,Christopher Brummer,-0.011376406691051916
+2024,3,Ahlam K Osman,Kenneth (Kent) R Landgraver III,-0.044746085488017076
+2024,3,Ahlam K Osman,John Sweeney,-0.057288274434761935
+2024,3,Ahlam K Osman,Patrick Hilton,-0.05327303703525055
+2024,3,Ahlam K Osman,Jaclyn Smith-Moore,-0.007070064040650109
+2024,3,Ahlam K Osman,David O'Connor,-0.06113727600813122
+2024,3,Ahlam K Osman,Clifford Higgins,0.017762330553552225
+2024,3,Ahlam K Osman,Uncertified Write In,-0.08068606324002295
+2024,3,Daniel DeMelo,Steve Novick,-0.021376689363555357
+2024,3,Daniel DeMelo,Angelita Morillo,-0.04138819985124778
+2024,3,Daniel DeMelo,Tiffany Koyama Lane,-0.04058784443393619
+2024,3,Daniel DeMelo,Jesse Cornett,0.02454260927147847
+2024,3,Daniel DeMelo,Rex Burkholder,-0.006815408638957882
+2024,3,Daniel DeMelo,Chris Flanary,-0.04784273494324427
+2024,3,Daniel DeMelo,Cristal Azul Otero,-0.05962438433593095
+2024,3,Daniel DeMelo,Philippe Knab,-0.054578933555625486
+2024,3,Daniel DeMelo,Kezia Wanner,0.11863283350096662
+2024,3,Daniel DeMelo,Ahlam K Osman,-0.056221848774341096
+2024,3,Daniel DeMelo,Harrison Kass,0.1722239650110132
+2024,3,Daniel DeMelo,Jonathan (Jon) Walker,0.07205418917984735
+2024,3,Daniel DeMelo,Luke Zak,0.05004548565092473
+2024,3,Daniel DeMelo,Sandeep Bali,0.10443324690373268
+2024,3,Daniel DeMelo,Brian Conley,-0.009197286302397356
+2024,3,Daniel DeMelo,Melodie Beirwagen,0.026596180035706823
+2024,3,Daniel DeMelo,Matthew (Matt) Anderson,0.027334206543752876
+2024,3,Daniel DeMelo,Heart Free Pham,-0.003612238637836468
+2024,3,Daniel DeMelo,Theo Hathaway Saner,-0.010709819860757419
+2024,3,Daniel DeMelo,Dan Gilk,0.07611772415392545
+2024,3,Daniel DeMelo,Terry Parker,0.049008772645684845
+2024,3,Daniel DeMelo,Kelly Janes (KJ),0.02849460668583864
+2024,3,Daniel DeMelo,Christopher Brummer,-0.010112207641721882
+2024,3,Daniel DeMelo,Kenneth (Kent) R Landgraver III,-0.0006104650065459627
+2024,3,Daniel DeMelo,John Sweeney,0.03643793725377176
+2024,3,Daniel DeMelo,Patrick Hilton,0.04427286197991551
+2024,3,Daniel DeMelo,Jaclyn Smith-Moore,-0.01921097555328395
+2024,3,Daniel DeMelo,David O'Connor,-0.02658000515941153
+2024,3,Daniel DeMelo,Clifford Higgins,0.07666322409950352
+2024,3,Daniel DeMelo,Uncertified Write In,-0.04596526641445853
+2024,3,Harrison Kass,Steve Novick,-0.029463003914693017
+2024,3,Harrison Kass,Angelita Morillo,-0.08195750581501035
+2024,3,Harrison Kass,Tiffany Koyama Lane,-0.06592513915173037
+2024,3,Harrison Kass,Jesse Cornett,-0.03624374564395526
+2024,3,Harrison Kass,Rex Burkholder,-0.040405189070421677
+2024,3,Harrison Kass,Chris Flanary,-0.08814245131020135
+2024,3,Harrison Kass,Cristal Azul Otero,-0.06737500485681294
+2024,3,Harrison Kass,Philippe Knab,-0.03524601136429184
+2024,3,Harrison Kass,Kezia Wanner,0.17412330813078775
+2024,3,Harrison Kass,Ahlam K Osman,-0.0750891603741546
+2024,3,Harrison Kass,Daniel DeMelo,0.13256732008818015
+2024,3,Harrison Kass,Jonathan (Jon) Walker,0.09073408030176061
+2024,3,Harrison Kass,Luke Zak,-0.04678151126201882
+2024,3,Harrison Kass,Sandeep Bali,0.24052661535291636
+2024,3,Harrison Kass,Brian Conley,-0.04771803411189227
+2024,3,Harrison Kass,Melodie Beirwagen,0.11017395713214839
+2024,3,Harrison Kass,Matthew (Matt) Anderson,0.10036988945488001
+2024,3,Harrison Kass,Heart Free Pham,-0.0190697649710852
+2024,3,Harrison Kass,Theo Hathaway Saner,-0.042745578337472515
+2024,3,Harrison Kass,Dan Gilk,0.22921010108608808
+2024,3,Harrison Kass,Terry Parker,0.3478203532642393
+2024,3,Harrison Kass,Kelly Janes (KJ),0.009723901955516673
+2024,3,Harrison Kass,Christopher Brummer,0.047088788811641524
+2024,3,Harrison Kass,Kenneth (Kent) R Landgraver III,0.21498211487588215
+2024,3,Harrison Kass,John Sweeney,0.10056917593660433
+2024,3,Harrison Kass,Patrick Hilton,0.12137759888987562
+2024,3,Harrison Kass,Jaclyn Smith-Moore,-0.03322326458176812
+2024,3,Harrison Kass,David O'Connor,0.05373142307815004
+2024,3,Harrison Kass,Clifford Higgins,0.004097895844934862
+2024,3,Harrison Kass,Uncertified Write In,0.007637910004991505
+2024,3,Jonathan (Jon) Walker,Steve Novick,-0.011002672602409919
+2024,3,Jonathan (Jon) Walker,Angelita Morillo,-0.03701835051032304
+2024,3,Jonathan (Jon) Walker,Tiffany Koyama Lane,-0.029188046794904957
+2024,3,Jonathan (Jon) Walker,Jesse Cornett,-0.006144044121030451
+2024,3,Jonathan (Jon) Walker,Rex Burkholder,0.0156042466957792
+2024,3,Jonathan (Jon) Walker,Chris Flanary,-0.03259243384614731
+2024,3,Jonathan (Jon) Walker,Cristal Azul Otero,-0.007784092830813896
+2024,3,Jonathan (Jon) Walker,Philippe Knab,0.02366255962571974
+2024,3,Jonathan (Jon) Walker,Kezia Wanner,0.03514672568144504
+2024,3,Jonathan (Jon) Walker,Ahlam K Osman,-0.05160660261622721
+2024,3,Jonathan (Jon) Walker,Daniel DeMelo,0.052534251099578225
+2024,3,Jonathan (Jon) Walker,Harrison Kass,0.08594306901400635
+2024,3,Jonathan (Jon) Walker,Luke Zak,-0.02132454626400783
+2024,3,Jonathan (Jon) Walker,Sandeep Bali,0.06946131986364389
+2024,3,Jonathan (Jon) Walker,Brian Conley,0.008420076212320646
+2024,3,Jonathan (Jon) Walker,Melodie Beirwagen,0.04732310916364109
+2024,3,Jonathan (Jon) Walker,Matthew (Matt) Anderson,0.058196094952797026
+2024,3,Jonathan (Jon) Walker,Heart Free Pham,0.017959228044775122
+2024,3,Jonathan (Jon) Walker,Theo Hathaway Saner,-0.008047117407082457
+2024,3,Jonathan (Jon) Walker,Dan Gilk,0.08672958030211474
+2024,3,Jonathan (Jon) Walker,Terry Parker,0.07348260825481807
+2024,3,Jonathan (Jon) Walker,Kelly Janes (KJ),0.019957131570309178
+2024,3,Jonathan (Jon) Walker,Christopher Brummer,0.06330040032341398
+2024,3,Jonathan (Jon) Walker,Kenneth (Kent) R Landgraver III,0.027068516265442974
+2024,3,Jonathan (Jon) Walker,John Sweeney,0.06099141627639469
+2024,3,Jonathan (Jon) Walker,Patrick Hilton,0.07173633283595389
+2024,3,Jonathan (Jon) Walker,Jaclyn Smith-Moore,0.004572452319699966
+2024,3,Jonathan (Jon) Walker,David O'Connor,0.13595846056836597
+2024,3,Jonathan (Jon) Walker,Clifford Higgins,0.025892250690815452
+2024,3,Jonathan (Jon) Walker,Uncertified Write In,-0.028515966942055077
+2024,3,Luke Zak,Steve Novick,-0.029583220823639622
+2024,3,Luke Zak,Angelita Morillo,0.029731286819400474
+2024,3,Luke Zak,Tiffany Koyama Lane,0.02982181254689488
+2024,3,Luke Zak,Jesse Cornett,-0.00953431111366812
+2024,3,Luke Zak,Rex Burkholder,-0.024457106193944866
+2024,3,Luke Zak,Chris Flanary,0.09752214676550354
+2024,3,Luke Zak,Cristal Azul Otero,-0.047461179802154634
+2024,3,Luke Zak,Philippe Knab,-0.05965013628634246
+2024,3,Luke Zak,Kezia Wanner,-0.04560224922358101
+2024,3,Luke Zak,Ahlam K Osman,0.1385567410567506
+2024,3,Luke Zak,Daniel DeMelo,0.0358404533776152
+2024,3,Luke Zak,Harrison Kass,-0.04352511635469842
+2024,3,Luke Zak,Jonathan (Jon) Walker,-0.02094619179160384
+2024,3,Luke Zak,Sandeep Bali,-0.0209805482397534
+2024,3,Luke Zak,Brian Conley,0.030244474783678102
+2024,3,Luke Zak,Melodie Beirwagen,-0.036001047722372184
+2024,3,Luke Zak,Matthew (Matt) Anderson,-0.023636133895660466
+2024,3,Luke Zak,Heart Free Pham,0.02674137807661807
+2024,3,Luke Zak,Theo Hathaway Saner,0.03548900421806024
+2024,3,Luke Zak,Dan Gilk,-0.00408818292081542
+2024,3,Luke Zak,Terry Parker,-0.03972448388179304
+2024,3,Luke Zak,Kelly Janes (KJ),0.0020444787400502873
+2024,3,Luke Zak,Christopher Brummer,0.006095731802043883
+2024,3,Luke Zak,Kenneth (Kent) R Landgraver III,-0.02473949993273808
+2024,3,Luke Zak,John Sweeney,0.0048909014258420175
+2024,3,Luke Zak,Patrick Hilton,-0.011244994675906048
+2024,3,Luke Zak,Jaclyn Smith-Moore,-0.00682475148631953
+2024,3,Luke Zak,David O'Connor,0.016640518089048442
+2024,3,Luke Zak,Clifford Higgins,-0.015359927688305672
+2024,3,Luke Zak,Uncertified Write In,-0.028178978964510784
+2024,3,Sandeep Bali,Steve Novick,-0.03952365005336674
+2024,3,Sandeep Bali,Angelita Morillo,-0.04810218508504355
+2024,3,Sandeep Bali,Tiffany Koyama Lane,-0.03863475271938704
+2024,3,Sandeep Bali,Jesse Cornett,-0.03761845109738404
+2024,3,Sandeep Bali,Rex Burkholder,-0.03737724816323049
+2024,3,Sandeep Bali,Chris Flanary,-0.04733318346312431
+2024,3,Sandeep Bali,Cristal Azul Otero,-0.02545673744393822
+2024,3,Sandeep Bali,Philippe Knab,-0.035862949727883946
+2024,3,Sandeep Bali,Kezia Wanner,0.08622567292930573
+2024,3,Sandeep Bali,Ahlam K Osman,-0.01984771135279484
+2024,3,Sandeep Bali,Daniel DeMelo,0.06318987147822248
+2024,3,Sandeep Bali,Harrison Kass,0.1890727487052633
+2024,3,Sandeep Bali,Jonathan (Jon) Walker,0.057645898467424225
+2024,3,Sandeep Bali,Luke Zak,-0.01772625273723484
+2024,3,Sandeep Bali,Brian Conley,-0.0133383624206828
+2024,3,Sandeep Bali,Melodie Beirwagen,0.16612233180699626
+2024,3,Sandeep Bali,Matthew (Matt) Anderson,0.10551689952584208
+2024,3,Sandeep Bali,Heart Free Pham,0.11678188429702312
+2024,3,Sandeep Bali,Theo Hathaway Saner,-0.014861602896460102
+2024,3,Sandeep Bali,Dan Gilk,0.21421641128793706
+2024,3,Sandeep Bali,Terry Parker,0.31150115583956267
+2024,3,Sandeep Bali,Kelly Janes (KJ),0.04610910875440501
+2024,3,Sandeep Bali,Christopher Brummer,0.01766468715000602
+2024,3,Sandeep Bali,Kenneth (Kent) R Landgraver III,0.22703402845338033
+2024,3,Sandeep Bali,John Sweeney,0.05968240625015368
+2024,3,Sandeep Bali,Patrick Hilton,0.04827933878451708
+2024,3,Sandeep Bali,Jaclyn Smith-Moore,0.027029781761474664
+2024,3,Sandeep Bali,David O'Connor,0.03536834773282285
+2024,3,Sandeep Bali,Clifford Higgins,0.0003887559773158161
+2024,3,Sandeep Bali,Uncertified Write In,-0.009436283322841382
+2024,3,Brian Conley,Steve Novick,-0.03909655777205349
+2024,3,Brian Conley,Angelita Morillo,0.011486099620389184
+2024,3,Brian Conley,Tiffany Koyama Lane,0.011112096183674994
+2024,3,Brian Conley,Jesse Cornett,-0.016551850946242827
+2024,3,Brian Conley,Rex Burkholder,-0.013410762606287166
+2024,3,Brian Conley,Chris Flanary,0.06389426074123808
+2024,3,Brian Conley,Cristal Azul Otero,-0.0171516012156677
+2024,3,Brian Conley,Philippe Knab,-0.018280553195955784
+2024,3,Brian Conley,Kezia Wanner,-0.04440106742019466
+2024,3,Brian Conley,Ahlam K Osman,0.08219874325800364
+2024,3,Brian Conley,Daniel DeMelo,-0.004799752232422863
+2024,3,Brian Conley,Harrison Kass,-0.03235182340904938
+2024,3,Brian Conley,Jonathan (Jon) Walker,0.006026870026973552
+2024,3,Brian Conley,Luke Zak,0.022039237946898868
+2024,3,Brian Conley,Sandeep Bali,-0.011504107616073053
+2024,3,Brian Conley,Melodie Beirwagen,0.014577610648882064
+2024,3,Brian Conley,Matthew (Matt) Anderson,0.04940416793989065
+2024,3,Brian Conley,Heart Free Pham,0.0465369178359257
+2024,3,Brian Conley,Theo Hathaway Saner,0.31778618340862735
+2024,3,Brian Conley,Dan Gilk,0.018984379769627066
+2024,3,Brian Conley,Terry Parker,0.008899879029403784
+2024,3,Brian Conley,Kelly Janes (KJ),0.02549152422523432
+2024,3,Brian Conley,Christopher Brummer,0.06028690596804398
+2024,3,Brian Conley,Kenneth (Kent) R Landgraver III,0.023698057535117584
+2024,3,Brian Conley,John Sweeney,0.04754965769270833
+2024,3,Brian Conley,Patrick Hilton,0.14557537726528927
+2024,3,Brian Conley,Jaclyn Smith-Moore,0.03534461008635707
+2024,3,Brian Conley,David O'Connor,0.11171323306810324
+2024,3,Brian Conley,Clifford Higgins,0.12340792334239561
+2024,3,Brian Conley,Uncertified Write In,-0.033567704560116
+2024,3,Melodie Beirwagen,Steve Novick,-0.038172535170788266
+2024,3,Melodie Beirwagen,Angelita Morillo,-0.029577263111814737
+2024,3,Melodie Beirwagen,Tiffany Koyama Lane,-0.01755719255392229
+2024,3,Melodie Beirwagen,Jesse Cornett,-0.03401851576450217
+2024,3,Melodie Beirwagen,Rex Burkholder,-0.029891259042398352
+2024,3,Melodie Beirwagen,Chris Flanary,-0.03343385943629636
+2024,3,Melodie Beirwagen,Cristal Azul Otero,-0.009660630225671443
+2024,3,Melodie Beirwagen,Philippe Knab,-0.027172245053745735
+2024,3,Melodie Beirwagen,Kezia Wanner,0.03567284087608892
+2024,3,Melodie Beirwagen,Ahlam K Osman,-0.010141707768382371
+2024,3,Melodie Beirwagen,Daniel DeMelo,0.013684313964290817
+2024,3,Melodie Beirwagen,Harrison Kass,0.07364441566948875
+2024,3,Melodie Beirwagen,Jonathan (Jon) Walker,0.03339594413848984
+2024,3,Melodie Beirwagen,Luke Zak,-0.025864871134882242
+2024,3,Melodie Beirwagen,Sandeep Bali,0.14126126559863889
+2024,3,Melodie Beirwagen,Brian Conley,0.014372456365002076
+2024,3,Melodie Beirwagen,Matthew (Matt) Anderson,0.11125321503004836
+2024,3,Melodie Beirwagen,Heart Free Pham,0.11999931827192813
+2024,3,Melodie Beirwagen,Theo Hathaway Saner,-0.01223641109492922
+2024,3,Melodie Beirwagen,Dan Gilk,0.0800895128168828
+2024,3,Melodie Beirwagen,Terry Parker,0.18178820255888328
+2024,3,Melodie Beirwagen,Kelly Janes (KJ),0.13085466710950788
+2024,3,Melodie Beirwagen,Christopher Brummer,0.11723200750041528
+2024,3,Melodie Beirwagen,Kenneth (Kent) R Landgraver III,0.09419157966238624
+2024,3,Melodie Beirwagen,John Sweeney,0.04607200128872835
+2024,3,Melodie Beirwagen,Patrick Hilton,0.06522126371175745
+2024,3,Melodie Beirwagen,Jaclyn Smith-Moore,0.2376393272641849
+2024,3,Melodie Beirwagen,David O'Connor,0.053171548788722114
+2024,3,Melodie Beirwagen,Clifford Higgins,0.036272805920662246
+2024,3,Melodie Beirwagen,Uncertified Write In,0.025856764256495593
+2024,3,Matthew (Matt) Anderson,Steve Novick,-0.024403517750253585
+2024,3,Matthew (Matt) Anderson,Angelita Morillo,-0.024965409662375766
+2024,3,Matthew (Matt) Anderson,Tiffany Koyama Lane,-0.017240471521102543
+2024,3,Matthew (Matt) Anderson,Jesse Cornett,-0.021046611420093654
+2024,3,Matthew (Matt) Anderson,Rex Burkholder,-0.014318195195132846
+2024,3,Matthew (Matt) Anderson,Chris Flanary,-0.021909186667824473
+2024,3,Matthew (Matt) Anderson,Cristal Azul Otero,-0.019224519249967903
+2024,3,Matthew (Matt) Anderson,Philippe Knab,-0.016912313445014336
+2024,3,Matthew (Matt) Anderson,Kezia Wanner,0.01285330281085522
+2024,3,Matthew (Matt) Anderson,Ahlam K Osman,0.0028119361901382672
+2024,3,Matthew (Matt) Anderson,Daniel DeMelo,0.010279413677695741
+2024,3,Matthew (Matt) Anderson,Harrison Kass,0.04903683420618988
+2024,3,Matthew (Matt) Anderson,Jonathan (Jon) Walker,0.030017353921394617
+2024,3,Matthew (Matt) Anderson,Luke Zak,-0.012411655906519763
+2024,3,Matthew (Matt) Anderson,Sandeep Bali,0.06558057231219921
+2024,3,Matthew (Matt) Anderson,Brian Conley,0.03560134027461174
+2024,3,Matthew (Matt) Anderson,Melodie Beirwagen,0.0813150019343711
+2024,3,Matthew (Matt) Anderson,Heart Free Pham,0.06480267371473153
+2024,3,Matthew (Matt) Anderson,Theo Hathaway Saner,0.004840048956855615
+2024,3,Matthew (Matt) Anderson,Dan Gilk,0.07671596946985043
+2024,3,Matthew (Matt) Anderson,Terry Parker,0.12067473155626421
+2024,3,Matthew (Matt) Anderson,Kelly Janes (KJ),0.06032038422442492
+2024,3,Matthew (Matt) Anderson,Christopher Brummer,0.10290136646057957
+2024,3,Matthew (Matt) Anderson,Kenneth (Kent) R Landgraver III,0.11269192572640122
+2024,3,Matthew (Matt) Anderson,John Sweeney,0.11419031781728042
+2024,3,Matthew (Matt) Anderson,Patrick Hilton,0.1539343625853253
+2024,3,Matthew (Matt) Anderson,Jaclyn Smith-Moore,0.033731374348506975
+2024,3,Matthew (Matt) Anderson,David O'Connor,0.11550229268339396
+2024,3,Matthew (Matt) Anderson,Clifford Higgins,0.1320547620710272
+2024,3,Matthew (Matt) Anderson,Uncertified Write In,0.006564260109019372
+2024,3,Heart Free Pham,Steve Novick,-0.02016942231177377
+2024,3,Heart Free Pham,Angelita Morillo,-0.009459305305086492
+2024,3,Heart Free Pham,Tiffany Koyama Lane,-0.0059336755474388644
+2024,3,Heart Free Pham,Jesse Cornett,-0.015956846971111716
+2024,3,Heart Free Pham,Rex Burkholder,-0.018504900998136523
+2024,3,Heart Free Pham,Chris Flanary,-0.0026416599420677964
+2024,3,Heart Free Pham,Cristal Azul Otero,0.0011629514702602359
+2024,3,Heart Free Pham,Philippe Knab,-0.01642300747415372
+2024,3,Heart Free Pham,Kezia Wanner,-0.010059544493656744
+2024,3,Heart Free Pham,Ahlam K Osman,0.012263850841015222
+2024,3,Heart Free Pham,Daniel DeMelo,-0.0011281085780991615
+2024,3,Heart Free Pham,Harrison Kass,-0.007737076929610849
+2024,3,Heart Free Pham,Jonathan (Jon) Walker,0.007692700474307292
+2024,3,Heart Free Pham,Luke Zak,0.011661372423109759
+2024,3,Heart Free Pham,Sandeep Bali,0.06027556014337386
+2024,3,Heart Free Pham,Brian Conley,0.027849215823130324
+2024,3,Heart Free Pham,Melodie Beirwagen,0.07283656917657015
+2024,3,Heart Free Pham,Matthew (Matt) Anderson,0.053815269649473
+2024,3,Heart Free Pham,Theo Hathaway Saner,0.025511070047996007
+2024,3,Heart Free Pham,Dan Gilk,0.02441393185208819
+2024,3,Heart Free Pham,Terry Parker,0.0371814994566754
+2024,3,Heart Free Pham,Kelly Janes (KJ),0.08165528160901957
+2024,3,Heart Free Pham,Christopher Brummer,0.07798088929697887
+2024,3,Heart Free Pham,Kenneth (Kent) R Landgraver III,0.0884172295684016
+2024,3,Heart Free Pham,John Sweeney,0.07663063701299949
+2024,3,Heart Free Pham,Patrick Hilton,0.04464312465113365
+2024,3,Heart Free Pham,Jaclyn Smith-Moore,0.12285475522549853
+2024,3,Heart Free Pham,David O'Connor,0.06992443183463845
+2024,3,Heart Free Pham,Clifford Higgins,0.04991221275894983
+2024,3,Heart Free Pham,Uncertified Write In,0.030574135406640418
+2024,3,Theo Hathaway Saner,Steve Novick,-0.02533786779918587
+2024,3,Theo Hathaway Saner,Angelita Morillo,0.007641639238684113
+2024,3,Theo Hathaway Saner,Tiffany Koyama Lane,0.009560064753157793
+2024,3,Theo Hathaway Saner,Jesse Cornett,-0.016797767142048083
+2024,3,Theo Hathaway Saner,Rex Burkholder,-0.015289618974208715
+2024,3,Theo Hathaway Saner,Chris Flanary,0.045516437206022616
+2024,3,Theo Hathaway Saner,Cristal Azul Otero,-0.014212330747402538
+2024,3,Theo Hathaway Saner,Philippe Knab,-0.02020429718803838
+2024,3,Theo Hathaway Saner,Kezia Wanner,-0.022413486258043347
+2024,3,Theo Hathaway Saner,Ahlam K Osman,0.0712890373816841
+2024,3,Theo Hathaway Saner,Daniel DeMelo,-0.0031507356876289416
+2024,3,Theo Hathaway Saner,Harrison Kass,-0.01633721821962383
+2024,3,Theo Hathaway Saner,Jonathan (Jon) Walker,-0.0032470339812231755
+2024,3,Theo Hathaway Saner,Luke Zak,0.01457857357751572
+2024,3,Theo Hathaway Saner,Sandeep Bali,-0.0072258138220719845
+2024,3,Theo Hathaway Saner,Brian Conley,0.17914541764199768
+2024,3,Theo Hathaway Saner,Melodie Beirwagen,-0.006996488095640796
+2024,3,Theo Hathaway Saner,Matthew (Matt) Anderson,0.003786323251867743
+2024,3,Theo Hathaway Saner,Heart Free Pham,0.024031673415068393
+2024,3,Theo Hathaway Saner,Dan Gilk,-0.005925824838927771
+2024,3,Theo Hathaway Saner,Terry Parker,-0.009196961153015298
+2024,3,Theo Hathaway Saner,Kelly Janes (KJ),0.012315272564689929
+2024,3,Theo Hathaway Saner,Christopher Brummer,0.006880769250028326
+2024,3,Theo Hathaway Saner,Kenneth (Kent) R Landgraver III,0.030566978093658458
+2024,3,Theo Hathaway Saner,John Sweeney,0.020004273904845417
+2024,3,Theo Hathaway Saner,Patrick Hilton,0.0643105794040236
+2024,3,Theo Hathaway Saner,Jaclyn Smith-Moore,0.025840174075344204
+2024,3,Theo Hathaway Saner,David O'Connor,0.02184654175783419
+2024,3,Theo Hathaway Saner,Clifford Higgins,0.06350184839892173
+2024,3,Theo Hathaway Saner,Uncertified Write In,-0.016259470646354454
+2024,3,Dan Gilk,Steve Novick,-0.0164640201219982
+2024,3,Dan Gilk,Angelita Morillo,-0.020226707207670287
+2024,3,Dan Gilk,Tiffany Koyama Lane,-0.016806403998520437
+2024,3,Dan Gilk,Jesse Cornett,-0.013716803071890136
+2024,3,Dan Gilk,Rex Burkholder,-0.006218415000736964
+2024,3,Dan Gilk,Chris Flanary,-0.018460936197966404
+2024,3,Dan Gilk,Cristal Azul Otero,-0.01831606406099198
+2024,3,Dan Gilk,Philippe Knab,-0.012509731963887598
+2024,3,Dan Gilk,Kezia Wanner,0.02126204117408307
+2024,3,Dan Gilk,Ahlam K Osman,-0.01741892237096353
+2024,3,Dan Gilk,Daniel DeMelo,0.019883865515088188
+2024,3,Dan Gilk,Harrison Kass,0.07778679566295736
+2024,3,Dan Gilk,Jonathan (Jon) Walker,0.03107412847362856
+2024,3,Dan Gilk,Luke Zak,-0.0014912029532865925
+2024,3,Dan Gilk,Sandeep Bali,0.09248239549396454
+2024,3,Dan Gilk,Brian Conley,0.00950281603693151
+2024,3,Dan Gilk,Melodie Beirwagen,0.040661828891620955
+2024,3,Dan Gilk,Matthew (Matt) Anderson,0.053289166542528146
+2024,3,Dan Gilk,Heart Free Pham,0.020421060047310542
+2024,3,Dan Gilk,Theo Hathaway Saner,-0.005261796239955721
+2024,3,Dan Gilk,Terry Parker,0.17875650816967387
+2024,3,Dan Gilk,Kelly Janes (KJ),0.013263216707798765
+2024,3,Dan Gilk,Christopher Brummer,0.06327863373847865
+2024,3,Dan Gilk,Kenneth (Kent) R Landgraver III,0.20294256800511157
+2024,3,Dan Gilk,John Sweeney,0.0404210735101202
+2024,3,Dan Gilk,Patrick Hilton,0.06556433332122055
+2024,3,Dan Gilk,Jaclyn Smith-Moore,0.010318914560336657
+2024,3,Dan Gilk,David O'Connor,0.06524916603123812
+2024,3,Dan Gilk,Clifford Higgins,0.03911745872387265
+2024,3,Dan Gilk,Uncertified Write In,-0.010088738100914655
+2024,3,Terry Parker,Steve Novick,-0.01811515800365631
+2024,3,Terry Parker,Angelita Morillo,-0.027578856951133605
+2024,3,Terry Parker,Tiffany Koyama Lane,-0.024094054907222544
+2024,3,Terry Parker,Jesse Cornett,-0.020885965450281978
+2024,3,Terry Parker,Rex Burkholder,-0.021425863881824388
+2024,3,Terry Parker,Chris Flanary,-0.024868670815950244
+2024,3,Terry Parker,Cristal Azul Otero,-0.021431266275559257
+2024,3,Terry Parker,Philippe Knab,-0.020523020131799026
+2024,3,Terry Parker,Kezia Wanner,0.035263404086218975
+2024,3,Terry Parker,Ahlam K Osman,-0.022321381434842497
+2024,3,Terry Parker,Daniel DeMelo,0.011448468922990472
+2024,3,Terry Parker,Harrison Kass,0.10555667014925793
+2024,3,Terry Parker,Jonathan (Jon) Walker,0.023543706559665263
+2024,3,Terry Parker,Luke Zak,-0.012957560935221855
+2024,3,Terry Parker,Sandeep Bali,0.12026092899240493
+2024,3,Terry Parker,Brian Conley,0.003983809595922143
+2024,3,Terry Parker,Melodie Beirwagen,0.08253449780410614
+2024,3,Terry Parker,Matthew (Matt) Anderson,0.07495973671237983
+2024,3,Terry Parker,Heart Free Pham,0.027811602613371046
+2024,3,Terry Parker,Theo Hathaway Saner,-0.007302778515543215
+2024,3,Terry Parker,Dan Gilk,0.1598528646539671
+2024,3,Terry Parker,Kelly Janes (KJ),0.03729890627797973
+2024,3,Terry Parker,Christopher Brummer,0.07921181718467243
+2024,3,Terry Parker,Kenneth (Kent) R Landgraver III,0.2796992358130206
+2024,3,Terry Parker,John Sweeney,0.1463526513931693
+2024,3,Terry Parker,Patrick Hilton,0.06264085257370594
+2024,3,Terry Parker,Jaclyn Smith-Moore,0.04209053229660242
+2024,3,Terry Parker,David O'Connor,0.14066513403983158
+2024,3,Terry Parker,Clifford Higgins,0.05305396333695611
+2024,3,Terry Parker,Uncertified Write In,0.005803774336200107
+2024,3,Kelly Janes (KJ),Steve Novick,-0.014781372649456677
+2024,3,Kelly Janes (KJ),Angelita Morillo,-0.00452343641502646
+2024,3,Kelly Janes (KJ),Tiffany Koyama Lane,-0.0030062592893146597
+2024,3,Kelly Janes (KJ),Jesse Cornett,-0.010446514072651635
+2024,3,Kelly Janes (KJ),Rex Burkholder,-0.011236114877234776
+2024,3,Kelly Janes (KJ),Chris Flanary,-0.001364005754632424
+2024,3,Kelly Janes (KJ),Cristal Azul Otero,0.002139806996084598
+2024,3,Kelly Janes (KJ),Philippe Knab,-0.016141476264803778
+2024,3,Kelly Janes (KJ),Kezia Wanner,0.010228431385784664
+2024,3,Kelly Janes (KJ),Ahlam K Osman,0.012336941831848212
+2024,3,Kelly Janes (KJ),Daniel DeMelo,0.006382867997395333
+2024,3,Kelly Janes (KJ),Harrison Kass,0.002829768280234929
+2024,3,Kelly Janes (KJ),Jonathan (Jon) Walker,0.0061315179870317996
+2024,3,Kelly Janes (KJ),Luke Zak,0.0006394803564030993
+2024,3,Kelly Janes (KJ),Sandeep Bali,0.017069910054734218
+2024,3,Kelly Janes (KJ),Brian Conley,0.010941828085803441
+2024,3,Kelly Janes (KJ),Melodie Beirwagen,0.056969006735104494
+2024,3,Kelly Janes (KJ),Matthew (Matt) Anderson,0.035929851588627715
+2024,3,Kelly Janes (KJ),Heart Free Pham,0.05856835270940902
+2024,3,Kelly Janes (KJ),Theo Hathaway Saner,0.009377075620887305
+2024,3,Kelly Janes (KJ),Dan Gilk,0.011373314263173125
+2024,3,Kelly Janes (KJ),Terry Parker,0.03576643960346468
+2024,3,Kelly Janes (KJ),Christopher Brummer,0.035117976930387304
+2024,3,Kelly Janes (KJ),Kenneth (Kent) R Landgraver III,0.039388568907126206
+2024,3,Kelly Janes (KJ),John Sweeney,0.055144087072019024
+2024,3,Kelly Janes (KJ),Patrick Hilton,0.015437946282858182
+2024,3,Kelly Janes (KJ),Jaclyn Smith-Moore,0.126320318276807
+2024,3,Kelly Janes (KJ),David O'Connor,0.07449853040195882
+2024,3,Kelly Janes (KJ),Clifford Higgins,0.011328496192527043
+2024,3,Kelly Janes (KJ),Uncertified Write In,-0.0018175563916832949
+2024,3,Christopher Brummer,Steve Novick,-0.00912833804843995
+2024,3,Christopher Brummer,Angelita Morillo,-0.008134577258432708
+2024,3,Christopher Brummer,Tiffany Koyama Lane,-0.00568810902779698
+2024,3,Christopher Brummer,Jesse Cornett,-0.010478162017334262
+2024,3,Christopher Brummer,Rex Burkholder,-0.010647549199428967
+2024,3,Christopher Brummer,Chris Flanary,-0.0046036408665303535
+2024,3,Christopher Brummer,Cristal Azul Otero,-0.00557689021228373
+2024,3,Christopher Brummer,Philippe Knab,-0.002115404617260744
+2024,3,Christopher Brummer,Kezia Wanner,-0.006438995024821252
+2024,3,Christopher Brummer,Ahlam K Osman,-0.0017946462051160773
+2024,3,Christopher Brummer,Daniel DeMelo,-0.001615320099003146
+2024,3,Christopher Brummer,Harrison Kass,0.009772085198469248
+2024,3,Christopher Brummer,Jonathan (Jon) Walker,0.01386870034558315
+2024,3,Christopher Brummer,Luke Zak,0.0013596586259307757
+2024,3,Christopher Brummer,Sandeep Bali,0.004663477407601591
+2024,3,Christopher Brummer,Brian Conley,0.01845340444951802
+2024,3,Christopher Brummer,Melodie Beirwagen,0.036396117170445226
+2024,3,Christopher Brummer,Matthew (Matt) Anderson,0.0437091023980358
+2024,3,Christopher Brummer,Heart Free Pham,0.03988653717648785
+2024,3,Christopher Brummer,Theo Hathaway Saner,0.003736111303419637
+2024,3,Christopher Brummer,Dan Gilk,0.038694985615159154
+2024,3,Christopher Brummer,Terry Parker,0.05416628013271277
+2024,3,Christopher Brummer,Kelly Janes (KJ),0.02504314748314504
+2024,3,Christopher Brummer,Kenneth (Kent) R Landgraver III,0.04680541942360657
+2024,3,Christopher Brummer,John Sweeney,0.07433046255482646
+2024,3,Christopher Brummer,Patrick Hilton,0.03549266746373631
+2024,3,Christopher Brummer,Jaclyn Smith-Moore,0.049080152078622624
+2024,3,Christopher Brummer,David O'Connor,0.1412061613784265
+2024,3,Christopher Brummer,Clifford Higgins,0.05851545722931398
+2024,3,Christopher Brummer,Uncertified Write In,0.01627528826863814
+2024,3,Kenneth (Kent) R Landgraver III,Steve Novick,-0.011167601102586968
+2024,3,Kenneth (Kent) R Landgraver III,Angelita Morillo,-0.014067314535637967
+2024,3,Kenneth (Kent) R Landgraver III,Tiffany Koyama Lane,-0.01173435262913039
+2024,3,Kenneth (Kent) R Landgraver III,Jesse Cornett,-0.009455114926006718
+2024,3,Kenneth (Kent) R Landgraver III,Rex Burkholder,-0.009569143363367885
+2024,3,Kenneth (Kent) R Landgraver III,Chris Flanary,-0.010871880539431373
+2024,3,Kenneth (Kent) R Landgraver III,Cristal Azul Otero,-0.008152377178233092
+2024,3,Kenneth (Kent) R Landgraver III,Philippe Knab,-0.009997919835173572
+2024,3,Kenneth (Kent) R Landgraver III,Kezia Wanner,0.01238704884318445
+2024,3,Kenneth (Kent) R Landgraver III,Ahlam K Osman,-0.006531386911668857
+2024,3,Kenneth (Kent) R Landgraver III,Daniel DeMelo,-9.022980525729557e-05
+2024,3,Kenneth (Kent) R Landgraver III,Harrison Kass,0.04128085497616689
+2024,3,Kenneth (Kent) R Landgraver III,Jonathan (Jon) Walker,0.005487447608298935
+2024,3,Kenneth (Kent) R Landgraver III,Luke Zak,-0.005105891432336456
+2024,3,Kenneth (Kent) R Landgraver III,Sandeep Bali,0.055458933019439514
+2024,3,Kenneth (Kent) R Landgraver III,Brian Conley,0.006711859890403526
+2024,3,Kenneth (Kent) R Landgraver III,Melodie Beirwagen,0.02705811639612101
+2024,3,Kenneth (Kent) R Landgraver III,Matthew (Matt) Anderson,0.04429147813170362
+2024,3,Kenneth (Kent) R Landgraver III,Heart Free Pham,0.04184578128424351
+2024,3,Kenneth (Kent) R Landgraver III,Theo Hathaway Saner,0.015357196653579895
+2024,3,Kenneth (Kent) R Landgraver III,Dan Gilk,0.11482788751982509
+2024,3,Kenneth (Kent) R Landgraver III,Terry Parker,0.17697297128433706
+2024,3,Kenneth (Kent) R Landgraver III,Kelly Janes (KJ),0.0259899983362595
+2024,3,Kenneth (Kent) R Landgraver III,Christopher Brummer,0.043308462800003784
+2024,3,Kenneth (Kent) R Landgraver III,John Sweeney,0.07539274696888798
+2024,3,Kenneth (Kent) R Landgraver III,Patrick Hilton,0.02829274593514309
+2024,3,Kenneth (Kent) R Landgraver III,Jaclyn Smith-Moore,0.02082786972100517
+2024,3,Kenneth (Kent) R Landgraver III,David O'Connor,0.05054464339166156
+2024,3,Kenneth (Kent) R Landgraver III,Clifford Higgins,0.04417540043703332
+2024,3,Kenneth (Kent) R Landgraver III,Uncertified Write In,0.004494241712398428
+2024,3,John Sweeney,Steve Novick,-0.004860790222737462
+2024,3,John Sweeney,Angelita Morillo,-0.012049458247316236
+2024,3,John Sweeney,Tiffany Koyama Lane,-0.010484567906345152
+2024,3,John Sweeney,Jesse Cornett,-0.008978147061216295
+2024,3,John Sweeney,Rex Burkholder,-0.006074377345602068
+2024,3,John Sweeney,Chris Flanary,-0.010202145997391112
+2024,3,John Sweeney,Cristal Azul Otero,-0.00855727650879062
+2024,3,John Sweeney,Philippe Knab,-0.011621472231150539
+2024,3,John Sweeney,Kezia Wanner,0.0023063969125670415
+2024,3,John Sweeney,Ahlam K Osman,-0.0074980449849502955
+2024,3,John Sweeney,Daniel DeMelo,0.0048291974928216935
+2024,3,John Sweeney,Harrison Kass,0.017315824719432688
+2024,3,John Sweeney,Jonathan (Jon) Walker,0.011086809643648669
+2024,3,John Sweeney,Luke Zak,0.0009051102976619409
+2024,3,John Sweeney,Sandeep Bali,0.013072504982792284
+2024,3,John Sweeney,Brian Conley,0.012075620728613599
+2024,3,John Sweeney,Melodie Beirwagen,0.011867370323844384
+2024,3,John Sweeney,Matthew (Matt) Anderson,0.04024283726006243
+2024,3,John Sweeney,Heart Free Pham,0.03251989619899605
+2024,3,John Sweeney,Theo Hathaway Saner,0.009011854456991354
+2024,3,John Sweeney,Dan Gilk,0.02050756061791402
+2024,3,John Sweeney,Terry Parker,0.08303251533131578
+2024,3,John Sweeney,Kelly Janes (KJ),0.0326262333347117
+2024,3,John Sweeney,Christopher Brummer,0.06167020613221757
+2024,3,John Sweeney,Kenneth (Kent) R Landgraver III,0.0676023050178397
+2024,3,John Sweeney,Patrick Hilton,0.05234586693382771
+2024,3,John Sweeney,Jaclyn Smith-Moore,0.03343884827354245
+2024,3,John Sweeney,David O'Connor,0.15400090275014494
+2024,3,John Sweeney,Clifford Higgins,0.07840482479483016
+2024,3,John Sweeney,Uncertified Write In,0.020132591705897797
+2024,3,Patrick Hilton,Steve Novick,-0.008292863273331426
+2024,3,Patrick Hilton,Angelita Morillo,-0.008684006728935694
+2024,3,Patrick Hilton,Tiffany Koyama Lane,-0.0072280792085207945
+2024,3,Patrick Hilton,Jesse Cornett,-0.006754616706357672
+2024,3,Patrick Hilton,Rex Burkholder,-0.002435912485180358
+2024,3,Patrick Hilton,Chris Flanary,-0.0050929922917270845
+2024,3,Patrick Hilton,Cristal Azul Otero,-0.007357382418656442
+2024,3,Patrick Hilton,Philippe Knab,-0.004396139219171013
+2024,3,Patrick Hilton,Kezia Wanner,-0.0019655425505488346
+2024,3,Patrick Hilton,Ahlam K Osman,-0.006419284607725732
+2024,3,Patrick Hilton,Daniel DeMelo,0.005402013371276618
+2024,3,Patrick Hilton,Harrison Kass,0.01924038269294136
+2024,3,Patrick Hilton,Jonathan (Jon) Walker,0.012005324932024334
+2024,3,Patrick Hilton,Luke Zak,-0.0019158818571465615
+2024,3,Patrick Hilton,Sandeep Bali,0.009735778386615719
+2024,3,Patrick Hilton,Brian Conley,0.03403665465566175
+2024,3,Patrick Hilton,Melodie Beirwagen,0.015466907955651154
+2024,3,Patrick Hilton,Matthew (Matt) Anderson,0.04994497072786187
+2024,3,Patrick Hilton,Heart Free Pham,0.017442075959368624
+2024,3,Patrick Hilton,Theo Hathaway Saner,0.02667292683366879
+2024,3,Patrick Hilton,Dan Gilk,0.030624618311701098
+2024,3,Patrick Hilton,Terry Parker,0.0327191591506817
+2024,3,Patrick Hilton,Kelly Janes (KJ),0.00840919428671336
+2024,3,Patrick Hilton,Christopher Brummer,0.027110909003125645
+2024,3,Patrick Hilton,Kenneth (Kent) R Landgraver III,0.023356292804731334
+2024,3,Patrick Hilton,John Sweeney,0.04819247950708823
+2024,3,Patrick Hilton,Jaclyn Smith-Moore,0.04885728448593375
+2024,3,Patrick Hilton,David O'Connor,0.07704091826950447
+2024,3,Patrick Hilton,Clifford Higgins,0.1099558046460311
+2024,3,Patrick Hilton,Uncertified Write In,0.006653391436378265
+2024,3,Jaclyn Smith-Moore,Steve Novick,-0.009469919553102939
+2024,3,Jaclyn Smith-Moore,Angelita Morillo,-0.0015309491439610533
+2024,3,Jaclyn Smith-Moore,Tiffany Koyama Lane,-0.0002066914020811897
+2024,3,Jaclyn Smith-Moore,Jesse Cornett,-0.009313951485971736
+2024,3,Jaclyn Smith-Moore,Rex Burkholder,-0.009832382508882409
+2024,3,Jaclyn Smith-Moore,Chris Flanary,-0.00690808712997743
+2024,3,Jaclyn Smith-Moore,Cristal Azul Otero,0.008177450856117801
+2024,3,Jaclyn Smith-Moore,Philippe Knab,-0.011461395894768833
+2024,3,Jaclyn Smith-Moore,Kezia Wanner,0.0005031447995897699
+2024,3,Jaclyn Smith-Moore,Ahlam K Osman,-0.000836776721534125
+2024,3,Jaclyn Smith-Moore,Daniel DeMelo,-0.002302366958313786
+2024,3,Jaclyn Smith-Moore,Harrison Kass,-0.005172786288563271
+2024,3,Jaclyn Smith-Moore,Jonathan (Jon) Walker,0.0007516073181191782
+2024,3,Jaclyn Smith-Moore,Luke Zak,-0.001142098022882513
+2024,3,Jaclyn Smith-Moore,Sandeep Bali,0.005353760911652083
+2024,3,Jaclyn Smith-Moore,Brian Conley,0.008116881510316448
+2024,3,Jaclyn Smith-Moore,Melodie Beirwagen,0.055352810048883955
+2024,3,Jaclyn Smith-Moore,Matthew (Matt) Anderson,0.010749723383146028
+2024,3,Jaclyn Smith-Moore,Heart Free Pham,0.04714575855259644
+2024,3,Jaclyn Smith-Moore,Theo Hathaway Saner,0.010526663821899086
+2024,3,Jaclyn Smith-Moore,Dan Gilk,0.004734172942058603
+2024,3,Jaclyn Smith-Moore,Terry Parker,0.021594142328660623
+2024,3,Jaclyn Smith-Moore,Kelly Janes (KJ),0.06758419413021419
+2024,3,Jaclyn Smith-Moore,Christopher Brummer,0.036822935415309344
+2024,3,Jaclyn Smith-Moore,Kenneth (Kent) R Landgraver III,0.016888097639392106
+2024,3,Jaclyn Smith-Moore,John Sweeney,0.030238152469022013
+2024,3,Jaclyn Smith-Moore,Patrick Hilton,0.04798841348960388
+2024,3,Jaclyn Smith-Moore,David O'Connor,0.10018867513279375
+2024,3,Jaclyn Smith-Moore,Clifford Higgins,0.09823939424728888
+2024,3,Jaclyn Smith-Moore,Uncertified Write In,0.0009730051817326106
+2024,3,David O'Connor,Steve Novick,-0.005194850874992303
+2024,3,David O'Connor,Angelita Morillo,-0.006859965365070682
+2024,3,David O'Connor,Tiffany Koyama Lane,-0.005855231256565319
+2024,3,David O'Connor,Jesse Cornett,-0.006563362709440681
+2024,3,David O'Connor,Rex Burkholder,-0.004245025917692506
+2024,3,David O'Connor,Chris Flanary,-0.0032793827600274567
+2024,3,David O'Connor,Cristal Azul Otero,-0.00774453887156394
+2024,3,David O'Connor,Philippe Knab,-0.004695752259684416
+2024,3,David O'Connor,Kezia Wanner,-0.004351370882217655
+2024,3,David O'Connor,Ahlam K Osman,-0.005074197390603159
+2024,3,David O'Connor,Daniel DeMelo,-0.0022338562172865475
+2024,3,David O'Connor,Harrison Kass,0.005866588207708676
+2024,3,David O'Connor,Jonathan (Jon) Walker,0.01567195167036911
+2024,3,David O'Connor,Luke Zak,0.0019528029035860359
+2024,3,David O'Connor,Sandeep Bali,0.004912541540269325
+2024,3,David O'Connor,Brian Conley,0.01799060062363345
+2024,3,David O'Connor,Melodie Beirwagen,0.008685117539374398
+2024,3,David O'Connor,Matthew (Matt) Anderson,0.02581242981184592
+2024,3,David O'Connor,Heart Free Pham,0.01881718408804942
+2024,3,David O'Connor,Theo Hathaway Saner,0.006240983702167101
+2024,3,David O'Connor,Dan Gilk,0.020992303576184278
+2024,3,David O'Connor,Terry Parker,0.05060728473673112
+2024,3,David O'Connor,Kelly Janes (KJ),0.02795082716645772
+2024,3,David O'Connor,Christopher Brummer,0.07429185188509692
+2024,3,David O'Connor,Kenneth (Kent) R Landgraver III,0.02873995251010908
+2024,3,David O'Connor,John Sweeney,0.09765674374647101
+2024,3,David O'Connor,Patrick Hilton,0.05306443549753147
+2024,3,David O'Connor,Jaclyn Smith-Moore,0.0702576572832335
+2024,3,David O'Connor,Clifford Higgins,0.09028936415100805
+2024,3,David O'Connor,Uncertified Write In,-0.007424026702555369
+2024,3,Clifford Higgins,Steve Novick,-0.005244644479347668
+2024,3,Clifford Higgins,Angelita Morillo,-0.004057433098712908
+2024,3,Clifford Higgins,Tiffany Koyama Lane,-0.0028060261391970875
+2024,3,Clifford Higgins,Jesse Cornett,-0.00400401850686923
+2024,3,Clifford Higgins,Rex Burkholder,-0.0016159520014041358
+2024,3,Clifford Higgins,Chris Flanary,-0.00201503867745108
+2024,3,Clifford Higgins,Cristal Azul Otero,-0.0032735660905824967
+2024,3,Clifford Higgins,Philippe Knab,-0.0020292295190706966
+2024,3,Clifford Higgins,Kezia Wanner,-0.0063544769995525704
+2024,3,Clifford Higgins,Ahlam K Osman,0.0014610406241197665
+2024,3,Clifford Higgins,Daniel DeMelo,0.006385402908638333
+2024,3,Clifford Higgins,Harrison Kass,0.00044342405434728317
+2024,3,Clifford Higgins,Jonathan (Jon) Walker,0.0029579288220505755
+2024,3,Clifford Higgins,Luke Zak,-0.0017864127529342803
+2024,3,Clifford Higgins,Sandeep Bali,5.351427108430014e-05
+2024,3,Clifford Higgins,Brian Conley,0.01969632296429087
+2024,3,Clifford Higgins,Melodie Beirwagen,0.005871899482371601
+2024,3,Clifford Higgins,Matthew (Matt) Anderson,0.02924781459096431
+2024,3,Clifford Higgins,Heart Free Pham,0.01331170185286797
+2024,3,Clifford Higgins,Theo Hathaway Saner,0.017978679348120252
+2024,3,Clifford Higgins,Dan Gilk,0.01247259546531147
+2024,3,Clifford Higgins,Terry Parker,0.018916704326646015
+2024,3,Clifford Higgins,Kelly Janes (KJ),0.00421230968708718
+2024,3,Clifford Higgins,Christopher Brummer,0.030511194521868
+2024,3,Clifford Higgins,Kenneth (Kent) R Landgraver III,0.02489387331234289
+2024,3,Clifford Higgins,John Sweeney,0.04927456873125975
+2024,3,Clifford Higgins,Patrick Hilton,0.07505875036712657
+2024,3,Clifford Higgins,Jaclyn Smith-Moore,0.06827501076517709
+2024,3,Clifford Higgins,David O'Connor,0.08948240856276667
+2024,3,Clifford Higgins,Uncertified Write In,0.006155517161854484
+2024,3,Uncertified Write In,Steve Novick,-0.0032935568724278335
+2024,3,Uncertified Write In,Angelita Morillo,-0.0041126129044750815
+2024,3,Uncertified Write In,Tiffany Koyama Lane,-0.003239173928292676
+2024,3,Uncertified Write In,Jesse Cornett,-0.004145002910713845
+2024,3,Uncertified Write In,Rex Burkholder,-0.004938181797721064
+2024,3,Uncertified Write In,Chris Flanary,-0.004237384364432531
+2024,3,Uncertified Write In,Cristal Azul Otero,-0.00538222120223213
+2024,3,Uncertified Write In,Philippe Knab,-0.0050366856800127206
+2024,3,Uncertified Write In,Kezia Wanner,-0.002707112501558362
+2024,3,Uncertified Write In,Ahlam K Osman,-0.004442288819280913
+2024,3,Uncertified Write In,Daniel DeMelo,-0.002562577029282115
+2024,3,Uncertified Write In,Harrison Kass,0.0005531956937367809
+2024,3,Uncertified Write In,Jonathan (Jon) Walker,-0.0021804791571992657
+2024,3,Uncertified Write In,Luke Zak,-0.0021936322046723217
+2024,3,Uncertified Write In,Sandeep Bali,-0.0008694396220217991
+2024,3,Uncertified Write In,Brian Conley,-0.003585994985792017
+2024,3,Uncertified Write In,Melodie Beirwagen,0.002801673726413472
+2024,3,Uncertified Write In,Matthew (Matt) Anderson,0.0009731304378217814
+2024,3,Uncertified Write In,Heart Free Pham,0.005457916208347357
+2024,3,Uncertified Write In,Theo Hathaway Saner,-0.003081227345181496
+2024,3,Uncertified Write In,Dan Gilk,-0.0021531236585977604
+2024,3,Uncertified Write In,Terry Parker,0.0013851094164278929
+2024,3,Uncertified Write In,Kelly Janes (KJ),-0.0004523575520284798
+2024,3,Uncertified Write In,Christopher Brummer,0.005680194651750405
+2024,3,Uncertified Write In,Kenneth (Kent) R Landgraver III,0.0016951741749758054
+2024,3,Uncertified Write In,John Sweeney,0.00846887358913081
+2024,3,Uncertified Write In,Patrick Hilton,0.0030399900680579215
+2024,3,Uncertified Write In,Jaclyn Smith-Moore,0.00045262358036029723
+2024,3,Uncertified Write In,David O'Connor,-0.0049247764024895595
+2024,3,Uncertified Write In,Clifford Higgins,0.004120125715549896
+2024,4,Olivia Clark,Eric Zimmerman,0.20861108960399888
+2024,4,Olivia Clark,Eli Arnold,0.16531814412182222
+2024,4,Olivia Clark,Mitch Green,-0.04604230038389123
+2024,4,Olivia Clark,Sarah Silkie,0.029752015553222155
+2024,4,Olivia Clark,Chad Lykins,-0.12053414722318323
+2024,4,Olivia Clark,Lisa Freeman,-0.09109167079007546
+2024,4,Olivia Clark,Bob Weinstein,0.10168982620366207
+2024,4,Olivia Clark,Tony Morse,0.05517737370976106
+2024,4,Olivia Clark,Ben Hufford,0.01645906409748288
+2024,4,Olivia Clark,Stanley Penkin,0.050359342249464145
+2024,4,Olivia Clark,John Toran,-0.04301149849332164
+2024,4,Olivia Clark,Andra Vltavin,-0.31233706449516757
+2024,4,Olivia Clark,Bob Callahan,-0.10415091635649038
+2024,4,Olivia Clark,Chloe Mason,-0.12494044483861483
+2024,4,Olivia Clark,Kevin Goldsmith,-0.23650804781485918
+2024,4,Olivia Clark,Ciatta R Thompson,-0.15754658043478365
+2024,4,Olivia Clark,Moses Ross,-0.07263419066230548
+2024,4,Olivia Clark,Chris Henry,-0.336664652644447
+2024,4,Olivia Clark,Mike DiNapoli,-0.28634454990491004
+2024,4,Olivia Clark,Michael Trimble,-0.282131514594841
+2024,4,Olivia Clark,Joseph (Joe) Alfone,-0.20920638579222428
+2024,4,Olivia Clark,Raquel Coyote,-0.10096233356035822
+2024,4,Olivia Clark,John J Goldsmith,-0.32471863482488317
+2024,4,Olivia Clark,Kelly Doyle,-0.06617757930201895
+2024,4,Olivia Clark,Brandon Farley,-0.3571419669321827
+2024,4,Olivia Clark,Tony Schwartz,-0.23994451813979745
+2024,4,Olivia Clark,Patrick Cashman,-0.3834388342199888
+2024,4,Olivia Clark,Lee Odell,-0.3451121281612972
+2024,4,Olivia Clark,Uncertified Write In,-0.31268680700358165
+2024,4,Olivia Clark,L Christopher Regis,-0.1325961847164276
+2024,4,Eric Zimmerman,Olivia Clark,0.16950545143777201
+2024,4,Eric Zimmerman,Eli Arnold,0.2524188602802883
+2024,4,Eric Zimmerman,Mitch Green,-0.09970386430158784
+2024,4,Eric Zimmerman,Sarah Silkie,-0.049246667456812054
+2024,4,Eric Zimmerman,Chad Lykins,-0.17614632447354744
+2024,4,Eric Zimmerman,Lisa Freeman,-0.2084567072744712
+2024,4,Eric Zimmerman,Bob Weinstein,0.16189456631223426
+2024,4,Eric Zimmerman,Tony Morse,-0.0014340134720539077
+2024,4,Eric Zimmerman,Ben Hufford,0.08927950631472875
+2024,4,Eric Zimmerman,Stanley Penkin,0.058309422017865875
+2024,4,Eric Zimmerman,John Toran,0.01820924766928178
+2024,4,Eric Zimmerman,Andra Vltavin,-0.38653474429213575
+2024,4,Eric Zimmerman,Bob Callahan,-0.03156568291739631
+2024,4,Eric Zimmerman,Chloe Mason,-0.2494800886585734
+2024,4,Eric Zimmerman,Kevin Goldsmith,-0.156464394296554
+2024,4,Eric Zimmerman,Ciatta R Thompson,-0.194174525047362
+2024,4,Eric Zimmerman,Moses Ross,-0.14297047016142195
+2024,4,Eric Zimmerman,Chris Henry,-0.3318647540161155
+2024,4,Eric Zimmerman,Mike DiNapoli,-0.29384731291932153
+2024,4,Eric Zimmerman,Michael Trimble,-0.25141497714618843
+2024,4,Eric Zimmerman,Joseph (Joe) Alfone,-0.2314205087108463
+2024,4,Eric Zimmerman,Raquel Coyote,-0.30691066680136087
+2024,4,Eric Zimmerman,John J Goldsmith,-0.25390528402624124
+2024,4,Eric Zimmerman,Kelly Doyle,-0.3318729627559386
+2024,4,Eric Zimmerman,Brandon Farley,-0.15084109405309298
+2024,4,Eric Zimmerman,Tony Schwartz,-0.14116884437145433
+2024,4,Eric Zimmerman,Patrick Cashman,-0.13709701244779887
+2024,4,Eric Zimmerman,Lee Odell,-0.29568707525206506
+2024,4,Eric Zimmerman,Uncertified Write In,-0.26816295617865027
+2024,4,Eric Zimmerman,L Christopher Regis,-0.2706931812522279
+2024,4,Eli Arnold,Olivia Clark,0.1266665023737072
+2024,4,Eli Arnold,Eric Zimmerman,0.2380218247438966
+2024,4,Eli Arnold,Mitch Green,-0.11854768952352684
+2024,4,Eli Arnold,Sarah Silkie,-0.09856387173907838
+2024,4,Eli Arnold,Chad Lykins,-0.1997369583488236
+2024,4,Eli Arnold,Lisa Freeman,-0.24527717558888593
+2024,4,Eli Arnold,Bob Weinstein,0.1892982632276588
+2024,4,Eli Arnold,Tony Morse,-0.044411224083331036
+2024,4,Eli Arnold,Ben Hufford,0.13100721680632926
+2024,4,Eli Arnold,Stanley Penkin,0.09251413229877742
+2024,4,Eli Arnold,John Toran,0.07210085513960135
+2024,4,Eli Arnold,Andra Vltavin,-0.37721551562466105
+2024,4,Eli Arnold,Bob Callahan,0.07213248369739506
+2024,4,Eli Arnold,Chloe Mason,-0.25209549490908556
+2024,4,Eli Arnold,Kevin Goldsmith,-0.030047688283042107
+2024,4,Eli Arnold,Ciatta R Thompson,-0.18028795134074466
+2024,4,Eli Arnold,Moses Ross,-0.20825490419724096
+2024,4,Eli Arnold,Chris Henry,-0.33143999652217404
+2024,4,Eli Arnold,Mike DiNapoli,-0.2698713769550171
+2024,4,Eli Arnold,Michael Trimble,-0.25427923238251826
+2024,4,Eli Arnold,Joseph (Joe) Alfone,-0.24688978350807145
+2024,4,Eli Arnold,Raquel Coyote,-0.33298792491125395
+2024,4,Eli Arnold,John J Goldsmith,-0.24641940844964536
+2024,4,Eli Arnold,Kelly Doyle,-0.2669494741778733
+2024,4,Eli Arnold,Brandon Farley,-0.0900456375748413
+2024,4,Eli Arnold,Tony Schwartz,-0.25521582600159665
+2024,4,Eli Arnold,Patrick Cashman,-0.039868009563848505
+2024,4,Eli Arnold,Lee Odell,-0.23238517647619916
+2024,4,Eli Arnold,Uncertified Write In,-0.18407824084531987
+2024,4,Eli Arnold,L Christopher Regis,-0.12777808627926934
+2024,4,Mitch Green,Olivia Clark,-0.033655032221765635
+2024,4,Mitch Green,Eric Zimmerman,-0.08969303280927188
+2024,4,Mitch Green,Eli Arnold,-0.11309537200964015
+2024,4,Mitch Green,Sarah Silkie,0.21300259196378418
+2024,4,Mitch Green,Chad Lykins,0.22113780658134546
+2024,4,Mitch Green,Lisa Freeman,0.17453568792739943
+2024,4,Mitch Green,Bob Weinstein,-0.019181399915822073
+2024,4,Mitch Green,Tony Morse,-0.01194494986388328
+2024,4,Mitch Green,Ben Hufford,-0.19356420363391813
+2024,4,Mitch Green,Stanley Penkin,-0.1497306436503476
+2024,4,Mitch Green,John Toran,-0.17077298151558473
+2024,4,Mitch Green,Andra Vltavin,0.18998207714457188
+2024,4,Mitch Green,Bob Callahan,-0.1973526864125721
+2024,4,Mitch Green,Chloe Mason,-0.08155041436346233
+2024,4,Mitch Green,Kevin Goldsmith,-0.12499709585114332
+2024,4,Mitch Green,Ciatta R Thompson,-0.040935347170322045
+2024,4,Mitch Green,Moses Ross,-0.007650642309770361
+2024,4,Mitch Green,Chris Henry,0.20073444748478048
+2024,4,Mitch Green,Mike DiNapoli,0.043795617362613226
+2024,4,Mitch Green,Michael Trimble,-0.05248012118430789
+2024,4,Mitch Green,Joseph (Joe) Alfone,-0.09903278061094922
+2024,4,Mitch Green,Raquel Coyote,-0.24777017147166422
+2024,4,Mitch Green,John J Goldsmith,-0.17439025506132017
+2024,4,Mitch Green,Kelly Doyle,-0.2142473013805831
+2024,4,Mitch Green,Brandon Farley,-0.20553966964333475
+2024,4,Mitch Green,Tony Schwartz,-0.12931101064611905
+2024,4,Mitch Green,Patrick Cashman,-0.1787339879844171
+2024,4,Mitch Green,Lee Odell,-0.08485998465632777
+2024,4,Mitch Green,Uncertified Write In,-0.21459566368778143
+2024,4,Mitch Green,L Christopher Regis,-0.1705972728685814
+2024,4,Sarah Silkie,Olivia Clark,0.021086712228949978
+2024,4,Sarah Silkie,Eric Zimmerman,-0.04295592220872835
+2024,4,Sarah Silkie,Eli Arnold,-0.09117357335282167
+2024,4,Sarah Silkie,Mitch Green,0.20653058269308722
+2024,4,Sarah Silkie,Chad Lykins,0.15649997203539634
+2024,4,Sarah Silkie,Lisa Freeman,0.12695928484629881
+2024,4,Sarah Silkie,Bob Weinstein,-0.015409329649926584
+2024,4,Sarah Silkie,Tony Morse,-0.06189578786294436
+2024,4,Sarah Silkie,Ben Hufford,-0.15595575847083337
+2024,4,Sarah Silkie,Stanley Penkin,-0.154616415181915
+2024,4,Sarah Silkie,John Toran,-0.15444967532652432
+2024,4,Sarah Silkie,Andra Vltavin,0.18385019518951784
+2024,4,Sarah Silkie,Bob Callahan,-0.17330672206861522
+2024,4,Sarah Silkie,Chloe Mason,-0.000322192964677559
+2024,4,Sarah Silkie,Kevin Goldsmith,-0.1771084275063053
+2024,4,Sarah Silkie,Ciatta R Thompson,0.043856070482688914
+2024,4,Sarah Silkie,Moses Ross,0.07072851414452874
+2024,4,Sarah Silkie,Chris Henry,0.14067364901330282
+2024,4,Sarah Silkie,Mike DiNapoli,0.02456011845003009
+2024,4,Sarah Silkie,Michael Trimble,-0.08303530232925038
+2024,4,Sarah Silkie,Joseph (Joe) Alfone,-0.10640449285023296
+2024,4,Sarah Silkie,Raquel Coyote,0.006853347096036966
+2024,4,Sarah Silkie,John J Goldsmith,-0.21188419277637136
+2024,4,Sarah Silkie,Kelly Doyle,-0.03650445690207044
+2024,4,Sarah Silkie,Brandon Farley,-0.19591681264222324
+2024,4,Sarah Silkie,Tony Schwartz,-0.16645759527156428
+2024,4,Sarah Silkie,Patrick Cashman,-0.2342485108635057
+2024,4,Sarah Silkie,Lee Odell,-0.2548715159712557
+2024,4,Sarah Silkie,Uncertified Write In,-0.24729614924095938
+2024,4,Sarah Silkie,L Christopher Regis,-0.09970674442612104
+2024,4,Chad Lykins,Olivia Clark,-0.06778762581252046
+2024,4,Chad Lykins,Eric Zimmerman,-0.12191794416408475
+2024,4,Chad Lykins,Eli Arnold,-0.1466079423750474
+2024,4,Chad Lykins,Mitch Green,0.17014152639643937
+2024,4,Chad Lykins,Sarah Silkie,0.12418298913998194
+2024,4,Chad Lykins,Lisa Freeman,0.20187878493736616
+2024,4,Chad Lykins,Bob Weinstein,-0.139784606922967
+2024,4,Chad Lykins,Tony Morse,0.019436104731490933
+2024,4,Chad Lykins,Ben Hufford,-0.08674320067615929
+2024,4,Chad Lykins,Stanley Penkin,-0.10724885416306146
+2024,4,Chad Lykins,John Toran,-0.10658327155907912
+2024,4,Chad Lykins,Andra Vltavin,0.152315551825826
+2024,4,Chad Lykins,Bob Callahan,-0.11478726867860789
+2024,4,Chad Lykins,Chloe Mason,-0.05996053702711002
+2024,4,Chad Lykins,Kevin Goldsmith,-0.12163324560656363
+2024,4,Chad Lykins,Ciatta R Thompson,-0.04199535294896911
+2024,4,Chad Lykins,Moses Ross,0.04738373790287581
+2024,4,Chad Lykins,Chris Henry,0.18439939798470023
+2024,4,Chad Lykins,Mike DiNapoli,0.04348825645523818
+2024,4,Chad Lykins,Michael Trimble,-0.035589371404440795
+2024,4,Chad Lykins,Joseph (Joe) Alfone,-0.05178356139097262
+2024,4,Chad Lykins,Raquel Coyote,-0.19271491019754422
+2024,4,Chad Lykins,John J Goldsmith,-0.19126375033766727
+2024,4,Chad Lykins,Kelly Doyle,-0.17524767944878625
+2024,4,Chad Lykins,Brandon Farley,-0.12468932561324861
+2024,4,Chad Lykins,Tony Schwartz,-0.10825594407604888
+2024,4,Chad Lykins,Patrick Cashman,-0.1480094764904202
+2024,4,Chad Lykins,Lee Odell,-0.18115204341350666
+2024,4,Chad Lykins,Uncertified Write In,-0.18120363501439404
+2024,4,Chad Lykins,L Christopher Regis,-0.1377451667004344
+2024,4,Lisa Freeman,Olivia Clark,-0.04361438165203835
+2024,4,Lisa Freeman,Eric Zimmerman,-0.12283458038846354
+2024,4,Lisa Freeman,Eli Arnold,-0.15327344925643396
+2024,4,Lisa Freeman,Mitch Green,0.11432528612718673
+2024,4,Lisa Freeman,Sarah Silkie,0.08576755707772682
+2024,4,Lisa Freeman,Chad Lykins,0.17187052752170684
+2024,4,Lisa Freeman,Bob Weinstein,-0.12095460938670022
+2024,4,Lisa Freeman,Tony Morse,-0.011102605271641086
+2024,4,Lisa Freeman,Ben Hufford,-0.08424594670384691
+2024,4,Lisa Freeman,Stanley Penkin,-0.08557609629300345
+2024,4,Lisa Freeman,John Toran,-0.08506355783269132
+2024,4,Lisa Freeman,Andra Vltavin,0.23970489789624877
+2024,4,Lisa Freeman,Bob Callahan,-0.05005690987493125
+2024,4,Lisa Freeman,Chloe Mason,0.16200943765981196
+2024,4,Lisa Freeman,Kevin Goldsmith,-0.08967894785620978
+2024,4,Lisa Freeman,Ciatta R Thompson,0.10323713636259374
+2024,4,Lisa Freeman,Moses Ross,0.11248844531935187
+2024,4,Lisa Freeman,Chris Henry,0.2136521107975744
+2024,4,Lisa Freeman,Mike DiNapoli,0.19104778769968866
+2024,4,Lisa Freeman,Michael Trimble,0.08910062784492756
+2024,4,Lisa Freeman,Joseph (Joe) Alfone,0.03839294832294027
+2024,4,Lisa Freeman,Raquel Coyote,0.10393988790239883
+2024,4,Lisa Freeman,John J Goldsmith,-0.09279084162027146
+2024,4,Lisa Freeman,Kelly Doyle,0.14512555075430328
+2024,4,Lisa Freeman,Brandon Farley,-0.08813243936857881
+2024,4,Lisa Freeman,Tony Schwartz,-0.021613801739345684
+2024,4,Lisa Freeman,Patrick Cashman,-0.04993784681615876
+2024,4,Lisa Freeman,Lee Odell,-0.10998384547005813
+2024,4,Lisa Freeman,Uncertified Write In,-0.07150510980822386
+2024,4,Lisa Freeman,L Christopher Regis,-0.06825498806099228
+2024,4,Bob Weinstein,Olivia Clark,0.04709157884631038
+2024,4,Bob Weinstein,Eric Zimmerman,0.09226813457788552
+2024,4,Bob Weinstein,Eli Arnold,0.11441187903937555
+2024,4,Bob Weinstein,Mitch Green,-0.012152147984075878
+2024,4,Bob Weinstein,Sarah Silkie,-0.010068320075269588
+2024,4,Bob Weinstein,Chad Lykins,-0.11510250408391576
+2024,4,Bob Weinstein,Lisa Freeman,-0.116986869012252
+2024,4,Bob Weinstein,Tony Morse,-0.029780772573462788
+2024,4,Bob Weinstein,Ben Hufford,0.06578277764175033
+2024,4,Bob Weinstein,Stanley Penkin,0.15241432948293765
+2024,4,Bob Weinstein,John Toran,0.05410339479771442
+2024,4,Bob Weinstein,Andra Vltavin,-0.1466430145387784
+2024,4,Bob Weinstein,Bob Callahan,0.008996433273910864
+2024,4,Bob Weinstein,Chloe Mason,-0.11675008001828016
+2024,4,Bob Weinstein,Kevin Goldsmith,0.03406631942923355
+2024,4,Bob Weinstein,Ciatta R Thompson,-0.051141090821251095
+2024,4,Bob Weinstein,Moses Ross,-0.05866913222263567
+2024,4,Bob Weinstein,Chris Henry,-0.1728417670702237
+2024,4,Bob Weinstein,Mike DiNapoli,-0.12092367662230694
+2024,4,Bob Weinstein,Michael Trimble,-0.07244199235614279
+2024,4,Bob Weinstein,Joseph (Joe) Alfone,-0.04534667841980655
+2024,4,Bob Weinstein,Raquel Coyote,-0.1400605268389014
+2024,4,Bob Weinstein,John J Goldsmith,0.04018233884804323
+2024,4,Bob Weinstein,Kelly Doyle,-0.12667004600142803
+2024,4,Bob Weinstein,Brandon Farley,-0.05809242637700765
+2024,4,Bob Weinstein,Tony Schwartz,-0.00418143805385468
+2024,4,Bob Weinstein,Patrick Cashman,-0.02749044108692253
+2024,4,Bob Weinstein,Lee Odell,0.09488910148660717
+2024,4,Bob Weinstein,Uncertified Write In,-0.1336788876447622
+2024,4,Bob Weinstein,L Christopher Regis,-0.03587880718572223
+2024,4,Tony Morse,Olivia Clark,0.016168111761077214
+2024,4,Tony Morse,Eric Zimmerman,-0.0005171365454473276
+2024,4,Tony Morse,Eli Arnold,-0.01698438255594764
+2024,4,Tony Morse,Mitch Green,-0.004788391063069275
+2024,4,Tony Morse,Sarah Silkie,-0.025589800119621753
+2024,4,Tony Morse,Chad Lykins,0.01012668226697594
+2024,4,Tony Morse,Lisa Freeman,-0.006794728766778696
+2024,4,Tony Morse,Bob Weinstein,-0.018843800205793848
+2024,4,Tony Morse,Ben Hufford,0.03353088839461202
+2024,4,Tony Morse,Stanley Penkin,0.0619266941947299
+2024,4,Tony Morse,John Toran,0.029489234321715962
+2024,4,Tony Morse,Andra Vltavin,-0.04012673229564784
+2024,4,Tony Morse,Bob Callahan,0.004938153083262342
+2024,4,Tony Morse,Chloe Mason,-0.004340505592918958
+2024,4,Tony Morse,Kevin Goldsmith,-0.0011870390182745771
+2024,4,Tony Morse,Ciatta R Thompson,-0.009395251511452263
+2024,4,Tony Morse,Moses Ross,0.012524627551283946
+2024,4,Tony Morse,Chris Henry,-0.030116012463535485
+2024,4,Tony Morse,Mike DiNapoli,-0.05070121074952935
+2024,4,Tony Morse,Michael Trimble,0.011067890641960842
+2024,4,Tony Morse,Joseph (Joe) Alfone,-0.011470229053616054
+2024,4,Tony Morse,Raquel Coyote,-0.08086368263390123
+2024,4,Tony Morse,John J Goldsmith,-0.04210690076445489
+2024,4,Tony Morse,Kelly Doyle,-0.07400903172900414
+2024,4,Tony Morse,Brandon Farley,-0.02947349065930538
+2024,4,Tony Morse,Tony Schwartz,-0.018454950157265726
+2024,4,Tony Morse,Patrick Cashman,-0.038095913834428924
+2024,4,Tony Morse,Lee Odell,-0.027120651530614853
+2024,4,Tony Morse,Uncertified Write In,-0.09390597887932248
+2024,4,Tony Morse,L Christopher Regis,-0.051273274396907015
+2024,4,Ben Hufford,Olivia Clark,0.004469306753602548
+2024,4,Ben Hufford,Eric Zimmerman,0.029835995208769034
+2024,4,Ben Hufford,Eli Arnold,0.04642896368800356
+2024,4,Ben Hufford,Mitch Green,-0.07190632205327438
+2024,4,Ben Hufford,Sarah Silkie,-0.05975083289832642
+2024,4,Ben Hufford,Chad Lykins,-0.04188226363135175
+2024,4,Ben Hufford,Lisa Freeman,-0.04777855275317505
+2024,4,Ben Hufford,Bob Weinstein,0.03857282867834552
+2024,4,Ben Hufford,Tony Morse,0.031072901633992345
+2024,4,Ben Hufford,Stanley Penkin,0.11052926558274695
+2024,4,Ben Hufford,John Toran,0.10999172701373866
+2024,4,Ben Hufford,Andra Vltavin,-0.10665186625991943
+2024,4,Ben Hufford,Bob Callahan,0.11332431154376033
+2024,4,Ben Hufford,Chloe Mason,-0.019980881848009946
+2024,4,Ben Hufford,Kevin Goldsmith,0.06163592372338156
+2024,4,Ben Hufford,Ciatta R Thompson,-0.052630970976504377
+2024,4,Ben Hufford,Moses Ross,-0.004218999147743152
+2024,4,Ben Hufford,Chris Henry,-0.03840314962145576
+2024,4,Ben Hufford,Mike DiNapoli,-0.031046635449197474
+2024,4,Ben Hufford,Michael Trimble,-0.016684684260513227
+2024,4,Ben Hufford,Joseph (Joe) Alfone,-0.08250829949877135
+2024,4,Ben Hufford,Raquel Coyote,-0.10792031644442127
+2024,4,Ben Hufford,John J Goldsmith,-0.0663604508713978
+2024,4,Ben Hufford,Kelly Doyle,-0.06064240066490861
+2024,4,Ben Hufford,Brandon Farley,-0.00988817633664607
+2024,4,Ben Hufford,Tony Schwartz,-0.03149897688055836
+2024,4,Ben Hufford,Patrick Cashman,-0.001692304131316602
+2024,4,Ben Hufford,Lee Odell,-0.045762648212809384
+2024,4,Ben Hufford,Uncertified Write In,-0.05560804538215021
+2024,4,Ben Hufford,L Christopher Regis,0.016296928256927468
+2024,4,Stanley Penkin,Olivia Clark,0.010661185827394587
+2024,4,Stanley Penkin,Eric Zimmerman,0.015192103909803079
+2024,4,Stanley Penkin,Eli Arnold,0.02556185027426089
+2024,4,Stanley Penkin,Mitch Green,-0.04336538025402738
+2024,4,Stanley Penkin,Sarah Silkie,-0.046183685298883434
+2024,4,Stanley Penkin,Chad Lykins,-0.04037177100816182
+2024,4,Stanley Penkin,Lisa Freeman,-0.03783788770671054
+2024,4,Stanley Penkin,Bob Weinstein,0.06967637017061781
+2024,4,Stanley Penkin,Tony Morse,0.044740937901522365
+2024,4,Stanley Penkin,Ben Hufford,0.08617230726084632
+2024,4,Stanley Penkin,John Toran,0.0817976503528218
+2024,4,Stanley Penkin,Andra Vltavin,-0.05417223396460667
+2024,4,Stanley Penkin,Bob Callahan,0.012403272040251934
+2024,4,Stanley Penkin,Chloe Mason,-0.02928151282613818
+2024,4,Stanley Penkin,Kevin Goldsmith,0.006351772560199004
+2024,4,Stanley Penkin,Ciatta R Thompson,0.01572280792569089
+2024,4,Stanley Penkin,Moses Ross,0.009849166558676903
+2024,4,Stanley Penkin,Chris Henry,-0.04596957261633017
+2024,4,Stanley Penkin,Mike DiNapoli,-0.03910606905770603
+2024,4,Stanley Penkin,Michael Trimble,-0.006748500028991453
+2024,4,Stanley Penkin,Joseph (Joe) Alfone,-0.008191182864573043
+2024,4,Stanley Penkin,Raquel Coyote,-0.05117648135083054
+2024,4,Stanley Penkin,John J Goldsmith,-0.01674692379216114
+2024,4,Stanley Penkin,Kelly Doyle,-0.05093297605747828
+2024,4,Stanley Penkin,Brandon Farley,0.014978674057175623
+2024,4,Stanley Penkin,Tony Schwartz,-0.013762881272948918
+2024,4,Stanley Penkin,Patrick Cashman,-0.03503442715118234
+2024,4,Stanley Penkin,Lee Odell,-0.005808352438467473
+2024,4,Stanley Penkin,Uncertified Write In,-0.06979913473910893
+2024,4,Stanley Penkin,L Christopher Regis,-0.006247079857574278
+2024,4,John Toran,Olivia Clark,-0.008232175311673917
+2024,4,John Toran,Eric Zimmerman,0.004289194708410493
+2024,4,John Toran,Eli Arnold,0.018010642068016836
+2024,4,John Toran,Mitch Green,-0.04471530539215081
+2024,4,John Toran,Sarah Silkie,-0.04170849873357746
+2024,4,John Toran,Chad Lykins,-0.03627260612552227
+2024,4,John Toran,Lisa Freeman,-0.03400341445058423
+2024,4,John Toran,Bob Weinstein,0.0223608756945555
+2024,4,John Toran,Tony Morse,0.01926172847285873
+2024,4,John Toran,Ben Hufford,0.07752736636438837
+2024,4,John Toran,Stanley Penkin,0.07395122997414985
+2024,4,John Toran,Andra Vltavin,-0.03989990383499388
+2024,4,John Toran,Bob Callahan,0.06917190767280693
+2024,4,John Toran,Chloe Mason,0.07570780005469749
+2024,4,John Toran,Kevin Goldsmith,0.053451547508570424
+2024,4,John Toran,Ciatta R Thompson,0.09957707973793065
+2024,4,John Toran,Moses Ross,0.006160393537739298
+2024,4,John Toran,Chris Henry,-0.04588222764697848
+2024,4,John Toran,Mike DiNapoli,-0.01247823258395947
+2024,4,John Toran,Michael Trimble,0.03161841910685623
+2024,4,John Toran,Joseph (Joe) Alfone,-0.0018047910177776683
+2024,4,John Toran,Raquel Coyote,-0.0502781326172817
+2024,4,John Toran,John J Goldsmith,-0.020501987709557842
+2024,4,John Toran,Kelly Doyle,-0.046773874278034006
+2024,4,John Toran,Brandon Farley,0.028099465535143253
+2024,4,John Toran,Tony Schwartz,-0.03217065598176769
+2024,4,John Toran,Patrick Cashman,-0.00987575794709701
+2024,4,John Toran,Lee Odell,-0.0016670215061705962
+2024,4,John Toran,Uncertified Write In,-0.05417007400922309
+2024,4,John Toran,L Christopher Regis,-0.008731889842715224
+2024,4,Andra Vltavin,Olivia Clark,-0.0449383976877905
+2024,4,Andra Vltavin,Eric Zimmerman,-0.06844414736533312
+2024,4,Andra Vltavin,Eli Arnold,-0.07083409497698336
+2024,4,Andra Vltavin,Mitch Green,0.0373950134596827
+2024,4,Andra Vltavin,Sarah Silkie,0.03732206590444846
+2024,4,Andra Vltavin,Chad Lykins,0.03896709078689267
+2024,4,Andra Vltavin,Lisa Freeman,0.07203107817026437
+2024,4,Andra Vltavin,Bob Weinstein,-0.04556062704500883
+2024,4,Andra Vltavin,Tony Morse,-0.019702873837452325
+2024,4,Andra Vltavin,Ben Hufford,-0.05651028416737401
+2024,4,Andra Vltavin,Stanley Penkin,-0.0368167408261026
+2024,4,Andra Vltavin,John Toran,-0.02999410246680538
+2024,4,Andra Vltavin,Bob Callahan,-0.04835688314231538
+2024,4,Andra Vltavin,Chloe Mason,0.1281010198414576
+2024,4,Andra Vltavin,Kevin Goldsmith,0.009784764161023418
+2024,4,Andra Vltavin,Ciatta R Thompson,0.1729888487824427
+2024,4,Andra Vltavin,Moses Ross,0.0410322551174543
+2024,4,Andra Vltavin,Chris Henry,0.2975278476571715
+2024,4,Andra Vltavin,Mike DiNapoli,0.21212190971776002
+2024,4,Andra Vltavin,Michael Trimble,0.19485449741841154
+2024,4,Andra Vltavin,Joseph (Joe) Alfone,0.1322078575099095
+2024,4,Andra Vltavin,Raquel Coyote,0.16391879339542298
+2024,4,Andra Vltavin,John J Goldsmith,0.059445073584532146
+2024,4,Andra Vltavin,Kelly Doyle,0.10116835721136812
+2024,4,Andra Vltavin,Brandon Farley,-0.009721386550689395
+2024,4,Andra Vltavin,Tony Schwartz,0.025033960840905867
+2024,4,Andra Vltavin,Patrick Cashman,-0.009581234089185611
+2024,4,Andra Vltavin,Lee Odell,0.1890862914392415
+2024,4,Andra Vltavin,Uncertified Write In,-0.026171064663185056
+2024,4,Andra Vltavin,L Christopher Regis,-0.021195308242341934
+2024,4,Bob Callahan,Olivia Clark,-0.014296127330870975
+2024,4,Bob Callahan,Eric Zimmerman,-0.005332418461311814
+2024,4,Bob Callahan,Eli Arnold,0.012922452400460097
+2024,4,Bob Callahan,Mitch Green,-0.037059995133311444
+2024,4,Bob Callahan,Sarah Silkie,-0.03356435002452503
+2024,4,Bob Callahan,Chad Lykins,-0.02801616654803768
+2024,4,Bob Callahan,Lisa Freeman,-0.014350541756327315
+2024,4,Bob Callahan,Bob Weinstein,0.0026666126141500213
+2024,4,Bob Callahan,Tony Morse,0.0023132447441977094
+2024,4,Bob Callahan,Ben Hufford,0.05728532408383159
+2024,4,Bob Callahan,Stanley Penkin,0.008042037932054658
+2024,4,Bob Callahan,John Toran,0.04960837807556252
+2024,4,Bob Callahan,Andra Vltavin,-0.046133834547673266
+2024,4,Bob Callahan,Chloe Mason,0.003684914168355119
+2024,4,Bob Callahan,Kevin Goldsmith,0.11191677978122828
+2024,4,Bob Callahan,Ciatta R Thompson,-0.009545039260933863
+2024,4,Bob Callahan,Moses Ross,-0.0031802692731889015
+2024,4,Bob Callahan,Chris Henry,-0.001169271897983007
+2024,4,Bob Callahan,Mike DiNapoli,0.036079330969520054
+2024,4,Bob Callahan,Michael Trimble,0.02903211107730022
+2024,4,Bob Callahan,Joseph (Joe) Alfone,0.02265210594657359
+2024,4,Bob Callahan,Raquel Coyote,-0.020985848692814717
+2024,4,Bob Callahan,John J Goldsmith,0.04762139384534887
+2024,4,Bob Callahan,Kelly Doyle,0.053965727484142925
+2024,4,Bob Callahan,Brandon Farley,0.06923379141496049
+2024,4,Bob Callahan,Tony Schwartz,0.06397813105796409
+2024,4,Bob Callahan,Patrick Cashman,0.13547715702398389
+2024,4,Bob Callahan,Lee Odell,0.06309327885022127
+2024,4,Bob Callahan,Uncertified Write In,0.01435641321194718
+2024,4,Bob Callahan,L Christopher Regis,0.07807785554610629
+2024,4,Chloe Mason,Olivia Clark,-0.016994996025055692
+2024,4,Chloe Mason,Eric Zimmerman,-0.04176453309633736
+2024,4,Chloe Mason,Eli Arnold,-0.04475502939704258
+2024,4,Chloe Mason,Mitch Green,-0.015175786033983896
+2024,4,Chloe Mason,Sarah Silkie,-6.183602920821485e-05
+2024,4,Chloe Mason,Chad Lykins,-0.0145025111977225
+2024,4,Chloe Mason,Lisa Freeman,0.046026429133717614
+2024,4,Chloe Mason,Bob Weinstein,-0.03429331432274791
+2024,4,Chloe Mason,Tony Morse,-0.002014930461336148
+2024,4,Chloe Mason,Ben Hufford,-0.010009160283781099
+2024,4,Chloe Mason,Stanley Penkin,-0.018814213413576135
+2024,4,Chloe Mason,John Toran,0.053805740006511185
+2024,4,Chloe Mason,Andra Vltavin,0.12110903613239894
+2024,4,Chloe Mason,Bob Callahan,0.0036516578922184822
+2024,4,Chloe Mason,Kevin Goldsmith,0.026472989483521336
+2024,4,Chloe Mason,Ciatta R Thompson,0.17559381498460008
+2024,4,Chloe Mason,Moses Ross,0.0208410188474151
+2024,4,Chloe Mason,Chris Henry,0.040198382933963245
+2024,4,Chloe Mason,Mike DiNapoli,0.06246740048245365
+2024,4,Chloe Mason,Michael Trimble,0.11543017007649702
+2024,4,Chloe Mason,Joseph (Joe) Alfone,0.09405782095192723
+2024,4,Chloe Mason,Raquel Coyote,0.2981034818581062
+2024,4,Chloe Mason,John J Goldsmith,0.06749010537713103
+2024,4,Chloe Mason,Kelly Doyle,0.26193485975614267
+2024,4,Chloe Mason,Brandon Farley,0.06419007491045416
+2024,4,Chloe Mason,Tony Schwartz,0.0530258436182308
+2024,4,Chloe Mason,Patrick Cashman,0.051774394896804535
+2024,4,Chloe Mason,Lee Odell,0.1045118103009857
+2024,4,Chloe Mason,Uncertified Write In,-0.0068916532151538645
+2024,4,Chloe Mason,L Christopher Regis,0.021004342888934727
+2024,4,Kevin Goldsmith,Olivia Clark,-0.029931700952301937
+2024,4,Kevin Goldsmith,Eric Zimmerman,-0.024369954528071253
+2024,4,Kevin Goldsmith,Eli Arnold,-0.004963125784365502
+2024,4,Kevin Goldsmith,Mitch Green,-0.021641751214005724
+2024,4,Kevin Goldsmith,Sarah Silkie,-0.03162512293653274
+2024,4,Kevin Goldsmith,Chad Lykins,-0.02737142737344729
+2024,4,Kevin Goldsmith,Lisa Freeman,-0.023704179480935873
+2024,4,Kevin Goldsmith,Bob Weinstein,0.009309898416673595
+2024,4,Kevin Goldsmith,Tony Morse,-0.0005126868657367445
+2024,4,Kevin Goldsmith,Ben Hufford,0.028726608523133676
+2024,4,Kevin Goldsmith,Stanley Penkin,0.003797125477209881
+2024,4,Kevin Goldsmith,John Toran,0.03534400176797636
+2024,4,Kevin Goldsmith,Andra Vltavin,0.008606801316914978
+2024,4,Kevin Goldsmith,Bob Callahan,0.10318709059281339
+2024,4,Kevin Goldsmith,Chloe Mason,0.02463034198003343
+2024,4,Kevin Goldsmith,Ciatta R Thompson,0.013678736344042416
+2024,4,Kevin Goldsmith,Moses Ross,0.0027468071499630042
+2024,4,Kevin Goldsmith,Chris Henry,-0.011740645436702293
+2024,4,Kevin Goldsmith,Mike DiNapoli,0.04272145477601205
+2024,4,Kevin Goldsmith,Michael Trimble,0.03480221952109702
+2024,4,Kevin Goldsmith,Joseph (Joe) Alfone,0.0574792963964845
+2024,4,Kevin Goldsmith,Raquel Coyote,0.09795326118776368
+2024,4,Kevin Goldsmith,John J Goldsmith,0.35263159409389266
+2024,4,Kevin Goldsmith,Kelly Doyle,0.06879130752677481
+2024,4,Kevin Goldsmith,Brandon Farley,0.10094685000608547
+2024,4,Kevin Goldsmith,Tony Schwartz,0.12052067746502226
+2024,4,Kevin Goldsmith,Patrick Cashman,0.12595492400658514
+2024,4,Kevin Goldsmith,Lee Odell,0.2525007719467621
+2024,4,Kevin Goldsmith,Uncertified Write In,0.020665314759192255
+2024,4,Kevin Goldsmith,L Christopher Regis,0.046814502758091237
+2024,4,Ciatta R Thompson,Olivia Clark,-0.018955775931529445
+2024,4,Ciatta R Thompson,Eric Zimmerman,-0.028752695045944895
+2024,4,Ciatta R Thompson,Eli Arnold,-0.028311183951446765
+2024,4,Ciatta R Thompson,Mitch Green,-0.006738109531803468
+2024,4,Ciatta R Thompson,Sarah Silkie,0.007445087779123713
+2024,4,Ciatta R Thompson,Chad Lykins,-0.008984491393204702
+2024,4,Ciatta R Thompson,Lisa Freeman,0.025942837953989425
+2024,4,Ciatta R Thompson,Bob Weinstein,-0.013287302616642065
+2024,4,Ciatta R Thompson,Tony Morse,-0.003857826737942688
+2024,4,Ciatta R Thompson,Ben Hufford,-0.023320558137776566
+2024,4,Ciatta R Thompson,Stanley Penkin,0.008935877984099547
+2024,4,Ciatta R Thompson,John Toran,0.06259821274787387
+2024,4,Ciatta R Thompson,Andra Vltavin,0.1446627227133619
+2024,4,Ciatta R Thompson,Bob Callahan,-0.008366715316715442
+2024,4,Ciatta R Thompson,Chloe Mason,0.1553187119371019
+2024,4,Ciatta R Thompson,Kevin Goldsmith,0.013004482953198157
+2024,4,Ciatta R Thompson,Moses Ross,0.027041211446702823
+2024,4,Ciatta R Thompson,Chris Henry,0.01944379859539297
+2024,4,Ciatta R Thompson,Mike DiNapoli,0.07005608277825211
+2024,4,Ciatta R Thompson,Michael Trimble,0.09882289470301282
+2024,4,Ciatta R Thompson,Joseph (Joe) Alfone,0.08905347009262736
+2024,4,Ciatta R Thompson,Raquel Coyote,0.1322280671168059
+2024,4,Ciatta R Thompson,John J Goldsmith,-0.0018607059522303127
+2024,4,Ciatta R Thompson,Kelly Doyle,0.060401860587352404
+2024,4,Ciatta R Thompson,Brandon Farley,0.05150491469186365
+2024,4,Ciatta R Thompson,Tony Schwartz,0.022561011042039558
+2024,4,Ciatta R Thompson,Patrick Cashman,0.0306861805732703
+2024,4,Ciatta R Thompson,Lee Odell,0.010480218916492923
+2024,4,Ciatta R Thompson,Uncertified Write In,-0.026940888927150124
+2024,4,Ciatta R Thompson,L Christopher Regis,0.033149309891372394
+2024,4,Moses Ross,Olivia Clark,-0.008416278966688562
+2024,4,Moses Ross,Eric Zimmerman,-0.020388209488049015
+2024,4,Moses Ross,Eli Arnold,-0.0314943754528568
+2024,4,Moses Ross,Mitch Green,-0.00121278529245461
+2024,4,Moses Ross,Sarah Silkie,0.011563280910422968
+2024,4,Moses Ross,Chad Lykins,0.009762656615476664
+2024,4,Moses Ross,Lisa Freeman,0.027222993743428445
+2024,4,Moses Ross,Bob Weinstein,-0.014679894648999985
+2024,4,Moses Ross,Tony Morse,0.004952740383030757
+2024,4,Moses Ross,Ben Hufford,-0.0018003354408047817
+2024,4,Moses Ross,Stanley Penkin,0.005390797746536002
+2024,4,Moses Ross,John Toran,0.0037295586396993152
+2024,4,Moses Ross,Andra Vltavin,0.03304534937042215
+2024,4,Moses Ross,Bob Callahan,-0.0026846495492286043
+2024,4,Moses Ross,Chloe Mason,0.01775333496873642
+2024,4,Moses Ross,Kevin Goldsmith,0.002514905759745875
+2024,4,Moses Ross,Ciatta R Thompson,0.02604189475231282
+2024,4,Moses Ross,Chris Henry,0.04269526495366677
+2024,4,Moses Ross,Mike DiNapoli,0.044018987514001184
+2024,4,Moses Ross,Michael Trimble,0.03247739649261751
+2024,4,Moses Ross,Joseph (Joe) Alfone,0.026577394889265443
+2024,4,Moses Ross,Raquel Coyote,0.056723086147789925
+2024,4,Moses Ross,John J Goldsmith,0.0014428400780701761
+2024,4,Moses Ross,Kelly Doyle,0.02824544242884032
+2024,4,Moses Ross,Brandon Farley,0.02179237021245506
+2024,4,Moses Ross,Tony Schwartz,0.04504084315713572
+2024,4,Moses Ross,Patrick Cashman,0.024071371108212086
+2024,4,Moses Ross,Lee Odell,0.030314635443564567
+2024,4,Moses Ross,Uncertified Write In,-0.011500357075653299
+2024,4,Moses Ross,L Christopher Regis,0.08779245030963964
+2024,4,Chris Henry,Olivia Clark,-0.023824581878322884
+2024,4,Chris Henry,Eric Zimmerman,-0.028902979720060805
+2024,4,Chris Henry,Eli Arnold,-0.030611980277007584
+2024,4,Chris Henry,Mitch Green,0.01943375291298649
+2024,4,Chris Henry,Sarah Silkie,0.014045850469538858
+2024,4,Chris Henry,Chad Lykins,0.02320314967364418
+2024,4,Chris Henry,Lisa Freeman,0.031577947811931274
+2024,4,Chris Henry,Bob Weinstein,-0.026412573462197653
+2024,4,Chris Henry,Tony Morse,-0.007273223906903971
+2024,4,Chris Henry,Ben Hufford,-0.010008283147783056
+2024,4,Chris Henry,Stanley Penkin,-0.015366422445103476
+2024,4,Chris Henry,John Toran,-0.016964545335492853
+2024,4,Chris Henry,Andra Vltavin,0.14633941953494642
+2024,4,Chris Henry,Bob Callahan,-0.000602820435398492
+2024,4,Chris Henry,Chloe Mason,0.02091309595149591
+2024,4,Chris Henry,Kevin Goldsmith,-0.006564992964868142
+2024,4,Chris Henry,Ciatta R Thompson,0.01143605657412431
+2024,4,Chris Henry,Moses Ross,0.026075248680179457
+2024,4,Chris Henry,Mike DiNapoli,0.06093374500169326
+2024,4,Chris Henry,Michael Trimble,0.13125387536053915
+2024,4,Chris Henry,Joseph (Joe) Alfone,0.08601362641340701
+2024,4,Chris Henry,Raquel Coyote,0.004525247486975942
+2024,4,Chris Henry,John J Goldsmith,0.015034030096909866
+2024,4,Chris Henry,Kelly Doyle,0.0434680741075106
+2024,4,Chris Henry,Brandon Farley,0.035668494696367785
+2024,4,Chris Henry,Tony Schwartz,0.05409568167700709
+2024,4,Chris Henry,Patrick Cashman,0.04669179047290382
+2024,4,Chris Henry,Lee Odell,0.02715887913799315
+2024,4,Chris Henry,Uncertified Write In,0.018740849593203046
+2024,4,Chris Henry,L Christopher Regis,0.04211631805537671
+2024,4,Mike DiNapoli,Olivia Clark,-0.019009401487991042
+2024,4,Mike DiNapoli,Eric Zimmerman,-0.024007943864062617
+2024,4,Mike DiNapoli,Eli Arnold,-0.02338272324292662
+2024,4,Mike DiNapoli,Mitch Green,0.003977564013715525
+2024,4,Mike DiNapoli,Sarah Silkie,0.002300474904601897
+2024,4,Mike DiNapoli,Chad Lykins,0.005133471959334841
+2024,4,Mike DiNapoli,Lisa Freeman,0.02648930007793225
+2024,4,Mike DiNapoli,Bob Weinstein,-0.017335050804602237
+2024,4,Mike DiNapoli,Tony Morse,-0.011486813638784357
+2024,4,Mike DiNapoli,Ben Hufford,-0.007590301668679557
+2024,4,Mike DiNapoli,Stanley Penkin,-0.012263042136068526
+2024,4,Mike DiNapoli,John Toran,-0.004328152564084878
+2024,4,Mike DiNapoli,Andra Vltavin,0.0978748233491694
+2024,4,Mike DiNapoli,Bob Callahan,0.01744948787099592
+2024,4,Mike DiNapoli,Chloe Mason,0.030487017213830445
+2024,4,Mike DiNapoli,Kevin Goldsmith,0.022409908369657776
+2024,4,Mike DiNapoli,Ciatta R Thompson,0.038653852623190765
+2024,4,Mike DiNapoli,Moses Ross,0.025219736832668496
+2024,4,Mike DiNapoli,Chris Henry,0.057162290950322436
+2024,4,Mike DiNapoli,Michael Trimble,0.09234772066434944
+2024,4,Mike DiNapoli,Joseph (Joe) Alfone,0.11091320156308172
+2024,4,Mike DiNapoli,Raquel Coyote,0.04942387008963681
+2024,4,Mike DiNapoli,John J Goldsmith,0.026500795357351545
+2024,4,Mike DiNapoli,Kelly Doyle,0.05456566687222493
+2024,4,Mike DiNapoli,Brandon Farley,0.035939940143524404
+2024,4,Mike DiNapoli,Tony Schwartz,0.06602239033885798
+2024,4,Mike DiNapoli,Patrick Cashman,0.076977190230358
+2024,4,Mike DiNapoli,Lee Odell,0.03756451954190597
+2024,4,Mike DiNapoli,Uncertified Write In,0.01765876019952691
+2024,4,Mike DiNapoli,L Christopher Regis,0.0764891398391551
+2024,4,Michael Trimble,Olivia Clark,-0.011583587901515868
+2024,4,Michael Trimble,Eric Zimmerman,-0.012703879490983795
+2024,4,Michael Trimble,Eli Arnold,-0.013625772470896004
+2024,4,Michael Trimble,Mitch Green,-0.0029477682086395153
+2024,4,Michael Trimble,Sarah Silkie,-0.004810185121979112
+2024,4,Michael Trimble,Chad Lykins,-0.0025981934990615616
+2024,4,Michael Trimble,Lisa Freeman,0.007640489987071966
+2024,4,Michael Trimble,Bob Weinstein,-0.006422677835721844
+2024,4,Michael Trimble,Tony Morse,0.0015508081708802135
+2024,4,Michael Trimble,Ben Hufford,-0.002522751445011205
+2024,4,Michael Trimble,Stanley Penkin,-0.001308800005622588
+2024,4,Michael Trimble,John Toran,0.0067826844501069315
+2024,4,Michael Trimble,Andra Vltavin,0.055604235425672166
+2024,4,Michael Trimble,Bob Callahan,0.00868389978395958
+2024,4,Michael Trimble,Chloe Mason,0.034841176721739864
+2024,4,Michael Trimble,Kevin Goldsmith,0.011290494569333343
+2024,4,Michael Trimble,Ciatta R Thompson,0.03372224537025038
+2024,4,Michael Trimble,Moses Ross,0.011507836557903418
+2024,4,Michael Trimble,Chris Henry,0.0761510449106473
+2024,4,Michael Trimble,Mike DiNapoli,0.05711341871144038
+2024,4,Michael Trimble,Joseph (Joe) Alfone,0.08554060345023276
+2024,4,Michael Trimble,Raquel Coyote,0.021380104121859124
+2024,4,Michael Trimble,John J Goldsmith,0.04552694138547271
+2024,4,Michael Trimble,Kelly Doyle,0.03258504409110445
+2024,4,Michael Trimble,Brandon Farley,0.05086492417574673
+2024,4,Michael Trimble,Tony Schwartz,0.063424009885099
+2024,4,Michael Trimble,Patrick Cashman,0.03781246450004734
+2024,4,Michael Trimble,Lee Odell,0.032145215624206545
+2024,4,Michael Trimble,Uncertified Write In,0.012437224085229091
+2024,4,Michael Trimble,L Christopher Regis,0.004708921559238702
+2024,4,Joseph (Joe) Alfone,Olivia Clark,-0.007464879997408644
+2024,4,Joseph (Joe) Alfone,Eric Zimmerman,-0.010162567873202338
+2024,4,Joseph (Joe) Alfone,Eli Arnold,-0.011497667767597853
+2024,4,Joseph (Joe) Alfone,Mitch Green,-0.004834303033182857
+2024,4,Joseph (Joe) Alfone,Sarah Silkie,-0.0053569227181692845
+2024,4,Joseph (Joe) Alfone,Chad Lykins,-0.0032854849751657485
+2024,4,Joseph (Joe) Alfone,Lisa Freeman,0.0028612005934625165
+2024,4,Joseph (Joe) Alfone,Bob Weinstein,-0.0034940380381746454
+2024,4,Joseph (Joe) Alfone,Tony Morse,-0.0013967597360322118
+2024,4,Joseph (Joe) Alfone,Ben Hufford,-0.010842027461630809
+2024,4,Joseph (Joe) Alfone,Stanley Penkin,-0.0013806037576338907
+2024,4,Joseph (Joe) Alfone,John Toran,-0.0003364687831340016
+2024,4,Joseph (Joe) Alfone,Andra Vltavin,0.03278771127974846
+2024,4,Joseph (Joe) Alfone,Bob Callahan,0.0058884523596814155
+2024,4,Joseph (Joe) Alfone,Chloe Mason,0.024673160708319826
+2024,4,Joseph (Joe) Alfone,Kevin Goldsmith,0.016205926426766208
+2024,4,Joseph (Joe) Alfone,Ciatta R Thompson,0.026409863441700307
+2024,4,Joseph (Joe) Alfone,Moses Ross,0.008184295142494302
+2024,4,Joseph (Joe) Alfone,Chris Henry,0.043369796625453434
+2024,4,Joseph (Joe) Alfone,Mike DiNapoli,0.05961445988712124
+2024,4,Joseph (Joe) Alfone,Michael Trimble,0.07434105245971198
+2024,4,Joseph (Joe) Alfone,Raquel Coyote,0.035615298149367154
+2024,4,Joseph (Joe) Alfone,John J Goldsmith,0.05552969707281213
+2024,4,Joseph (Joe) Alfone,Kelly Doyle,0.03646225299322805
+2024,4,Joseph (Joe) Alfone,Brandon Farley,0.03671139370363967
+2024,4,Joseph (Joe) Alfone,Tony Schwartz,0.03972233670076902
+2024,4,Joseph (Joe) Alfone,Patrick Cashman,0.056811084758865836
+2024,4,Joseph (Joe) Alfone,Lee Odell,0.07600127721822475
+2024,4,Joseph (Joe) Alfone,Uncertified Write In,0.011941706116400122
+2024,4,Joseph (Joe) Alfone,L Christopher Regis,0.04833883499907813
+2024,4,Raquel Coyote,Olivia Clark,-0.0034305529111538606
+2024,4,Raquel Coyote,Eric Zimmerman,-0.012834248569515948
+2024,4,Raquel Coyote,Eli Arnold,-0.01476698962535183
+2024,4,Raquel Coyote,Mitch Green,-0.011517567514465282
+2024,4,Raquel Coyote,Sarah Silkie,0.00032856022783210245
+2024,4,Raquel Coyote,Chad Lykins,-0.0116433977918982
+2024,4,Raquel Coyote,Lisa Freeman,0.007376255212441538
+2024,4,Raquel Coyote,Bob Weinstein,-0.01027672538571475
+2024,4,Raquel Coyote,Tony Morse,-0.009376915032890856
+2024,4,Raquel Coyote,Ben Hufford,-0.013504326359155282
+2024,4,Raquel Coyote,Stanley Penkin,-0.008213905470728915
+2024,4,Raquel Coyote,John Toran,-0.00892593755202782
+2024,4,Raquel Coyote,Andra Vltavin,0.03871144936275672
+2024,4,Raquel Coyote,Bob Callahan,-0.005194885349260823
+2024,4,Raquel Coyote,Chloe Mason,0.07446527047228023
+2024,4,Raquel Coyote,Kevin Goldsmith,0.026298935358224963
+2024,4,Raquel Coyote,Ciatta R Thompson,0.03734184796679792
+2024,4,Raquel Coyote,Moses Ross,0.016633573944827288
+2024,4,Raquel Coyote,Chris Henry,0.0021727977930587825
+2024,4,Raquel Coyote,Mike DiNapoli,0.02529658928946422
+2024,4,Raquel Coyote,Michael Trimble,0.017693879273262724
+2024,4,Raquel Coyote,Joseph (Joe) Alfone,0.03391512582605577
+2024,4,Raquel Coyote,John J Goldsmith,0.09891205991294973
+2024,4,Raquel Coyote,Kelly Doyle,0.23760788651733408
+2024,4,Raquel Coyote,Brandon Farley,0.08852339667391575
+2024,4,Raquel Coyote,Tony Schwartz,0.08862322184496753
+2024,4,Raquel Coyote,Patrick Cashman,0.08419999791578843
+2024,4,Raquel Coyote,Lee Odell,0.13177804904283802
+2024,4,Raquel Coyote,Uncertified Write In,0.022102904156425542
+2024,4,Raquel Coyote,L Christopher Regis,0.08691477821685452
+2024,4,John J Goldsmith,Olivia Clark,-0.010509088878416195
+2024,4,John J Goldsmith,Eric Zimmerman,-0.010113076979401349
+2024,4,John J Goldsmith,Eli Arnold,-0.010408580510504422
+2024,4,John J Goldsmith,Mitch Green,-0.007721240297633734
+2024,4,John J Goldsmith,Sarah Silkie,-0.009675288680415471
+2024,4,John J Goldsmith,Chad Lykins,-0.01100652427896028
+2024,4,John J Goldsmith,Lisa Freeman,-0.006272084702017056
+2024,4,John J Goldsmith,Bob Weinstein,0.0028081953632696673
+2024,4,John J Goldsmith,Tony Morse,-0.004650641387467727
+2024,4,John J Goldsmith,Ben Hufford,-0.007909192637462729
+2024,4,John J Goldsmith,Stanley Penkin,-0.002560161913054519
+2024,4,John J Goldsmith,John Toran,-0.0034667600576841345
+2024,4,John J Goldsmith,Andra Vltavin,0.013371485647935194
+2024,4,John J Goldsmith,Bob Callahan,0.011228057888113683
+2024,4,John J Goldsmith,Chloe Mason,0.01605757426683082
+2024,4,John J Goldsmith,Kevin Goldsmith,0.09017654643582676
+2024,4,John J Goldsmith,Ciatta R Thompson,-0.0005004987696475352
+2024,4,John J Goldsmith,Moses Ross,0.0004029925609424709
+2024,4,John J Goldsmith,Chris Henry,0.006875519234691822
+2024,4,John J Goldsmith,Mike DiNapoli,0.012919248119895137
+2024,4,John J Goldsmith,Michael Trimble,0.035886807783915176
+2024,4,John J Goldsmith,Joseph (Joe) Alfone,0.05036574508216004
+2024,4,John J Goldsmith,Raquel Coyote,0.09421116123219103
+2024,4,John J Goldsmith,Kelly Doyle,0.06538697297811014
+2024,4,John J Goldsmith,Brandon Farley,0.07677286735228342
+2024,4,John J Goldsmith,Tony Schwartz,0.11994860282097608
+2024,4,John J Goldsmith,Patrick Cashman,0.09570563682585859
+2024,4,John J Goldsmith,Lee Odell,0.22036653095050088
+2024,4,John J Goldsmith,Uncertified Write In,0.026717457019736823
+2024,4,John J Goldsmith,L Christopher Regis,0.0589645933131159
+2024,4,Kelly Doyle,Olivia Clark,-0.0020626968086836575
+2024,4,Kelly Doyle,Eric Zimmerman,-0.012730636370453227
+2024,4,Kelly Doyle,Eli Arnold,-0.01085956256832843
+2024,4,Kelly Doyle,Mitch Green,-0.009135806302249845
+2024,4,Kelly Doyle,Sarah Silkie,-0.001605380310715606
+2024,4,Kelly Doyle,Chad Lykins,-0.009712621655325486
+2024,4,Kelly Doyle,Lisa Freeman,0.00944750974925214
+2024,4,Kelly Doyle,Bob Weinstein,-0.008525752116939529
+2024,4,Kelly Doyle,Tony Morse,-0.007872469100571254
+2024,4,Kelly Doyle,Ben Hufford,-0.00696090774231008
+2024,4,Kelly Doyle,Stanley Penkin,-0.007498909432078047
+2024,4,Kelly Doyle,John Toran,-0.00761724327990637
+2024,4,Kelly Doyle,Andra Vltavin,0.02191669977103593
+2024,4,Kelly Doyle,Bob Callahan,0.012254264307035842
+2024,4,Kelly Doyle,Chloe Mason,0.06002052649152789
+2024,4,Kelly Doyle,Kevin Goldsmith,0.016942309439822705
+2024,4,Kelly Doyle,Ciatta R Thompson,0.015647402384184512
+2024,4,Kelly Doyle,Moses Ross,0.007597905380342881
+2024,4,Kelly Doyle,Chris Henry,0.01914551935526178
+2024,4,Kelly Doyle,Mike DiNapoli,0.02561913516260077
+2024,4,Kelly Doyle,Michael Trimble,0.02473724521786971
+2024,4,Kelly Doyle,Joseph (Joe) Alfone,0.0318507839227888
+2024,4,Kelly Doyle,Raquel Coyote,0.21796192194200764
+2024,4,Kelly Doyle,John J Goldsmith,0.06297350986066792
+2024,4,Kelly Doyle,Brandon Farley,0.06015573689581827
+2024,4,Kelly Doyle,Tony Schwartz,0.0704188436709796
+2024,4,Kelly Doyle,Patrick Cashman,0.0739820819024298
+2024,4,Kelly Doyle,Lee Odell,0.058316113060943475
+2024,4,Kelly Doyle,Uncertified Write In,0.014600829909040606
+2024,4,Kelly Doyle,L Christopher Regis,0.08857021312697874
+2024,4,Brandon Farley,Olivia Clark,-0.006841830402903886
+2024,4,Brandon Farley,Eric Zimmerman,-0.0035563526027055743
+2024,4,Brandon Farley,Eli Arnold,-0.0022514009163821617
+2024,4,Brandon Farley,Mitch Green,-0.005386839993678779
+2024,4,Brandon Farley,Sarah Silkie,-0.005295544796908933
+2024,4,Brandon Farley,Chad Lykins,-0.004247372693272756
+2024,4,Brandon Farley,Lisa Freeman,-0.003526274833357477
+2024,4,Brandon Farley,Bob Weinstein,-0.002403173843627048
+2024,4,Brandon Farley,Tony Morse,-0.0019269245742834402
+2024,4,Brandon Farley,Ben Hufford,-0.0006976098336077784
+2024,4,Brandon Farley,Stanley Penkin,0.0013554369627496437
+2024,4,Brandon Farley,John Toran,0.0028125447472762428
+2024,4,Brandon Farley,Andra Vltavin,-0.0012943912596705114
+2024,4,Brandon Farley,Bob Callahan,0.009662604893691506
+2024,4,Brandon Farley,Chloe Mason,0.009040267502431828
+2024,4,Brandon Farley,Kevin Goldsmith,0.015280540483354312
+2024,4,Brandon Farley,Ciatta R Thompson,0.008200635433563879
+2024,4,Brandon Farley,Moses Ross,0.0036029386414635507
+2024,4,Brandon Farley,Chris Henry,0.009655803815896999
+2024,4,Brandon Farley,Mike DiNapoli,0.010371205652879753
+2024,4,Brandon Farley,Michael Trimble,0.023733310525968034
+2024,4,Brandon Farley,Joseph (Joe) Alfone,0.01970989891342341
+2024,4,Brandon Farley,Raquel Coyote,0.04990967546849677
+2024,4,Brandon Farley,John J Goldsmith,0.045444499745097365
+2024,4,Brandon Farley,Kelly Doyle,0.0369729369423553
+2024,4,Brandon Farley,Tony Schwartz,0.05880521674575533
+2024,4,Brandon Farley,Patrick Cashman,0.09425265589945543
+2024,4,Brandon Farley,Lee Odell,0.052874513105429476
+2024,4,Brandon Farley,Uncertified Write In,0.02717329726336857
+2024,4,Brandon Farley,L Christopher Regis,0.02050366631628097
+2024,4,Tony Schwartz,Olivia Clark,-0.004543579416605832
+2024,4,Tony Schwartz,Eric Zimmerman,-0.0032898785979680618
+2024,4,Tony Schwartz,Eli Arnold,-0.006307447368557763
+2024,4,Tony Schwartz,Mitch Green,-0.00334988424516775
+2024,4,Tony Schwartz,Sarah Silkie,-0.0044473205016529556
+2024,4,Tony Schwartz,Chad Lykins,-0.0036450099566966076
+2024,4,Tony Schwartz,Lisa Freeman,-0.0008548056869746769
+2024,4,Tony Schwartz,Bob Weinstein,-0.0001709807477834925
+2024,4,Tony Schwartz,Tony Morse,-0.0011926194575433684
+2024,4,Tony Schwartz,Ben Hufford,-0.002196588530326513
+2024,4,Tony Schwartz,Stanley Penkin,-0.0012310372382073435
+2024,4,Tony Schwartz,John Toran,-0.003182857318584505
+2024,4,Tony Schwartz,Andra Vltavin,0.0032947525337969595
+2024,4,Tony Schwartz,Bob Callahan,0.008825991971896418
+2024,4,Tony Schwartz,Chloe Mason,0.007381707942300466
+2024,4,Tony Schwartz,Kevin Goldsmith,0.01803280893376316
+2024,4,Tony Schwartz,Ciatta R Thompson,0.0035506941445092605
+2024,4,Tony Schwartz,Moses Ross,0.007360626525870212
+2024,4,Tony Schwartz,Chris Henry,0.014475118323075358
+2024,4,Tony Schwartz,Mike DiNapoli,0.018832111339574284
+2024,4,Tony Schwartz,Michael Trimble,0.029251590765972384
+2024,4,Tony Schwartz,Joseph (Joe) Alfone,0.02108017372340873
+2024,4,Tony Schwartz,Raquel Coyote,0.04938898300735169
+2024,4,Tony Schwartz,John J Goldsmith,0.07018182092601198
+2024,4,Tony Schwartz,Kelly Doyle,0.04278107181146809
+2024,4,Tony Schwartz,Brandon Farley,0.05812617267247871
+2024,4,Tony Schwartz,Patrick Cashman,0.07459408689917228
+2024,4,Tony Schwartz,Lee Odell,0.05456980753786813
+2024,4,Tony Schwartz,Uncertified Write In,0.016314635479879165
+2024,4,Tony Schwartz,L Christopher Regis,0.07554731031949043
+2024,4,Patrick Cashman,Olivia Clark,-0.006429524086688452
+2024,4,Patrick Cashman,Eric Zimmerman,-0.0028292051791519836
+2024,4,Patrick Cashman,Eli Arnold,-0.0008725011909399803
+2024,4,Patrick Cashman,Mitch Green,-0.0041001229577274515
+2024,4,Patrick Cashman,Sarah Silkie,-0.005542007279707148
+2024,4,Patrick Cashman,Chad Lykins,-0.0044129797104880825
+2024,4,Patrick Cashman,Lisa Freeman,-0.0017488859677808315
+2024,4,Patrick Cashman,Bob Weinstein,-0.0009954024239938516
+2024,4,Patrick Cashman,Tony Morse,-0.0021800319105010667
+2024,4,Patrick Cashman,Ben Hufford,-0.00010450236509474374
+2024,4,Patrick Cashman,Stanley Penkin,-0.0027749316385158014
+2024,4,Patrick Cashman,John Toran,-0.0008652131904645782
+2024,4,Patrick Cashman,Andra Vltavin,-0.0011166321401603167
+2024,4,Patrick Cashman,Bob Callahan,0.01654982836811922
+2024,4,Patrick Cashman,Chloe Mason,0.00638233718194468
+2024,4,Patrick Cashman,Kevin Goldsmith,0.01668831190298751
+2024,4,Patrick Cashman,Ciatta R Thompson,0.004276544378477458
+2024,4,Patrick Cashman,Moses Ross,0.0034834095647240867
+2024,4,Patrick Cashman,Chris Henry,0.011063575235530195
+2024,4,Patrick Cashman,Mike DiNapoli,0.019443089035192058
+2024,4,Patrick Cashman,Michael Trimble,0.015442806083532264
+2024,4,Patrick Cashman,Joseph (Joe) Alfone,0.026697335553143398
+2024,4,Patrick Cashman,Raquel Coyote,0.04155182188812996
+2024,4,Patrick Cashman,John J Goldsmith,0.04958637916199646
+2024,4,Patrick Cashman,Kelly Doyle,0.0398001547778863
+2024,4,Patrick Cashman,Brandon Farley,0.08249828310829933
+2024,4,Patrick Cashman,Tony Schwartz,0.06605410966071563
+2024,4,Patrick Cashman,Lee Odell,0.062107010659647965
+2024,4,Patrick Cashman,Uncertified Write In,0.01209755219948528
+2024,4,Patrick Cashman,L Christopher Regis,0.06815421230238816
+2024,4,Lee Odell,Olivia Clark,-0.004878368540981504
+2024,4,Lee Odell,Eric Zimmerman,-0.005143993931177196
+2024,4,Lee Odell,Eli Arnold,-0.004287277046087633
+2024,4,Lee Odell,Mitch Green,-0.0016410595344064846
+2024,4,Lee Odell,Sarah Silkie,-0.005083270348813396
+2024,4,Lee Odell,Chad Lykins,-0.0045532059843932954
+2024,4,Lee Odell,Lisa Freeman,-0.003247074351107334
+2024,4,Lee Odell,Bob Weinstein,0.0028964429086625575
+2024,4,Lee Odell,Tony Morse,-0.0013083267649149086
+2024,4,Lee Odell,Ben Hufford,-0.0023822673896525615
+2024,4,Lee Odell,Stanley Penkin,-0.0003878304292769825
+2024,4,Lee Odell,John Toran,-0.00012311913343076783
+2024,4,Lee Odell,Andra Vltavin,0.018577204832360902
+2024,4,Lee Odell,Bob Callahan,0.006497438386026011
+2024,4,Lee Odell,Chloe Mason,0.010860797980538276
+2024,4,Lee Odell,Kevin Goldsmith,0.02820276057926603
+2024,4,Lee Odell,Ciatta R Thompson,0.001231266756322666
+2024,4,Lee Odell,Moses Ross,0.0036981771761049574
+2024,4,Lee Odell,Chris Henry,0.0054249839853634345
+2024,4,Lee Odell,Mike DiNapoli,0.007998576470269214
+2024,4,Lee Odell,Michael Trimble,0.01106723749130818
+2024,4,Lee Odell,Joseph (Joe) Alfone,0.030108379505545943
+2024,4,Lee Odell,Raquel Coyote,0.05482172743383692
+2024,4,Lee Odell,John J Goldsmith,0.09625031666259062
+2024,4,Lee Odell,Kelly Doyle,0.026447122956666347
+2024,4,Lee Odell,Brandon Farley,0.03901479662167371
+2024,4,Lee Odell,Tony Schwartz,0.04073610632791791
+2024,4,Lee Odell,Patrick Cashman,0.052356701598304814
+2024,4,Lee Odell,Uncertified Write In,0.008154202250686733
+2024,4,Lee Odell,L Christopher Regis,0.04947415397526273
+2024,4,Uncertified Write In,Olivia Clark,-0.00377672816334378
+2024,4,Uncertified Write In,Eric Zimmerman,-0.003986196239512756
+2024,4,Uncertified Write In,Eli Arnold,-0.0029017992695907335
+2024,4,Uncertified Write In,Mitch Green,-0.003545962302863804
+2024,4,Uncertified Write In,Sarah Silkie,-0.004214354302118163
+2024,4,Uncertified Write In,Chad Lykins,-0.00389164082593947
+2024,4,Uncertified Write In,Lisa Freeman,-0.0018038158360418697
+2024,4,Uncertified Write In,Bob Weinstein,-0.003486608992741004
+2024,4,Uncertified Write In,Tony Morse,-0.0038708035986796067
+2024,4,Uncertified Write In,Ben Hufford,-0.0024734821000940137
+2024,4,Uncertified Write In,Stanley Penkin,-0.003982270383234428
+2024,4,Uncertified Write In,John Toran,-0.0034184998161160204
+2024,4,Uncertified Write In,Andra Vltavin,-0.002197017420986937
+2024,4,Uncertified Write In,Bob Callahan,0.0012632718152656179
+2024,4,Uncertified Write In,Chloe Mason,-0.0006119438372863906
+2024,4,Uncertified Write In,Kevin Goldsmith,0.00197225342746355
+2024,4,Uncertified Write In,Ciatta R Thompson,-0.002704490780331672
+2024,4,Uncertified Write In,Moses Ross,-0.0011987771980348791
+2024,4,Uncertified Write In,Chris Henry,0.0031986570421659475
+2024,4,Uncertified Write In,Mike DiNapoli,0.003212823415175506
+2024,4,Uncertified Write In,Michael Trimble,0.003658795447486576
+2024,4,Uncertified Write In,Joseph (Joe) Alfone,0.004042263818694647
+2024,4,Uncertified Write In,Raquel Coyote,0.007856891711854393
+2024,4,Uncertified Write In,John J Goldsmith,0.009971108361432883
+2024,4,Uncertified Write In,Kelly Doyle,0.005657951121601257
+2024,4,Uncertified Write In,Brandon Farley,0.017132356011315516
+2024,4,Uncertified Write In,Tony Schwartz,0.010406297864502364
+2024,4,Uncertified Write In,Patrick Cashman,0.008714067943164858
+2024,4,Uncertified Write In,Lee Odell,0.006967440420774579
+2024,4,Uncertified Write In,L Christopher Regis,0.007333800430544179
+2024,4,L Christopher Regis,Olivia Clark,-0.001014893925713615
+2024,4,L Christopher Regis,Eric Zimmerman,-0.002549885402337831
+2024,4,L Christopher Regis,Eli Arnold,-0.0012764527616534013
+2024,4,L Christopher Regis,Mitch Green,-0.0017863588782050413
+2024,4,L Christopher Regis,Sarah Silkie,-0.0010767668644913356
+2024,4,L Christopher Regis,Chad Lykins,-0.0018746736293258196
+2024,4,L Christopher Regis,Lisa Freeman,-0.0010911211360701968
+2024,4,L Christopher Regis,Bob Weinstein,-0.0005930098063561618
+2024,4,L Christopher Regis,Tony Morse,-0.00133931397715007
+2024,4,L Christopher Regis,Ben Hufford,0.0004593675907858981
+2024,4,L Christopher Regis,Stanley Penkin,-0.00022586098544625979
+2024,4,L Christopher Regis,John Toran,-0.0003491948550138086
+2024,4,L Christopher Regis,Andra Vltavin,-0.001127548685708842
+2024,4,L Christopher Regis,Bob Callahan,0.004353736989355806
+2024,4,L Christopher Regis,Chloe Mason,0.0011818999251213868
+2024,4,L Christopher Regis,Kevin Goldsmith,0.0028312913746372254
+2024,4,L Christopher Regis,Ciatta R Thompson,0.0021087812506738086
+2024,4,L Christopher Regis,Moses Ross,0.005799195839468368
+2024,4,L Christopher Regis,Chris Henry,0.004555250405489321
+2024,4,L Christopher Regis,Mike DiNapoli,0.008818807858829613
+2024,4,L Christopher Regis,Michael Trimble,0.0008778485234356634
+2024,4,L Christopher Regis,Joseph (Joe) Alfone,0.01036902474251769
+2024,4,L Christopher Regis,Raquel Coyote,0.019578459155619572
+2024,4,L Christopher Regis,John J Goldsmith,0.013945146470497674
+2024,4,L Christopher Regis,Kelly Doyle,0.021749676183062203
+2024,4,L Christopher Regis,Brandon Farley,0.008191996010892858
+2024,4,L Christopher Regis,Tony Schwartz,0.030536646460915518
+2024,4,L Christopher Regis,Patrick Cashman,0.031109970259401456
+2024,4,L Christopher Regis,Lee Odell,0.026788822027294063
+2024,4,L Christopher Regis,Uncertified Write In,0.004647426646462062

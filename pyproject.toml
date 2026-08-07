@@ -1,0 +1,48 @@
+[project]
+name = "portland-campaign-finance-analysis"
+version = "0.1.0"
+description = "Reproducible Portland City Council campaign-finance, shared-support, and candidate-profile analysis."
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+
+dependencies = [
+    # Core data pipeline
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "requests>=2.32",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.2",
+    "openpyxl>=3.1",
+    "xlrd>=2.0",
+
+    # Record linkage
+    "jellyfish>=1.1",
+
+    # report2025 / VoteKit boost reconstruction
+    "votekit==3.2.0",
+
+    # Candidate filing PDF extraction
+    "pdfplumber>=0.11",
+    "pytesseract>=0.3.13",
+    "pdf2image>=1.17",
+    "pillow>=10.4",
+
+    # Analysis notebooks
+    "jupyterlab>=4.2",
+    "ipykernel>=6.29",
+    "matplotlib>=3.9",
+    "plotly>=5.24",
+    "scipy>=1.14",
+    "scikit-learn>=1.5",
+    "kmedoids>=0.5",
+]
+
+[tool.uv]
+# Research repository, not an installable package.
+package = false
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "jupyterlab>=4.6.2",
+]
