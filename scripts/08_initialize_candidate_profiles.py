@@ -1,19 +1,18 @@
-#!/usr/bin/env python3
 """Create one qualitative Markdown scaffold per official candidate.
+
+This script does not research biographies automatically. It only creates a
+consistent place for human-curated notes.
 
 Existing candidate Markdown files are never overwritten.
 """
 
-from __future__ import annotations
-
+import argparse
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
-
-import argparse
 
 import pandas as pd
 
@@ -23,44 +22,18 @@ from helpers.paths import CANDIDATE_PROFILES, PROCESSED
 
 
 def value_or_missing(value):
+    """Turn an empty filing field into a readable placeholder."""
     if pd.isna(value):
         return "Not available in extracted filing data"
 
     text = str(value).strip()
+
     return text if text else "Not available in extracted filing data"
 
 
-def main(year):
-    master_path = (
-        PROCESSED
-        / "master"
-        / f"candidate_master_{year}.csv"
-    )
-
-    if not master_path.exists():
-        raise FileNotFoundError(
-            f"Run 07_build_candidate_master.py first: {master_path}"
-        )
-
-    master = pd.read_csv(master_path, low_memory=False)
-
-    output_dir = CANDIDATE_PROFILES / str(year)
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-    created = 0
-    skipped = 0
-
-    for row in master.itertuples(index=False):
-        if getattr(row, "is_non_candidate_row", False):
-            continue
-
-        path = output_dir / f"{slugify(row.candidate)}.md"
-
-        if path.exists():
-            skipped += 1
-            continue
-
-        content = f"""# {row.candidate}
+def candidate_markdown(row, year):
+    """Create the starter Markdown text for one candidate."""
+    return f"""# {row.candidate}
 
 **Election:** {year} Portland City Council  
 **District:** District {int(row.district)}  
@@ -103,9 +76,49 @@ _TODO: Add qualitative details useful for interpreting the quantitative analysis
 > Keep factual claims sourced. Do not infer missing biographical information.
 """
 
-        path.write_text(content, encoding="utf-8")
+
+def main(year):
+    master_path = (
+        PROCESSED
+        / "master"
+        / f"candidate_master_{year}.csv"
+    )
+
+    if not master_path.exists():
+        raise FileNotFoundError(
+            "Run 07_build_candidate_master.py first: "
+            f"{master_path}"
+        )
+
+    master = pd.read_csv(
+        master_path,
+        low_memory=False,
+    )
+
+    output_dir = CANDIDATE_PROFILES / str(year)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    created = 0
+    skipped = 0
+
+    # 1. Create missing candidate files.
+    for row in master.itertuples(index=False):
+        if getattr(row, "is_non_candidate_row", False):
+            continue
+
+        path = output_dir / f"{slugify(row.candidate)}.md"
+
+        if path.exists():
+            skipped += 1
+            continue
+
+        path.write_text(
+            candidate_markdown(row, year),
+            encoding="utf-8",
+        )
         created += 1
 
+    # 2. Refresh a simple folder index.
     index_lines = [
         f"# {year} Candidate Profiles",
         "",
@@ -116,8 +129,15 @@ _TODO: Add qualitative details useful for interpreting the quantitative analysis
     for path in sorted(output_dir.glob("*.md")):
         if path.name == "README.md":
             continue
+
+        display_name = (
+            path.stem
+            .replace("-", " ")
+            .title()
+        )
+
         index_lines.append(
-            f"- [{path.stem.replace('-', ' ').title()}]({path.name})"
+            f"- [{display_name}]({path.name})"
         )
 
     (output_dir / "README.md").write_text(
@@ -133,4 +153,5 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--year", type=int, required=True)
     args = parser.parse_args()
+
     main(args.year)

@@ -1,0 +1,19 @@
+year,contest_type,office,district,source_file,source_file_stem,source_file_hash,source_relative_path,same_hash_file_count,is_exact_duplicate_export
+2026,city_council,Portland City Council,3,Brown.xls,Brown,976d72be793bc1e692ad085008473b70ff624bb150e8880d091760ba1a8558d4,city_concil_d3/Brown.xls,1,False
+2026,city_council,Portland City Council,3,Corcoran.xls,Corcoran,f9279a639c62cf8308c7b0af49e6ac4185c4bf27699ea331890812a4a4d100c9,city_concil_d3/Corcoran.xls,1,False
+2026,city_council,Portland City Council,3,Johnson.xls,Johnson,547529d434f18c4c624bd3463b44df339ad4af1621be3e2d5635a7199f1facbc,city_concil_d3/Johnson.xls,1,False
+2026,city_council,Portland City Council,3,Koyama.xls,Koyama,04532519f1886faee021d62ca0924b04aee2dfdcaf164ddca8ac45e8db444832,city_concil_d3/Koyama.xls,1,False
+2026,city_council,Portland City Council,3,Leon.xls,Leon,3b9632bb432d10fc80b8b68bc13777c0df0699858976eb848002ffc743280db3,city_concil_d3/Leon.xls,1,False
+2026,city_council,Portland City Council,3,Morillo.xls,Morillo,60720fbc26354e8f54fd5ee27aa97c19a23c81fca7c15c5bb79d88bba38b68e8,city_concil_d3/Morillo.xls,1,False
+2026,city_council,Portland City Council,3,Mullen.xls,Mullen,a68cac1b9ee24bf330fd5db5dc25e2095c1778a47208d9e96d34817baf6c7210,city_concil_d3/Mullen.xls,1,False
+2026,city_council,Portland City Council,3,Novick.xls,Novick,627c36e78d898ce11fd4add57c04b6c1ff7883832bd660dcf4e6fe783eb0cccd,city_concil_d3/Novick.xls,1,False
+2026,city_council,Portland City Council,3,Sollitt.xls,Sollitt,04a9a51078ec55cc20702d0d4aefe72117030c39e1014868a9fb8745b07e0054,city_concil_d3/Sollitt.xls,1,False
+2026,city_council,Portland City Council,3,Zimmerman.xls,Zimmerman,505e8480c770e9c5cd863945260672fce36a5d73f16bf20b253b75d594acd7a1,city_concil_d3/Zimmerman.xls,1,False
+2026,city_council,Portland City Council,4,Arnold.xls,Arnold,30b392de4071ab9be30b5368bf796175f80a812bc272c6203dfcceb752c49617,city_concil_d4/Arnold.xls,1,False
+2026,city_council,Portland City Council,4,Clark.xls,Clark,c42ee8d38fb07b0adb95c2aa666ced654074b07e93bd25b428940c595b63247b,city_concil_d4/Clark.xls,1,False
+2026,city_council,Portland City Council,4,Evenstar.xls,Evenstar,2c58f0e952ad7b2f3d12b1456760dc319226e29eaabb92b63c95437d94059a5b,city_concil_d4/Evenstar.xls,1,False
+2026,city_council,Portland City Council,4,Goldsmith.xls,Goldsmith,4576efc0e4537006aa85781e491c56d0e6cdc2cb6cf3ca7de9c596823e9b48e4,city_concil_d4/Goldsmith.xls,1,False
+2026,city_council,Portland City Council,4,Green.xls,Green,b8ac8c3ee3b45082a70459c5ddc71493feb90af9034aa875fcfde1963310755f,city_concil_d4/Green.xls,1,False
+2026,city_council,Portland City Council,4,Smith.xls,Smith,8427a3020f8ad22574663bbdeb93b4db2a7397e2326b8591821c6e48c4557e3a,city_concil_d4/Smith.xls,1,False
+2026,city_council,Portland City Council,4,Thompson.xls,Thompson,db842d5b6a2eed1b3d0205e1087b3f0b699127aa1606c1f619a11e94482eb01b,city_concil_d4/Thompson.xls,1,False
+2026,city_council,Portland City Council,4,Zimmerman.xls,Zimmerman,d0cbe8ff3ff24392e736143aa920a64909ae6c4990eca164b62e77cd7565a7fa,city_concil_d4/Zimmerman.xls,1,False

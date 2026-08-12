@@ -1,25 +1,30 @@
-#!/usr/bin/env python3
-"""Scrape Portland's official City Council candidate page for one year.
+"""Scrape Portland's official City Council candidate page.
 
-Supports both page structures already observed:
-- 2024 heading/list layout;
-- 2026 table layout.
+Observed layouts
+----------------
+2024: district headings + candidate headings + document links
+2026: district headings + candidate tables
 
-The saved HTML is raw. Parsed candidate/document rows are clean data.
+Keeping two small parsers is easier to debug than one "smart" parser.
+
+Outputs
+-------
+candidate_list.csv
+    one row per candidate-document combination
+
+candidate_index.csv
+    one row per official candidate
 """
 
-from __future__ import annotations
-
+import argparse
+import re
 import sys
 from pathlib import Path
+from urllib.parse import urljoin
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
-
-import argparse
-import re
-from urllib.parse import urljoin
 
 import pandas as pd
 import requests
@@ -45,53 +50,53 @@ WITHDRAWN_LABEL_RE = re.compile(
 
 
 def clean_text(tag):
-    return (
-        re.sub(
-            r"\s+",
-            " ",
-            tag.get_text(" ", strip=True),
-        ).strip()
-        if tag
-        else ""
-    )
+    """Return readable text from one BeautifulSoup element."""
+    if tag is None:
+        return ""
+
+    text = tag.get_text(" ", strip=True)
+    return re.sub(r"\s+", " ", text).strip()
 
 
-def district_from_heading(heading_text):
-    match = DISTRICT_HEADING_RE.search(heading_text)
+def district_from_heading(text):
+    match = DISTRICT_HEADING_RE.search(text)
     return match.group(1).title() if match else None
 
 
-def is_councilor_heading(heading_text):
-    return "councilor" in heading_text.lower()
+def is_councilor_heading(text):
+    return "councilor" in text.lower()
 
 
-def parse_heading_list_page(soup, *, year, base_url):
+def parse_heading_list_page(soup, year, base_url):
+    """Parse the heading/list layout observed for 2024."""
     rows = []
     headings = soup.find_all(["h2", "h3"])
 
     for heading_index, heading in enumerate(headings):
         heading_text = clean_text(heading)
 
-        if (
-            heading.name != "h2"
-            or not is_councilor_heading(heading_text)
-        ):
+        if heading.name != "h2" or not is_councilor_heading(heading_text):
             continue
 
         district_label = district_from_heading(heading_text)
+
         if not district_label:
             continue
 
+        # The next h2 marks the end of this district section.
         next_h2 = None
-        for later in headings[heading_index + 1 :]:
+
+        for later in headings[heading_index + 1:]:
             if later.name == "h2":
                 next_h2 = later
                 break
 
         candidate_headings = []
-        for later in headings[heading_index + 1 :]:
+
+        for later in headings[heading_index + 1:]:
             if later is next_h2:
                 break
+
             if later.name == "h3":
                 candidate_headings.append(later)
 
@@ -109,7 +114,7 @@ def parse_heading_list_page(soup, *, year, base_url):
                 )
 
             name = (
-                re.sub(r"^.*?:\s*", "", raw_name).strip()
+                raw_name.split(":", 1)[-1]
                 if ":" in raw_name
                 else raw_name
             )
@@ -121,7 +126,7 @@ def parse_heading_list_page(soup, *, year, base_url):
                 else next_h2
             )
 
-            seen_pdf = False
+            found_pdf = False
             candidate_row_indexes = []
 
             for element in candidate_heading.find_all_next():
@@ -130,12 +135,14 @@ def parse_heading_list_page(soup, *, year, base_url):
 
                 if element.name == "a" and element.get("href"):
                     href = element["href"]
-                    label = (
-                        clean_text(element)
-                        or "Candidate Filing Application"
+                    label = clean_text(element) or "Candidate Filing Application"
+
+                    looks_like_document = (
+                        "/documents/" in href
+                        or href.lower().endswith(".pdf")
                     )
 
-                    if "/documents/" in href or href.lower().endswith(".pdf"):
+                    if looks_like_document:
                         rows.append(
                             {
                                 "year": year,
@@ -148,26 +155,25 @@ def parse_heading_list_page(soup, *, year, base_url):
                             }
                         )
                         candidate_row_indexes.append(len(rows) - 1)
-                        seen_pdf = True
+                        found_pdf = True
 
                 if element.name == "li":
                     text = clean_text(element)
 
                     if text.lower().startswith("date filed"):
                         date_value = text.split(":", 1)[-1].strip()
+
                         for row_index in candidate_row_indexes:
                             rows[row_index]["filing_date"] = date_value
 
-                    if (
-                        "withdrawn" in text.lower()
-                        and "date" in text.lower()
-                    ):
+                    if "withdrawn" in text.lower() and "date" in text.lower():
                         for row_index in candidate_row_indexes:
-                            rows[row_index][
-                                "filing_status"
-                            ] = "Candidacy Withdrawn"
+                            rows[row_index]["filing_status"] = (
+                                "Candidacy Withdrawn"
+                            )
 
-            if not seen_pdf:
+            # Keep official candidates even if no filing PDF is linked.
+            if not found_pdf:
                 rows.append(
                     {
                         "year": year,
@@ -183,7 +189,8 @@ def parse_heading_list_page(soup, *, year, base_url):
     return rows
 
 
-def parse_table_page(soup, *, year, base_url):
+def parse_table_page(soup, year, base_url):
+    """Parse the candidate-table layout observed for 2026."""
     rows = []
 
     for heading in soup.find_all(["h2", "h3"]):
@@ -193,26 +200,29 @@ def parse_table_page(soup, *, year, base_url):
             continue
 
         district_label = district_from_heading(heading_text)
+
         if not district_label:
             continue
 
         table = heading.find_next("table")
+
         if table is None:
             continue
 
         for table_row in table.find_all("tr"):
             cells = table_row.find_all("td")
-            if not cells or len(cells) < 3:
+
+            if len(cells) < 3:
                 continue
 
             name = clean_text(cells[0])
+
             if not name or name.lower() == "name":
                 continue
 
-            status = clean_text(cells[1]) if len(cells) > 1 else ""
-            filing_date = clean_text(cells[2]) if len(cells) > 2 else ""
-            documents_cell = cells[3] if len(cells) > 3 else None
-            links = documents_cell.find_all("a") if documents_cell else []
+            status = clean_text(cells[1])
+            filing_date = clean_text(cells[2])
+            links = cells[3].find_all("a") if len(cells) > 3 else []
 
             if not links:
                 rows.append(
@@ -229,6 +239,7 @@ def parse_table_page(soup, *, year, base_url):
 
             for link in links:
                 href = link.get("href", "")
+
                 if not href:
                     continue
 
@@ -250,7 +261,7 @@ def parse_table_page(soup, *, year, base_url):
     return rows
 
 
-def main(*, year, force=False):
+def main(year, force=False):
     if year not in CANDIDATE_PAGES:
         raise ValueError(f"No candidate page configured for {year}")
 
@@ -270,44 +281,42 @@ def main(*, year, force=False):
     raw_html_dir.mkdir(parents=True, exist_ok=True)
     clean_dir.mkdir(parents=True, exist_ok=True)
 
+    # 1. Download the official page, or reuse the raw snapshot.
     if html_path.exists() and not force:
         html = html_path.read_text(encoding="utf-8")
         print(f"READ  existing raw HTML {html_path}")
     else:
         print(f"GET   {url}")
+
         response = requests.get(
             url,
             headers={"User-Agent": USER_AGENT},
             timeout=30,
         )
         response.raise_for_status()
+
         html = response.text
         html_path.write_text(html, encoding="utf-8")
+
         print(f"SAVED {html_path}")
 
+    # 2. Detect the observed layout and parse candidate rows.
     soup = BeautifulSoup(html, "html.parser")
 
     if soup.find_all("table"):
-        rows = parse_table_page(
-            soup,
-            year=year,
-            base_url=url,
-        )
+        rows = parse_table_page(soup, year, url)
         layout = "table"
     else:
-        rows = parse_heading_list_page(
-            soup,
-            year=year,
-            base_url=url,
-        )
+        rows = parse_heading_list_page(soup, year, url)
         layout = "heading_list"
 
     if not rows:
         raise RuntimeError(
-            "No City Councilor rows were parsed. "
+            "No City Council candidate rows were parsed. "
             "The official page layout may have changed."
         )
 
+    # 3. Standardize official candidate identity.
     data = pd.DataFrame(rows)
     data["district"] = data["district_label"].map(district_number)
     data = data.loc[data["district"].notna()].copy()
@@ -315,6 +324,7 @@ def main(*, year, force=False):
 
     data["candidate"] = data["name"].astype(str).str.strip()
     data["candidate_norm"] = data["candidate"].map(normalize_name)
+
     data["candidate_key"] = [
         canonical_candidate_key(year, district, candidate)
         for district, candidate in zip(
@@ -324,8 +334,10 @@ def main(*, year, force=False):
     ]
     data["page_layout"] = layout
 
+    # Candidate-document table.
     data.to_csv(list_output, index=False)
 
+    # 4. Collapse to one row per official candidate.
     candidate_index = (
         data.groupby(
             [

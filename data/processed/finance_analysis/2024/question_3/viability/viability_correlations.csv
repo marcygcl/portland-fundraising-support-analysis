@@ -1,0 +1,21 @@
+scope,district,finance_measure,n,correlation
+all districts,,fundraising,65,0.7045630283104651
+district,1.0,fundraising,13,0.8351113237604977
+district,2.0,fundraising,20,0.6694754810457594
+district,3.0,fundraising,15,0.9185796073986271
+district,4.0,fundraising,17,0.5062201471875487
+all districts,,total_spending,65,0.43766678659106645
+district,1.0,total_spending,11,0.43270247522897776
+district,2.0,total_spending,19,0.7606183437106624
+district,3.0,total_spending,16,0.6884855851088199
+district,4.0,total_spending,19,0.6723664990784879
+all districts,,contribution_count,65,0.682526754838994
+district,1.0,contribution_count,13,0.7998158773638934
+district,2.0,contribution_count,20,0.7149961677588834
+district,3.0,contribution_count,15,0.7942982200159802
+district,4.0,contribution_count,17,0.5508463355087837
+all districts,,expenditure_count,65,0.49350799044575205
+district,1.0,expenditure_count,11,0.5428907814987345
+district,2.0,expenditure_count,19,0.27507409994770377
+district,3.0,expenditure_count,16,0.9038458081491391
+district,4.0,expenditure_count,19,0.4952433732797651

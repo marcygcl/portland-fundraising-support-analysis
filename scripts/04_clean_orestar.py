@@ -1,12 +1,28 @@
-#!/usr/bin/env python3
-"""Consolidate ORESTAR exports for one election year.
+"""Clean manually downloaded ORESTAR campaign-finance workbooks.
 
-ORESTAR is kept as a source-level dataset. Final spending definitions and
-categories belong in later analytical notebooks.
+This file is intentionally an orchestrator.
+
+Technical Excel parsing lives in `helpers/orestar.py`, so the workflow here
+stays simple:
+
+1. choose years;
+2. find workbooks;
+3. identify supported contests;
+4. hash + read files;
+5. build source audit tables;
+6. save each contest separately.
+
+Outputs
+-------
+data/clean/orestar/<year>/<contest_type>/
+    transactions.csv
+    candidate_index.csv
+    file_audit.csv
+
+Fundraising/spending profiles are built later in notebooks.
 """
 
-from __future__ import annotations
-
+import argparse
 import sys
 from pathlib import Path
 
@@ -14,242 +30,320 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-import argparse
-import hashlib
-import re
-
+import numpy as np
 import pandas as pd
 
-from helpers.linkage import normalize_name
-from helpers.paths import CLEAN, RAW
+from helpers.orestar import (
+    build_candidate_index,
+    build_file_audit,
+    infer_contest_from_path,
+    read_workbook,
+    sha256_hash,
+)
+from helpers.paths import (
+    orestar_candidate_index_path,
+    orestar_clean_dir,
+    orestar_file_audit_path,
+    orestar_raw_dir,
+    orestar_raw_year_dir,
+    orestar_transactions_path,
+)
 
 
-REPORTED_EXPENDITURE_SUBTYPES = {
-    "Cash Expenditure",
-    "Personal Expenditure for Reimbursement",
-    "Miscellaneous Other Disbursement",
-}
-
-COLUMN_MAP = {
-    "Tran Id": "tran_id",
-    "Original Id": "original_id",
-    "Tran Date": "tran_date",
-    "Tran Status": "tran_status",
-    "Filer": "filer",
-    "Filer Id": "filer_id",
-    "Contributor/Payee": "counterparty",
-    "Sub Type": "sub_type",
-    "Payer of Personal Expenditure": "personal_expenditure_payer",
-    "Amount": "amount",
-    "Aggregate Amount": "aggregate_amount",
-    "Contributor/Payee Committee ID": "counterparty_committee_id",
-    "Book Type": "book_type",
-    "City": "city",
-    "State": "state",
-    "Zip": "zip",
-    "County": "county",
-    "Country": "country",
-    "Purpose Codes": "purpose_codes",
-    "Purp Desc": "purpose_description",
-    "Exp Date": "expenditure_date",
-}
-
-
-def file_hash(path):
-    digest = hashlib.sha256()
-    with path.open("rb") as handle:
-        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
-            digest.update(chunk)
-    return digest.hexdigest()
-
-
-def normalize_columns(frame):
-    frame = frame.rename(
-        columns={
-            old: new
-            for old, new in COLUMN_MAP.items()
-            if old in frame.columns
-        }
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Clean ORESTAR workbooks."
     )
 
-    frame.columns = [
-        re.sub(
-            r"_+",
-            "_",
-            re.sub(
-                r"[^a-z0-9]+",
-                "_",
-                str(column).lower(),
-            ),
-        ).strip("_")
-        for column in frame.columns
-    ]
+    year_group = parser.add_mutually_exclusive_group(required=True)
 
-    return frame
-
-
-def read_workbook(path, *, year):
-    match = re.fullmatch(r"d([1-4])", path.parent.name.lower())
-    if not match:
-        raise ValueError(f"Cannot infer district from {path}")
-
-    frame = pd.read_excel(path, sheet_name="ORESTAR Export")
-    frame = normalize_columns(frame)
-
-    frame["year"] = year
-    frame["district"] = int(match.group(1))
-    frame["source_file"] = path.name
-    frame["source_file_stem"] = path.stem
-    frame["source_file_hash"] = file_hash(path)
-
-    return frame
-
-
-def main(*, year, force=False):
-    raw_dir = RAW / "orestar" / str(year)
-    output_dir = CLEAN / "orestar" / str(year)
-
-    transactions_output = output_dir / "transactions.csv"
-    candidate_index_output = output_dir / "candidate_index.csv"
-    file_audit_output = output_dir / "file_audit.csv"
-
-    if (
-        transactions_output.exists()
-        and candidate_index_output.exists()
-        and file_audit_output.exists()
-        and not force
-    ):
-        print(f"SKIP  clean ORESTAR outputs already exist for {year}")
-        return
-
-    workbooks = sorted(
-        list(raw_dir.glob("d*/*.xls"))
-        + list(raw_dir.glob("d*/*.xlsx"))
+    year_group.add_argument(
+        "--year",
+        type=int,
+        nargs="+",
+        help="One or more years, e.g. --year 2024 2026",
+    )
+    year_group.add_argument(
+        "--all-years",
+        action="store_true",
+        help="Process every numeric folder under data/raw/orestar/.",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Overwrite existing clean outputs.",
     )
 
-    if not workbooks:
+    return parser.parse_args()
+
+
+def discover_years():
+    """Find numeric year folders under data/raw/orestar/."""
+    root = orestar_raw_dir()
+
+    if not root.exists():
         raise FileNotFoundError(
-            f"No ORESTAR workbooks found under {raw_dir}"
+            f"ORESTAR raw directory not found: {root}"
         )
 
-    data = pd.concat(
-        [read_workbook(path, year=year) for path in workbooks],
+    years = sorted(
+        int(path.name)
+        for path in root.iterdir()
+        if path.is_dir() and path.name.isdigit()
+    )
+
+    if not years:
+        raise FileNotFoundError(
+            f"No numeric year folders found under {root}"
+        )
+
+    return years
+
+
+def find_workbooks(year_dir):
+    """Find all .xls/.xlsx files under one year folder."""
+    return sorted(
+        path
+        for path in year_dir.rglob("*")
+        if (
+            path.is_file()
+            and path.suffix.lower() in {".xls", ".xlsx"}
+        )
+    )
+
+
+def save_contest(
+    data,
+    year,
+    contest_type,
+    year_hash_counts,
+    force=False,
+):
+    """Save clean transactions, candidate index, and source audit."""
+    transactions_path = orestar_transactions_path(
+        year,
+        contest_type,
+    )
+    candidate_index_path = orestar_candidate_index_path(
+        year,
+        contest_type,
+    )
+    file_audit_path = orestar_file_audit_path(
+        year,
+        contest_type,
+    )
+
+    outputs = [
+        transactions_path,
+        candidate_index_path,
+        file_audit_path,
+    ]
+
+    if all(path.exists() for path in outputs) and not force:
+        print(
+            f"SKIP  {year} {contest_type}: outputs already exist"
+        )
+
+        return {
+            "year": year,
+            "contest_type": contest_type,
+            "status": "skipped",
+            "workbooks": np.nan,
+            "rows": np.nan,
+        }
+
+    contest_data = data.loc[
+        data["contest_type"].eq(contest_type)
+    ].copy()
+
+    candidate_index = build_candidate_index(contest_data)
+    file_audit = build_file_audit(
+        contest_data,
+        year_hash_counts,
+    )
+
+    output_dir = orestar_clean_dir(year, contest_type)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    contest_data.to_csv(transactions_path, index=False)
+    candidate_index.to_csv(candidate_index_path, index=False)
+    file_audit.to_csv(file_audit_path, index=False)
+
+    print(f"SAVED {year} {contest_type}")
+    print(f"      Workbooks: {len(file_audit):,}")
+    print(f"      Rows: {len(contest_data):,}")
+    print(
+        "      Contribution rows: "
+        f"{int(contest_data['is_reported_contribution'].sum()):,}"
+    )
+    print(
+        "      Expenditure rows: "
+        f"{int(contest_data['is_reported_expenditure'].sum()):,}"
+    )
+    print(
+        "      Exact duplicate exports: "
+        f"{int(file_audit['is_exact_duplicate_export'].sum()):,}"
+    )
+
+    return {
+        "year": year,
+        "contest_type": contest_type,
+        "status": "saved",
+        "workbooks": len(file_audit),
+        "rows": len(contest_data),
+    }
+
+
+def process_year(year, force=False):
+    """Clean every supported ORESTAR contest found for one year."""
+    year_dir = orestar_raw_year_dir(year)
+
+    print()
+    print(f"=== ORESTAR {year} ===")
+
+    if not year_dir.exists():
+        print(f"SKIP  raw year folder not found: {year_dir}")
+        return []
+
+    workbooks = find_workbooks(year_dir)
+
+    if not workbooks:
+        print("SKIP  no Excel workbooks found")
+        return []
+
+    # 1. Keep only source folders we know how to interpret.
+    supported = []
+
+    for path in workbooks:
+        try:
+            contest_type, office, district = infer_contest_from_path(
+                path,
+                year_dir,
+            )
+        except ValueError:
+            print(
+                "SKIP  unsupported folder: "
+                f"{path.relative_to(year_dir)}"
+            )
+            continue
+
+        supported.append(
+            {
+                "path": path,
+                "contest_type": contest_type,
+                "office": office,
+                "district": district,
+            }
+        )
+
+    if not supported:
+        print("SKIP  no supported ORESTAR workbooks found")
+        return []
+
+    # 2. Hash files before reading so duplicate exports remain auditable.
+    workbook_hashes = {
+        item["path"]: sha256_hash(item["path"])
+        for item in supported
+    }
+
+    year_hash_counts = (
+        pd.Series(
+            list(workbook_hashes.values()),
+            dtype="string",
+        )
+        .value_counts()
+        .to_dict()
+    )
+
+    # 3. Read and standardize every workbook.
+    frames = []
+
+    for item in supported:
+        path = item["path"]
+
+        print(
+            f"READ  {item['contest_type']} "
+            f"D{item['district']} {path.name}"
+        )
+
+        frame = read_workbook(
+            path=path,
+            year=year,
+            year_dir=year_dir,
+            source_hash=workbook_hashes[path],
+        )
+
+        if not frame.empty:
+            frames.append(frame)
+
+    if not frames:
+        print("SKIP  no transaction rows were read")
+        return []
+
+    all_data = pd.concat(
+        frames,
         ignore_index=True,
         sort=False,
     )
 
-    for required in ["amount", "tran_date", "sub_type"]:
-        if required not in data.columns:
-            raise ValueError(f"ORESTAR field missing: {required}")
-
-    data["amount"] = pd.to_numeric(data["amount"], errors="coerce")
-    data["tran_date"] = pd.to_datetime(
-        data["tran_date"],
-        errors="coerce",
-    )
-    data["transaction_year"] = data["tran_date"].dt.year
-    data["sub_type"] = data["sub_type"].astype(str).str.strip()
-
-    data["is_reported_expenditure"] = data["sub_type"].isin(
-        REPORTED_EXPENDITURE_SUBTYPES
-    )
-    data["reported_expenditure_amount"] = data["amount"].where(
-        data["is_reported_expenditure"],
-        0,
+    # 4. Save every contest found in this year.
+    contest_types = sorted(
+        all_data["contest_type"].dropna().unique().tolist()
     )
 
-    file_audit = (
-        data[
-            [
-                "year",
-                "district",
-                "source_file",
-                "source_file_stem",
-                "source_file_hash",
-            ]
+    return [
+        save_contest(
+            data=all_data,
+            year=year,
+            contest_type=contest_type,
+            year_hash_counts=year_hash_counts,
+            force=force,
+        )
+        for contest_type in contest_types
+    ]
+
+
+def main():
+    args = parse_args()
+
+    years = (
+        discover_years()
+        if args.all_years
+        else sorted(set(args.year))
+    )
+
+    print(
+        "Years to clean:",
+        ", ".join(str(year) for year in years),
+    )
+
+    results = []
+
+    for year in years:
+        results.extend(
+            process_year(
+                year,
+                force=args.force,
+            )
+        )
+
+    print()
+    print("=== ORESTAR CLEANING COMPLETE ===")
+
+    if not results:
+        print("No supported ORESTAR data were cleaned.")
+        return
+
+    summary = pd.DataFrame(results)
+
+    print(
+        summary[
+            ["year", "contest_type", "status", "workbooks", "rows"]
         ]
-        .drop_duplicates()
-        .sort_values(["district", "source_file"])
-        .reset_index(drop=True)
+        .sort_values(["year", "contest_type"])
+        .to_string(index=False)
     )
-
-    file_audit["same_hash_file_count"] = file_audit.groupby(
-        "source_file_hash"
-    )["source_file_hash"].transform("size")
-    file_audit["is_exact_duplicate_export"] = (
-        file_audit["same_hash_file_count"] > 1
-    )
-
-    group_columns = [
-        "year",
-        "district",
-        "source_file_stem",
-        "source_file_hash",
-    ]
-
-    data["_headline_amount"] = data["reported_expenditure_amount"]
-
-    candidate_index = (
-        data.groupby(group_columns, as_index=False)
-        .agg(
-            source_rows=("amount", "size"),
-            reported_expenditure_rows=(
-                "is_reported_expenditure",
-                "sum",
-            ),
-            reported_expenditure_amount=(
-                "_headline_amount",
-                "sum",
-            ),
-        )
-    )
-
-    optional_metadata = [
-        column
-        for column in ["filer", "filer_id"]
-        if column in data.columns
-    ]
-
-    if optional_metadata:
-        metadata = (
-            data[group_columns + optional_metadata]
-            .drop_duplicates(group_columns)
-        )
-        candidate_index = candidate_index.merge(
-            metadata,
-            on=group_columns,
-            how="left",
-        )
-
-    candidate_index["source_candidate_name"] = (
-        candidate_index["source_file_stem"]
-        .astype(str)
-        .str.replace("_", " ", regex=False)
-        .str.strip()
-    )
-    candidate_index["source_candidate_name_norm"] = (
-        candidate_index["source_candidate_name"].map(normalize_name)
-    )
-
-    output_dir.mkdir(parents=True, exist_ok=True)
-    data.drop(columns=["_headline_amount"]).to_csv(
-        transactions_output,
-        index=False,
-    )
-    candidate_index.to_csv(candidate_index_output, index=False)
-    file_audit.to_csv(file_audit_output, index=False)
-
-    print(f"SAVED {transactions_output}")
-    print(f"SAVED {candidate_index_output}")
-    print(f"SAVED {file_audit_output}")
-    print(f"Workbooks: {len(workbooks)}")
-    print(f"Rows: {len(data)}")
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--year", type=int, required=True)
-    parser.add_argument("--force", action="store_true")
-    args = parser.parse_args()
-
-    main(year=args.year, force=args.force)
+    main()

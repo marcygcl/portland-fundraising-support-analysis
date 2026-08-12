@@ -1,25 +1,22 @@
-"""Candidate record linkage across Portland data sources.
+"""Candidate-name linkage across Portland data sources.
 
-Method
-------
-1. Normalize names.
-2. Block candidates by election year + district.
-3. Apply explicit human-reviewed decisions when available.
-4. Match exact normalized full names.
-5. Recognize known non-candidate labels.
-6. Match unique partial/token names within the year + district block.
-7. Calculate Jaro-Winkler similarities for unresolved records.
-8. Classify as match / maybe_match / non_match.
+Different sources do not always write the same candidate name.
 
-The partial-name rule is especially useful for ORESTAR, where workbook
-filenames often contain only a surname (for example, "Avalos.xls").
+Example:
+    official page: Candace Avalos
+    ORESTAR file:  Avalos.xls
 
-We only accept a partial-name match when it identifies exactly ONE official
-candidate inside the already restricted year + district block. Ambiguous cases
-continue to fuzzy matching / manual review rather than being guessed.
+Matching order
+--------------
+1. Restrict possible matches to the same year + district.
+2. Apply a human-reviewed decision if one exists.
+3. Accept exact normalized names.
+4. Accept a unique short-token match ("Avalos" -> "Candace Avalos").
+5. Use Jaro-Winkler similarity for unresolved records.
+6. Send ambiguous cases to manual review.
+
+We prefer leaving a record unresolved over linking it to the wrong candidate.
 """
-
-from __future__ import annotations
 
 import re
 import unicodedata
@@ -33,38 +30,25 @@ from config import (
     LINKAGE_MATCH_THRESHOLD,
     LINKAGE_MAYBE_THRESHOLD,
 )
-
 from .paths import CONFIG_DIR
 
 
-# ---------------------------------------------------------------------
-# Constants
-# ---------------------------------------------------------------------
-
-DECISIONS_PATH = (
-    CONFIG_DIR
-    / "linkage_decisions.csv"
-)
+DECISIONS_PATH = CONFIG_DIR / "linkage_decisions.csv"
 
 MATCH = "match"
 MAYBE_MATCH = "maybe_match"
 NON_MATCH = "non_match"
 
-
-# Labels that can appear in election-result sources but are not actual
-# candidate records that should be linked to the official candidate universe.
 KNOWN_NON_CANDIDATE_LABELS = {
     "uncertified write in",
     "write in",
 }
 
 
-# ---------------------------------------------------------------------
-# Linkage result
-# ---------------------------------------------------------------------
-
 @dataclass(frozen=True)
 class LinkageResult:
+    """Structured result returned by the matching function."""
+
     source_candidate_name: str
     suggested_candidate: str | None
     suggested_candidate_key: str | None
@@ -77,180 +61,94 @@ class LinkageResult:
 
 
 # ---------------------------------------------------------------------
-# Name normalization
+# 1. Name cleaning
 # ---------------------------------------------------------------------
 
-def normalize_name(
-    value,
-) -> str:
-    """Normalize a candidate name while preserving meaningful tokens."""
-
+def normalize_name(value):
+    """Lowercase, remove accents/punctuation, and collapse spaces."""
     if pd.isna(value):
         return ""
 
-    text = unicodedata.normalize(
-        "NFKD",
-        str(value),
-    )
+    text = unicodedata.normalize("NFKD", str(value))
 
-    text = "".join(
+    letters = [
         character
         for character in text
-        if not unicodedata.combining(
-            character
-        )
-    )
+        if not unicodedata.combining(character)
+    ]
 
-    text = text.lower()
+    text = "".join(letters).lower()
+    text = re.sub(r"[^a-z0-9]+", " ", text)
+    text = re.sub(r"\s+", " ", text)
 
-    text = re.sub(
-        r"[^a-z0-9]+",
-        " ",
-        text,
-    )
-
-    return re.sub(
-        r"\s+",
-        " ",
-        text,
-    ).strip()
+    return text.strip()
 
 
-def slugify(
-    value,
-) -> str:
-    """Convert arbitrary text into a filesystem-safe slug."""
-
-    text = unicodedata.normalize(
-        "NFKD",
-        str(value),
-    )
-
-    text = (
-        text
-        .encode(
-            "ascii",
-            "ignore",
-        )
-        .decode("ascii")
-        .lower()
-    )
-
-    text = re.sub(
-        r"[^a-z0-9]+",
-        "-",
-        text,
-    )
+def slugify(value):
+    """Convert text into a filesystem-safe slug."""
+    text = unicodedata.normalize("NFKD", str(value))
+    text = text.encode("ascii", "ignore").decode("ascii").lower()
+    text = re.sub(r"[^a-z0-9]+", "-", text)
 
     return text.strip("-")
 
 
-def district_number(
-    value,
-) -> int | None:
-    """Parse district number from 1, '1', or 'District 1'."""
-
+def district_number(value):
+    """Read a district number from 1, '1', or 'District 1'."""
     if pd.isna(value):
         return None
 
-    match = re.search(
-        r"([1-4])",
-        str(value),
-    )
+    match = re.search(r"([1-4])", str(value))
 
-    return (
-        int(
-            match.group(1)
-        )
-        if match
-        else None
-    )
+    return int(match.group(1)) if match else None
 
 
-def canonical_candidate_key(
-    year: int,
-    district: int,
-    candidate: str,
-) -> str:
-    """Stable key based on the official candidate-page name."""
-
-    return (
-        f"{int(year)}|"
-        f"{int(district)}|"
-        f"{normalize_name(candidate)}"
-    )
+def canonical_candidate_key(year, district, candidate):
+    """Create a stable key from the official candidate-page name."""
+    return f"{int(year)}|{int(district)}|{normalize_name(candidate)}"
 
 
 # ---------------------------------------------------------------------
-# Similarity
+# 2. Similarity
 # ---------------------------------------------------------------------
 
-def jaro_winkler_name_similarity(
-    left,
-    right,
-) -> float:
+def jaro_winkler_name_similarity(left, right):
     """Jaro-Winkler similarity after project-standard normalization."""
+    left_clean = normalize_name(left)
+    right_clean = normalize_name(right)
 
-    left_clean = normalize_name(
-        left
-    )
-
-    right_clean = normalize_name(
-        right
-    )
-
-    if (
-        not left_clean
-        or not right_clean
-    ):
+    if not left_clean or not right_clean:
         return 0.0
 
     return float(
-        jellyfish
-        .jaro_winkler_similarity(
-            left_clean,
-            right_clean,
-        )
+        jellyfish.jaro_winkler_similarity(left_clean, right_clean)
     )
 
 
-def _best_similarity_for_aliases(
-    source_names: list[str],
-    candidate_name: str,
-) -> float:
-    """Highest similarity between any source alias and a candidate."""
+def best_similarity_for_aliases(source_names, candidate_name):
+    """Highest similarity between any source alias and one candidate."""
+    best_score = 0.0
 
-    clean_names = [
-        str(value).strip()
-        for value in source_names
-        if (
-            pd.notna(value)
-            and str(value).strip()
-        )
-    ]
+    for source_name in source_names:
+        if pd.isna(source_name) or not str(source_name).strip():
+            continue
 
-    if not clean_names:
-        return 0.0
-
-    return max(
-        jaro_winkler_name_similarity(
+        score = jaro_winkler_name_similarity(
             source_name,
             candidate_name,
         )
-        for source_name
-        in clean_names
-    )
+
+        best_score = max(best_score, score)
+
+    return best_score
 
 
 # ---------------------------------------------------------------------
-# Human-reviewed linkage decisions
+# 3. Human-reviewed decisions
 # ---------------------------------------------------------------------
 
-def load_linkage_decisions(
-    path=DECISIONS_PATH,
-) -> pd.DataFrame:
-    """Load persistent human-reviewed linkage decisions."""
-
+def load_linkage_decisions(path=DECISIONS_PATH):
+    """Load persistent human-reviewed decisions."""
     columns = [
         "year",
         "district",
@@ -262,399 +160,208 @@ def load_linkage_decisions(
     ]
 
     if not path.exists():
-        return pd.DataFrame(
-            columns=columns
-        )
+        return pd.DataFrame(columns=columns)
 
-    frame = pd.read_csv(
-        path
-    )
+    decisions = pd.read_csv(path)
 
     for column in columns:
-        if column not in frame.columns:
-            frame[
-                column
-            ] = pd.NA
+        if column not in decisions.columns:
+            decisions[column] = pd.NA
 
-    frame[
-        "year"
-    ] = pd.to_numeric(
-        frame["year"],
+    decisions["year"] = pd.to_numeric(
+        decisions["year"],
         errors="coerce",
-    ).astype(
-        "Int64"
-    )
+    ).astype("Int64")
 
-    frame[
-        "district"
-    ] = pd.to_numeric(
-        frame["district"],
+    decisions["district"] = pd.to_numeric(
+        decisions["district"],
         errors="coerce",
-    ).astype(
-        "Int64"
+    ).astype("Int64")
+
+    decisions["source_name_norm"] = (
+        decisions["source_candidate_name"].map(normalize_name)
     )
 
-    frame[
-        "source_name_norm"
-    ] = frame[
-        "source_candidate_name"
-    ].map(
-        normalize_name
-    )
-
-    frame[
-        "decision"
-    ] = (
-        frame[
-            "decision"
-        ]
+    decisions["decision"] = (
+        decisions["decision"]
         .fillna("")
         .astype(str)
         .str.strip()
         .str.lower()
     )
 
-    return frame
+    return decisions
 
 
 def reviewed_decision(
     *,
-    year: int,
-    district: int,
-    source: str,
-    source_candidate_name: str,
-    canonical_candidates: pd.DataFrame,
-    decisions: pd.DataFrame,
-) -> LinkageResult | None:
-    """Return an explicit human decision when one exists."""
+    year,
+    district,
+    source,
+    source_candidate_name,
+    canonical_candidates,
+    decisions,
+):
+    """Return a human-reviewed result when one has been recorded."""
+    source_norm = normalize_name(source_candidate_name)
 
-    source_norm = normalize_name(
-        source_candidate_name
-    )
-
-    matches = decisions.loc[
-        decisions[
-            "year"
-        ].eq(
-            year
-        )
-        & decisions[
-            "district"
-        ].eq(
-            district
-        )
-        & decisions[
-            "source"
-        ].astype(str).eq(
-            source
-        )
-        & decisions[
-            "source_name_norm"
-        ].eq(
-            source_norm
-        )
+    rows = decisions.loc[
+        decisions["year"].eq(year)
+        & decisions["district"].eq(district)
+        & decisions["source"].astype(str).eq(source)
+        & decisions["source_name_norm"].eq(source_norm)
     ]
 
-    if matches.empty:
+    if rows.empty:
         return None
 
-    # Duplicate manual decisions are themselves a data-quality issue.
-    if len(matches) > 1:
+    if len(rows) > 1:
         raise ValueError(
             "Multiple linkage decisions found for "
-            f"{year}, D{district}, "
-            f"{source}, "
-            f"{source_candidate_name}"
+            f"{year}, D{district}, {source}, {source_candidate_name}"
         )
 
-    decision_row = (
-        matches.iloc[0]
-    )
-
-    decision = (
-        decision_row[
-            "decision"
-        ]
-    )
-
-    # ---------------------------------------------------------------
-    # Human-confirmed non-match
-    # ---------------------------------------------------------------
+    decision_row = rows.iloc[0]
+    decision = decision_row["decision"]
 
     if decision == NON_MATCH:
         return LinkageResult(
-            source_candidate_name=
-                source_candidate_name,
-
+            source_candidate_name=source_candidate_name,
             suggested_candidate=None,
-
             suggested_candidate_key=None,
-
             name_similarity=0.0,
-
             second_best_similarity=0.0,
-
             similarity_margin=0.0,
-
             classification=NON_MATCH,
-
-            match_method=
-                "human_review_non_match",
-
+            match_method="human_review_non_match",
             needs_review=False,
         )
 
-    # Unknown / blank decisions should not override automation.
+    # Blank or unknown decisions do not override automatic matching.
     if decision != MATCH:
         return None
 
-    # ---------------------------------------------------------------
-    # Human-confirmed match
-    # ---------------------------------------------------------------
-
     canonical_name = str(
-        decision_row[
-            "canonical_candidate_name"
-        ]
+        decision_row["canonical_candidate_name"]
     ).strip()
 
-    if (
-        not canonical_name
-        or canonical_name.lower()
-        == "nan"
-    ):
+    if not canonical_name or canonical_name.lower() == "nan":
         raise ValueError(
-            "A human-reviewed match "
-            "needs canonical_candidate_name: "
+            "A human-reviewed match needs canonical_candidate_name: "
             f"{source_candidate_name}"
         )
 
-    candidate_norm = (
-        normalize_name(
-            canonical_name
-        )
-    )
+    canonical_norm = normalize_name(canonical_name)
 
-    canonical_match = (
-        canonical_candidates.loc[
-            canonical_candidates[
-                "candidate_norm"
-            ].eq(
-                candidate_norm
-            )
-        ]
-    )
+    match = canonical_candidates.loc[
+        canonical_candidates["candidate_norm"].eq(canonical_norm)
+    ]
 
-    if len(
-        canonical_match
-    ) != 1:
+    if len(match) != 1:
         raise ValueError(
-            "Reviewed canonical candidate "
-            "name does not uniquely identify "
-            "a candidate in this year/district: "
+            "Reviewed canonical name does not uniquely identify a candidate: "
             f"{canonical_name}"
         )
 
-    row = (
-        canonical_match.iloc[0]
-    )
-
-    similarity = (
-        jaro_winkler_name_similarity(
-            source_candidate_name,
-            row["candidate"],
-        )
+    candidate = match.iloc[0]
+    similarity = jaro_winkler_name_similarity(
+        source_candidate_name,
+        candidate["candidate"],
     )
 
     return LinkageResult(
-        source_candidate_name=
-            source_candidate_name,
-
-        suggested_candidate=
-            row["candidate"],
-
-        suggested_candidate_key=
-            row["candidate_key"],
-
-        name_similarity=
-            similarity,
-
-        second_best_similarity=
-            0.0,
-
-        similarity_margin=
-            similarity,
-
-        classification=
-            MATCH,
-
-        match_method=
-            "human_review_match",
-
-        needs_review=
-            False,
+        source_candidate_name=source_candidate_name,
+        suggested_candidate=candidate["candidate"],
+        suggested_candidate_key=candidate["candidate_key"],
+        name_similarity=similarity,
+        second_best_similarity=0.0,
+        similarity_margin=similarity,
+        classification=MATCH,
+        match_method="human_review_match",
+        needs_review=False,
     )
 
 
 # ---------------------------------------------------------------------
-# Deterministic partial-name matching
+# 4. Deterministic short-name matching
 # ---------------------------------------------------------------------
 
-def _unique_token_containment_match(
-    *,
-    source_candidate_name: str,
-    canonical_candidates: pd.DataFrame,
-) -> pd.Series | None:
-    """Match a short source name to exactly one canonical candidate.
+def unique_token_match(source_candidate_name, canonical_candidates):
+    """Match a short label only when it identifies exactly one candidate.
 
     Example:
+        source:   Avalos
+        official: Candace Avalos
 
-        source:     Avalos
-        canonical:  Candace Avalos
-
-        source tokens    = {"avalos"}
-        candidate tokens = {"candace", "avalos"}
-
-    The match is accepted only when exactly one official candidate in
-    the already-blocked district contains every source token.
-
-    This deliberately does not implement nickname inference. Cases such as
-    Chris/Christopher or Mitch/Mitchell remain available for fuzzy/manual
-    review unless another exact token is sufficient.
+    This is intentionally conservative:
+    - at most 3 source tokens;
+    - every source token must appear in the official name;
+    - exactly one official candidate must satisfy the rule.
     """
-
-    source_norm = normalize_name(
-        source_candidate_name
-    )
+    source_norm = normalize_name(source_candidate_name)
 
     if not source_norm:
         return None
 
-    source_tokens = set(
-        source_norm.split()
-    )
+    source_tokens = set(source_norm.split())
 
-    if not source_tokens:
-        return None
-
-    # This rule is intended primarily for short labels such as ORESTAR
-    # workbook stems. Long organization/committee names are not appropriate
-    # for deterministic token matching.
     if len(source_tokens) > 3:
         return None
 
-    matching_indices = []
+    matches = []
 
-    for index, row in (
-        canonical_candidates.iterrows()
-    ):
-        candidate_norm = (
-            normalize_name(
-                row["candidate"]
-            )
-        )
-
+    for _, candidate in canonical_candidates.iterrows():
         candidate_tokens = set(
-            candidate_norm.split()
+            normalize_name(candidate["candidate"]).split()
         )
 
-        if source_tokens.issubset(
-            candidate_tokens
-        ):
-            matching_indices.append(
-                index
-            )
+        if source_tokens.issubset(candidate_tokens):
+            matches.append(candidate)
 
-    if len(
-        matching_indices
-    ) != 1:
-        return None
-
-    return canonical_candidates.loc[
-        matching_indices[0]
-    ]
+    return matches[0] if len(matches) == 1 else None
 
 
 # ---------------------------------------------------------------------
-# Main linkage function
+# 5. Main matching function
 # ---------------------------------------------------------------------
 
 def link_source_record(
     *,
-    year: int,
-    district: int,
-    source: str,
-    source_candidate_name: str,
-    alternate_source_names: list[str] | None,
-    canonical_candidates: pd.DataFrame,
-    decisions: pd.DataFrame,
-) -> LinkageResult:
-    """Link one source candidate label to an official candidate.
+    year,
+    district,
+    source,
+    source_candidate_name,
+    alternate_source_names,
+    canonical_candidates,
+    decisions,
+):
+    """Link one source candidate label to an official candidate."""
 
-    Matching is always restricted to the same election year and district.
-
-    Order:
-        human decision
-        -> known non-candidate
-        -> exact normalized name
-        -> unique token containment
-        -> Jaro-Winkler
-        -> manual review when unresolved
-    """
-
-    # -----------------------------------------------------------------
-    # Block by year + district
-    # -----------------------------------------------------------------
-
-    block = (
-        canonical_candidates.loc[
-            canonical_candidates[
-                "year"
-            ].eq(
-                year
-            )
-            & canonical_candidates[
-                "district"
-            ].eq(
-                district
-            )
-        ]
-        .copy()
-    )
+    # Always block by year + district first.
+    block = canonical_candidates.loc[
+        canonical_candidates["year"].eq(year)
+        & canonical_candidates["district"].eq(district)
+    ].copy()
 
     if block.empty:
         return LinkageResult(
-            source_candidate_name=
-                source_candidate_name,
-
+            source_candidate_name=source_candidate_name,
             suggested_candidate=None,
-
             suggested_candidate_key=None,
-
             name_similarity=0.0,
-
             second_best_similarity=0.0,
-
             similarity_margin=0.0,
-
             classification=NON_MATCH,
-
-            match_method=
-                "no_candidates_in_block",
-
+            match_method="no_candidates_in_block",
             needs_review=True,
         )
 
-    # -----------------------------------------------------------------
-    # 1. Explicit human-reviewed decision
-    # -----------------------------------------------------------------
-
+    # Human review wins.
     human = reviewed_decision(
         year=year,
         district=district,
         source=source,
-        source_candidate_name=
-            source_candidate_name,
+        source_candidate_name=source_candidate_name,
         canonical_candidates=block,
         decisions=decisions,
     )
@@ -662,329 +369,136 @@ def link_source_record(
     if human is not None:
         return human
 
-    # -----------------------------------------------------------------
-    # Prepare aliases
-    # -----------------------------------------------------------------
-
-    source_names = [
-        source_candidate_name
-    ] + list(
-        alternate_source_names
-        or []
+    # Primary name + optional aliases such as an ORESTAR filer name.
+    source_names = [source_candidate_name] + list(
+        alternate_source_names or []
     )
 
     source_norms = {
-        normalize_name(
-            value
-        )
-        for value
-        in source_names
-        if (
-            pd.notna(value)
-            and str(value).strip()
-        )
+        normalize_name(value)
+        for value in source_names
+        if pd.notna(value) and str(value).strip()
     }
 
-    source_primary_norm = (
-        normalize_name(
-            source_candidate_name
-        )
-    )
+    primary_norm = normalize_name(source_candidate_name)
 
-    # -----------------------------------------------------------------
-    # 2. Known labels that are not candidates
-    # -----------------------------------------------------------------
-
-    if (
-        source_primary_norm
-        in KNOWN_NON_CANDIDATE_LABELS
-    ):
+    if primary_norm in KNOWN_NON_CANDIDATE_LABELS:
         return LinkageResult(
-            source_candidate_name=
-                source_candidate_name,
-
+            source_candidate_name=source_candidate_name,
             suggested_candidate=None,
-
             suggested_candidate_key=None,
-
             name_similarity=0.0,
-
             second_best_similarity=0.0,
-
             similarity_margin=0.0,
-
             classification=NON_MATCH,
-
-            match_method=
-                "known_non_candidate",
-
+            match_method="known_non_candidate",
             needs_review=False,
         )
 
-    # -----------------------------------------------------------------
-    # 3. Exact normalized name
-    # -----------------------------------------------------------------
-
+    # Exact normalized name.
     exact = block.loc[
-        block[
-            "candidate_norm"
-        ].isin(
-            source_norms
-        )
+        block["candidate_norm"].isin(source_norms)
     ]
 
     if len(exact) == 1:
-        row = exact.iloc[0]
+        candidate = exact.iloc[0]
 
         return LinkageResult(
-            source_candidate_name=
-                source_candidate_name,
-
-            suggested_candidate=
-                row["candidate"],
-
-            suggested_candidate_key=
-                row["candidate_key"],
-
+            source_candidate_name=source_candidate_name,
+            suggested_candidate=candidate["candidate"],
+            suggested_candidate_key=candidate["candidate_key"],
             name_similarity=1.0,
-
             second_best_similarity=0.0,
-
             similarity_margin=1.0,
-
             classification=MATCH,
-
-            match_method=
-                "exact_normalized_name",
-
+            match_method="exact_normalized_name",
             needs_review=False,
         )
 
-    # -----------------------------------------------------------------
-    # 4. Unique partial/token match
-    # -----------------------------------------------------------------
-    #
-    # IMPORTANT:
-    # Use the PRIMARY source candidate label here.
-    #
-    # ORESTAR candidate indexes often use workbook stems such as:
-    #
-    #     Avalos
-    #     Penson
-    #     Koyama
-    #
-    # Those are appropriate for this deterministic rule.
-    #
-    # We deliberately do not use arbitrary committee/filer aliases here,
-    # because organization names could create unintended token matches.
-    # -----------------------------------------------------------------
-
-    token_match = (
-        _unique_token_containment_match(
-            source_candidate_name=
-                source_candidate_name,
-            canonical_candidates=
-                block,
-        )
+    # Unique short label such as an ORESTAR surname-only workbook.
+    token_candidate = unique_token_match(
+        source_candidate_name,
+        block,
     )
 
-    if token_match is not None:
+    if token_candidate is not None:
         return LinkageResult(
-            source_candidate_name=
-                source_candidate_name,
-
-            suggested_candidate=
-                token_match[
-                    "candidate"
-                ],
-
-            suggested_candidate_key=
-                token_match[
-                    "candidate_key"
-                ],
-
+            source_candidate_name=source_candidate_name,
+            suggested_candidate=token_candidate["candidate"],
+            suggested_candidate_key=token_candidate["candidate_key"],
             name_similarity=1.0,
-
             second_best_similarity=0.0,
-
             similarity_margin=1.0,
-
             classification=MATCH,
-
-            match_method=
-                "unique_token_containment",
-
+            match_method="unique_token_containment",
             needs_review=False,
         )
 
-    # -----------------------------------------------------------------
-    # 5. Jaro-Winkler within district
-    # -----------------------------------------------------------------
-
+    # Fuzzy matching for unresolved records.
     scores = []
 
-    for row in block.itertuples(
-        index=False
-    ):
-        similarity = (
-            _best_similarity_for_aliases(
-                source_names,
-                row.candidate,
-            )
-        )
-
+    for candidate in block.itertuples(index=False):
         scores.append(
             {
-                "candidate":
-                    row.candidate,
-
-                "candidate_key":
-                    row.candidate_key,
-
-                "similarity":
-                    similarity,
+                "candidate": candidate.candidate,
+                "candidate_key": candidate.candidate_key,
+                "similarity": best_similarity_for_aliases(
+                    source_names,
+                    candidate.candidate,
+                ),
             }
         )
 
     scores = sorted(
         scores,
-        key=lambda item:
-            item[
-                "similarity"
-            ],
+        key=lambda item: item["similarity"],
         reverse=True,
     )
 
-    best = (
-        scores[0]
-    )
-
+    best = scores[0]
     second_best = (
-        scores[1][
-            "similarity"
-        ]
+        scores[1]["similarity"]
         if len(scores) > 1
         else 0.0
     )
-
-    margin = (
-        best[
-            "similarity"
-        ]
-        - second_best
-    )
-
-    # -----------------------------------------------------------------
-    # High-confidence fuzzy match
-    # -----------------------------------------------------------------
+    margin = best["similarity"] - second_best
 
     if (
-        best[
-            "similarity"
-        ]
-        >= LINKAGE_MATCH_THRESHOLD
-        and margin
-        >= LINKAGE_AMBIGUITY_MARGIN
+        best["similarity"] >= LINKAGE_MATCH_THRESHOLD
+        and margin >= LINKAGE_AMBIGUITY_MARGIN
     ):
-        classification = (
-            MATCH
-        )
+        classification = MATCH
+        method = "jaro_winkler_high"
+        needs_review = False
 
-        method = (
-            "jaro_winkler_high"
-        )
+    elif best["similarity"] >= LINKAGE_MAYBE_THRESHOLD:
+        classification = MAYBE_MATCH
+        needs_review = True
 
-        needs_review = (
-            False
-        )
-
-    # -----------------------------------------------------------------
-    # Potential / ambiguous match
-    # -----------------------------------------------------------------
-
-    elif (
-        best[
-            "similarity"
-        ]
-        >= LINKAGE_MAYBE_THRESHOLD
-    ):
-        classification = (
-            MAYBE_MATCH
+        ambiguous = (
+            best["similarity"] >= LINKAGE_MATCH_THRESHOLD
+            and margin < LINKAGE_AMBIGUITY_MARGIN
         )
 
         method = (
             "jaro_winkler_ambiguous"
-            if (
-                best[
-                    "similarity"
-                ]
-                >= LINKAGE_MATCH_THRESHOLD
-                and margin
-                < LINKAGE_AMBIGUITY_MARGIN
-            )
-            else
-            "jaro_winkler_medium"
+            if ambiguous
+            else "jaro_winkler_medium"
         )
-
-        needs_review = (
-            True
-        )
-
-    # -----------------------------------------------------------------
-    # Low-similarity record
-    # -----------------------------------------------------------------
 
     else:
-        classification = (
-            NON_MATCH
-        )
-
-        method = (
-            "jaro_winkler_low"
-        )
-
-        # Low similarity does not automatically mean that the source row
-        # should be silently discarded. It may represent a candidate-name
-        # variant, a candidate absent from the official universe, or a source
-        # data issue. Keep it visible for review.
-        needs_review = (
-            True
-        )
+        classification = NON_MATCH
+        method = "jaro_winkler_low"
+        needs_review = True
 
     return LinkageResult(
-        source_candidate_name=
-            source_candidate_name,
-
-        suggested_candidate=
-            best[
-                "candidate"
-            ],
-
-        suggested_candidate_key=
-            best[
-                "candidate_key"
-            ],
-
-        name_similarity=float(
-            best[
-                "similarity"
-            ]
-        ),
-
-        second_best_similarity=float(
-            second_best
-        ),
-
-        similarity_margin=float(
-            margin
-        ),
-
-        classification=
-            classification,
-
-        match_method=
-            method,
-
-        needs_review=
-            needs_review,
+        source_candidate_name=source_candidate_name,
+        suggested_candidate=best["candidate"],
+        suggested_candidate_key=best["candidate_key"],
+        name_similarity=float(best["similarity"]),
+        second_best_similarity=float(second_best),
+        similarity_margin=float(margin),
+        classification=classification,
+        match_method=method,
+        needs_review=needs_review,
     )

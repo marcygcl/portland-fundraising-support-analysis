@@ -1,0 +1,49 @@
+scope,metric,family,variable,n,pearson_r,r_squared,slope_p_value
+District 4,spending_total,Spending total,Total spending ($),19,0.8146378467241803,0.6636348213154086,2.1691857874837716e-05
+District 4,spending_count_mega,Spending bin count,Mega expenditure records,19,0.7775049752862652,0.6045139865948956,8.939173432656766e-05
+District 4,spending_amount_mega,Spending bin amount,Mega spending amount ($),19,0.771537565716176,0.5952702153112426,0.00010950185900193883
+District 4,spending_amount_large,Spending bin amount,Large spending amount ($),19,0.7287956867444784,0.5311431530173556,0.00040101177606821935
+District 4,fundraising_total,Fundraising total,Total fundraising ($),17,0.7221600981559784,0.5215152073686523,0.001061463217351941
+District 4,fundraising_amount_small,Fundraising bin amount,Small contribution dollars ($),17,0.7169680393779974,0.5140431694895294,0.001199302388952918
+District 4,fundraising_count_small,Fundraising bin count,Small contribution records,17,0.6998863617610933,0.48984091937918006,0.0017608714822215273
+District 4,fundraising_amount_micro,Fundraising bin amount,Micro contribution dollars ($),17,0.6828391930935499,0.4662693636246503,0.0025204007540130893
+District 4,spending_count_large,Spending bin count,Large expenditure records,19,0.6722621334208456,0.4519363760315469,0.0016154828295985722
+District 4,spending_count_medium,Spending bin count,Medium expenditure records,19,0.6673409684874972,0.4453439682218304,0.0017990363725822831
+District 4,spending_count_share_mega,Spending bin count share,Mega share of expenditure records,19,0.6643435919086759,0.4413524081101212,0.0019191117989439666
+District 4,spending_amount_medium,Spending bin amount,Medium spending amount ($),19,0.6625441688516984,0.43896477567938796,0.001994347089703346
+District 4,spending_mean,Spending total,Mean expenditure ($),19,0.6449435561081485,0.41595219056542443,0.002868481885485156
+District 4,fundraising_count,Fundraising total,Contribution records,17,0.6424194916832354,0.41270280329454645,0.005420394445835172
+District 4,fundraising_count_medium,Fundraising bin count,Medium contribution records,17,0.6030028860996797,0.3636124806445433,0.010396928675507271
+District 4,fundraising_amount_medium,Fundraising bin amount,Medium contribution dollars ($),17,0.5998643470689532,0.35983723488446173,0.010912230596230154
+District 4,spending_amount_small,Spending bin amount,Small spending amount ($),19,0.5495804662760818,0.3020386889122354,0.014789713388745861
+District 4,fundraising_amount_large,Fundraising bin amount,Large contribution dollars ($),17,0.5296254862768754,0.28050315571401685,0.028779209975181862
+District 4,spending_amount_share_mega,Spending bin share,Mega share of spending dollars,19,0.5288524687064418,0.2796849336568977,0.019906825237136938
+District 4,fundraising_amount_share_small,Fundraising bin share,Small share of fundraising dollars,17,0.5282543997882042,0.2790527108955959,0.029272785071041373
+District 4,spending_count_small,Spending bin count,Small expenditure records,19,0.5220941007299065,0.2725822500169697,0.021848518809097498
+District 4,fundraising_count_large,Fundraising bin count,Large contribution records,17,0.5154753701368586,0.26571485721773136,0.034192488955987976
+District 4,spending_count,Spending total,Expenditure records,19,0.514509679378426,0.2647202101740904,0.024202389514130045
+District 4,spending_amount_share_medium,Spending bin share,Medium share of spending dollars,19,-0.5135205639796557,0.26370336962998375,0.024523516690908544
+District 4,fundraising_count_micro,Fundraising bin count,Micro contribution records,17,0.47526932472158,0.2258809310213069,0.053849718004015716
+District 4,spending_amount_share_small,Spending bin share,Small share of spending dollars,19,-0.4739842187771263,0.22466103964976258,0.04034966451018931
+District 4,spending_count_share_micro,Spending bin count share,Micro share of expenditure records,19,-0.4725355674026147,0.22328986246051086,0.04105082197499558
+District 4,spending_amount_share_micro,Spending bin share,Micro share of spending dollars,19,-0.46514672466794194,0.21636147546931406,0.044773906633600376
+District 4,spending_amount_share_large,Spending bin share,Large share of spending dollars,19,-0.4628008646880964,0.21418464035604967,0.046008384804222494
+District 4,spending_median,Spending total,Median expenditure ($),19,0.4361233796776192,0.19020360230142874,0.06194646338406029
+District 4,fundraising_amount_share_micro,Fundraising bin share,Micro share of fundraising dollars,17,-0.3868996778506188,0.14969136072091271,0.12498227131571422
+District 4,fundraising_amount_share_mega,Fundraising bin share,Mega share of fundraising dollars,17,0.3830707671750035,0.14674321266404577,0.12908413485364062
+District 4,spending_amount_micro,Spending bin amount,Micro spending amount ($),19,0.3828384121498032,0.1465652498173825,0.1057065332784115
+District 4,fundraising_count_share_mega,Fundraising bin count share,Mega share of contribution records,17,0.36662380750847734,0.1344130162320133,0.14776776551526252
+District 4,fundraising_amount_mega,Fundraising bin amount,Mega contribution dollars ($),17,0.35660456048729927,0.12716681256034001,0.16001387330890263
+District 4,fundraising_count_share_small,Fundraising bin count share,Small share of contribution records,17,0.34585472728168515,0.11961549238308888,0.17389748799037763
+District 4,fundraising_count_mega,Fundraising bin count,Mega contribution records,17,0.3441655640694062,0.11844993549121263,0.17614999231780504
+District 4,spending_count_micro,Spending bin count,Micro expenditure records,19,0.27311344970349727,0.07459095640894464,0.2579164086877344
+District 4,fundraising_amount_share_medium,Fundraising bin share,Medium share of fundraising dollars,17,0.25078607809694287,0.06289365696724603,0.3316017986380275
+District 4,spending_count_share_large,Spending bin count share,Large share of expenditure records,19,0.2296870079340352,0.052756121613689366,0.3441770716626246
+District 4,spending_count_share_medium,Spending bin count share,Medium share of expenditure records,19,0.14612295479436463,0.02135191791783575,0.5505656408254066
+District 4,fundraising_median,Fundraising total,Median contribution ($),17,-0.12509183666115967,0.01564796759926257,0.6323886786790565
+District 4,fundraising_count_share_micro,Fundraising bin count share,Micro share of contribution records,17,-0.12436699681930621,0.01546714989785336,0.6343781251104461
+District 4,fundraising_count_share_large,Fundraising bin count share,Large share of contribution records,17,-0.10376911873097316,0.010768030002202944,0.6918582034868124
+District 4,fundraising_count_share_medium,Fundraising bin count share,Medium share of contribution records,17,-0.050583208837335185,0.0025586610162816603,0.847118467638333
+District 4,fundraising_amount_share_large,Fundraising bin share,Large share of fundraising dollars,17,0.04632537518486087,0.0021460403860183996,0.8598623521419188
+District 4,fundraising_mean,Fundraising total,Mean contribution ($),17,-0.030178140413303068,0.0009107201588052227,0.9084646726909298
+District 4,spending_count_share_small,Spending bin count share,Small share of expenditure records,19,0.022257810159309256,0.0004954101130876243,0.9279346927679322

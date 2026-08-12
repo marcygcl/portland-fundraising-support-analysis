@@ -1,0 +1,5 @@
+money,outcome,candidates,pearson,spearman
+total_amount,mentions,65,0.7790646758026676,0.8002622377622377
+total_amount,first_place_votes,65,0.7517739645478204,0.7642045454545454
+total_spending,mentions,58,0.4320129732238082,0.7935340982497155
+total_spending,first_place_votes,58,0.49647650828841505,0.8053462118182658

@@ -1,0 +1,66 @@
+year,district,source,source_candidate_name,suggested_candidate,candidate_key,suggested_candidate_key,name_similarity,second_best_similarity,similarity_margin,classification,match_method,needs_review
+2026,3,candidate_filings,Angelita Morillo,Angelita Morillo,2026|3|angelita morillo,2026|3|angelita morillo,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,Brandon Mullen,Brandon Mullen,2026|3|brandon mullen,2026|3|brandon mullen,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,Cristal Otero,Cristal Otero,2026|3|cristal otero,2026|3|cristal otero,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,Darren McCormick,Darren McCormick,2026|3|darren mccormick,2026|3|darren mccormick,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,Esther León,Esther León,2026|3|esther leon,2026|3|esther leon,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,Guy Frankenstein,Guy Frankenstein,2026|3|guy frankenstein,2026|3|guy frankenstein,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,Joel Corcoran,Joel Corcoran,2026|3|joel corcoran,2026|3|joel corcoran,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,John Sweeney,John Sweeney,2026|3|john sweeney,2026|3|john sweeney,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,Keir Legree,Keir Legree,2026|3|keir legree,2026|3|keir legree,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,Kellie Torres,Kellie Torres,2026|3|kellie torres,2026|3|kellie torres,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,Kimberly Tucker,Kimberly Tucker,2026|3|kimberly tucker,2026|3|kimberly tucker,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,Larry Kelly,Larry Kelly,2026|3|larry kelly,2026|3|larry kelly,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,Martin Ward,Martin Ward,2026|3|martin ward,2026|3|martin ward,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,Matthias Hallett,Matthias Hallett,2026|3|matthias hallett,2026|3|matthias hallett,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,Patrick Hilton,Patrick Hilton,2026|3|patrick hilton,2026|3|patrick hilton,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,Steve Novick,Steve Novick,2026|3|steve novick,2026|3|steve novick,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,Terry Parker,Terry Parker,2026|3|terry parker,2026|3|terry parker,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,Tiffany Koyama Lane,Tiffany Koyama Lane,2026|3|tiffany koyama lane,2026|3|tiffany koyama lane,1.0,0.0,1.0,match,canonical_source,False
+2026,3,candidate_filings,Tom Sollitt,Tom Sollitt,2026|3|tom sollitt,2026|3|tom sollitt,1.0,0.0,1.0,match,canonical_source,False
+2026,4,candidate_filings,Eli Arnold,Eli Arnold,2026|4|eli arnold,2026|4|eli arnold,1.0,0.0,1.0,match,canonical_source,False
+2026,4,candidate_filings,Eric Zimmerman,Eric Zimmerman,2026|4|eric zimmerman,2026|4|eric zimmerman,1.0,0.0,1.0,match,canonical_source,False
+2026,4,candidate_filings,Jamey Evenstar,Jamey Evenstar,2026|4|jamey evenstar,2026|4|jamey evenstar,1.0,0.0,1.0,match,canonical_source,False
+2026,4,candidate_filings,Jayne Cronlund,Jayne Cronlund,2026|4|jayne cronlund,2026|4|jayne cronlund,1.0,0.0,1.0,match,canonical_source,False
+2026,4,candidate_filings,Jeremy Beausoleil Smith,Jeremy Beausoleil Smith,2026|4|jeremy beausoleil smith,2026|4|jeremy beausoleil smith,1.0,0.0,1.0,match,canonical_source,False
+2026,4,candidate_filings,Mitch Green,Mitch Green,2026|4|mitch green,2026|4|mitch green,1.0,0.0,1.0,match,canonical_source,False
+2026,4,candidate_filings,Olivia Clark,Olivia Clark,2026|4|olivia clark,2026|4|olivia clark,1.0,0.0,1.0,match,canonical_source,False
+2026,4,candidate_filings,Rebekah Morgan,Rebekah Morgan,2026|4|rebekah morgan,2026|4|rebekah morgan,1.0,0.0,1.0,match,canonical_source,False
+2026,4,candidate_filings,Timothy (TJ) Anderson,Timothy (TJ) Anderson,2026|4|timothy tj anderson,2026|4|timothy tj anderson,1.0,0.0,1.0,match,canonical_source,False
+2026,3,portland_contributions,Angelita Morillo,Angelita Morillo,2026|3|angelita morillo,2026|3|angelita morillo,1.0,0.0,1.0,match,exact_normalized_name,False
+2026,3,portland_contributions,Brandon Mullen,Brandon Mullen,2026|3|brandon mullen,2026|3|brandon mullen,1.0,0.0,1.0,match,exact_normalized_name,False
+2026,3,portland_contributions,Esther Leon,Esther León,2026|3|esther leon,2026|3|esther leon,1.0,0.0,1.0,match,exact_normalized_name,False
+2026,3,portland_contributions,Joel Corcoran,Joel Corcoran,2026|3|joel corcoran,2026|3|joel corcoran,1.0,0.0,1.0,match,exact_normalized_name,False
+2026,3,portland_contributions,Kellie Torres,Kellie Torres,2026|3|kellie torres,2026|3|kellie torres,1.0,0.0,1.0,match,exact_normalized_name,False
+2026,3,portland_contributions,Michael Johnson,Matthias Hallett,,2026|3|matthias hallett,0.5944444444444444,0.5912393162393162,0.0032051282051281937,non_match,jaro_winkler_low,True
+2026,3,portland_contributions,Nicole Tignor Zimmerman,Angelita Morillo,,2026|3|angelita morillo,0.6183574879227054,0.6013377926421405,0.017019695280564906,non_match,jaro_winkler_low,True
+2026,3,portland_contributions,Steve Novick,Steve Novick,2026|3|steve novick,2026|3|steve novick,1.0,0.0,1.0,match,exact_normalized_name,False
+2026,3,portland_contributions,Tiffany Koyama Lane,Tiffany Koyama Lane,2026|3|tiffany koyama lane,2026|3|tiffany koyama lane,1.0,0.0,1.0,match,exact_normalized_name,False
+2026,3,portland_contributions,Tom Sollitt,Tom Sollitt,2026|3|tom sollitt,2026|3|tom sollitt,1.0,0.0,1.0,match,exact_normalized_name,False
+2026,4,portland_contributions,Eli Arnold,Eli Arnold,2026|4|eli arnold,2026|4|eli arnold,1.0,0.0,1.0,match,exact_normalized_name,False
+2026,4,portland_contributions,Eric Zimmerman,Eric Zimmerman,2026|4|eric zimmerman,2026|4|eric zimmerman,1.0,0.0,1.0,match,exact_normalized_name,False
+2026,4,portland_contributions,Jamey Evenstar,Jamey Evenstar,2026|4|jamey evenstar,2026|4|jamey evenstar,1.0,0.0,1.0,match,exact_normalized_name,False
+2026,4,portland_contributions,Jayne Cronlund,Jayne Cronlund,2026|4|jayne cronlund,2026|4|jayne cronlund,1.0,0.0,1.0,match,exact_normalized_name,False
+2026,4,portland_contributions,Jeremy Beausoleil Smith,Jeremy Beausoleil Smith,2026|4|jeremy beausoleil smith,2026|4|jeremy beausoleil smith,1.0,0.0,1.0,match,exact_normalized_name,False
+2026,4,portland_contributions,John Goldsmith,Jayne Cronlund,,2026|4|jayne cronlund,0.6190476190476191,0.6039797561536693,0.01506786289394979,non_match,jaro_winkler_low,True
+2026,4,portland_contributions,Mitch Green,Mitch Green,2026|4|mitch green,2026|4|mitch green,1.0,0.0,1.0,match,exact_normalized_name,False
+2026,4,portland_contributions,Olivia Clark,Olivia Clark,2026|4|olivia clark,2026|4|olivia clark,1.0,0.0,1.0,match,exact_normalized_name,False
+2026,4,portland_contributions,TJ Anderson,Timothy (TJ) Anderson,2026|4|timothy tj anderson,2026|4|timothy tj anderson,1.0,0.0,1.0,match,unique_token_containment,False
+2026,3,orestar,Brown,Brandon Mullen,,2026|3|brandon mullen,0.611904761904762,0.5874713521772345,0.0244334097275275,non_match,jaro_winkler_low,True
+2026,3,orestar,Corcoran,Joel Corcoran,2026|3|joel corcoran,2026|3|joel corcoran,1.0,0.0,1.0,match,unique_token_containment,False
+2026,3,orestar,Johnson,John Sweeney,,2026|3|john sweeney,0.8714285714285714,0.5889295889295889,0.28249898249898253,maybe_match,jaro_winkler_medium,True
+2026,3,orestar,Koyama,Tiffany Koyama Lane,2026|3|tiffany koyama lane,2026|3|tiffany koyama lane,1.0,0.0,1.0,match,unique_token_containment,False
+2026,3,orestar,Leon,Esther León,2026|3|esther leon,2026|3|esther leon,1.0,0.0,1.0,match,unique_token_containment,False
+2026,3,orestar,Morillo,Angelita Morillo,2026|3|angelita morillo,2026|3|angelita morillo,1.0,0.0,1.0,match,unique_token_containment,False
+2026,3,orestar,Mullen,Brandon Mullen,2026|3|brandon mullen,2026|3|brandon mullen,1.0,0.0,1.0,match,unique_token_containment,False
+2026,3,orestar,Novick,Steve Novick,2026|3|steve novick,2026|3|steve novick,1.0,0.0,1.0,match,unique_token_containment,False
+2026,3,orestar,Sollitt,Tom Sollitt,2026|3|tom sollitt,2026|3|tom sollitt,1.0,0.0,1.0,match,unique_token_containment,False
+2026,3,orestar,Zimmerman,Cristal Otero,,2026|3|cristal otero,0.6076923076923078,0.6008547008547008,0.006837606837606924,non_match,jaro_winkler_low,True
+2026,4,orestar,Arnold,Eli Arnold,2026|4|eli arnold,2026|4|eli arnold,1.0,0.0,1.0,match,unique_token_containment,False
+2026,4,orestar,Clark,Olivia Clark,2026|4|olivia clark,2026|4|olivia clark,1.0,0.0,1.0,match,unique_token_containment,False
+2026,4,orestar,Evenstar,Jamey Evenstar,2026|4|jamey evenstar,2026|4|jamey evenstar,1.0,0.0,1.0,match,unique_token_containment,False
+2026,4,orestar,Goldsmith,Timothy (TJ) Anderson,,2026|4|timothy tj anderson,0.5681286549707601,0.5333333333333333,0.034795321637426824,non_match,jaro_winkler_low,True
+2026,4,orestar,Green,Mitch Green,2026|4|mitch green,2026|4|mitch green,1.0,0.0,1.0,match,unique_token_containment,False
+2026,4,orestar,Smith,Jeremy Beausoleil Smith,2026|4|jeremy beausoleil smith,2026|4|jeremy beausoleil smith,1.0,0.0,1.0,match,unique_token_containment,False
+2026,4,orestar,Thompson,Timothy (TJ) Anderson,,2026|4|timothy tj anderson,0.6255060728744939,0.5952380952380952,0.030267977636398657,non_match,jaro_winkler_low,True
+2026,4,orestar,Zimmerman,Eric Zimmerman,2026|4|eric zimmerman,2026|4|eric zimmerman,1.0,0.0,1.0,match,unique_token_containment,False

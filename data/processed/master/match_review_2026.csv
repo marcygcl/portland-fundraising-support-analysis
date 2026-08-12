@@ -1,0 +1,9 @@
+year,district,source,source_candidate_name,suggested_candidate,candidate_key,suggested_candidate_key,name_similarity,second_best_similarity,similarity_margin,classification,match_method,needs_review,review_decision,review_canonical_candidate_name,review_notes
+2026,3,portland_contributions,Michael Johnson,Matthias Hallett,,2026|3|matthias hallett,0.5944444444444444,0.5912393162393162,0.0032051282051281937,non_match,jaro_winkler_low,True,,,
+2026,3,portland_contributions,Nicole Tignor Zimmerman,Angelita Morillo,,2026|3|angelita morillo,0.6183574879227054,0.6013377926421405,0.017019695280564906,non_match,jaro_winkler_low,True,,,
+2026,4,portland_contributions,John Goldsmith,Jayne Cronlund,,2026|4|jayne cronlund,0.6190476190476191,0.6039797561536693,0.01506786289394979,non_match,jaro_winkler_low,True,,,
+2026,3,orestar,Brown,Brandon Mullen,,2026|3|brandon mullen,0.611904761904762,0.5874713521772345,0.0244334097275275,non_match,jaro_winkler_low,True,,,
+2026,3,orestar,Johnson,John Sweeney,,2026|3|john sweeney,0.8714285714285714,0.5889295889295889,0.28249898249898253,maybe_match,jaro_winkler_medium,True,,,
+2026,3,orestar,Zimmerman,Cristal Otero,,2026|3|cristal otero,0.6076923076923078,0.6008547008547008,0.006837606837606924,non_match,jaro_winkler_low,True,,,
+2026,4,orestar,Goldsmith,Timothy (TJ) Anderson,,2026|4|timothy tj anderson,0.5681286549707601,0.5333333333333333,0.034795321637426824,non_match,jaro_winkler_low,True,,,
+2026,4,orestar,Thompson,Timothy (TJ) Anderson,,2026|4|timothy tj anderson,0.6255060728744939,0.5952380952380952,0.030267977636398657,non_match,jaro_winkler_low,True,,,

@@ -14,19 +14,15 @@ dependencies = [
     "lxml>=5.2",
     "openpyxl>=3.1",
     "xlrd>=2.0",
-
     # Record linkage
     "jellyfish>=1.1",
-
     # report2025 / VoteKit boost reconstruction
     "votekit==3.2.0",
-
     # Candidate filing PDF extraction
     "pdfplumber>=0.11",
     "pytesseract>=0.3.13",
     "pdf2image>=1.17",
     "pillow>=10.4",
-
     # Analysis notebooks
     "jupyterlab>=4.2",
     "ipykernel>=6.29",
@@ -35,6 +31,9 @@ dependencies = [
     "scipy>=1.14",
     "scikit-learn>=1.5",
     "kmedoids>=0.5",
+    "statsmodels>=0.14.6",
+    "ipywidgets>=8.1.8",
+    "geopandas>=1.1.4",
 ]
 
 [tool.uv]

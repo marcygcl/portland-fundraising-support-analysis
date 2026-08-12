@@ -1,0 +1,121 @@
+feature,family,description,denominator,available
+total_amount,scale,Total private fundraising dollars.,,True
+total_contribution_count,scale,Number of private positive contribution records.,,True
+average_contribution,scale,Mean contribution amount.,,True
+median_contribution,scale,Median contribution amount.,,True
+bin_amount_micro,amount_bin,Fundraising dollars from Micro contributions.,,True
+bin_amount_share_micro,amount_bin_share,Share of fundraising dollars from Micro contributions.,Total private fundraising dollars.,True
+bin_count_micro,count_bin,Number of Micro contribution records.,,True
+bin_count_share_micro,count_bin_share,Share of contribution records in the Micro bin.,All private positive contribution records.,True
+bin_amount_small,amount_bin,Fundraising dollars from Small contributions.,,True
+bin_amount_share_small,amount_bin_share,Share of fundraising dollars from Small contributions.,Total private fundraising dollars.,True
+bin_count_small,count_bin,Number of Small contribution records.,,True
+bin_count_share_small,count_bin_share,Share of contribution records in the Small bin.,All private positive contribution records.,True
+bin_amount_medium,amount_bin,Fundraising dollars from Medium contributions.,,True
+bin_amount_share_medium,amount_bin_share,Share of fundraising dollars from Medium contributions.,Total private fundraising dollars.,True
+bin_count_medium,count_bin,Number of Medium contribution records.,,True
+bin_count_share_medium,count_bin_share,Share of contribution records in the Medium bin.,All private positive contribution records.,True
+bin_amount_large,amount_bin,Fundraising dollars from Large contributions.,,True
+bin_amount_share_large,amount_bin_share,Share of fundraising dollars from Large contributions.,Total private fundraising dollars.,True
+bin_count_large,count_bin,Number of Large contribution records.,,True
+bin_count_share_large,count_bin_share,Share of contribution records in the Large bin.,All private positive contribution records.,True
+bin_amount_mega,amount_bin,Fundraising dollars from Mega contributions.,,True
+bin_amount_share_mega,amount_bin_share,Share of fundraising dollars from Mega contributions.,Total private fundraising dollars.,True
+bin_count_mega,count_bin,Number of Mega contribution records.,,True
+bin_count_share_mega,count_bin_share,Share of contribution records in the Mega bin.,All private positive contribution records.,True
+cash_count,contribution_subtype,Number of Cash contribution records.,,True
+cash_count_share,contribution_subtype_share,Share of contribution records classified as Cash.,All private positive contribution records.,True
+cash_amount,contribution_subtype,Dollars classified as Cash contributions.,,True
+cash_amount_share,contribution_subtype_share,Share of fundraising dollars classified as Cash.,Total private fundraising dollars.,True
+in_kind_count,contribution_subtype,Number of In-kind contribution records.,,True
+in_kind_count_share,contribution_subtype_share,Share of contribution records classified as In-kind.,All private positive contribution records.,True
+in_kind_amount,contribution_subtype,Dollars classified as In-kind contributions.,,True
+in_kind_amount_share,contribution_subtype_share,Share of fundraising dollars classified as In-kind.,Total private fundraising dollars.,True
+cash_bin_count_micro,subtype_bin_count,Number of Cash contribution records in the Micro bin.,,True
+cash_bin_count_share_micro,subtype_bin_share,Share of Cash contribution records in the Micro bin.,All Cash contribution records for the candidate.,True
+cash_bin_count_small,subtype_bin_count,Number of Cash contribution records in the Small bin.,,True
+cash_bin_count_share_small,subtype_bin_share,Share of Cash contribution records in the Small bin.,All Cash contribution records for the candidate.,True
+cash_bin_count_medium,subtype_bin_count,Number of Cash contribution records in the Medium bin.,,True
+cash_bin_count_share_medium,subtype_bin_share,Share of Cash contribution records in the Medium bin.,All Cash contribution records for the candidate.,True
+cash_bin_count_large,subtype_bin_count,Number of Cash contribution records in the Large bin.,,True
+cash_bin_count_share_large,subtype_bin_share,Share of Cash contribution records in the Large bin.,All Cash contribution records for the candidate.,True
+cash_bin_count_mega,subtype_bin_count,Number of Cash contribution records in the Mega bin.,,True
+cash_bin_count_share_mega,subtype_bin_share,Share of Cash contribution records in the Mega bin.,All Cash contribution records for the candidate.,True
+in_kind_bin_count_micro,subtype_bin_count,Number of In-kind contribution records in the Micro bin.,,True
+in_kind_bin_count_share_micro,subtype_bin_share,Share of In-kind contribution records in the Micro bin.,All In-kind contribution records for the candidate.,True
+in_kind_bin_count_small,subtype_bin_count,Number of In-kind contribution records in the Small bin.,,True
+in_kind_bin_count_share_small,subtype_bin_share,Share of In-kind contribution records in the Small bin.,All In-kind contribution records for the candidate.,True
+in_kind_bin_count_medium,subtype_bin_count,Number of In-kind contribution records in the Medium bin.,,True
+in_kind_bin_count_share_medium,subtype_bin_share,Share of In-kind contribution records in the Medium bin.,All In-kind contribution records for the candidate.,True
+in_kind_bin_count_large,subtype_bin_count,Number of In-kind contribution records in the Large bin.,,True
+in_kind_bin_count_share_large,subtype_bin_share,Share of In-kind contribution records in the Large bin.,All In-kind contribution records for the candidate.,True
+in_kind_bin_count_mega,subtype_bin_count,Number of In-kind contribution records in the Mega bin.,,True
+in_kind_bin_count_share_mega,subtype_bin_share,Share of In-kind contribution records in the Mega bin.,All In-kind contribution records for the candidate.,True
+individual_count,entity_type,Number of Individual contribution records.,,True
+individual_count_share,entity_type_share,Share of contribution records from Individual contributors.,All private positive contribution records.,True
+individual_amount,entity_type,Fundraising dollars from Individual contributors.,,True
+individual_amount_share,entity_type_share,Share of fundraising dollars from Individual contributors.,Total private fundraising dollars.,True
+business_count,entity_type,Number of Business contribution records.,,True
+business_count_share,entity_type_share,Share of contribution records from Business contributors.,All private positive contribution records.,True
+business_amount,entity_type,Fundraising dollars from Business contributors.,,True
+business_amount_share,entity_type_share,Share of fundraising dollars from Business contributors.,Total private fundraising dollars.,True
+individual_bin_count_micro,entity_bin_count,Number of Individual contribution records in the Micro bin.,,True
+individual_bin_count_share_micro,entity_bin_share,Share of Individual contribution records in the Micro bin.,All Individual contribution records for the candidate.,True
+individual_bin_count_small,entity_bin_count,Number of Individual contribution records in the Small bin.,,True
+individual_bin_count_share_small,entity_bin_share,Share of Individual contribution records in the Small bin.,All Individual contribution records for the candidate.,True
+individual_bin_count_medium,entity_bin_count,Number of Individual contribution records in the Medium bin.,,True
+individual_bin_count_share_medium,entity_bin_share,Share of Individual contribution records in the Medium bin.,All Individual contribution records for the candidate.,True
+individual_bin_count_large,entity_bin_count,Number of Individual contribution records in the Large bin.,,True
+individual_bin_count_share_large,entity_bin_share,Share of Individual contribution records in the Large bin.,All Individual contribution records for the candidate.,True
+individual_bin_count_mega,entity_bin_count,Number of Individual contribution records in the Mega bin.,,True
+individual_bin_count_share_mega,entity_bin_share,Share of Individual contribution records in the Mega bin.,All Individual contribution records for the candidate.,True
+business_bin_count_micro,entity_bin_count,Number of Business contribution records in the Micro bin.,,True
+business_bin_count_share_micro,entity_bin_share,Share of Business contribution records in the Micro bin.,All Business contribution records for the candidate.,True
+business_bin_count_small,entity_bin_count,Number of Business contribution records in the Small bin.,,True
+business_bin_count_share_small,entity_bin_share,Share of Business contribution records in the Small bin.,All Business contribution records for the candidate.,True
+business_bin_count_medium,entity_bin_count,Number of Business contribution records in the Medium bin.,,True
+business_bin_count_share_medium,entity_bin_share,Share of Business contribution records in the Medium bin.,All Business contribution records for the candidate.,True
+business_bin_count_large,entity_bin_count,Number of Business contribution records in the Large bin.,,True
+business_bin_count_share_large,entity_bin_share,Share of Business contribution records in the Large bin.,All Business contribution records for the candidate.,True
+business_bin_count_mega,entity_bin_count,Number of Business contribution records in the Mega bin.,,True
+business_bin_count_share_mega,entity_bin_share,Share of Business contribution records in the Mega bin.,All Business contribution records for the candidate.,True
+geocoded_count,geography_coverage,Contribution records with usable longitude/latitude.,,True
+geocoded_share,geography_coverage,Share of contribution records with usable longitude/latitude.,All private positive contribution records.,True
+same_district_count,geography,Geocoded contribution records from the candidate's own district.,,True
+same_district_share_geocoded,geography_share,Share of geocoded contribution records from the candidate's own district.,Contribution records with usable coordinates.,True
+portland_count,geography,Geocoded contribution records from Portland.,,True
+portland_share_geocoded,geography_share,Share of geocoded contribution records from Portland.,Contribution records with usable coordinates.,True
+state_known_count,geography_coverage,Contribution records with a reported state.,,True
+state_known_share,geography_coverage,Share of contribution records with a reported state.,All private positive contribution records.,True
+oregon_count,geography,Contribution records reported as Oregon.,,True
+oregon_share_state_known,geography_share,Share of state-known contribution records reported as Oregon.,Contribution records with a reported state.,True
+same_district_bin_count_micro,geography_bin_count,Number of Micro contribution records from candidate's own district.,,True
+same_district_bin_count_share_micro,geography_bin_share,Share of contribution records from candidate's own district that are Micro.,All contribution records from candidate's own district.,True
+same_district_bin_count_small,geography_bin_count,Number of Small contribution records from candidate's own district.,,True
+same_district_bin_count_share_small,geography_bin_share,Share of contribution records from candidate's own district that are Small.,All contribution records from candidate's own district.,True
+same_district_bin_count_medium,geography_bin_count,Number of Medium contribution records from candidate's own district.,,True
+same_district_bin_count_share_medium,geography_bin_share,Share of contribution records from candidate's own district that are Medium.,All contribution records from candidate's own district.,True
+same_district_bin_count_large,geography_bin_count,Number of Large contribution records from candidate's own district.,,True
+same_district_bin_count_share_large,geography_bin_share,Share of contribution records from candidate's own district that are Large.,All contribution records from candidate's own district.,True
+same_district_bin_count_mega,geography_bin_count,Number of Mega contribution records from candidate's own district.,,True
+same_district_bin_count_share_mega,geography_bin_share,Share of contribution records from candidate's own district that are Mega.,All contribution records from candidate's own district.,True
+portland_bin_count_micro,geography_bin_count,Number of Micro contribution records from Portland.,,True
+portland_bin_count_share_micro,geography_bin_share,Share of contribution records from Portland that are Micro.,All contribution records from Portland.,True
+portland_bin_count_small,geography_bin_count,Number of Small contribution records from Portland.,,True
+portland_bin_count_share_small,geography_bin_share,Share of contribution records from Portland that are Small.,All contribution records from Portland.,True
+portland_bin_count_medium,geography_bin_count,Number of Medium contribution records from Portland.,,True
+portland_bin_count_share_medium,geography_bin_share,Share of contribution records from Portland that are Medium.,All contribution records from Portland.,True
+portland_bin_count_large,geography_bin_count,Number of Large contribution records from Portland.,,True
+portland_bin_count_share_large,geography_bin_share,Share of contribution records from Portland that are Large.,All contribution records from Portland.,True
+portland_bin_count_mega,geography_bin_count,Number of Mega contribution records from Portland.,,True
+portland_bin_count_share_mega,geography_bin_share,Share of contribution records from Portland that are Mega.,All contribution records from Portland.,True
+oregon_bin_count_micro,geography_bin_count,Number of Micro contribution records from Oregon.,,True
+oregon_bin_count_share_micro,geography_bin_share,Share of contribution records from Oregon that are Micro.,All contribution records from Oregon.,True
+oregon_bin_count_small,geography_bin_count,Number of Small contribution records from Oregon.,,True
+oregon_bin_count_share_small,geography_bin_share,Share of contribution records from Oregon that are Small.,All contribution records from Oregon.,True
+oregon_bin_count_medium,geography_bin_count,Number of Medium contribution records from Oregon.,,True
+oregon_bin_count_share_medium,geography_bin_share,Share of contribution records from Oregon that are Medium.,All contribution records from Oregon.,True
+oregon_bin_count_large,geography_bin_count,Number of Large contribution records from Oregon.,,True
+oregon_bin_count_share_large,geography_bin_share,Share of contribution records from Oregon that are Large.,All contribution records from Oregon.,True
+oregon_bin_count_mega,geography_bin_count,Number of Mega contribution records from Oregon.,,True
+oregon_bin_count_share_mega,geography_bin_share,Share of contribution records from Oregon that are Mega.,All contribution records from Oregon.,True

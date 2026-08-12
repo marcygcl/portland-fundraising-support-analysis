@@ -1,0 +1,3 @@
+is_viable,candidates,mean_fundraising,median_fundraising,mean_contribution_count,median_contribution_count,candidates_with_spending,mean_spending,median_spending
+False,36,13987.671666666667,7280.725,304.94444444444446,275.5,32,39948.7253125,29699.1
+True,29,53902.44551724138,49453.07,1102.2758620689656,1055.0,26,233219.35115384616,136927.505

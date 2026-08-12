@@ -1,353 +1,353 @@
-year,district,source,source_candidate_name,suggested_candidate,candidate_key,name_similarity,second_best_similarity,similarity_margin,classification,match_method,needs_review,suggested_candidate_key
-2024,1,candidate_filings,Candace Avalos,Candace Avalos,2024|1|candace avalos,1.0,0.0,1.0,match,canonical_source,False,
-2024,1,candidate_filings,Cayle Tern,Cayle Tern,2024|1|cayle tern,1.0,0.0,1.0,match,canonical_source,False,
-2024,1,candidate_filings,David Linn,David Linn,2024|1|david linn,1.0,0.0,1.0,match,canonical_source,False,
-2024,1,candidate_filings,Deian Salazar,Deian Salazar,2024|1|deian salazar,1.0,0.0,1.0,match,canonical_source,False,
-2024,1,candidate_filings,Doug Clove,Doug Clove,2024|1|doug clove,1.0,0.0,1.0,match,canonical_source,False,
-2024,1,candidate_filings,Jamie Dunphy,Jamie Dunphy,2024|1|jamie dunphy,1.0,0.0,1.0,match,canonical_source,False,
-2024,1,candidate_filings,Joe Allen,Joe Allen,2024|1|joe allen,1.0,0.0,1.0,match,canonical_source,False,
-2024,1,candidate_filings,Joe Furi,Joe Furi,2024|1|joe furi,1.0,0.0,1.0,match,canonical_source,False,
-2024,1,candidate_filings,Loretta Smith,Loretta Smith,2024|1|loretta smith,1.0,0.0,1.0,match,canonical_source,False,
-2024,1,candidate_filings,Michael (Mike) Sands,Michael (Mike) Sands,2024|1|michael mike sands,1.0,0.0,1.0,match,canonical_source,False,
-2024,1,candidate_filings,Noah Ernst,Noah Ernst,2024|1|noah ernst,1.0,0.0,1.0,match,canonical_source,False,
-2024,1,candidate_filings,Peggy Sue Owens,Peggy Sue Owens,2024|1|peggy sue owens,1.0,0.0,1.0,match,canonical_source,False,
-2024,1,candidate_filings,Steph Routh,Steph Routh,2024|1|steph routh,1.0,0.0,1.0,match,canonical_source,False,
-2024,1,candidate_filings,Terrence Hayes,Terrence Hayes,2024|1|terrence hayes,1.0,0.0,1.0,match,canonical_source,False,
-2024,1,candidate_filings,Thomas Shervey,Thomas Shervey,2024|1|thomas shervey,1.0,0.0,1.0,match,canonical_source,False,
-2024,1,candidate_filings,Timur Ender,Timur Ender,2024|1|timur ender,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Antonio Jamal PettyJohnBlue,Antonio Jamal PettyJohnBlue,2024|2|antonio jamal pettyjohnblue,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Bob Simril,Bob Simril,2024|2|bob simril,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Chris Olson,Chris Olson,2024|2|chris olson,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Dan Ryan,Dan Ryan,2024|2|dan ryan,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Debbie Kitchin,Debbie Kitchin,2024|2|debbie kitchin,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Devon Horace,Devon Horace,2024|2|devon horace,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Elana Pirtle-Guiney,Elana Pirtle-Guiney,2024|2|elana pirtle guiney,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,James Armstrong,James Armstrong,2024|2|james armstrong,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Jennifer Park,Jennifer Park,2024|2|jennifer park,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Jonathan Tasini,Jonathan Tasini,2024|2|jonathan tasini,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Laura Streib,Laura Streib,2024|2|laura streib,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Liz Taylor,Liz Taylor,2024|2|liz taylor,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Mariah Hudson,Mariah Hudson,2024|2|mariah hudson,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Marnie Glickman,Marnie Glickman,2024|2|marnie glickman,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Michael (Mike) Marshall,Michael (Mike) Marshall,2024|2|michael mike marshall,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Michelle DePass,Michelle DePass,2024|2|michelle depass,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Nabil Zaghloul,Nabil Zaghloul,2024|2|nabil zaghloul,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Nat West,Nat West,2024|2|nat west,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Reuben Berlin,Reuben Berlin,2024|2|reuben berlin,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Sam Sachs,Sam Sachs,2024|2|sam sachs,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Sameer Kanal,Sameer Kanal,2024|2|sameer kanal,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Tiffani Penson,Tiffani Penson,2024|2|tiffani penson,1.0,0.0,1.0,match,canonical_source,False,
-2024,2,candidate_filings,Will Mespelt,Will Mespelt,2024|2|will mespelt,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Ahlam K Osman,Ahlam K Osman,2024|3|ahlam k osman,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Angelita Morillo,Angelita Morillo,2024|3|angelita morillo,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Brian Conley,Brian Conley,2024|3|brian conley,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Chris Flanary,Chris Flanary,2024|3|chris flanary,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Christopher Brummer,Christopher Brummer,2024|3|christopher brummer,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Clifford Higgins,Clifford Higgins,2024|3|clifford higgins,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Cristal Azul Otero,Cristal Azul Otero,2024|3|cristal azul otero,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Dan Gilk,Dan Gilk,2024|3|dan gilk,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Daniel DeMelo,Daniel DeMelo,2024|3|daniel demelo,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,David O'Connor,David O'Connor,2024|3|david o connor,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Harrison Kass,Harrison Kass,2024|3|harrison kass,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Heart Free Pham,Heart Free Pham,2024|3|heart free pham,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Jaclyn Smith-Moore,Jaclyn Smith-Moore,2024|3|jaclyn smith moore,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Jesse Cornett,Jesse Cornett,2024|3|jesse cornett,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,John Sweeney,John Sweeney,2024|3|john sweeney,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Jonathan (Jon) Walker,Jonathan (Jon) Walker,2024|3|jonathan jon walker,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Kelly Janes (KJ),Kelly Janes (KJ),2024|3|kelly janes kj,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Kenneth (Kent) R Landgraver III,Kenneth (Kent) R Landgraver III,2024|3|kenneth kent r landgraver iii,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Kezia Wanner,Kezia Wanner,2024|3|kezia wanner,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Luke Zak,Luke Zak,2024|3|luke zak,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Matthew (Matt) Anderson,Matthew (Matt) Anderson,2024|3|matthew matt anderson,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Melodie Beirwagen,Melodie Beirwagen,2024|3|melodie beirwagen,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Mu-Yin Chen (Mollie),Mu-Yin Chen (Mollie),2024|3|mu yin chen mollie,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Patrick Hilton,Patrick Hilton,2024|3|patrick hilton,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Philippe Knab,Philippe Knab,2024|3|philippe knab,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Rex Burkholder,Rex Burkholder,2024|3|rex burkholder,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Sandeep Bali,Sandeep Bali,2024|3|sandeep bali,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Steve Novick,Steve Novick,2024|3|steve novick,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Terry Parker,Terry Parker,2024|3|terry parker,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Theo Hathaway Saner,Theo Hathaway Saner,2024|3|theo hathaway saner,1.0,0.0,1.0,match,canonical_source,False,
-2024,3,candidate_filings,Tiffany Koyama Lane,Tiffany Koyama Lane,2024|3|tiffany koyama lane,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Andra Vltavín,Andra Vltavín,2024|4|andra vltavin,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Ben Hufford,Ben Hufford,2024|4|ben hufford,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Bob Callahan,Bob Callahan,2024|4|bob callahan,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Bob Weinstein,Bob Weinstein,2024|4|bob weinstein,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Brandon Farley,Brandon Farley,2024|4|brandon farley,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Chad Lykins,Chad Lykins,2024|4|chad lykins,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Chloe Mason,Chloe Mason,2024|4|chloe mason,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Chris Henry,Chris Henry,2024|4|chris henry,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Ciatta R Thompson,Ciatta R Thompson,2024|4|ciatta r thompson,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Eli Arnold,Eli Arnold,2024|4|eli arnold,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Eric Zimmerman,Eric Zimmerman,2024|4|eric zimmerman,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,James Bryan,James Bryan,2024|4|james bryan,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Jeremy Beausoleil Smith,Jeremy Beausoleil Smith,2024|4|jeremy beausoleil smith,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,John J Goldsmith,John J Goldsmith,2024|4|john j goldsmith,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,John Toran,John Toran,2024|4|john toran,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Joseph (Joe) Alfone,Joseph (Joe) Alfone,2024|4|joseph joe alfone,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Kelly Doyle,Kelly Doyle,2024|4|kelly doyle,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Kevin Goldsmith,Kevin Goldsmith,2024|4|kevin goldsmith,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,L Christopher Regis,L Christopher Regis,2024|4|l christopher regis,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Lee Odell,Lee Odell,2024|4|lee odell,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Lisa Freeman,Lisa Freeman,2024|4|lisa freeman,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Michael Trimble,Michael Trimble,2024|4|michael trimble,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Mike DiNapoli,Mike DiNapoli,2024|4|mike dinapoli,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Mitch Green,Mitch Green,2024|4|mitch green,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Moses Ross,Moses Ross,2024|4|moses ross,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Olivia Clark,Olivia Clark,2024|4|olivia clark,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Patrick Cashman,Patrick Cashman,2024|4|patrick cashman,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Raquel Coyote,Raquel Coyote,2024|4|raquel coyote,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Sarah Silkie,Sarah Silkie,2024|4|sarah silkie,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Stanley Penkin,Stanley Penkin,2024|4|stanley penkin,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Thomas Dodson,Thomas Dodson,2024|4|thomas dodson,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Tony Morse,Tony Morse,2024|4|tony morse,1.0,0.0,1.0,match,canonical_source,False,
-2024,4,candidate_filings,Tony Schwartz,Tony Schwartz,2024|4|tony schwartz,1.0,0.0,1.0,match,canonical_source,False,
-2024,1,report2025,Candace Avalos,Candace Avalos,2024|1|candace avalos,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|candace avalos
-2024,1,report2025,Steph Routh,Steph Routh,2024|1|steph routh,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|steph routh
-2024,1,report2025,Jamie Dunphy,Jamie Dunphy,2024|1|jamie dunphy,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|jamie dunphy
-2024,1,report2025,Loretta Smith,Loretta Smith,2024|1|loretta smith,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|loretta smith
-2024,1,report2025,Timur Ender,Timur Ender,2024|1|timur ender,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|timur ender
-2024,1,report2025,Terrence Hayes,Terrence Hayes,2024|1|terrence hayes,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|terrence hayes
-2024,1,report2025,Noah Ernst,Noah Ernst,2024|1|noah ernst,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|noah ernst
-2024,1,report2025,David Linn,David Linn,2024|1|david linn,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|david linn
-2024,1,report2025,Cayle Tern,Cayle Tern,2024|1|cayle tern,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|cayle tern
-2024,1,report2025,Doug Clove,Doug Clove,2024|1|doug clove,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|doug clove
-2024,1,report2025,Deian Salazar,Deian Salazar,2024|1|deian salazar,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|deian salazar
-2024,1,report2025,Michael (Mike) Sands,Michael (Mike) Sands,2024|1|michael mike sands,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|michael mike sands
-2024,1,report2025,Joe Allen,Joe Allen,2024|1|joe allen,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|joe allen
-2024,1,report2025,Joe Furi,Joe Furi,2024|1|joe furi,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|joe furi
-2024,1,report2025,Peggy Sue Owens,Peggy Sue Owens,2024|1|peggy sue owens,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|peggy sue owens
-2024,1,report2025,Thomas Shervey,Thomas Shervey,2024|1|thomas shervey,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|thomas shervey
-2024,1,report2025,Uncertified Write In,,,0.0,0.0,0.0,non_match,known_non_candidate,False,
-2024,2,report2025,Elana Pirtle-Guiney,Elana Pirtle-Guiney,2024|2|elana pirtle guiney,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|elana pirtle guiney
-2024,2,report2025,Dan Ryan,Dan Ryan,2024|2|dan ryan,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|dan ryan
-2024,2,report2025,Michelle DePass,Michelle DePass,2024|2|michelle depass,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|michelle depass
-2024,2,report2025,Sameer Kanal,Sameer Kanal,2024|2|sameer kanal,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|sameer kanal
-2024,2,report2025,Nat West,Nat West,2024|2|nat west,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|nat west
-2024,2,report2025,Tiffani Penson,Tiffani Penson,2024|2|tiffani penson,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|tiffani penson
-2024,2,report2025,Jonathan Tasini,Jonathan Tasini,2024|2|jonathan tasini,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|jonathan tasini
-2024,2,report2025,Marnie Glickman,Marnie Glickman,2024|2|marnie glickman,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|marnie glickman
-2024,2,report2025,Mariah Hudson,Mariah Hudson,2024|2|mariah hudson,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|mariah hudson
-2024,2,report2025,Michael (Mike) Marshall,Michael (Mike) Marshall,2024|2|michael mike marshall,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|michael mike marshall
-2024,2,report2025,James Armstrong,James Armstrong,2024|2|james armstrong,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|james armstrong
-2024,2,report2025,Jennifer Park,Jennifer Park,2024|2|jennifer park,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|jennifer park
-2024,2,report2025,Bob Simril,Bob Simril,2024|2|bob simril,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|bob simril
-2024,2,report2025,Debbie Kitchin,Debbie Kitchin,2024|2|debbie kitchin,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|debbie kitchin
-2024,2,report2025,Chris Olson,Chris Olson,2024|2|chris olson,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|chris olson
-2024,2,report2025,Nabil Zaghloul,Nabil Zaghloul,2024|2|nabil zaghloul,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|nabil zaghloul
-2024,2,report2025,Laura Streib,Laura Streib,2024|2|laura streib,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|laura streib
-2024,2,report2025,Liz Taylor,Liz Taylor,2024|2|liz taylor,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|liz taylor
-2024,2,report2025,Will Mespelt,Will Mespelt,2024|2|will mespelt,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|will mespelt
-2024,2,report2025,Reuben Berlin,Reuben Berlin,2024|2|reuben berlin,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|reuben berlin
-2024,2,report2025,Sam Sachs,Sam Sachs,2024|2|sam sachs,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|sam sachs
-2024,2,report2025,Antonio Jamal PettyJohnBlue,Antonio Jamal PettyJohnBlue,2024|2|antonio jamal pettyjohnblue,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|antonio jamal pettyjohnblue
-2024,2,report2025,Uncertified Write In,,,0.0,0.0,0.0,non_match,known_non_candidate,False,
-2024,3,report2025,Steve Novick,Steve Novick,2024|3|steve novick,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|steve novick
-2024,3,report2025,Angelita Morillo,Angelita Morillo,2024|3|angelita morillo,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|angelita morillo
-2024,3,report2025,Tiffany Koyama Lane,Tiffany Koyama Lane,2024|3|tiffany koyama lane,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|tiffany koyama lane
-2024,3,report2025,Jesse Cornett,Jesse Cornett,2024|3|jesse cornett,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|jesse cornett
-2024,3,report2025,Rex Burkholder,Rex Burkholder,2024|3|rex burkholder,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|rex burkholder
-2024,3,report2025,Chris Flanary,Chris Flanary,2024|3|chris flanary,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|chris flanary
-2024,3,report2025,Cristal Azul Otero,Cristal Azul Otero,2024|3|cristal azul otero,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|cristal azul otero
-2024,3,report2025,Philippe Knab,Philippe Knab,2024|3|philippe knab,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|philippe knab
-2024,3,report2025,Kezia Wanner,Kezia Wanner,2024|3|kezia wanner,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|kezia wanner
-2024,3,report2025,Ahlam K Osman,Ahlam K Osman,2024|3|ahlam k osman,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|ahlam k osman
-2024,3,report2025,Daniel DeMelo,Daniel DeMelo,2024|3|daniel demelo,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|daniel demelo
-2024,3,report2025,Harrison Kass,Harrison Kass,2024|3|harrison kass,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|harrison kass
-2024,3,report2025,Jonathan (Jon) Walker,Jonathan (Jon) Walker,2024|3|jonathan jon walker,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|jonathan jon walker
-2024,3,report2025,Luke Zak,Luke Zak,2024|3|luke zak,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|luke zak
-2024,3,report2025,Sandeep Bali,Sandeep Bali,2024|3|sandeep bali,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|sandeep bali
-2024,3,report2025,Brian Conley,Brian Conley,2024|3|brian conley,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|brian conley
-2024,3,report2025,Melodie Beirwagen,Melodie Beirwagen,2024|3|melodie beirwagen,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|melodie beirwagen
-2024,3,report2025,Matthew (Matt) Anderson,Matthew (Matt) Anderson,2024|3|matthew matt anderson,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|matthew matt anderson
-2024,3,report2025,Heart Free Pham,Heart Free Pham,2024|3|heart free pham,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|heart free pham
-2024,3,report2025,Theo Hathaway Saner,Theo Hathaway Saner,2024|3|theo hathaway saner,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|theo hathaway saner
-2024,3,report2025,Dan Gilk,Dan Gilk,2024|3|dan gilk,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|dan gilk
-2024,3,report2025,Terry Parker,Terry Parker,2024|3|terry parker,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|terry parker
-2024,3,report2025,Kelly Janes (KJ),Kelly Janes (KJ),2024|3|kelly janes kj,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|kelly janes kj
-2024,3,report2025,Christopher Brummer,Christopher Brummer,2024|3|christopher brummer,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|christopher brummer
-2024,3,report2025,Kenneth (Kent) R Landgraver III,Kenneth (Kent) R Landgraver III,2024|3|kenneth kent r landgraver iii,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|kenneth kent r landgraver iii
-2024,3,report2025,John Sweeney,John Sweeney,2024|3|john sweeney,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|john sweeney
-2024,3,report2025,Patrick Hilton,Patrick Hilton,2024|3|patrick hilton,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|patrick hilton
-2024,3,report2025,Jaclyn Smith-Moore,Jaclyn Smith-Moore,2024|3|jaclyn smith moore,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|jaclyn smith moore
-2024,3,report2025,David O'Connor,David O'Connor,2024|3|david o connor,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|david o connor
-2024,3,report2025,Clifford Higgins,Clifford Higgins,2024|3|clifford higgins,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|clifford higgins
-2024,3,report2025,Uncertified Write In,,,0.0,0.0,0.0,non_match,known_non_candidate,False,
-2024,4,report2025,Olivia Clark,Olivia Clark,2024|4|olivia clark,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|olivia clark
-2024,4,report2025,Eric Zimmerman,Eric Zimmerman,2024|4|eric zimmerman,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|eric zimmerman
-2024,4,report2025,Eli Arnold,Eli Arnold,2024|4|eli arnold,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|eli arnold
-2024,4,report2025,Mitch Green,Mitch Green,2024|4|mitch green,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|mitch green
-2024,4,report2025,Sarah Silkie,Sarah Silkie,2024|4|sarah silkie,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|sarah silkie
-2024,4,report2025,Chad Lykins,Chad Lykins,2024|4|chad lykins,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|chad lykins
-2024,4,report2025,Lisa Freeman,Lisa Freeman,2024|4|lisa freeman,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|lisa freeman
-2024,4,report2025,Bob Weinstein,Bob Weinstein,2024|4|bob weinstein,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|bob weinstein
-2024,4,report2025,Tony Morse,Tony Morse,2024|4|tony morse,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|tony morse
-2024,4,report2025,Ben Hufford,Ben Hufford,2024|4|ben hufford,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|ben hufford
-2024,4,report2025,Stanley Penkin,Stanley Penkin,2024|4|stanley penkin,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|stanley penkin
-2024,4,report2025,John Toran,John Toran,2024|4|john toran,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|john toran
-2024,4,report2025,Andra Vltavin,Andra Vltavín,2024|4|andra vltavin,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|andra vltavin
-2024,4,report2025,Bob Callahan,Bob Callahan,2024|4|bob callahan,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|bob callahan
-2024,4,report2025,Chloe Mason,Chloe Mason,2024|4|chloe mason,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|chloe mason
-2024,4,report2025,Kevin Goldsmith,Kevin Goldsmith,2024|4|kevin goldsmith,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|kevin goldsmith
-2024,4,report2025,Ciatta R Thompson,Ciatta R Thompson,2024|4|ciatta r thompson,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|ciatta r thompson
-2024,4,report2025,Moses Ross,Moses Ross,2024|4|moses ross,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|moses ross
-2024,4,report2025,Chris Henry,Chris Henry,2024|4|chris henry,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|chris henry
-2024,4,report2025,Mike DiNapoli,Mike DiNapoli,2024|4|mike dinapoli,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|mike dinapoli
-2024,4,report2025,Michael Trimble,Michael Trimble,2024|4|michael trimble,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|michael trimble
-2024,4,report2025,Joseph (Joe) Alfone,Joseph (Joe) Alfone,2024|4|joseph joe alfone,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|joseph joe alfone
-2024,4,report2025,Raquel Coyote,Raquel Coyote,2024|4|raquel coyote,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|raquel coyote
-2024,4,report2025,John J Goldsmith,John J Goldsmith,2024|4|john j goldsmith,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|john j goldsmith
-2024,4,report2025,Kelly Doyle,Kelly Doyle,2024|4|kelly doyle,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|kelly doyle
-2024,4,report2025,Brandon Farley,Brandon Farley,2024|4|brandon farley,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|brandon farley
-2024,4,report2025,Tony Schwartz,Tony Schwartz,2024|4|tony schwartz,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|tony schwartz
-2024,4,report2025,Patrick Cashman,Patrick Cashman,2024|4|patrick cashman,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|patrick cashman
-2024,4,report2025,Lee Odell,Lee Odell,2024|4|lee odell,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|lee odell
-2024,4,report2025,Uncertified Write In,,,0.0,0.0,0.0,non_match,known_non_candidate,False,
-2024,4,report2025,L Christopher Regis,L Christopher Regis,2024|4|l christopher regis,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|l christopher regis
-2024,1,portland_contributions,Candace Avalos,Candace Avalos,2024|1|candace avalos,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|candace avalos
-2024,1,portland_contributions,Cayle Tern,Cayle Tern,2024|1|cayle tern,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|cayle tern
-2024,1,portland_contributions,David Linn,David Linn,2024|1|david linn,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|david linn
-2024,1,portland_contributions,Deian Salazar,Deian Salazar,2024|1|deian salazar,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|deian salazar
-2024,1,portland_contributions,Doug Clove,Doug Clove,2024|1|doug clove,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|doug clove
-2024,1,portland_contributions,Jamie Dunphy,Jamie Dunphy,2024|1|jamie dunphy,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|jamie dunphy
-2024,1,portland_contributions,Joe Furi,Joe Furi,2024|1|joe furi,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|joe furi
-2024,1,portland_contributions,Loretta Smith,Loretta Smith,2024|1|loretta smith,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|loretta smith
-2024,1,portland_contributions,Noah Ernst,Noah Ernst,2024|1|noah ernst,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|noah ernst
-2024,1,portland_contributions,Sonja McKenzie,Noah Ernst,,0.6206349206349207,0.5873015873015873,0.033333333333333326,non_match,jaro_winkler_low,True,2024|1|noah ernst
-2024,1,portland_contributions,Steph Routh,Steph Routh,2024|1|steph routh,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|steph routh
-2024,1,portland_contributions,Terrence Hayes,Terrence Hayes,2024|1|terrence hayes,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|terrence hayes
-2024,1,portland_contributions,Thomas Shervey,Thomas Shervey,2024|1|thomas shervey,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|thomas shervey
-2024,1,portland_contributions,Timur Ender,Timur Ender,2024|1|timur ender,1.0,0.0,1.0,match,exact_normalized_name,False,2024|1|timur ender
-2024,2,portland_contributions,Bob Simril,Bob Simril,2024|2|bob simril,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|bob simril
-2024,2,portland_contributions,Christopher Olson,Chris Olson,2024|2|chris olson,0.893048128342246,0.0,0.893048128342246,match,human_review_match,False,2024|2|chris olson
-2024,2,portland_contributions,Dan Ryan,Dan Ryan,2024|2|dan ryan,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|dan ryan
-2024,2,portland_contributions,David Burnell,Dan Ryan,,0.6698717948717948,0.5982905982905983,0.07158119658119655,non_match,jaro_winkler_low,True,2024|2|dan ryan
-2024,2,portland_contributions,Debbie Kitchin,Debbie Kitchin,2024|2|debbie kitchin,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|debbie kitchin
-2024,2,portland_contributions,Elana Pirtle-Guiney,Elana Pirtle-Guiney,2024|2|elana pirtle guiney,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|elana pirtle guiney
-2024,2,portland_contributions,James Armstrong,James Armstrong,2024|2|james armstrong,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|james armstrong
-2024,2,portland_contributions,Jennifer Park,Jennifer Park,2024|2|jennifer park,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|jennifer park
-2024,2,portland_contributions,John Middleton,Chris Olson,,0.6645021645021645,0.6182539682539683,0.046248196248196205,non_match,jaro_winkler_low,True,2024|2|chris olson
-2024,2,portland_contributions,Jonathan Tasini,Jonathan Tasini,2024|2|jonathan tasini,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|jonathan tasini
-2024,2,portland_contributions,Laura Streib,Laura Streib,2024|2|laura streib,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|laura streib
-2024,2,portland_contributions,Mariah Hudson,Mariah Hudson,2024|2|mariah hudson,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|mariah hudson
-2024,2,portland_contributions,Marnie Glickman,Marnie Glickman,2024|2|marnie glickman,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|marnie glickman
-2024,2,portland_contributions,Michelle DePass,Michelle DePass,2024|2|michelle depass,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|michelle depass
-2024,2,portland_contributions,Mike Marshall,Michael (Mike) Marshall,2024|2|michael mike marshall,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|michael mike marshall
-2024,2,portland_contributions,Nabil Zaghloul,Nabil Zaghloul,2024|2|nabil zaghloul,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|nabil zaghloul
-2024,2,portland_contributions,Nat West,Nat West,2024|2|nat west,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|nat west
-2024,2,portland_contributions,Reuben Berlin,Reuben Berlin,2024|2|reuben berlin,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|reuben berlin
-2024,2,portland_contributions,Sam Sachs,Sam Sachs,2024|2|sam sachs,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|sam sachs
-2024,2,portland_contributions,Sameer Kanal,Sameer Kanal,2024|2|sameer kanal,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|sameer kanal
-2024,2,portland_contributions,Tiffani Penson,Tiffani Penson,2024|2|tiffani penson,1.0,0.0,1.0,match,exact_normalized_name,False,2024|2|tiffani penson
-2024,2,portland_contributions,William Mespelt,Will Mespelt,2024|2|will mespelt,0.9433333333333334,0.0,0.9433333333333334,match,human_review_match,False,2024|2|will mespelt
-2024,3,portland_contributions,Ahlam Osman,Ahlam K Osman,2024|3|ahlam k osman,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|ahlam k osman
-2024,3,portland_contributions,Angelita Morillo,Angelita Morillo,2024|3|angelita morillo,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|angelita morillo
-2024,3,portland_contributions,Chris Flanary,Chris Flanary,2024|3|chris flanary,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|chris flanary
-2024,3,portland_contributions,Dan Gilk,Dan Gilk,2024|3|dan gilk,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|dan gilk
-2024,3,portland_contributions,Harrison Kass,Harrison Kass,2024|3|harrison kass,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|harrison kass
-2024,3,portland_contributions,Jesse Cornett,Jesse Cornett,2024|3|jesse cornett,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|jesse cornett
-2024,3,portland_contributions,Jonathan Walker,Jonathan (Jon) Walker,2024|3|jonathan jon walker,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|jonathan jon walker
-2024,3,portland_contributions,Kelly Janes,Kelly Janes (KJ),2024|3|kelly janes kj,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|kelly janes kj
-2024,3,portland_contributions,Luke Zak,Luke Zak,2024|3|luke zak,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|luke zak
-2024,3,portland_contributions,Matthew Anderson,Matthew (Matt) Anderson,2024|3|matthew matt anderson,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|matthew matt anderson
-2024,3,portland_contributions,Philippe Knab,Philippe Knab,2024|3|philippe knab,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|philippe knab
-2024,3,portland_contributions,Rex Burkholder,Rex Burkholder,2024|3|rex burkholder,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|rex burkholder
-2024,3,portland_contributions,Robin Ye,Brian Conley,,0.7242063492063493,0.6138888888888889,0.11031746031746037,non_match,jaro_winkler_low,True,2024|3|brian conley
-2024,3,portland_contributions,Steve Novick,Steve Novick,2024|3|steve novick,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|steve novick
-2024,3,portland_contributions,Theo Hathaway Saner,Theo Hathaway Saner,2024|3|theo hathaway saner,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|theo hathaway saner
-2024,3,portland_contributions,Tiffany Koyama Lane,Tiffany Koyama Lane,2024|3|tiffany koyama lane,1.0,0.0,1.0,match,exact_normalized_name,False,2024|3|tiffany koyama lane
-2024,4,portland_contributions,Andra Vltavín,Andra Vltavín,2024|4|andra vltavin,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|andra vltavin
-2024,4,portland_contributions,Ben Hufford,Ben Hufford,2024|4|ben hufford,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|ben hufford
-2024,4,portland_contributions,Bob Weinstein,Bob Weinstein,2024|4|bob weinstein,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|bob weinstein
-2024,4,portland_contributions,Chad Lykins,Chad Lykins,2024|4|chad lykins,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|chad lykins
-2024,4,portland_contributions,Chris Henry,Chris Henry,2024|4|chris henry,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|chris henry
-2024,4,portland_contributions,Eli Arnold,Eli Arnold,2024|4|eli arnold,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|eli arnold
-2024,4,portland_contributions,Eric Zimmerman,Eric Zimmerman,2024|4|eric zimmerman,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|eric zimmerman
-2024,4,portland_contributions,John Toran,John Toran,2024|4|john toran,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|john toran
-2024,4,portland_contributions,Lisa Freeman,Lisa Freeman,2024|4|lisa freeman,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|lisa freeman
-2024,4,portland_contributions,Michael Trimble,Michael Trimble,2024|4|michael trimble,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|michael trimble
-2024,4,portland_contributions,Mike DiNapoli,Mike DiNapoli,2024|4|mike dinapoli,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|mike dinapoli
-2024,4,portland_contributions,Mitchell Green,Mitch Green,2024|4|mitch green,0.9207792207792208,0.0,0.9207792207792208,match,human_review_match,False,2024|4|mitch green
-2024,4,portland_contributions,Moses Ross,Moses Ross,2024|4|moses ross,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|moses ross
-2024,4,portland_contributions,Olivia Clark,Olivia Clark,2024|4|olivia clark,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|olivia clark
-2024,4,portland_contributions,Sarah Silkie,Sarah Silkie,2024|4|sarah silkie,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|sarah silkie
-2024,4,portland_contributions,Stan Penkin,Stanley Penkin,2024|4|stanley penkin,0.9389610389610389,0.0,0.9389610389610389,match,human_review_match,False,2024|4|stanley penkin
-2024,4,portland_contributions,Tony Morse,Tony Morse,2024|4|tony morse,1.0,0.0,1.0,match,exact_normalized_name,False,2024|4|tony morse
-2024,1,orestar,Avalos,Candace Avalos,2024|1|candace avalos,1.0,0.0,1.0,match,unique_token_containment,False,2024|1|candace avalos
-2024,1,orestar,Durphy,Loretta Smith,,0.5834262356001486,0.5752452056799883,0.008181029920160343,non_match,jaro_winkler_low,True,2024|1|loretta smith
-2024,1,orestar,Ender,Timur Ender,2024|1|timur ender,1.0,0.0,1.0,match,unique_token_containment,False,2024|1|timur ender
-2024,1,orestar,Ernst,Noah Ernst,2024|1|noah ernst,1.0,0.0,1.0,match,unique_token_containment,False,2024|1|noah ernst
-2024,1,orestar,Furi,Joe Furi,2024|1|joe furi,1.0,0.0,1.0,match,unique_token_containment,False,2024|1|joe furi
-2024,1,orestar,Hayes,Terrence Hayes,2024|1|terrence hayes,1.0,0.0,1.0,match,unique_token_containment,False,2024|1|terrence hayes
-2024,1,orestar,Linn,David Linn,2024|1|david linn,1.0,0.0,1.0,match,unique_token_containment,False,2024|1|david linn
-2024,1,orestar,McKay,Cayle Tern,,0.6333333333333333,0.5907407407407407,0.042592592592592626,non_match,jaro_winkler_low,True,2024|1|cayle tern
-2024,1,orestar,McKenzie,Michael (Mike) Sands,,0.6388888888888888,0.6212121212121212,0.017676767676767624,non_match,jaro_winkler_low,True,2024|1|michael mike sands
-2024,1,orestar,Routh,Steph Routh,2024|1|steph routh,1.0,0.0,1.0,match,unique_token_containment,False,2024|1|steph routh
-2024,1,orestar,Salazar,Deian Salazar,2024|1|deian salazar,1.0,0.0,1.0,match,unique_token_containment,False,2024|1|deian salazar
-2024,1,orestar,Shervey,Thomas Shervey,2024|1|thomas shervey,1.0,0.0,1.0,match,unique_token_containment,False,2024|1|thomas shervey
-2024,1,orestar,Smith,Loretta Smith,2024|1|loretta smith,1.0,0.0,1.0,match,unique_token_containment,False,2024|1|loretta smith
-2024,1,orestar,Tern,Cayle Tern,2024|1|cayle tern,1.0,0.0,1.0,match,unique_token_containment,False,2024|1|cayle tern
-2024,2,orestar,Armstrong,James Armstrong,2024|2|james armstrong,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|james armstrong
-2024,2,orestar,Berlin,Reuben Berlin,2024|2|reuben berlin,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|reuben berlin
-2024,2,orestar,Burnell,Reuben Berlin,,0.6617826617826618,0.6126984126984126,0.04908424908424913,non_match,jaro_winkler_low,True,2024|2|reuben berlin
-2024,2,orestar,DePass,Michelle DePass,2024|2|michelle depass,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|michelle depass
-2024,2,orestar,Emerson,Sameer Kanal,,0.7301587301587302,0.6450216450216449,0.08513708513708529,non_match,jaro_winkler_low,True,2024|2|sameer kanal
-2024,2,orestar,Glickman,Marnie Glickman,2024|2|marnie glickman,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|marnie glickman
-2024,2,orestar,Hudson,Mariah Hudson,2024|2|mariah hudson,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|mariah hudson
-2024,2,orestar,Kanal,Sameer Kanal,2024|2|sameer kanal,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|sameer kanal
-2024,2,orestar,Kitchin,Debbie Kitchin,2024|2|debbie kitchin,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|debbie kitchin
-2024,2,orestar,Marshall,Michael (Mike) Marshall,2024|2|michael mike marshall,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|michael mike marshall
-2024,2,orestar,Mespelt,Will Mespelt,2024|2|will mespelt,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|will mespelt
-2024,2,orestar,Middleton,Devon Horace,,0.6666666666666666,0.6296296296296297,0.03703703703703698,non_match,jaro_winkler_low,True,2024|2|devon horace
-2024,2,orestar,Olson,Chris Olson,2024|2|chris olson,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|chris olson
-2024,2,orestar,Park,Jennifer Park,2024|2|jennifer park,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|jennifer park
-2024,2,orestar,Penson,Tiffani Penson,2024|2|tiffani penson,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|tiffani penson
-2024,2,orestar,Pirtle,Elana Pirtle-Guiney,2024|2|elana pirtle guiney,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|elana pirtle guiney
-2024,2,orestar,Sachs,Sam Sachs,2024|2|sam sachs,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|sam sachs
-2024,2,orestar,Sherman,Sameer Kanal,,0.6746031746031745,0.6371457489878543,0.03745742561532028,non_match,jaro_winkler_low,True,2024|2|sameer kanal
-2024,2,orestar,Simril,Bob Simril,2024|2|bob simril,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|bob simril
-2024,2,orestar,Streib,Laura Streib,2024|2|laura streib,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|laura streib
-2024,2,orestar,Tasini,Jonathan Tasini,2024|2|jonathan tasini,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|jonathan tasini
-2024,2,orestar,West,Nat West,2024|2|nat west,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|nat west
-2024,2,orestar,Zaghloul,Nabil Zaghloul,2024|2|nabil zaghloul,1.0,0.0,1.0,match,unique_token_containment,False,2024|2|nabil zaghloul
-2024,3,orestar,Conley,Brian Conley,2024|3|brian conley,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|brian conley
-2024,3,orestar,Cornett,Jesse Cornett,2024|3|jesse cornett,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|jesse cornett
-2024,3,orestar,DeMelo,Daniel DeMelo,2024|3|daniel demelo,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|daniel demelo
-2024,3,orestar,Flanary,Chris Flanary,2024|3|chris flanary,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|chris flanary
-2024,3,orestar,Hathaway,Theo Hathaway Saner,2024|3|theo hathaway saner,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|theo hathaway saner
-2024,3,orestar,Hilton,Patrick Hilton,2024|3|patrick hilton,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|patrick hilton
-2024,3,orestar,Janes,Kelly Janes (KJ),2024|3|kelly janes kj,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|kelly janes kj
-2024,3,orestar,Kass,Harrison Kass,2024|3|harrison kass,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|harrison kass
-2024,3,orestar,Knab,Philippe Knab,2024|3|philippe knab,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|philippe knab
-2024,3,orestar,Koyama,Tiffany Koyama Lane,2024|3|tiffany koyama lane,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|tiffany koyama lane
-2024,3,orestar,McGraw,Chris Flanary,,0.576923076923077,0.5571095571095571,0.019813519813519864,non_match,jaro_winkler_low,True,2024|3|chris flanary
-2024,3,orestar,Morillo,Angelita Morillo,2024|3|angelita morillo,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|angelita morillo
-2024,3,orestar,Morse,David O'Connor,,0.6301587301587301,0.6207311207311207,0.009427609427609451,non_match,jaro_winkler_low,True,2024|3|david o connor
-2024,3,orestar,Novick,Steve Novick,2024|3|steve novick,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|steve novick
-2024,3,orestar,Osman,Ahlam K Osman,2024|3|ahlam k osman,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|ahlam k osman
-2024,3,orestar,Penson,Jesse Cornett,,0.6581196581196581,0.5935185185185184,0.06460113960113967,non_match,jaro_winkler_low,True,2024|3|jesse cornett
-2024,3,orestar,Walker,Jonathan (Jon) Walker,2024|3|jonathan jon walker,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|jonathan jon walker
-2024,3,orestar,Wanner,Kezia Wanner,2024|3|kezia wanner,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|kezia wanner
-2024,3,orestar,Zak,Luke Zak,2024|3|luke zak,1.0,0.0,1.0,match,unique_token_containment,False,2024|3|luke zak
-2024,4,orestar,Arnold,Eli Arnold,2024|4|eli arnold,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|eli arnold
-2024,4,orestar,Callahan,Bob Callahan,2024|4|bob callahan,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|bob callahan
-2024,4,orestar,Clark,Olivia Clark,2024|4|olivia clark,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|olivia clark
-2024,4,orestar,DiNapoli,Mike DiNapoli,2024|4|mike dinapoli,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|mike dinapoli
-2024,4,orestar,Freeman,Lisa Freeman,2024|4|lisa freeman,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|lisa freeman
-2024,4,orestar,Green,Mitch Green,2024|4|mitch green,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|mitch green
-2024,4,orestar,Henry,Chris Henry,2024|4|chris henry,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|chris henry
-2024,4,orestar,Hufford,Ben Hufford,2024|4|ben hufford,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|ben hufford
-2024,4,orestar,Kaluba,Thomas Dodson,,0.6788124156545209,0.6744417862838915,0.004370629370629375,non_match,jaro_winkler_low,True,2024|4|thomas dodson
-2024,4,orestar,Lykins,Chad Lykins,2024|4|chad lykins,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|chad lykins
-2024,4,orestar,Mason,Chloe Mason,2024|4|chloe mason,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|chloe mason
-2024,4,orestar,Morse,Tony Morse,2024|4|tony morse,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|tony morse
-2024,4,orestar,Penkin,Stanley Penkin,2024|4|stanley penkin,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|stanley penkin
-2024,4,orestar,Ross,Moses Ross,2024|4|moses ross,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|moses ross
-2024,4,orestar,Silkie,Sarah Silkie,2024|4|sarah silkie,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|sarah silkie
-2024,4,orestar,Smith,Jeremy Beausoleil Smith,2024|4|jeremy beausoleil smith,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|jeremy beausoleil smith
-2024,4,orestar,Thompson,Ciatta R Thompson,2024|4|ciatta r thompson,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|ciatta r thompson
-2024,4,orestar,Toran,John Toran,2024|4|john toran,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|john toran
-2024,4,orestar,Underdahl,Joseph (Joe) Alfone,,0.6797385620915032,0.6648148148148149,0.014923747276688326,non_match,jaro_winkler_low,True,2024|4|joseph joe alfone
-2024,4,orestar,Weinstein,Bob Weinstein,2024|4|bob weinstein,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|bob weinstein
-2024,4,orestar,Zimmerman,Eric Zimmerman,2024|4|eric zimmerman,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|eric zimmerman
-2024,4,orestar,trimble,Michael Trimble,2024|4|michael trimble,1.0,0.0,1.0,match,unique_token_containment,False,2024|4|michael trimble
+year,district,source,source_candidate_name,suggested_candidate,candidate_key,suggested_candidate_key,name_similarity,second_best_similarity,similarity_margin,classification,match_method,needs_review
+2024,1,candidate_filings,Candace Avalos,Candace Avalos,2024|1|candace avalos,2024|1|candace avalos,1.0,0.0,1.0,match,canonical_source,False
+2024,1,candidate_filings,Cayle Tern,Cayle Tern,2024|1|cayle tern,2024|1|cayle tern,1.0,0.0,1.0,match,canonical_source,False
+2024,1,candidate_filings,David Linn,David Linn,2024|1|david linn,2024|1|david linn,1.0,0.0,1.0,match,canonical_source,False
+2024,1,candidate_filings,Deian Salazar,Deian Salazar,2024|1|deian salazar,2024|1|deian salazar,1.0,0.0,1.0,match,canonical_source,False
+2024,1,candidate_filings,Doug Clove,Doug Clove,2024|1|doug clove,2024|1|doug clove,1.0,0.0,1.0,match,canonical_source,False
+2024,1,candidate_filings,Jamie Dunphy,Jamie Dunphy,2024|1|jamie dunphy,2024|1|jamie dunphy,1.0,0.0,1.0,match,canonical_source,False
+2024,1,candidate_filings,Joe Allen,Joe Allen,2024|1|joe allen,2024|1|joe allen,1.0,0.0,1.0,match,canonical_source,False
+2024,1,candidate_filings,Joe Furi,Joe Furi,2024|1|joe furi,2024|1|joe furi,1.0,0.0,1.0,match,canonical_source,False
+2024,1,candidate_filings,Loretta Smith,Loretta Smith,2024|1|loretta smith,2024|1|loretta smith,1.0,0.0,1.0,match,canonical_source,False
+2024,1,candidate_filings,Michael (Mike) Sands,Michael (Mike) Sands,2024|1|michael mike sands,2024|1|michael mike sands,1.0,0.0,1.0,match,canonical_source,False
+2024,1,candidate_filings,Noah Ernst,Noah Ernst,2024|1|noah ernst,2024|1|noah ernst,1.0,0.0,1.0,match,canonical_source,False
+2024,1,candidate_filings,Peggy Sue Owens,Peggy Sue Owens,2024|1|peggy sue owens,2024|1|peggy sue owens,1.0,0.0,1.0,match,canonical_source,False
+2024,1,candidate_filings,Steph Routh,Steph Routh,2024|1|steph routh,2024|1|steph routh,1.0,0.0,1.0,match,canonical_source,False
+2024,1,candidate_filings,Terrence Hayes,Terrence Hayes,2024|1|terrence hayes,2024|1|terrence hayes,1.0,0.0,1.0,match,canonical_source,False
+2024,1,candidate_filings,Thomas Shervey,Thomas Shervey,2024|1|thomas shervey,2024|1|thomas shervey,1.0,0.0,1.0,match,canonical_source,False
+2024,1,candidate_filings,Timur Ender,Timur Ender,2024|1|timur ender,2024|1|timur ender,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Antonio Jamal PettyJohnBlue,Antonio Jamal PettyJohnBlue,2024|2|antonio jamal pettyjohnblue,2024|2|antonio jamal pettyjohnblue,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Bob Simril,Bob Simril,2024|2|bob simril,2024|2|bob simril,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Chris Olson,Chris Olson,2024|2|chris olson,2024|2|chris olson,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Dan Ryan,Dan Ryan,2024|2|dan ryan,2024|2|dan ryan,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Debbie Kitchin,Debbie Kitchin,2024|2|debbie kitchin,2024|2|debbie kitchin,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Devon Horace,Devon Horace,2024|2|devon horace,2024|2|devon horace,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Elana Pirtle-Guiney,Elana Pirtle-Guiney,2024|2|elana pirtle guiney,2024|2|elana pirtle guiney,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,James Armstrong,James Armstrong,2024|2|james armstrong,2024|2|james armstrong,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Jennifer Park,Jennifer Park,2024|2|jennifer park,2024|2|jennifer park,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Jonathan Tasini,Jonathan Tasini,2024|2|jonathan tasini,2024|2|jonathan tasini,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Laura Streib,Laura Streib,2024|2|laura streib,2024|2|laura streib,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Liz Taylor,Liz Taylor,2024|2|liz taylor,2024|2|liz taylor,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Mariah Hudson,Mariah Hudson,2024|2|mariah hudson,2024|2|mariah hudson,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Marnie Glickman,Marnie Glickman,2024|2|marnie glickman,2024|2|marnie glickman,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Michael (Mike) Marshall,Michael (Mike) Marshall,2024|2|michael mike marshall,2024|2|michael mike marshall,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Michelle DePass,Michelle DePass,2024|2|michelle depass,2024|2|michelle depass,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Nabil Zaghloul,Nabil Zaghloul,2024|2|nabil zaghloul,2024|2|nabil zaghloul,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Nat West,Nat West,2024|2|nat west,2024|2|nat west,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Reuben Berlin,Reuben Berlin,2024|2|reuben berlin,2024|2|reuben berlin,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Sam Sachs,Sam Sachs,2024|2|sam sachs,2024|2|sam sachs,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Sameer Kanal,Sameer Kanal,2024|2|sameer kanal,2024|2|sameer kanal,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Tiffani Penson,Tiffani Penson,2024|2|tiffani penson,2024|2|tiffani penson,1.0,0.0,1.0,match,canonical_source,False
+2024,2,candidate_filings,Will Mespelt,Will Mespelt,2024|2|will mespelt,2024|2|will mespelt,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Ahlam K Osman,Ahlam K Osman,2024|3|ahlam k osman,2024|3|ahlam k osman,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Angelita Morillo,Angelita Morillo,2024|3|angelita morillo,2024|3|angelita morillo,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Brian Conley,Brian Conley,2024|3|brian conley,2024|3|brian conley,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Chris Flanary,Chris Flanary,2024|3|chris flanary,2024|3|chris flanary,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Christopher Brummer,Christopher Brummer,2024|3|christopher brummer,2024|3|christopher brummer,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Clifford Higgins,Clifford Higgins,2024|3|clifford higgins,2024|3|clifford higgins,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Cristal Azul Otero,Cristal Azul Otero,2024|3|cristal azul otero,2024|3|cristal azul otero,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Dan Gilk,Dan Gilk,2024|3|dan gilk,2024|3|dan gilk,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Daniel DeMelo,Daniel DeMelo,2024|3|daniel demelo,2024|3|daniel demelo,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,David O'Connor,David O'Connor,2024|3|david o connor,2024|3|david o connor,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Harrison Kass,Harrison Kass,2024|3|harrison kass,2024|3|harrison kass,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Heart Free Pham,Heart Free Pham,2024|3|heart free pham,2024|3|heart free pham,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Jaclyn Smith-Moore,Jaclyn Smith-Moore,2024|3|jaclyn smith moore,2024|3|jaclyn smith moore,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Jesse Cornett,Jesse Cornett,2024|3|jesse cornett,2024|3|jesse cornett,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,John Sweeney,John Sweeney,2024|3|john sweeney,2024|3|john sweeney,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Jonathan (Jon) Walker,Jonathan (Jon) Walker,2024|3|jonathan jon walker,2024|3|jonathan jon walker,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Kelly Janes (KJ),Kelly Janes (KJ),2024|3|kelly janes kj,2024|3|kelly janes kj,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Kenneth (Kent) R Landgraver III,Kenneth (Kent) R Landgraver III,2024|3|kenneth kent r landgraver iii,2024|3|kenneth kent r landgraver iii,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Kezia Wanner,Kezia Wanner,2024|3|kezia wanner,2024|3|kezia wanner,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Luke Zak,Luke Zak,2024|3|luke zak,2024|3|luke zak,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Matthew (Matt) Anderson,Matthew (Matt) Anderson,2024|3|matthew matt anderson,2024|3|matthew matt anderson,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Melodie Beirwagen,Melodie Beirwagen,2024|3|melodie beirwagen,2024|3|melodie beirwagen,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Mu-Yin Chen (Mollie),Mu-Yin Chen (Mollie),2024|3|mu yin chen mollie,2024|3|mu yin chen mollie,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Patrick Hilton,Patrick Hilton,2024|3|patrick hilton,2024|3|patrick hilton,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Philippe Knab,Philippe Knab,2024|3|philippe knab,2024|3|philippe knab,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Rex Burkholder,Rex Burkholder,2024|3|rex burkholder,2024|3|rex burkholder,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Sandeep Bali,Sandeep Bali,2024|3|sandeep bali,2024|3|sandeep bali,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Steve Novick,Steve Novick,2024|3|steve novick,2024|3|steve novick,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Terry Parker,Terry Parker,2024|3|terry parker,2024|3|terry parker,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Theo Hathaway Saner,Theo Hathaway Saner,2024|3|theo hathaway saner,2024|3|theo hathaway saner,1.0,0.0,1.0,match,canonical_source,False
+2024,3,candidate_filings,Tiffany Koyama Lane,Tiffany Koyama Lane,2024|3|tiffany koyama lane,2024|3|tiffany koyama lane,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Andra Vltavín,Andra Vltavín,2024|4|andra vltavin,2024|4|andra vltavin,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Ben Hufford,Ben Hufford,2024|4|ben hufford,2024|4|ben hufford,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Bob Callahan,Bob Callahan,2024|4|bob callahan,2024|4|bob callahan,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Bob Weinstein,Bob Weinstein,2024|4|bob weinstein,2024|4|bob weinstein,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Brandon Farley,Brandon Farley,2024|4|brandon farley,2024|4|brandon farley,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Chad Lykins,Chad Lykins,2024|4|chad lykins,2024|4|chad lykins,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Chloe Mason,Chloe Mason,2024|4|chloe mason,2024|4|chloe mason,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Chris Henry,Chris Henry,2024|4|chris henry,2024|4|chris henry,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Ciatta R Thompson,Ciatta R Thompson,2024|4|ciatta r thompson,2024|4|ciatta r thompson,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Eli Arnold,Eli Arnold,2024|4|eli arnold,2024|4|eli arnold,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Eric Zimmerman,Eric Zimmerman,2024|4|eric zimmerman,2024|4|eric zimmerman,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,James Bryan,James Bryan,2024|4|james bryan,2024|4|james bryan,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Jeremy Beausoleil Smith,Jeremy Beausoleil Smith,2024|4|jeremy beausoleil smith,2024|4|jeremy beausoleil smith,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,John J Goldsmith,John J Goldsmith,2024|4|john j goldsmith,2024|4|john j goldsmith,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,John Toran,John Toran,2024|4|john toran,2024|4|john toran,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Joseph (Joe) Alfone,Joseph (Joe) Alfone,2024|4|joseph joe alfone,2024|4|joseph joe alfone,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Kelly Doyle,Kelly Doyle,2024|4|kelly doyle,2024|4|kelly doyle,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Kevin Goldsmith,Kevin Goldsmith,2024|4|kevin goldsmith,2024|4|kevin goldsmith,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,L Christopher Regis,L Christopher Regis,2024|4|l christopher regis,2024|4|l christopher regis,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Lee Odell,Lee Odell,2024|4|lee odell,2024|4|lee odell,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Lisa Freeman,Lisa Freeman,2024|4|lisa freeman,2024|4|lisa freeman,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Michael Trimble,Michael Trimble,2024|4|michael trimble,2024|4|michael trimble,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Mike DiNapoli,Mike DiNapoli,2024|4|mike dinapoli,2024|4|mike dinapoli,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Mitch Green,Mitch Green,2024|4|mitch green,2024|4|mitch green,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Moses Ross,Moses Ross,2024|4|moses ross,2024|4|moses ross,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Olivia Clark,Olivia Clark,2024|4|olivia clark,2024|4|olivia clark,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Patrick Cashman,Patrick Cashman,2024|4|patrick cashman,2024|4|patrick cashman,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Raquel Coyote,Raquel Coyote,2024|4|raquel coyote,2024|4|raquel coyote,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Sarah Silkie,Sarah Silkie,2024|4|sarah silkie,2024|4|sarah silkie,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Stanley Penkin,Stanley Penkin,2024|4|stanley penkin,2024|4|stanley penkin,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Thomas Dodson,Thomas Dodson,2024|4|thomas dodson,2024|4|thomas dodson,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Tony Morse,Tony Morse,2024|4|tony morse,2024|4|tony morse,1.0,0.0,1.0,match,canonical_source,False
+2024,4,candidate_filings,Tony Schwartz,Tony Schwartz,2024|4|tony schwartz,2024|4|tony schwartz,1.0,0.0,1.0,match,canonical_source,False
+2024,1,report2025,Candace Avalos,Candace Avalos,2024|1|candace avalos,2024|1|candace avalos,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,report2025,Steph Routh,Steph Routh,2024|1|steph routh,2024|1|steph routh,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,report2025,Jamie Dunphy,Jamie Dunphy,2024|1|jamie dunphy,2024|1|jamie dunphy,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,report2025,Loretta Smith,Loretta Smith,2024|1|loretta smith,2024|1|loretta smith,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,report2025,Timur Ender,Timur Ender,2024|1|timur ender,2024|1|timur ender,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,report2025,Terrence Hayes,Terrence Hayes,2024|1|terrence hayes,2024|1|terrence hayes,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,report2025,Noah Ernst,Noah Ernst,2024|1|noah ernst,2024|1|noah ernst,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,report2025,David Linn,David Linn,2024|1|david linn,2024|1|david linn,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,report2025,Cayle Tern,Cayle Tern,2024|1|cayle tern,2024|1|cayle tern,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,report2025,Doug Clove,Doug Clove,2024|1|doug clove,2024|1|doug clove,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,report2025,Deian Salazar,Deian Salazar,2024|1|deian salazar,2024|1|deian salazar,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,report2025,Michael (Mike) Sands,Michael (Mike) Sands,2024|1|michael mike sands,2024|1|michael mike sands,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,report2025,Joe Allen,Joe Allen,2024|1|joe allen,2024|1|joe allen,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,report2025,Joe Furi,Joe Furi,2024|1|joe furi,2024|1|joe furi,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,report2025,Peggy Sue Owens,Peggy Sue Owens,2024|1|peggy sue owens,2024|1|peggy sue owens,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,report2025,Thomas Shervey,Thomas Shervey,2024|1|thomas shervey,2024|1|thomas shervey,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,report2025,Uncertified Write In,,,,0.0,0.0,0.0,non_match,known_non_candidate,False
+2024,2,report2025,Elana Pirtle-Guiney,Elana Pirtle-Guiney,2024|2|elana pirtle guiney,2024|2|elana pirtle guiney,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Dan Ryan,Dan Ryan,2024|2|dan ryan,2024|2|dan ryan,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Michelle DePass,Michelle DePass,2024|2|michelle depass,2024|2|michelle depass,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Sameer Kanal,Sameer Kanal,2024|2|sameer kanal,2024|2|sameer kanal,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Nat West,Nat West,2024|2|nat west,2024|2|nat west,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Tiffani Penson,Tiffani Penson,2024|2|tiffani penson,2024|2|tiffani penson,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Jonathan Tasini,Jonathan Tasini,2024|2|jonathan tasini,2024|2|jonathan tasini,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Marnie Glickman,Marnie Glickman,2024|2|marnie glickman,2024|2|marnie glickman,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Mariah Hudson,Mariah Hudson,2024|2|mariah hudson,2024|2|mariah hudson,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Michael (Mike) Marshall,Michael (Mike) Marshall,2024|2|michael mike marshall,2024|2|michael mike marshall,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,James Armstrong,James Armstrong,2024|2|james armstrong,2024|2|james armstrong,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Jennifer Park,Jennifer Park,2024|2|jennifer park,2024|2|jennifer park,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Bob Simril,Bob Simril,2024|2|bob simril,2024|2|bob simril,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Debbie Kitchin,Debbie Kitchin,2024|2|debbie kitchin,2024|2|debbie kitchin,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Chris Olson,Chris Olson,2024|2|chris olson,2024|2|chris olson,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Nabil Zaghloul,Nabil Zaghloul,2024|2|nabil zaghloul,2024|2|nabil zaghloul,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Laura Streib,Laura Streib,2024|2|laura streib,2024|2|laura streib,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Liz Taylor,Liz Taylor,2024|2|liz taylor,2024|2|liz taylor,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Will Mespelt,Will Mespelt,2024|2|will mespelt,2024|2|will mespelt,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Reuben Berlin,Reuben Berlin,2024|2|reuben berlin,2024|2|reuben berlin,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Sam Sachs,Sam Sachs,2024|2|sam sachs,2024|2|sam sachs,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Antonio Jamal PettyJohnBlue,Antonio Jamal PettyJohnBlue,2024|2|antonio jamal pettyjohnblue,2024|2|antonio jamal pettyjohnblue,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,report2025,Uncertified Write In,,,,0.0,0.0,0.0,non_match,known_non_candidate,False
+2024,3,report2025,Steve Novick,Steve Novick,2024|3|steve novick,2024|3|steve novick,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Angelita Morillo,Angelita Morillo,2024|3|angelita morillo,2024|3|angelita morillo,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Tiffany Koyama Lane,Tiffany Koyama Lane,2024|3|tiffany koyama lane,2024|3|tiffany koyama lane,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Jesse Cornett,Jesse Cornett,2024|3|jesse cornett,2024|3|jesse cornett,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Rex Burkholder,Rex Burkholder,2024|3|rex burkholder,2024|3|rex burkholder,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Chris Flanary,Chris Flanary,2024|3|chris flanary,2024|3|chris flanary,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Cristal Azul Otero,Cristal Azul Otero,2024|3|cristal azul otero,2024|3|cristal azul otero,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Philippe Knab,Philippe Knab,2024|3|philippe knab,2024|3|philippe knab,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Kezia Wanner,Kezia Wanner,2024|3|kezia wanner,2024|3|kezia wanner,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Ahlam K Osman,Ahlam K Osman,2024|3|ahlam k osman,2024|3|ahlam k osman,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Daniel DeMelo,Daniel DeMelo,2024|3|daniel demelo,2024|3|daniel demelo,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Harrison Kass,Harrison Kass,2024|3|harrison kass,2024|3|harrison kass,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Jonathan (Jon) Walker,Jonathan (Jon) Walker,2024|3|jonathan jon walker,2024|3|jonathan jon walker,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Luke Zak,Luke Zak,2024|3|luke zak,2024|3|luke zak,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Sandeep Bali,Sandeep Bali,2024|3|sandeep bali,2024|3|sandeep bali,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Brian Conley,Brian Conley,2024|3|brian conley,2024|3|brian conley,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Melodie Beirwagen,Melodie Beirwagen,2024|3|melodie beirwagen,2024|3|melodie beirwagen,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Matthew (Matt) Anderson,Matthew (Matt) Anderson,2024|3|matthew matt anderson,2024|3|matthew matt anderson,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Heart Free Pham,Heart Free Pham,2024|3|heart free pham,2024|3|heart free pham,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Theo Hathaway Saner,Theo Hathaway Saner,2024|3|theo hathaway saner,2024|3|theo hathaway saner,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Dan Gilk,Dan Gilk,2024|3|dan gilk,2024|3|dan gilk,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Terry Parker,Terry Parker,2024|3|terry parker,2024|3|terry parker,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Kelly Janes (KJ),Kelly Janes (KJ),2024|3|kelly janes kj,2024|3|kelly janes kj,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Christopher Brummer,Christopher Brummer,2024|3|christopher brummer,2024|3|christopher brummer,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Kenneth (Kent) R Landgraver III,Kenneth (Kent) R Landgraver III,2024|3|kenneth kent r landgraver iii,2024|3|kenneth kent r landgraver iii,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,John Sweeney,John Sweeney,2024|3|john sweeney,2024|3|john sweeney,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Patrick Hilton,Patrick Hilton,2024|3|patrick hilton,2024|3|patrick hilton,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Jaclyn Smith-Moore,Jaclyn Smith-Moore,2024|3|jaclyn smith moore,2024|3|jaclyn smith moore,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,David O'Connor,David O'Connor,2024|3|david o connor,2024|3|david o connor,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Clifford Higgins,Clifford Higgins,2024|3|clifford higgins,2024|3|clifford higgins,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,report2025,Uncertified Write In,,,,0.0,0.0,0.0,non_match,known_non_candidate,False
+2024,4,report2025,Olivia Clark,Olivia Clark,2024|4|olivia clark,2024|4|olivia clark,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Eric Zimmerman,Eric Zimmerman,2024|4|eric zimmerman,2024|4|eric zimmerman,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Eli Arnold,Eli Arnold,2024|4|eli arnold,2024|4|eli arnold,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Mitch Green,Mitch Green,2024|4|mitch green,2024|4|mitch green,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Sarah Silkie,Sarah Silkie,2024|4|sarah silkie,2024|4|sarah silkie,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Chad Lykins,Chad Lykins,2024|4|chad lykins,2024|4|chad lykins,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Lisa Freeman,Lisa Freeman,2024|4|lisa freeman,2024|4|lisa freeman,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Bob Weinstein,Bob Weinstein,2024|4|bob weinstein,2024|4|bob weinstein,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Tony Morse,Tony Morse,2024|4|tony morse,2024|4|tony morse,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Ben Hufford,Ben Hufford,2024|4|ben hufford,2024|4|ben hufford,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Stanley Penkin,Stanley Penkin,2024|4|stanley penkin,2024|4|stanley penkin,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,John Toran,John Toran,2024|4|john toran,2024|4|john toran,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Andra Vltavin,Andra Vltavín,2024|4|andra vltavin,2024|4|andra vltavin,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Bob Callahan,Bob Callahan,2024|4|bob callahan,2024|4|bob callahan,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Chloe Mason,Chloe Mason,2024|4|chloe mason,2024|4|chloe mason,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Kevin Goldsmith,Kevin Goldsmith,2024|4|kevin goldsmith,2024|4|kevin goldsmith,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Ciatta R Thompson,Ciatta R Thompson,2024|4|ciatta r thompson,2024|4|ciatta r thompson,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Moses Ross,Moses Ross,2024|4|moses ross,2024|4|moses ross,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Chris Henry,Chris Henry,2024|4|chris henry,2024|4|chris henry,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Mike DiNapoli,Mike DiNapoli,2024|4|mike dinapoli,2024|4|mike dinapoli,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Michael Trimble,Michael Trimble,2024|4|michael trimble,2024|4|michael trimble,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Joseph (Joe) Alfone,Joseph (Joe) Alfone,2024|4|joseph joe alfone,2024|4|joseph joe alfone,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Raquel Coyote,Raquel Coyote,2024|4|raquel coyote,2024|4|raquel coyote,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,John J Goldsmith,John J Goldsmith,2024|4|john j goldsmith,2024|4|john j goldsmith,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Kelly Doyle,Kelly Doyle,2024|4|kelly doyle,2024|4|kelly doyle,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Brandon Farley,Brandon Farley,2024|4|brandon farley,2024|4|brandon farley,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Tony Schwartz,Tony Schwartz,2024|4|tony schwartz,2024|4|tony schwartz,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Patrick Cashman,Patrick Cashman,2024|4|patrick cashman,2024|4|patrick cashman,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Lee Odell,Lee Odell,2024|4|lee odell,2024|4|lee odell,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,report2025,Uncertified Write In,,,,0.0,0.0,0.0,non_match,known_non_candidate,False
+2024,4,report2025,L Christopher Regis,L Christopher Regis,2024|4|l christopher regis,2024|4|l christopher regis,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,portland_contributions,Candace Avalos,Candace Avalos,2024|1|candace avalos,2024|1|candace avalos,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,portland_contributions,Cayle Tern,Cayle Tern,2024|1|cayle tern,2024|1|cayle tern,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,portland_contributions,David Linn,David Linn,2024|1|david linn,2024|1|david linn,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,portland_contributions,Deian Salazar,Deian Salazar,2024|1|deian salazar,2024|1|deian salazar,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,portland_contributions,Doug Clove,Doug Clove,2024|1|doug clove,2024|1|doug clove,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,portland_contributions,Jamie Dunphy,Jamie Dunphy,2024|1|jamie dunphy,2024|1|jamie dunphy,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,portland_contributions,Joe Furi,Joe Furi,2024|1|joe furi,2024|1|joe furi,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,portland_contributions,Loretta Smith,Loretta Smith,2024|1|loretta smith,2024|1|loretta smith,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,portland_contributions,Noah Ernst,Noah Ernst,2024|1|noah ernst,2024|1|noah ernst,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,portland_contributions,Sonja McKenzie,Noah Ernst,,2024|1|noah ernst,0.6206349206349207,0.5873015873015873,0.033333333333333326,non_match,jaro_winkler_low,True
+2024,1,portland_contributions,Steph Routh,Steph Routh,2024|1|steph routh,2024|1|steph routh,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,portland_contributions,Terrence Hayes,Terrence Hayes,2024|1|terrence hayes,2024|1|terrence hayes,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,portland_contributions,Thomas Shervey,Thomas Shervey,2024|1|thomas shervey,2024|1|thomas shervey,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,portland_contributions,Timur Ender,Timur Ender,2024|1|timur ender,2024|1|timur ender,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,Bob Simril,Bob Simril,2024|2|bob simril,2024|2|bob simril,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,Christopher Olson,Chris Olson,2024|2|chris olson,2024|2|chris olson,0.893048128342246,0.0,0.893048128342246,match,human_review_match,False
+2024,2,portland_contributions,Dan Ryan,Dan Ryan,2024|2|dan ryan,2024|2|dan ryan,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,David Burnell,Dan Ryan,,2024|2|dan ryan,0.6698717948717948,0.5982905982905983,0.07158119658119655,non_match,jaro_winkler_low,True
+2024,2,portland_contributions,Debbie Kitchin,Debbie Kitchin,2024|2|debbie kitchin,2024|2|debbie kitchin,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,Elana Pirtle-Guiney,Elana Pirtle-Guiney,2024|2|elana pirtle guiney,2024|2|elana pirtle guiney,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,James Armstrong,James Armstrong,2024|2|james armstrong,2024|2|james armstrong,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,Jennifer Park,Jennifer Park,2024|2|jennifer park,2024|2|jennifer park,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,John Middleton,Chris Olson,,2024|2|chris olson,0.6645021645021645,0.6182539682539683,0.046248196248196205,non_match,jaro_winkler_low,True
+2024,2,portland_contributions,Jonathan Tasini,Jonathan Tasini,2024|2|jonathan tasini,2024|2|jonathan tasini,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,Laura Streib,Laura Streib,2024|2|laura streib,2024|2|laura streib,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,Mariah Hudson,Mariah Hudson,2024|2|mariah hudson,2024|2|mariah hudson,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,Marnie Glickman,Marnie Glickman,2024|2|marnie glickman,2024|2|marnie glickman,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,Michelle DePass,Michelle DePass,2024|2|michelle depass,2024|2|michelle depass,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,Mike Marshall,Michael (Mike) Marshall,2024|2|michael mike marshall,2024|2|michael mike marshall,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,portland_contributions,Nabil Zaghloul,Nabil Zaghloul,2024|2|nabil zaghloul,2024|2|nabil zaghloul,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,Nat West,Nat West,2024|2|nat west,2024|2|nat west,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,Reuben Berlin,Reuben Berlin,2024|2|reuben berlin,2024|2|reuben berlin,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,Sam Sachs,Sam Sachs,2024|2|sam sachs,2024|2|sam sachs,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,Sameer Kanal,Sameer Kanal,2024|2|sameer kanal,2024|2|sameer kanal,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,Tiffani Penson,Tiffani Penson,2024|2|tiffani penson,2024|2|tiffani penson,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,2,portland_contributions,William Mespelt,Will Mespelt,2024|2|will mespelt,2024|2|will mespelt,0.9433333333333334,0.0,0.9433333333333334,match,human_review_match,False
+2024,3,portland_contributions,Ahlam Osman,Ahlam K Osman,2024|3|ahlam k osman,2024|3|ahlam k osman,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,portland_contributions,Angelita Morillo,Angelita Morillo,2024|3|angelita morillo,2024|3|angelita morillo,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,portland_contributions,Chris Flanary,Chris Flanary,2024|3|chris flanary,2024|3|chris flanary,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,portland_contributions,Dan Gilk,Dan Gilk,2024|3|dan gilk,2024|3|dan gilk,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,portland_contributions,Harrison Kass,Harrison Kass,2024|3|harrison kass,2024|3|harrison kass,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,portland_contributions,Jesse Cornett,Jesse Cornett,2024|3|jesse cornett,2024|3|jesse cornett,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,portland_contributions,Jonathan Walker,Jonathan (Jon) Walker,2024|3|jonathan jon walker,2024|3|jonathan jon walker,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,portland_contributions,Kelly Janes,Kelly Janes (KJ),2024|3|kelly janes kj,2024|3|kelly janes kj,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,portland_contributions,Luke Zak,Luke Zak,2024|3|luke zak,2024|3|luke zak,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,portland_contributions,Matthew Anderson,Matthew (Matt) Anderson,2024|3|matthew matt anderson,2024|3|matthew matt anderson,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,portland_contributions,Philippe Knab,Philippe Knab,2024|3|philippe knab,2024|3|philippe knab,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,portland_contributions,Rex Burkholder,Rex Burkholder,2024|3|rex burkholder,2024|3|rex burkholder,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,portland_contributions,Robin Ye,Brian Conley,,2024|3|brian conley,0.7242063492063493,0.6138888888888889,0.11031746031746037,non_match,jaro_winkler_low,True
+2024,3,portland_contributions,Steve Novick,Steve Novick,2024|3|steve novick,2024|3|steve novick,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,portland_contributions,Theo Hathaway Saner,Theo Hathaway Saner,2024|3|theo hathaway saner,2024|3|theo hathaway saner,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,3,portland_contributions,Tiffany Koyama Lane,Tiffany Koyama Lane,2024|3|tiffany koyama lane,2024|3|tiffany koyama lane,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,portland_contributions,Andra Vltavín,Andra Vltavín,2024|4|andra vltavin,2024|4|andra vltavin,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,portland_contributions,Ben Hufford,Ben Hufford,2024|4|ben hufford,2024|4|ben hufford,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,portland_contributions,Bob Weinstein,Bob Weinstein,2024|4|bob weinstein,2024|4|bob weinstein,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,portland_contributions,Chad Lykins,Chad Lykins,2024|4|chad lykins,2024|4|chad lykins,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,portland_contributions,Chris Henry,Chris Henry,2024|4|chris henry,2024|4|chris henry,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,portland_contributions,Eli Arnold,Eli Arnold,2024|4|eli arnold,2024|4|eli arnold,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,portland_contributions,Eric Zimmerman,Eric Zimmerman,2024|4|eric zimmerman,2024|4|eric zimmerman,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,portland_contributions,John Toran,John Toran,2024|4|john toran,2024|4|john toran,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,portland_contributions,Lisa Freeman,Lisa Freeman,2024|4|lisa freeman,2024|4|lisa freeman,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,portland_contributions,Michael Trimble,Michael Trimble,2024|4|michael trimble,2024|4|michael trimble,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,portland_contributions,Mike DiNapoli,Mike DiNapoli,2024|4|mike dinapoli,2024|4|mike dinapoli,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,portland_contributions,Mitchell Green,Mitch Green,2024|4|mitch green,2024|4|mitch green,0.9207792207792208,0.0,0.9207792207792208,match,human_review_match,False
+2024,4,portland_contributions,Moses Ross,Moses Ross,2024|4|moses ross,2024|4|moses ross,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,portland_contributions,Olivia Clark,Olivia Clark,2024|4|olivia clark,2024|4|olivia clark,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,portland_contributions,Sarah Silkie,Sarah Silkie,2024|4|sarah silkie,2024|4|sarah silkie,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,4,portland_contributions,Stan Penkin,Stanley Penkin,2024|4|stanley penkin,2024|4|stanley penkin,0.9389610389610389,0.0,0.9389610389610389,match,human_review_match,False
+2024,4,portland_contributions,Tony Morse,Tony Morse,2024|4|tony morse,2024|4|tony morse,1.0,0.0,1.0,match,exact_normalized_name,False
+2024,1,orestar,Avalos,Candace Avalos,2024|1|candace avalos,2024|1|candace avalos,1.0,0.0,1.0,match,unique_token_containment,False
+2024,1,orestar,Durphy,Loretta Smith,,2024|1|loretta smith,0.5834262356001486,0.5752452056799883,0.008181029920160343,non_match,jaro_winkler_low,True
+2024,1,orestar,Ender,Timur Ender,2024|1|timur ender,2024|1|timur ender,1.0,0.0,1.0,match,unique_token_containment,False
+2024,1,orestar,Ernst,Noah Ernst,2024|1|noah ernst,2024|1|noah ernst,1.0,0.0,1.0,match,unique_token_containment,False
+2024,1,orestar,Furi,Joe Furi,2024|1|joe furi,2024|1|joe furi,1.0,0.0,1.0,match,unique_token_containment,False
+2024,1,orestar,Hayes,Terrence Hayes,2024|1|terrence hayes,2024|1|terrence hayes,1.0,0.0,1.0,match,unique_token_containment,False
+2024,1,orestar,Linn,David Linn,2024|1|david linn,2024|1|david linn,1.0,0.0,1.0,match,unique_token_containment,False
+2024,1,orestar,McKay,Cayle Tern,,2024|1|cayle tern,0.6333333333333333,0.5907407407407407,0.042592592592592626,non_match,jaro_winkler_low,True
+2024,1,orestar,McKenzie,Michael (Mike) Sands,,2024|1|michael mike sands,0.6388888888888888,0.6212121212121212,0.017676767676767624,non_match,jaro_winkler_low,True
+2024,1,orestar,Routh,Steph Routh,2024|1|steph routh,2024|1|steph routh,1.0,0.0,1.0,match,unique_token_containment,False
+2024,1,orestar,Salazar,Deian Salazar,2024|1|deian salazar,2024|1|deian salazar,1.0,0.0,1.0,match,unique_token_containment,False
+2024,1,orestar,Shervey,Thomas Shervey,2024|1|thomas shervey,2024|1|thomas shervey,1.0,0.0,1.0,match,unique_token_containment,False
+2024,1,orestar,Smith,Loretta Smith,2024|1|loretta smith,2024|1|loretta smith,1.0,0.0,1.0,match,unique_token_containment,False
+2024,1,orestar,Tern,Cayle Tern,2024|1|cayle tern,2024|1|cayle tern,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Armstrong,James Armstrong,2024|2|james armstrong,2024|2|james armstrong,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Berlin,Reuben Berlin,2024|2|reuben berlin,2024|2|reuben berlin,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Burnell,Reuben Berlin,,2024|2|reuben berlin,0.6617826617826618,0.6126984126984126,0.04908424908424913,non_match,jaro_winkler_low,True
+2024,2,orestar,DePass,Michelle DePass,2024|2|michelle depass,2024|2|michelle depass,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Emerson,Sameer Kanal,,2024|2|sameer kanal,0.7301587301587302,0.6450216450216449,0.08513708513708529,non_match,jaro_winkler_low,True
+2024,2,orestar,Glickman,Marnie Glickman,2024|2|marnie glickman,2024|2|marnie glickman,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Hudson,Mariah Hudson,2024|2|mariah hudson,2024|2|mariah hudson,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Kanal,Sameer Kanal,2024|2|sameer kanal,2024|2|sameer kanal,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Kitchin,Debbie Kitchin,2024|2|debbie kitchin,2024|2|debbie kitchin,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Marshall,Michael (Mike) Marshall,2024|2|michael mike marshall,2024|2|michael mike marshall,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Mespelt,Will Mespelt,2024|2|will mespelt,2024|2|will mespelt,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Middleton,Devon Horace,,2024|2|devon horace,0.6666666666666666,0.6296296296296297,0.03703703703703698,non_match,jaro_winkler_low,True
+2024,2,orestar,Olson,Chris Olson,2024|2|chris olson,2024|2|chris olson,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Park,Jennifer Park,2024|2|jennifer park,2024|2|jennifer park,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Penson,Tiffani Penson,2024|2|tiffani penson,2024|2|tiffani penson,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Pirtle,Elana Pirtle-Guiney,2024|2|elana pirtle guiney,2024|2|elana pirtle guiney,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Sachs,Sam Sachs,2024|2|sam sachs,2024|2|sam sachs,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Sherman,Sameer Kanal,,2024|2|sameer kanal,0.6746031746031745,0.6371457489878543,0.03745742561532028,non_match,jaro_winkler_low,True
+2024,2,orestar,Simril,Bob Simril,2024|2|bob simril,2024|2|bob simril,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Streib,Laura Streib,2024|2|laura streib,2024|2|laura streib,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Tasini,Jonathan Tasini,2024|2|jonathan tasini,2024|2|jonathan tasini,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,West,Nat West,2024|2|nat west,2024|2|nat west,1.0,0.0,1.0,match,unique_token_containment,False
+2024,2,orestar,Zaghloul,Nabil Zaghloul,2024|2|nabil zaghloul,2024|2|nabil zaghloul,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,orestar,Conley,Brian Conley,2024|3|brian conley,2024|3|brian conley,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,orestar,Cornett,Jesse Cornett,2024|3|jesse cornett,2024|3|jesse cornett,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,orestar,DeMelo,Daniel DeMelo,2024|3|daniel demelo,2024|3|daniel demelo,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,orestar,Flanary,Chris Flanary,2024|3|chris flanary,2024|3|chris flanary,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,orestar,Hathaway,Theo Hathaway Saner,2024|3|theo hathaway saner,2024|3|theo hathaway saner,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,orestar,Hilton,Patrick Hilton,2024|3|patrick hilton,2024|3|patrick hilton,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,orestar,Janes,Kelly Janes (KJ),2024|3|kelly janes kj,2024|3|kelly janes kj,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,orestar,Kass,Harrison Kass,2024|3|harrison kass,2024|3|harrison kass,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,orestar,Knab,Philippe Knab,2024|3|philippe knab,2024|3|philippe knab,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,orestar,Koyama,Tiffany Koyama Lane,2024|3|tiffany koyama lane,2024|3|tiffany koyama lane,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,orestar,McGraw,Chris Flanary,,2024|3|chris flanary,0.576923076923077,0.5571095571095571,0.019813519813519864,non_match,jaro_winkler_low,True
+2024,3,orestar,Morillo,Angelita Morillo,2024|3|angelita morillo,2024|3|angelita morillo,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,orestar,Morse,David O'Connor,,2024|3|david o connor,0.6301587301587301,0.6207311207311207,0.009427609427609451,non_match,jaro_winkler_low,True
+2024,3,orestar,Novick,Steve Novick,2024|3|steve novick,2024|3|steve novick,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,orestar,Osman,Ahlam K Osman,2024|3|ahlam k osman,2024|3|ahlam k osman,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,orestar,Penson,Jesse Cornett,,2024|3|jesse cornett,0.6581196581196581,0.5935185185185184,0.06460113960113967,non_match,jaro_winkler_low,True
+2024,3,orestar,Walker,Jonathan (Jon) Walker,2024|3|jonathan jon walker,2024|3|jonathan jon walker,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,orestar,Wanner,Kezia Wanner,2024|3|kezia wanner,2024|3|kezia wanner,1.0,0.0,1.0,match,unique_token_containment,False
+2024,3,orestar,Zak,Luke Zak,2024|3|luke zak,2024|3|luke zak,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Arnold,Eli Arnold,2024|4|eli arnold,2024|4|eli arnold,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Callahan,Bob Callahan,2024|4|bob callahan,2024|4|bob callahan,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Clark,Olivia Clark,2024|4|olivia clark,2024|4|olivia clark,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,DiNapoli,Mike DiNapoli,2024|4|mike dinapoli,2024|4|mike dinapoli,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Freeman,Lisa Freeman,2024|4|lisa freeman,2024|4|lisa freeman,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Green,Mitch Green,2024|4|mitch green,2024|4|mitch green,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Henry,Chris Henry,2024|4|chris henry,2024|4|chris henry,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Hufford,Ben Hufford,2024|4|ben hufford,2024|4|ben hufford,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Kaluba,Thomas Dodson,,2024|4|thomas dodson,0.6788124156545209,0.6744417862838915,0.004370629370629375,non_match,jaro_winkler_low,True
+2024,4,orestar,Lykins,Chad Lykins,2024|4|chad lykins,2024|4|chad lykins,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Mason,Chloe Mason,2024|4|chloe mason,2024|4|chloe mason,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Morse,Tony Morse,2024|4|tony morse,2024|4|tony morse,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Penkin,Stanley Penkin,2024|4|stanley penkin,2024|4|stanley penkin,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Ross,Moses Ross,2024|4|moses ross,2024|4|moses ross,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Silkie,Sarah Silkie,2024|4|sarah silkie,2024|4|sarah silkie,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Smith,Jeremy Beausoleil Smith,2024|4|jeremy beausoleil smith,2024|4|jeremy beausoleil smith,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Thompson,Ciatta R Thompson,2024|4|ciatta r thompson,2024|4|ciatta r thompson,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Toran,John Toran,2024|4|john toran,2024|4|john toran,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Underdahl,Joseph (Joe) Alfone,,2024|4|joseph joe alfone,0.6797385620915032,0.6648148148148149,0.014923747276688326,non_match,jaro_winkler_low,True
+2024,4,orestar,Weinstein,Bob Weinstein,2024|4|bob weinstein,2024|4|bob weinstein,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,Zimmerman,Eric Zimmerman,2024|4|eric zimmerman,2024|4|eric zimmerman,1.0,0.0,1.0,match,unique_token_containment,False
+2024,4,orestar,trimble,Michael Trimble,2024|4|michael trimble,2024|4|michael trimble,1.0,0.0,1.0,match,unique_token_containment,False

@@ -1,0 +1,6 @@
+year,contest_type,office,district,candidate,total_spending,expenditure_count,min_expenditure,q25_expenditure,mean_expenditure,median_expenditure,q75_expenditure,max_expenditure,std_expenditure
+2026,county_commissioner,Multnomah County Commissioner,2,Zaghloul,110438.63,178,0.18,60.0,620.4417415730337,202.91500000000002,589.65,24485.0,1938.8154317753324
+2026,county_commissioner,Multnomah County Commissioner,2,Greene,53403.17,68,0.87,26.0,785.3407352941176,115.0,701.41,12500.0,1746.0510339024997
+2026,county_commissioner,Multnomah County Commissioner,2,Cruz,8963.6,12,24.6,103.6275,746.9666666666667,277.44,645.6675,5328.0,1473.8352765262928
+2026,county_commissioner,Multnomah County Commissioner,2,Norris,8585.45,50,0.4,6.2075,171.709,26.33,99.17999999999999,2345.25,399.14512544733316
+2026,county_commissioner,Multnomah County Commissioner,2,Williams,1480.6299999999999,43,0.7,1.75,34.43325581395349,3.95,9.625,390.0,89.17996242806507

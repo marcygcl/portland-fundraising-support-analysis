@@ -1,17 +1,29 @@
-#!/usr/bin/env python3
-"""Rebuild 2024 Portland boost matrices from report2025 VoteKit profiles."""
+"""Build VoteKit boost matrices from report2025 preference profiles.
 
-from __future__ import annotations
+Concept
+-------
+The boost is directional:
 
+    boost(i | j)
+
+asks how much mentioning candidate j changes the probability that a ballot also
+mentions candidate i. Therefore boost(i | j) can differ from boost(j | i).
+
+Outputs
+-------
+- one matrix per district;
+- one long directional table;
+- one unordered pair table with both directions, mean, and asymmetry.
+"""
+
+import argparse
 import sys
+from itertools import combinations
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
-
-import argparse
-from itertools import combinations
 
 import numpy as np
 import pandas as pd
@@ -25,8 +37,9 @@ from helpers.linkage import normalize_name
 from helpers.paths import PROCESSED, RAW
 
 
-def main(*, year, force=False):
+def main(year=2024, force=False):
     districts = REPORT2025_DISTRICTS.get(year)
+
     if not districts:
         raise ValueError(f"No report2025 configuration for year {year}")
 
@@ -41,7 +54,8 @@ def main(*, year, force=False):
     expected = [
         output_dir / f"boost_matrix_D{district}.csv"
         for district in districts
-    ] + [
+    ]
+    expected += [
         output_dir / "candidate_index.csv",
         output_dir / "boost_directional_long.csv",
         output_dir / "boost_pairs.csv",
@@ -71,25 +85,28 @@ def main(*, year, force=False):
         profile = PreferenceProfile.from_pickle(str(profile_path))
         mention_counts = mentions(profile)
 
+        # Put most-mentioned candidates first so matrix files are easy to scan.
         candidate_order = sorted(
             profile.candidates,
-            reverse=True,
             key=lambda candidate: mention_counts[candidate],
+            reverse=True,
+        )
+
+        matrix = boost_matrix(
+            profile,
+            candidates=candidate_order,
         )
 
         matrix_frame = pd.DataFrame(
-            boost_matrix(
-                profile,
-                candidates=candidate_order,
-            ),
+            matrix,
             index=candidate_order,
             columns=candidate_order,
         )
-
         matrix_frame.to_csv(
             output_dir / f"boost_matrix_D{district}.csv"
         )
 
+        # Candidate index.
         for rank, candidate in enumerate(candidate_order, start=1):
             candidate_rows.append(
                 {
@@ -105,6 +122,7 @@ def main(*, year, force=False):
                 }
             )
 
+        # Directional long format.
         for receiving_candidate in candidate_order:
             for conditioning_candidate in candidate_order:
                 if receiving_candidate == conditioning_candidate:
@@ -123,9 +141,8 @@ def main(*, year, force=False):
                     }
                 )
 
-        for candidate_a, candidate_b in combinations(
-            candidate_order, 2
-        ):
+        # One row per unordered pair.
+        for candidate_a, candidate_b in combinations(candidate_order, 2):
             a_given_b = matrix_frame.loc[candidate_a, candidate_b]
             b_given_a = matrix_frame.loc[candidate_b, candidate_a]
 

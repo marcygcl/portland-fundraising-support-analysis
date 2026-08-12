@@ -1,0 +1,18 @@
+year,contest_type,office,district,profile_key,candidate,total_spending,expenditure_count,average_expenditure,median_expenditure,min_expenditure,max_expenditure,std_expenditure,source_file_stem,source_candidate_name,canonical_candidate,candidate_key,linkage_status
+2026,city_council,Portland City Council,3,2026|3|orestar|novick,Novick,1081644.06,662,1633.903413897281,129.52499999999998,0.35,75039.0,5813.440766301724,Novick,Novick,,,source_only
+2026,city_council,Portland City Council,3,2026|3|orestar|koyama,Koyama,311196.92,912,341.22469298245613,21.53,0.04,29165.0,1818.9612619203176,Koyama,Koyama,,,source_only
+2026,city_council,Portland City Council,3,2026|3|orestar|morillo,Morillo,237544.36,522,455.0658237547892,30.0,0.2,20000.0,1763.4155374784825,Morillo,Morillo,,,source_only
+2026,city_council,Portland City Council,3,2026|3|orestar|zimmerman,Zimmerman,7901.03,35,225.74371428571428,29.0,0.87,1500.0,355.1719675948682,Zimmerman,Zimmerman,,,source_only
+2026,city_council,Portland City Council,3,2026|3|orestar|corcoran,Corcoran,2879.67,33,87.26272727272728,29.48,0.2,780.0,148.10821464542252,Corcoran,Corcoran,,,source_only
+2026,city_council,Portland City Council,3,2026|3|orestar|sollitt,Sollitt,2660.56,40,66.514,25.0,0.2,540.0,109.47349206835884,Sollitt,Sollitt,,,source_only
+2026,city_council,Portland City Council,3,2026|3|orestar|leon,Leon,1986.6399999999999,33,60.201212121212116,18.61,0.2,505.5,99.01600075106472,Leon,Leon,,,source_only
+2026,city_council,Portland City Council,3,2026|3|orestar|mullen,Mullen,1075.23,8,134.40375,4.915,3.5,1000.0,349.97275244704,Mullen,Mullen,,,source_only
+2026,city_council,Portland City Council,3,2026|3|orestar|johnson,Johnson,389.46,13,29.95846153846154,13.19,0.17,115.0,34.258506448801356,Johnson,Johnson,,,source_only
+2026,city_council,Portland City Council,4,2026|4|orestar|zimmerman,Zimmerman,293433.34,192,1528.2986458333335,156.64,0.35,50000.0,5207.70770401999,Zimmerman,Zimmerman,,,source_only
+2026,city_council,Portland City Council,4,2026|4|orestar|green,Green,204973.07,613,334.37694942903755,14.49,0.08,16830.0,1089.7680476748244,Green,Green,,,source_only
+2026,city_council,Portland City Council,4,2026|4|orestar|clark,Clark,194106.54,147,1320.4526530612245,131.75,0.7,32122.46,4749.128754920359,Clark,Clark,,,source_only
+2026,city_council,Portland City Council,4,2026|4|orestar|arnold,Arnold,118453.0,205,577.819512195122,110.0,0.69,20223.57,1678.8749990158137,Arnold,Arnold,,,source_only
+2026,city_council,Portland City Council,4,2026|4|orestar|smith,Smith,28203.51,251,112.36458167330677,2.58,0.2,5000.0,408.5941608414445,Smith,Smith,,,source_only
+2026,city_council,Portland City Council,4,2026|4|orestar|thompson,Thompson,11191.4,51,219.4392156862745,47.78,0.35,2500.0,442.75727188084977,Thompson,Thompson,,,source_only
+2026,city_council,Portland City Council,4,2026|4|orestar|evenstar,Evenstar,3474.7000000000003,71,48.939436619718315,4.98,0.2,1461.7,185.57099206724348,Evenstar,Evenstar,,,source_only
+2026,city_council,Portland City Council,4,2026|4|orestar|goldsmith,Goldsmith,330.89,3,110.29666666666667,55.0,0.89,275.0,145.1804533445647,Goldsmith,Goldsmith,,,source_only

@@ -1,7 +1,7 @@
 year,district,candidate,candidate_norm,candidate_key,filing_status,filing_date,document_count,has_pdf
 2026,3,Angelita Morillo,angelita morillo,2026|3|angelita morillo,Qualified,"July 2, 2026",1,True
 2026,3,Brandon Mullen,brandon mullen,2026|3|brandon mullen,Under review as of 7/17/26 Withdrawn as of 7/21/26,,0,False
-2026,3,Cristal Otero,cristal otero,2026|3|cristal otero,Under review,,0,False
+2026,3,Cristal Otero,cristal otero,2026|3|cristal otero,Qualified,"August 5, 2026",1,True
 2026,3,Darren McCormick,darren mccormick,2026|3|darren mccormick,Qualified,"July 16, 2026",1,True
 2026,3,Esther León,esther leon,2026|3|esther leon,Qualified,"July 20, 2026",1,True
 2026,3,Guy Frankenstein,guy frankenstein,2026|3|guy frankenstein,Qualified,"June 26, 2026",1,True
@@ -21,7 +21,7 @@ year,district,candidate,candidate_norm,candidate_key,filing_status,filing_date,d
 2026,4,Eli Arnold,eli arnold,2026|4|eli arnold,Qualified,"June 30, 2026",1,True
 2026,4,Eric Zimmerman,eric zimmerman,2026|4|eric zimmerman,Qualified,"July 13, 2026",1,True
 2026,4,Jamey Evenstar,jamey evenstar,2026|4|jamey evenstar,Qualified,"July 14, 2026",1,True
-2026,4,Jayne Cronlund,jayne cronlund,2026|4|jayne cronlund,Under review,,0,False
+2026,4,Jayne Cronlund,jayne cronlund,2026|4|jayne cronlund,Qualified,"August 4, 2026",0,False
 2026,4,Jeremy Beausoleil Smith,jeremy beausoleil smith,2026|4|jeremy beausoleil smith,Qualified,"June 3, 2026",1,True
 2026,4,Mitch Green,mitch green,2026|4|mitch green,Qualified,"July 2, 2026",1,True
 2026,4,Olivia Clark,olivia clark,2026|4|olivia clark,Qualified,"June 30, 2026",1,True

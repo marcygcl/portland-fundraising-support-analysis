@@ -1,0 +1,17 @@
+feature,outcome,n,pearson,spearman
+total_contribution_count,first_place_votes,65,0.6788316694737235,0.7139813156042446
+average_expenditure,first_place_votes,65,0.5479790379228924,0.6477272727272727
+expenditure_count,first_place_votes,65,0.5148009287815354,0.6953908706512367
+spending_amount_share_mega,first_place_votes,65,0.49795407557367954,0.6381708181463056
+spending_count_share_mega,first_place_votes,65,0.4895748406982749,0.6644420010545583
+spending_amount_share_large,first_place_votes,65,-0.4670513188048827,-0.5906905594405594
+spending_amount_share_medium,first_place_votes,65,-0.3716130357668903,-0.5479895104895105
+spending_amount_share_micro,first_place_votes,65,-0.32553838320759937,-0.5690996503496504
+total_contribution_count,mentions,65,0.7248594595758724,0.7546522439280737
+spending_amount_share_mega,mentions,65,0.5983465740546723,0.6582025951138484
+average_expenditure,mentions,65,0.5969228135849362,0.6561625874125875
+spending_count_share_mega,mentions,65,0.5858802974708075,0.670462480471033
+spending_amount_share_large,mentions,65,-0.541134995601248,-0.6045017482517482
+expenditure_count,mentions,65,0.48013285210705514,0.6816661946158813
+spending_amount_share_medium,mentions,65,-0.46318488065821567,-0.5676573426573427
+spending_amount_share_micro,mentions,65,-0.4073985445678862,-0.5568181818181819
