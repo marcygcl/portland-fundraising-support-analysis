@@ -36,6 +36,6 @@ _TODO: Add qualitative details useful for interpreting the quantitative analysis
 
 - Portland Auditor candidate page: https://www.portland.gov/auditor/elections/run4office/2024-city-candidates
 - Candidate filing fields: `data/clean/candidate_filings/2024/candidate_profile_fields.csv`
-- Candidate master: `data/processed/master/candidate_master_2024.csv`
+- Candidate master: `data/processed/candidates/candidate_master_2024.csv`
 
 > Keep factual claims sourced. Do not infer missing biographical information.

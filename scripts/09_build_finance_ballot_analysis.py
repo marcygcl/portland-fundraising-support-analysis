@@ -19,6 +19,13 @@ For each of fundraising and spending:
 
 Only candidates present in both ballot support and the finance source are
 kept -- this is meant to be a regression-ready table, not a full roster.
+
+Output locations
+-----------------
+The merged candidate-level table (one row per candidate, reusable as input
+to other analyses) is saved under `data/processed/finance_vs_ballot_support/`.
+The correlation and regression tables are analysis results, not reusable
+input data, so they stay under `data/processed/ballot_support/`.
 """
 
 import argparse
@@ -56,6 +63,11 @@ BALLOT_SUPPORT_PATH = (
 
 BALLOT_SUPPORT_DIR = PROCESSED / "ballot_support" / str(YEAR)
 
+# Reusable merged tables (finance + ballot support, one row per candidate)
+# live here. Correlation/regression result tables stay in BALLOT_SUPPORT_DIR
+# -- they are analysis output, not input data another notebook would load.
+FINANCE_VS_BALLOT_DIR = PROCESSED / "finance_vs_ballot_support" / str(YEAR)
+
 DOMAINS = {
     "fundraising": {
         "profiles_path": (
@@ -81,7 +93,8 @@ DOMAINS = {
         "average_column": "average_contribution",
         "median_column": "median_contribution",
         "analysis_output": (
-            BALLOT_SUPPORT_DIR / f"candidate_finance_ballot_analysis_{YEAR}.csv"
+            FINANCE_VS_BALLOT_DIR
+            / f"candidate_finance_ballot_analysis_{YEAR}.csv"
         ),
         "correlations_output": (
             BALLOT_SUPPORT_DIR / f"finance_ballot_correlations_{YEAR}.csv"
@@ -115,7 +128,8 @@ DOMAINS = {
         "average_column": "average_expenditure",
         "median_column": "median_expenditure",
         "analysis_output": (
-            BALLOT_SUPPORT_DIR / f"candidate_spending_ballot_analysis_{YEAR}.csv"
+            FINANCE_VS_BALLOT_DIR
+            / f"candidate_spending_ballot_analysis_{YEAR}.csv"
         ),
         "correlations_output": (
             BALLOT_SUPPORT_DIR / f"spending_ballot_correlations_{YEAR}.csv"

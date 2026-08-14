@@ -24,6 +24,8 @@ RUN = {
     "extract_candidate_filings": True,
     "build_candidate_master": True,
     "initialize_candidate_profiles": False,
+    "build_finance_ballot_analysis": False,
+    "build_spending_purpose_ballot_analysis": False,
 }
 
 YEARS = {
@@ -79,6 +81,16 @@ STAGES = [
         "initialize_candidate_profiles",
         "08_initialize_candidate_profiles.py",
         True,
+    ),
+    (
+        "build_finance_ballot_analysis",
+        "09_build_finance_ballot_analysis.py",
+        False,
+    ),
+    (
+        "build_spending_purpose_ballot_analysis",
+        "10_build_spending_purpose_ballot_analysis.py",
+        False,
     ),
 ]
 

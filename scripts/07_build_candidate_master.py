@@ -42,7 +42,7 @@ from helpers.paths import PROCESSED
 
 
 def main(year, force=False):
-    output_dir = PROCESSED / "master"
+    output_dir = PROCESSED / "candidates"
 
     master_output = output_dir / f"candidate_master_{year}.csv"
     crosswalk_output = (

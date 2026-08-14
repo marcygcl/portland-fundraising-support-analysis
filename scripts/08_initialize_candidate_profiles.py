@@ -71,7 +71,7 @@ _TODO: Add qualitative details useful for interpreting the quantitative analysis
 
 - Portland Auditor candidate page: {CANDIDATE_PAGES.get(year, "")}
 - Candidate filing fields: `data/clean/candidate_filings/{year}/candidate_profile_fields.csv`
-- Candidate master: `data/processed/master/candidate_master_{year}.csv`
+- Candidate master: `data/processed/candidates/candidate_master_{year}.csv`
 
 > Keep factual claims sourced. Do not infer missing biographical information.
 """
@@ -80,7 +80,7 @@ _TODO: Add qualitative details useful for interpreting the quantitative analysis
 def main(year):
     master_path = (
         PROCESSED
-        / "master"
+        / "candidates"
         / f"candidate_master_{year}.csv"
     )
 
