@@ -1,0 +1,17 @@
+year,district,candidate_key,candidate,portland_source_candidate_name,portland_total_fundraising,portland_total_contribution_count,portland_average_contribution,portland_median_contribution,portland_public_matching_amount,portland_public_matching_count,portland_micro_amount,portland_small_amount,portland_medium_amount,portland_large_amount,portland_micro_contribution_count,portland_small_contribution_count,portland_medium_contribution_count,portland_large_contribution_count,portland_mega_amount,portland_mega_contribution_count,portland_micro_small_contribution_count,portland_micro_small_amount,has_portland_contribution_data
+2026,3,2026|3|angelita morillo,Angelita Morillo,Angelita Morillo,51888.58,1389,37.35678905687545,25.0,143048.0,3.0,16192.83,14156.62,7214.13,14325.0,1075.0,237.0,38.0,39.0,0,0,1312.0,30349.45,True
+2026,3,2026|3|brandon mullen,Brandon Mullen,Brandon Mullen,11715.0,340,34.455882352941174,25.0,0.0,0.0,4940.0,2490.0,835.0,3450.0,296.0,33.0,4.0,7.0,0,0,329.0,7430.0,True
+2026,3,2026|3|esther leon,Esther León,Esther Leon,6820.43,318,21.447893081761006,10.0,0.0,0.0,3687.43,1175.0,750.0,1208.0,296.0,17.0,3.0,2.0,0,0,313.0,4862.43,True
+2026,3,2026|3|joel corcoran,Joel Corcoran,Joel Corcoran,3990.0,63,63.333333333333336,25.0,0.0,0.0,890.0,1500.0,750.0,850.0,39.0,18.0,4.0,2.0,0,0,57.0,2390.0,True
+2026,3,2026|3|kellie torres,Kellie Torres,Kellie Torres,28938.0,430,67.29767441860466,25.0,0.0,0.0,5340.0,10535.0,6651.0,6412.0,246.0,138.0,28.0,18.0,0,0,384.0,15875.0,True
+2026,3,2026|3|steve novick,Steve Novick,Steve Novick,58752.99,587,100.09027257240204,50.0,0.0,0.0,5709.99,16618.0,10825.0,25600.0,251.0,219.0,47.0,70.0,0,0,470.0,22327.989999999998,True
+2026,3,2026|3|tiffany koyama lane,Tiffany Koyama Lane,Tiffany Koyama Lane,62479.22,1716,36.409801864801864,25.0,170936.0,3.0,22296.32,18544.39,7756.01,13882.5,1328.0,307.0,44.0,37.0,0,0,1635.0,40840.71,True
+2026,3,2026|3|tom sollitt,Tom Sollitt,Tom Sollitt,8620.0,372,23.172043010752688,10.0,0.0,0.0,3580.0,3390.0,850.0,800.0,313.0,53.0,4.0,2.0,0,0,366.0,6970.0,True
+2026,4,2026|4|eli arnold,Eli Arnold,Eli Arnold,59021.26,1030,57.30219417475728,25.0,100000.0,2.0,14837.99,18255.36,8002.91,17925.0,694.0,259.0,34.0,43.0,0,0,953.0,33093.35,True
+2026,4,2026|4|eric zimmerman,Eric Zimmerman,Eric Zimmerman,38621.78,388,99.54067010309278,25.0,67980.0,1.0,4668.0,8422.78,5571.78,19959.22,202.0,108.0,26.0,52.0,0,0,310.0,13090.78,True
+2026,4,2026|4|jamey evenstar,Jamey Evenstar,Jamey Evenstar,16876.72,402,41.98189054726368,20.0,0.0,0.0,4476.28,4699.44,1801.0,5900.0,311.0,67.0,10.0,14.0,0,0,378.0,9175.72,True
+2026,4,2026|4|jayne cronlund,Jayne Cronlund,Jayne Cronlund,10727.0,314,34.16242038216561,25.0,0.0,0.0,3857.0,2745.0,1425.0,2700.0,265.0,38.0,6.0,5.0,0,0,303.0,6602.0,True
+2026,4,2026|4|jeremy beausoleil smith,Jeremy Beausoleil Smith,Jeremy Beausoleil Smith,14150.14,522,27.107547892720305,25.0,41530.0,2.0,7398.14,2902.0,1050.0,2800.0,465.0,45.0,5.0,7.0,0,0,510.0,10300.14,True
+2026,4,2026|4|mitch green,Mitch Green,Mitch Green,61214.79,1549,39.51890897353131,25.0,100000.0,2.0,19759.47,12429.31,6822.01,22204.0,1255.0,202.0,35.0,57.0,0,0,1457.0,32188.78,True
+2026,4,2026|4|olivia clark,Olivia Clark,Olivia Clark,66128.0,843,78.44365361803084,25.0,100000.0,2.0,10399.0,19282.45,10696.55,25750.0,458.0,267.0,48.0,70.0,0,0,725.0,29681.45,True
+2026,4,2026|4|timothy tj anderson,Timothy (TJ) Anderson,TJ Anderson,40.0,1,40.0,40.0,0.0,0.0,0.0,40.0,0.0,0.0,0.0,1.0,0.0,0.0,0,0,1.0,40.0,True
